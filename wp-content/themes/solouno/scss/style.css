@@ -636,37 +636,44 @@ footer {
       font-weight: bold;
       display: flex;
       align-items: center; }
-    #request-page dl dd input[type="text"],
-    #request-page dl dd input[type="tel"],
-    #request-page dl dd input[type="email"] {
-      all: unset;
-      box-sizing: border-box;
-      height: 50px;
-      width: 100%;
-      max-width: 500px;
-      padding: 0 12px;
-      border: 1px solid #DFDFDF;
-      border-radius: 4px;
-      background-color: #fff; }
-    #request-page dl dd textarea {
-      padding: 12px;
-      border: 1px solid #DFDFDF;
-      border-radius: 4px;
-      height: 140px;
-      width: 100%;
-      max-width: 500px;
-      background-color: #fff; }
-    #request-page dl dd select {
-      box-sizing: border-box;
-      height: 50px;
-      width: 100%;
-      max-width: 500px;
-      padding: 0 12px;
-      border: 1px solid #DFDFDF;
-      border-radius: 4px;
-      display: flex;
-      align-items: center;
-      background-color: #fff; }
+    #request-page dl dd {
+      text-align: left; }
+      #request-page dl dd input[type="text"],
+      #request-page dl dd input[type="tel"],
+      #request-page dl dd input[type="email"] {
+        all: unset;
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        max-width: 500px;
+        padding: 0 12px;
+        border: 1px solid #DFDFDF;
+        border-radius: 4px;
+        background-color: #fff; }
+        #request-page dl dd input[type="text"][name="zip"],
+        #request-page dl dd input[type="tel"][name="zip"],
+        #request-page dl dd input[type="email"][name="zip"] {
+          width: 100px;
+          margin-bottom: 10px; }
+      #request-page dl dd textarea {
+        padding: 12px;
+        border: 1px solid #DFDFDF;
+        border-radius: 4px;
+        height: 140px;
+        width: 100%;
+        max-width: 500px;
+        background-color: #fff; }
+      #request-page dl dd select {
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        max-width: 500px;
+        padding: 0 12px;
+        border: 1px solid #DFDFDF;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        background-color: #fff; }
     #request-page dl.required dt:before {
       content: '必須';
       background-color: #B42822;

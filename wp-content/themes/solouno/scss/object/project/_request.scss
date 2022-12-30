@@ -20,6 +20,7 @@
     }
 
     dd {
+      text-align: left;
       input[type="text"],
       input[type="tel"],
       input[type="email"] {
@@ -32,6 +33,11 @@
         border: 1px solid #DFDFDF;
         border-radius: 4px;
         background-color: #fff;
+
+        &[name="zip"] {
+          width: 100px;
+          margin-bottom: 10px;
+        }
       }
 
       textarea {
