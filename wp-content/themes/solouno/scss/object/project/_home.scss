@@ -1,3 +1,40 @@
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  background-image: url('../images/dot_bg.png');
+  width: 100vw;
+  height: 100vh;
+  padding: 30px;
+
+  p {
+    text-align: center;
+  }
+
+  a {
+    background-color: #B1926D;
+    background-image: url(../images/polygon4.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 30px) 50%;
+    width: 100%;
+    max-width: 492px;
+    height: 78px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 39px;
+    color: #fff;
+    font-size: .14rem;
+    font-weight: $font_w_m;
+    @media screen and (min-width: width(sp)) {
+      font-size: .16rem;
+    }//@media
+  }//a
+}
+
 #home-top {
   margin-bottom: 160px;
   img {

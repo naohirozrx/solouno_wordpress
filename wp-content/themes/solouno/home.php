@@ -1,114 +1,99 @@
-<?php get_header(); ?>
+<html <?php language_attributes(); ?> class="no-js">
+<?php if (is_single()) { ?>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+<?php } else { ?>
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
+<?php } ?>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SRR7NPDJ2S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<section id="home-top">
-  <figure class="imgAnimation">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p1.jpg" />
-  </figure>
-  <h2 class="textAnimation">キミだけの、たった一つの。</h2>
-</section>
+  gtag('config', 'G-SRR7NPDJ2S');
+</script>
+  <meta charset="<?php bloginfo( 'charset' ); ?>">
+  <meta name="viewport" content="width=device-width">
+  <link rel="profile" href="http://gmpg.org/xfn/11">
+  <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+  <link rel="shortcut icon" href="<?php echo home_url( "/" );?>favicon.svg" type="image/svg+xml">
+  <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/masonry.pkgd.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.pkgd.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/bxslider.min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.matchHeight-min.js"></script>
+  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.0/lottie.min.js"></script>
 
-<section id="home-only_you">
-  <figure class="imgAnimation">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p2.jpg" class="p2" />
-  </figure>
-  <h2 id="concept" class="textAnimation"><span>Concept</span>キミだけの、たった一つの。</h2>
-  <p class="textAnimation">イメージする力を伸ばすと想像力や社会性が豊かになります。</p>
-  <p class="textAnimation">リモコンを携帯に見立てたり、テーブルの下を秘密基地にしたりと遊びの中で<br />社会性にコミュニケーション能力を高めていきます。</p>
-  <p class="textAnimation">イメージしたものが形になるオーダーメイドに触れることは子供の成長を<br />見守るものになると私たちは考えます。</p>
-  <p class="textAnimation">ぼくだけ、わたしだけのたった一つの組み合わせを想像してください。<br />そこにはたくさんの笑顔が生まれます。</p>
-  <div class="p3_p4">
-    <figure class="imgAnimation">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p3.jpg" class="p3" />
-    </figure>
-    <figure class="imgAnimation">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p4.jpg" class="p4" />
-    </figure>
-  </div>
-  <figure class="imgAnimation">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p5.jpg" class="p5" />
-  </figure>
-</section>
+  <link href="<?php echo get_template_directory_uri(); ?>/fontawesome/css/all.min.css" rel="stylesheet">
+  <link href="<?php echo get_template_directory_uri(); ?>/scss/style.css?<?php echo date('Ymd-Hi'); ?>" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
 
-<section id="home-about_us">
-  <h2 id="about" class="textAnimation"><span>About us</span>こだわりをカタチに。</h2>
-  <p class="textAnimation">『想像力』が必要なオーダーメイドには、好みは明確になっている大人向けのアイテムが多く存在します。<br />しかし、私たちは子どもにも”オーダーメイドを選ぶ体験”をしてほしいと思っています。</p>
-  <section class="home-function">
-    <h2 id="function" class="textAnimation">SOLO UNOの便利機能</h2>
-    <figure class="imgAnimation">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p1.svg" class="p1"/>
-    </figure>
-    <figure class="imgAnimation">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p2.svg" class="p2"/>
-    </figure>
-    <div class="function-area">
-      <figure class="imgAnimation">
-        <figcaption class="textAnimation">
-          A4フラットファイル<br />＆タブレット対応サイズ
-        </figcaption>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p3.png" class="p3"/>
-      </figure>
-      <figure class="imgAnimation">
-        <figcaption class="textAnimation">
-        最大12.5＋4.5=17cmの<br />大容量
-        </figcaption>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p4.png" class="p4"/>
-      </figure>
-    </div>
-    <div class="function-line">
-      <h2 id="flow" class="textAnimation">ランドセルができるまで</h2>
-      <div class="area">
-        <figure class="imgAnimation">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p5.jpg" />
-        </figure>
-        <div class="list">
-          <h3 class="textAnimation">組み合わせを選ぶ</h3>
-          <p class="textAnimation">・店舗・展示会にサンプルを見に行く</p>
-          <p class="textAnimation">・WEBページからシミュレーションをする</p>
-        </div>
-      </div>
-      <span><figure class="imgAnimation"><img src="<?php echo get_template_directory_uri(); ?>/images/polygon3.svg" /></figure></span>
-      <div class="area">
-        <figure class="imgAnimation">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p6.jpg" />
-        </figure>
-        <div class="list">
-          <h3 class="textAnimation">お申し込み</h3>
-          <p class="textAnimation">・店舗・展示会・WEBページのシミュレーションから。</p>
-          <p class="textAnimation">・お申し込みから2週間（仮）は組み合わせのご変更を承ることが可能です。</p>
-        </div>
-      </div>
-      <span><figure class="imgAnimation"><img src="<?php echo get_template_directory_uri(); ?>/images/polygon3.svg" /></figure></span>
-      <div class="area">
-        <figure class="imgAnimation">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p7.jpg" />
-        </figure>
-        <div class="list">
-          <h3 class="textAnimation">制作</h3>
-          <p class="textAnimation">・3月（仮）以降出来上がり次第お届けいたします。</p>
-          <p class="textAnimation">・出来上がり時期を早めたり、ご指定いただくことは出来かねます。</p>
-        </div>
-      </div>
-      <span><figure class="imgAnimation"><img src="<?php echo get_template_directory_uri(); ?>/images/polygon3.svg" /></figure></span>
-      <div class="area">
-        <figure class="imgAnimation">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p8.jpg" />
-        </figure>
-        <div class="list">
-          <h3 class="textAnimation">お届け</h3>
-          <p class="textAnimation">・3月以降出来上がり次第お届けいたします。</p>
-          <p class="textAnimation">・出来上がり時期を早めたり、ご指定いただくことは出来かねます。</p>
-          <p class="textAnimation">・お申し込み後のキャンセル、返金は承れません。</p>
-        </div>
-      </div>
-    </div>
-  </section>
-</section>
 
-<section id="home-d-r">
-  <div>
-    <h2 class="textAnimation">資料請求はこちら</h2>
-    <p class="textAnimation">資料請求についてのテキストがこちらに入ります。資料請求についてのテキストがこちらに入ります。<br />資料請求についてのテキストがこちらに入ります。</p>
-    <a href="/request" class="textAnimation">ランドセルオーダーメイドの<br />資料請求はこちら</a>
-  </div>
+  <?php if (is_single()): ?>
+  <?php if(have_posts()): while(have_posts()): the_post(); ?>
+  <meta property="og:title" content="<?php echo get_post_meta($post->ID, "_aioseop_title", true); ?>" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="<?php the_permalink(); ?>" />
+  <?php
+    $thumbnail_id = get_post_thumbnail_id();
+    $img_url = wp_get_attachment_image_src( $thumbnail_id , 'full' );
+  ?>
+  <meta property="og:image" content="<?php echo $img_url[0]; ?>" />
+  <meta property="og:site_name" content="HAUSS SUPPORT" />
+  <meta property="og:description" content="<?php echo get_post_meta($post->ID, "_aioseop_description", true); ?>" />
+  <meta property="og:image:width" content="840" />
+  <meta property="og:image:height" content="560" />
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="<?php the_permalink(); ?>" />
+  <meta name="twitter:title" content="<?php echo get_post_meta($post->ID, "_aioseop_title", true); ?>" />
+  <meta name="twitter:description" content="<?php echo get_post_meta($post->ID, "_aioseop_description", true); ?>" />
+  <meta name="twitter:image" content="<?php echo $img_url[0]; ?>" />
+  <?php endwhile; endif; ?>
+  <?php endif; ?>
+
+  <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.svg" type="image/svg+xml">
+
+  <!--[if lt IE 9]>
+  <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
+  <![endif]-->
+  <?php wp_head(); ?>
+</head>
+<body <?php body_class(); ?>>
+  <script>
+    $(function(){
+      $('.textAnimation').on('inview', function(event, isInView) {
+        if (isInView) {
+        //表示領域に入った時
+          $(this).addClass('textAnimationIn');
+        } else {
+        }
+      });
+
+      $('.imgAnimation').on('inview', function(event, isInView) {
+        if (isInView) {
+        //表示領域に入った時
+          $(this).addClass('imgAnimationIn');
+        } else {
+        }
+      });
+    });
+  </script>
+
+<section id="home">
+  <h1>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://lottie.host/0e0894f6-8b7b-44e5-9f95-3f2ef8491532/vMfUYNWIIp.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  autoplay></lottie-player>
+  </h1>
+  <p>ホームページとシュミレーターは<br />現在準備中です。</p>
+  <a href="/request" class="textAnimation">ランドセルオーダーメイドの<br />資料請求はこちら</a>
 </section>
-<?php get_footer(); ?>
+<?php wp_footer();?>
+</body>
+</html>

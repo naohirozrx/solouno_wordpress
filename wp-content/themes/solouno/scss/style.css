@@ -301,7 +301,7 @@ html {
   #header-area .area {
     width: 100%;
     display: flex;
-    justify-content: space-between; }
+    justify-content: center; }
     #header-area .area .header-home {
       width: 96px;
       margin: 0;
@@ -312,9 +312,6 @@ html {
       #header-area .area .header-home img {
         width: 100%;
         height: auto; }
-        @media screen and (min-width: 781px) {
-          #header-area .area .header-home img {
-            margin-left: 108.5px; } }
     #header-area .area .d-r {
       width: 192px;
       height: 57px;
@@ -357,6 +354,38 @@ footer {
     footer div a {
       font-size: .16rem;
       font-weight: 700; }
+
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  flex-direction: column;
+  background-image: url("../images/dot_bg.png");
+  width: 100vw;
+  height: 100vh;
+  padding: 30px; }
+  #home p {
+    text-align: center; }
+  #home a {
+    background-color: #B1926D;
+    background-image: url(../images/polygon4.svg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 30px) 50%;
+    width: 100%;
+    max-width: 492px;
+    height: 78px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 39px;
+    color: #fff;
+    font-size: .14rem;
+    font-weight: 500; }
+    @media screen and (min-width: 781px) {
+      #home a {
+        font-size: .16rem; } }
 
 #home-top {
   margin-bottom: 160px; }
@@ -617,14 +646,16 @@ footer {
       max-width: 500px;
       padding: 0 12px;
       border: 1px solid #DFDFDF;
-      border-radius: 4px; }
+      border-radius: 4px;
+      background-color: #fff; }
     #request-page dl dd textarea {
       padding: 12px;
       border: 1px solid #DFDFDF;
       border-radius: 4px;
       height: 140px;
       width: 100%;
-      max-width: 500px; }
+      max-width: 500px;
+      background-color: #fff; }
     #request-page dl dd select {
       box-sizing: border-box;
       height: 50px;
@@ -634,7 +665,8 @@ footer {
       border: 1px solid #DFDFDF;
       border-radius: 4px;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      background-color: #fff; }
     #request-page dl.required dt:before {
       content: '必須';
       background-color: #B42822;

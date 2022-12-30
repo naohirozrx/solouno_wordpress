@@ -98,7 +98,7 @@
         </a>
         <?php if(is_page('request')):?>
         <?php else: ?>
-        <a href="/request" class="d-r">資料請求はこちら</a>
+        <!--<a href="/request" class="d-r">資料請求はこちら</a>-->
         <?php endif; ?>
       </div>
     </header>
