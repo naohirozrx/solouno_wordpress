@@ -1,0 +1,35 @@
+.h2-default {
+  text-align: center;
+  font-size: .24rem;
+  font-weight: bold;
+  margin: 0 auto 1.5em;
+  @media screen and (min-width: width(sp)) {
+    margin: 0 auto;
+  }
+  span {
+    display: block;
+    font-size: .14rem;
+    font-weight: normal;
+  }
+}
+
+
+.h2-default2 {
+  text-align: center;
+  font-size: .24rem;
+  font-weight: bold;
+  margin: 0 auto 1.5em;
+  @media screen and (min-width: width(sp)) {
+    margin: 0 auto;
+    font-size: .40rem;
+  }
+}
+
+.h3-default {
+  font-size: 0.21rem;
+  font-weight: $font_w_b;
+  margin-bottom: 40px; 
+  @media screen and (min-width: width(sp)) {
+    font-size: 0.24rem;
+  }
+}

@@ -1,0 +1,1028 @@
+/*The main wrapper*/
+#fep-wrapper {
+	margin: 5px;
+	position: relative;
+}
+
+/*Header styling*/
+#fep-header {
+	border: 1px solid #e7e7e7;
+	/* color: #000000; */
+	width: 100%;
+}
+
+#fep-header strong {
+	/* color: #333333; */
+	font-size: 20px;
+}
+
+#fep-header .avatar {
+	border: none;
+	display: inline-block;
+	margin: 5px;
+	padding: 0;
+	vertical-align: top;
+}
+
+/*Content styling*/
+#fep-content {
+	/* color: #000000; */
+	border: 1px solid #e7e7e7;
+	height: auto;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	overflow: auto;
+	padding: 5px;
+	width: 100%;
+}
+
+#fep-content p, #fep-content form {
+	margin: 5px;
+}
+
+#fep-content hr {
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+#fep-content a {
+	/* color: navy; */
+	text-decoration: underline;
+}
+
+#fep-content .avatar {
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+}
+
+/*Footer styling*/
+#fep-footer {
+	border: 1px solid #e7e7e7;
+	/* color: #333333; */
+	font-size: 10px;
+	text-align: center;
+	width: 100%;
+}
+
+#fep-footer a,
+#fep-footer a:hover,
+#fep-footer a:visited {
+	/* color: #333333; */
+	text-decoration: underline;
+}
+
+/*Auto-suggest*/
+#fep-result {
+	background: #d3eef5;
+	border: solid 1px #333333;
+	display: none;
+	position: absolute;
+	width: 250px;
+}
+
+#fep-result ul,
+#fep-result li {
+	border: 0;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#fep-result li {
+	border-top: solid 1px #333333;
+}
+
+#fep-result li a {
+	color: #333333;
+	display: block;
+	font-weight: normal;
+	padding: 5px;
+	text-decoration: none;
+}
+
+#fep-result li a:hover {
+	background: #333333;
+	color: white;
+}
+
+.fep-table {
+	border-collapse: collapse;
+	display: table;
+	width: 100%;
+}
+
+.fep-table > div {
+	display: table-row;
+}
+
+.fep-table > div > div {
+	display: table-cell;
+}
+
+.fep-table .fep-table-caption {
+	display: table-caption;
+	font-weight: bold;
+	text-align: center;
+}
+
+.fep-action-table {
+	margin-bottom: 10px;
+}
+
+.fep-action-table > div > div {
+	width: 25%;
+}
+
+.fep-action-table select {
+	margin-top: 10px;
+}
+
+.fep-table .fep-column-avatar,
+.fep-table .fep-column-fep-cb {
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+.fep-table .fep-column-author,
+.fep-table .fep-column-date {
+	min-width: 150px;
+}
+
+.fep-table .fep-message-date {
+	display:block;
+	font-size: 70%;
+}
+
+.fep-table .fep-message-excerpt {
+	opacity:0.3;
+}
+
+.fep-unread-classp {
+	position:relative; 
+}
+
+.fep-unread-class {
+	background-color: red; /* you could use a background image if you'd like as well */
+	border-radius: 30px;
+	box-shadow: 1px 1px 1px gray;
+	color: white;
+	font-size: 9px;
+	font-weight: bold;
+	height: 16px;
+	line-height: 16px;
+	padding: 0 1px;
+	position: absolute; /* This breaks the div from the normal HTML document. */
+	top: -6px;
+}
+
+.fep-message-toggle-all {
+	cursor: pointer;
+}
+
+.fep-align-left {
+	text-align: left;
+}
+
+.fep-align-right {
+	text-align: right;
+}
+
+.fep-align-centre {
+	text-align: center;
+}
+
+.fep-hd {
+	display:none;
+}
+
+.fep-strong {
+	font-weight: bold;
+}
+
+.fep-pagination {
+	display: inline-block;
+	padding-left: 0;
+	margin: 20px 0;
+	border-radius: 6px;
+}
+
+.fep-pagination > li {
+	display: inline;
+}
+
+.fep-pagination > li > a,
+.fep-pagination > li > span {
+	background-color: #ffffff;
+	border: 1px solid #dddddd;
+	color: #337ab7;
+	float: left;
+	font-size: 12px;
+	line-height: 1.42857143;
+	margin-left: -1px;
+	padding: 7px 12px;
+	position: relative;
+	text-decoration: none;
+}
+
+.fep-pagination > li:first-child > a,
+.fep-pagination > li:first-child > span {
+	margin-left: 0;
+	border-bottom-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+.fep-pagination > li:last-child > a,
+.fep-pagination > li:last-child > span {
+	border-bottom-right-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.fep-pagination > li > a:hover,
+.fep-pagination > li > span:hover,
+.fep-pagination > li > a:focus,
+.fep-pagination >li > span:focus {
+	background-color: #eeeeee;
+	border-color: #dddddd;
+	color: #23527c;
+}
+
+.fep-pagination > .active > a,
+.fep-pagination > .active > span,
+.fep-pagination > .active > a:hover,
+.fep-pagination > .active > span:hover,
+.fep-pagination > .active > a:focus,
+.fep-pagination > .active > span:focus {
+	background-color: #337ab7;
+	border-color: #337ab7;
+	color: #ffffff;
+	cursor: default;
+	z-index: 2;
+}
+
+.fep-pagination > .disabled > span,
+.fep-pagination > .disabled > span:hover,
+.fep-pagination > .disabled > span:focus,
+.fep-pagination > .disabled > a,
+.fep-pagination > .disabled > a:hover,
+.fep-pagination > .disabled > a:focus {
+	background-color: #ffffff;
+	border-color: #dddddd;
+	color: #777777;
+	cursor: not-allowed;
+}
+
+#fep-message-top.fep-loading-gif,
+.fep-loading-gif {
+	background: url('../images/loading.gif') no-repeat right center;
+	padding-right: 16px;
+}
+
+.fep-message .fep-message-title-heading,
+.fep-per-message .fep-message-title {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	/* background-color: #f2f7fc; */
+	border-radius: 10px;
+	border: 1px solid #e7e7e7;
+	box-sizing: border-box;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 10px;
+	width: 100%;
+}
+
+.fep-message .fep-message-title-heading {
+	font-size: 20px;
+}
+
+.fep-message .fep-message-title-heading .fep_block_unblock_user {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.fep-per-message .fep-message-title {
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.fep-per-message {
+	border: 1px solid #e7e7e7;
+	margin: 5px;
+	padding: 5px;
+}
+
+.fep-per-message .fep-message-title .date {
+	font-size: 12px;
+	font-weight: normal;
+	padding-left: 10px;
+	text-align: right;
+}
+
+.fep-per-message .fep-message-title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fep-avatar-p {
+	height: 60px;
+	position: relative;
+}
+
+.fep-avatar-p-120 {
+	min-width: 120px;
+}
+
+.fep-avatar-p-90 {
+	min-width: 90px;
+}
+
+.fep-avatar-p .fep-avatar-1,
+.fep-avatar-p .fep-avatar-2,
+.fep-avatar-more-60,
+.fep-avatar-group-60 {
+	height: 60px;
+	width: 60px;
+}
+
+.fep-avatar-p .fep-avatar-2 {
+	left: 30px;
+	position: absolute;
+	top: 0;
+}
+
+.fep-avatar-more-60 {
+	background: url('../images/avatar-more-60.png') no-repeat 0 0;
+}
+
+.fep-avatar-group-60 {
+	background: url('../images/avatar-group-60.png') no-repeat 0 0;
+}
+
+.fep-avatar-p .fep-avatar-more-60 {
+	left: 60px;
+	position: absolute;
+	top: 0;
+}
+
+.fep-attachments {
+	border-top:1px solid #e7e7e7;
+	padding: 5px;
+	margin-top: 15px;
+}
+
+.fep-attachments-heading {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.fep-attachment-icon {
+	background: transparent url('../images/attachment-icons.png') no-repeat;
+	margin-right: 4px;
+	height: 16px;
+	width: 16px;
+	display: inline-block;
+}
+
+.fep-attachment-icon.fep-attachment-icon-default {
+	background-position: 0 0;
+}
+
+.fep-attachment-icon.fep-attachment-icon-generic {
+	background-position: 0 -16px;
+}
+/* need in php */
+.fep-attachment-icon.fep-attachment-icon-code {
+	background-position: 0 -32px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-xml {
+	background-position: 0 -48px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-excel {
+	background-position: 0 -64px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-word {
+	background-position: 0 -80px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-image {
+	background-position: 0 -96px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-psd {
+	background-position: 0 -112px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-ai {
+	background-position: 0 -128px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-archive {
+	background-position: 0 -144px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-text {
+	background-position: 0 -160px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-powerpoint {
+	background-position: 0 -176px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-pdf {
+	background-position: 0 -192px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-html {
+	background-position: 0 -208px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-video {
+	background-position: 0 -224px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-documents {
+	background-position: 0 -240px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-audio {
+	background-position: 0 -256px;
+}
+
+.fep-attachment-icon.fep-attachment-icon-icon {
+	background-position: 0 -272px;
+}
+
+#fep-menu-toggle-button {
+	display: none;
+}
+#fep-menu-toggle-button:after {
+	content: '\2795'; /* Unicode character for "plus" sign (+) */
+	float: right;
+	margin-left: 5px;
+}
+#fep-menu-toggle-button.fep-menu-toggle-expanded:after {
+	content: '\2796'; /* Unicode character for "minus" sign (-) */
+}
+
+.fep-loader {
+	cursor: wait;
+	background:#ffffff url('../images/loading.gif') no-repeat center center;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=75)";
+	filter: alpha(opacity=75);
+	opacity: 0.75;
+	position: absolute;
+	z-index: 9999;
+	display: none;
+}
+
+#fep-content-single {
+	display: flex;
+}
+#fep-content-single #fep-content-single-sidebar {
+	padding: 5px;
+	flex: 20%;
+	min-width: 150px;
+}
+#fep-content-single #fep-content-single-main {
+	width: 100%;
+}
+.fep-message-head {
+	cursor: pointer;
+}
+.fep-filter-heads-div {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#fep-content-single-heads .fep-message-head-active {
+	border-radius: 0px 30px 30px 0px;
+}
+
+#fep-content-single-heads .fep-error {
+	background-color: #ffebe8;
+	border-color: #c00;
+}
+
+
+@media screen and (max-width: 480px) {
+	.fep-table .fep-column-avatar {
+		display: none;
+	}
+
+	.fep-action-table,
+	.fep-action-table > div,
+	.fep-action-table > div > div {
+		display: block;
+	}
+	
+	.fep-action-table > div > div {
+		width: 100%;
+	}
+	
+	#fep-menu .fep-button,
+	.fep-button,
+	.fep-button-active {
+		width: 100%;
+	}
+	.fep-menu-toggle {
+		display: none;
+	}
+	#fep-menu-toggle-button {
+		display: block;
+	}
+	#fep-content-single #fep-content-single-sidebar {
+		display: none;
+	}
+}
+@media screen and (max-width: 768px) {
+	.fep-table .fep-message-excerpt {
+		display: none;
+	}
+}
+
+
+
+
+/*ここから独自*/
+/*******全般系********/
+/*ユーザー名表示*/
+.fep-table > div > div {
+    vertical-align: middle;
+}
+/*お知らせタブ非表示*/
+#fep-menu-announcements,#fep-menu-new_announcement{
+display:none !important;
+}
+#fep-wrapper{
+margin:0;
+}
+
+.fep-column,.fep-table-row{
+    vertical-align: middle !important;
+
+}
+
+#fep-content, .fep-per-message{
+    padding:0;
+}
+/*PC*/
+#fep-content{
+    max-width:600px;
+    margin:20px auto 0;
+}
+.fep-menu-toggle{
+    text-align:center;
+}
+#fep-header{
+    display:flex;
+    justify-content: center;
+    background-color:#e0ffff;
+    padding:10px;
+    border-radius:5px;
+    max-width: 640px;
+    margin: 0 auto 50px;
+    vertical-align:middle;
+}
+#fep-header > div > div:nth-child(1){
+    height:71px;;
+}
+
+#fep-header > div > div:nth-child(1) > img{
+    margin:0 30px 0 0 !important;
+}
+/*タブボタンのホバー色*/
+.fep-button-active{
+color:#fff !important;
+}
+/*左サイドメニューを離す(PCのみ)*/
+#fep-content-single-sidebar{
+    margin-right:20px;
+}
+/*ボタンとコンテンツを離す(PCのみ)*/
+#fep-content-single-main{
+    margin-top:20px;
+}
+/*書体をイタリック解除*/
+em{
+    font-style:normal !important;
+}
+/*メッセージメニューボタン*/
+#fep-menu-toggle-button{
+    background-color:#00bfff;
+    margin:15px 0;
+}
+/*テキスト入力欄*/
+input[type="text"],input[type="search"],#message_content,input[id="fep_mr_to"]{
+    border:0;
+padding:5px !important;
+    font-size:1em;
+    color:#222;
+    border:solid 1px #ccc;
+    margin:0 0 10px;
+    width:100%;
+    line-height:normal;
+}
+/*クレジット非表示*/
+#fep-footer{
+    display:none;
+}
+/*リンク色*/
+a.fep-button-active,a.fep-button{
+    color:white !important;
+}
+#fep-menu-message_box > span.fep-font-red.fep_unread_message_count.fep_unread_message_count_hide_if_zero{
+    color:white;
+}
+
+/*******トップ画面********/
+
+/*アイコンを角丸に*/
+#fep-header img{
+    border-radius:50%;
+}
+/*メッセージボックサイズを非表示*/
+#fep-header > div > div:nth-child(2) > div.fep-box-size{
+    display:none;
+}
+/*メッセージを送る(h2)の前にアイコン*/
+#fep-content > h2:before{
+    font-family: "Font Awesome 5 Free";
+    content: '\f1d8';
+    font-weight: 900;
+    margin-right:4px;
+}
+/*h2のマージン調整*/
+#fep-content > h2{
+    margin-top:30px;
+}
+/*枠線消去*/
+#fep-header{
+    border:none;
+    margin-bottom:20px;
+}
+/*アイコンとステータス本文を離す*/
+#fep-header img.avatar{
+margin-right:15px;
+}
+/*アイコンとステータス本文を離す*/
+#fep-header > div > div:nth-child(2) > div:nth-child(1),#fep-header > div > div:nth-child(2) > div:nth-child(2){
+    margin-left:10px;
+}
+
+/*ボタン*/
+#fep-menu .fep-button, .fep-button{
+    border:none;
+    background-color:#3cb371;
+    color:white;
+    border-radius:20px;
+    line-height:normal;
+}
+/*アクティブボタン*/
+.fep-button:hover, .fep-button:active, .fep-button-active{
+    background-color:#006400;
+    color:white;
+    border:none;
+    border-radius:20px;
+    line-height:normal;
+}
+.fep-button:hover{
+    background-color:#3cb371;
+}
+
+/*ボタンホバー時にフォントサイズを変更しない*/
+#fep-menu .fep-button:hover, .fep-button-active{
+    font-size:13px;
+    color:white;
+}
+/*メッセージ欄の枠線(内)消去*/
+#fep-content > div{
+    border:none;
+}
+/*メッセージ欄の枠線(外)消去*/
+#fep-content{
+    border:none;
+}
+
+/*ブロックユーザーラベル位置調整*/
+#fep-content > div > form > div.fep-form-field.fep-form-field-blocked_users > div.fep-label{
+    margin-top:30px;
+}
+/*ブロックユーザー欄*/
+#fep-content > div > form > div.fep-form-field.fep-form-field-blocked_users > div.fep-field > ul{
+    width:100%;
+    border:solid 1px #ccc;
+}
+/*お知らせなし(英語)を非表示*/
+.fep-error{
+    display:none;
+}
+/*受信ボックスのアイコン設定*/
+.fep-message-head{
+    padding:5px;
+    margin-bottom:10px;
+    border-radius:10px !important;
+}
+/*受信ボックス外観*/
+#fep-content-single-content > div > div.fep-per-message.fep-per-message-top , div.fep-message-title,
+#fep-content-single-content > div > div.fep-per-message.fep-per-message-top > div.fep-message-title-heading.participants{
+     border:none;
+    border-radius:0px;
+}
+/*メッセージ本文の枠を消す*/
+.fep-per-message, .fep-message-title{
+    border:none !important;
+}
+/*ブロックリンクの文字色*/
+div.fep-message-title-heading.participants > a{
+    text-decoration:none !important;
+    color:#555 !important;
+}
+/*受信ボックスフォントサイズ*/
+#fep-content-single-content > div > div.fep-per-message.fep-per-message-top > div:nth-child(1),#fep-content-single-content > div > div.fep-per-message.fep-per-message-top > div.fep-message-title-heading.participants{
+    font-size:13px;
+}
+
+/*入力サジェスト窓*/
+#fep-result{
+    padding:10px;
+    border:none;
+}
+#fep-result li {
+    border-top:none;
+}
+
+/****************************************************/
+/*******「メッセージボックス」画面********/
+/****************************************************/
+
+/*******「詳細」画面********/
+
+/*送信ボタン*/
+#fep-content-single-reply-form > div > form > button{
+    margin:20px 0 5px 0;
+}
+/*ブロックボタン(文字)*/
+div.fep-message-title-heading.participants > a{
+    font-size:12px !important;
+    font-weight:bold !important;
+    color:red !important;
+}
+/*メッセージコンテンツ開閉タブのマージン調整*/
+.fep-hide-if-js, .fep-per-message-top, .fep-hide-if-js > p, .fep-per-message{
+    margin:0px !important;
+}
+/*メッセージコンテンツの上下間隔をあける*/
+.fep-hide-if-js{
+    margin:15px 0 25px !important;
+}
+/*返信用テキストエリアを離す*/
+#fep-content-single-reply-form{
+    margin-top:50px;
+}
+/*スレッドのアバター*/
+.message_avatar > img{
+    width:50px;
+    margin-right:10px;
+}
+/*スレッドの間隔*/
+.fep-message-title{
+    margin-bottom:15px !important;
+}
+/*件名表記・アイコン追加*/
+.fep-per-message.fep-per-message-top > div:nth-child(1):before{
+    white-space: pre-wrap;
+    font-family: "Font Awesome 5 Free";
+    content: '\f51c  件名 ';
+    font-weight: 900;
+}
+/*参加者にアイコン追加*/
+.fep-message-title-heading.participants:before{
+    white-space: pre-wrap;
+    font-family: "Font Awesome 5 Free";
+    content: '\f0c0  ';
+    font-weight: 900;
+}
+/*件名背景色*/
+.fep-message-title-heading{
+    background-color:#fdf5e6 !important;
+    border:none;
+}
+/*件名背景を角丸に*/
+.fep-message-title-heading:nth-child(1){
+    border-radius:10px 10px 0 0 !important;
+    border:none;
+    border-bottom:1px solid #ddd !important;
+}
+/*参加者背景を角丸に*/
+.fep-message-title-heading:nth-child(2){
+    border-radius:0 0 10px 10px !important;
+}
+/*メッセージ表示・非表示ボタン*/
+.fep-message-toggle-all{
+    margin:20px 0 !important;
+}
+/*マージン調整*/
+.fep-message .fep-message-title-heading{
+    margin:0px !important;
+    border:none;
+}
+
+/*480px以下の時*/
+@media screen and (max-width: 480px) {
+    .fep-table .fep-column-avatar {
+        display: table-cell;
+    }
+    .fep-odd-even > div:nth-child(odd){
+        background-color:#fffafa;
+    }
+    
+    div.fep-column.fep-column-avatar{
+        height:100% !important;
+    }
+    #fep-content > form > div.fep-table.fep-action-table > div > div:nth-child(2) > button{
+        width: 100px;
+        margin-left:20px;
+    }
+    #fep-content > form > div.fep-table.fep-action-table > div{
+        display:flex;
+        align-items: center;
+    }
+    
+}
+
+/*******「一覧」画面********/
+#fep-content, #fep-box-content, #fep-box-content-main, .fep-table-row, #fep-table{
+    width:100%;
+}
+div.fep-column.fep-column-avatar{
+    padding:0;
+}
+/*アイコンと文字の位置調整*/
+div.fep-column.fep-column-avatar{
+
+height:100%;
+width:100px;
+
+}
+
+/*アバター縮小と縦のマージン*/
+.fep-avatar-p .avatar{
+width:45px;
+height:45px;
+vertical-align:middle !important;
+
+}
+
+/*メール一覧の背景色を白に*/
+.fep-odd-even > div:nth-child(even),.fep-odd-even > div:nth-child(odd){
+    background-color:white;
+}
+/*件名のaタグのアンダーライン消去*/
+div.fep-column.fep-column-title > span > a{
+    text-decoration:none !important;
+}
+/*未読マーク*/
+.fep-unread-class{
+padding:2px;
+width:25px;
+    position: static;
+    margin-left:10px;
+}
+/*送信者名*/
+div.fep-column.fep-column-author > span.fep-message-author{
+    font-weight:bold;
+    font-size:12px;
+}
+/*日付*/
+.fep-table .fep-column-date{
+    min-width:30px !important;
+    word-wrap: break-word;
+}
+/*送信者名*/
+.fep-table .fep-column-author{
+
+min-width:50px !important;
+    word-wrap: break-word;
+    font-weight:bold;
+}
+/*タイトル*/
+div.fep-column.fep-column-title{
+    min-width:100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 0 0 0 10px;
+}
+
+/*******「メッセージを送信」画面********/
+.fep-label{
+margin-top:10px;
+}
+#fep_upload > div > input{
+width:100% !IMPORTANT;
+height:31px !important;
+}
+.fep_pro_to_div,.token-input-list-facebook{
+width:100% !IMPORTANT;
+}
+.token-input-list-facebook{
+padding:5px;
+}
+ul.token-input-list-facebook {
+border: solid 1px #ccc !important;
+
+padding:15px;
+}
+#fep_mr_to{
+height:31px !important;
+}
+
+
+
+
+/****************************************************/
+/*************「通知バー」**********************/
+/****************************************************/
+/*通知バー*/
+#fep-notification-bar{
+    background-color:#228b22;
+    border:none;
+    border-radius:0;
+    color:white;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.6);
+}
+/*通知バーの未読数*/
+#fep-notification-bar > p > span.fep_unread_message_count_hide_if_zero > a > span{
+    color:white;
+    font-weight:bold;
+}
+/*「未読」を非表示*/
+#fep-notification-bar > p > span.fep_unread_announcement_count_hide_if_zero.fep-hide{
+    display:none;
+}
+/*通知の消去ボタンの位置調整*/
+.fep-notification-bar .fep-notice-dismiss {
+    top: -0.5em;
+}
+
+/****************************************************/
+/**************「お知らせ」画面***************/
+/****************************************************/
+/*全て表示ボタンを非表示*/
+#fep-content > form > div.fep-table.fep-action-table > div > div.fep-filter > select{
+    display:none;
+}
+
+/****************************************************/
+/************「ディレクトリ」画面************/
+/****************************************************/
+
+
+/*全てチェックのラベル非表示*/
+.fep-cb-check-uncheck-all-div{
+    display:none;
+}
+/*チェックボックス非表示*/
+div.fep-column.fep-column-fep-cb > input[name="fep-directory-cb[]"]{
+    visibility : hidden;
+}
+@media(max-width:480px){
+    div.fep-column.fep-column-fep-cb > input[name="fep-directory-cb[]"]{
+        display:none;
+    }
+}
+/*送信者名の欄を縮める*/
+div.fep-column.fep-column-name{
+    max-width:100px;
+}
+/*aタグのアンダーライン消去*/
+div.fep-column.fep-column-send_message > a, div.fep-column.fep-column-block_unblock > a{
+    text-decoration:none !important;
+}
+/*縦マージンを開ける*/
+.fep-column-avatar img.avatar{
+margin:10px 0 !important;
+}
+/*ブロック絞り込みドロップダウン*/
+#fep-content > form > div.fep-table.fep-action-table > div > div.fep-filter > select {
+    margin-top:0 !important;
+}
+/*「メッセージを送信」ボタンを装飾*/
+div.fep-column.fep-column-send_message > a{
+    font-size:22px;
+}
+#fep-content > form > div.fep-table.fep-action-table > div > div.fep-loading-gif-div{
+    width:0;
+}
+/*ブロックアイコン拡大*/
+div.fep-column.fep-column-block_unblock > a > span > i{
+    font-size:22px;
+}
+
+/*******「新しいお知らせ」画面********/
+#fep-content > div > form > div.fep-form-field.fep-form-field-announcement_roles > div.fep-field{
+    margin-bottom:30px;
+}

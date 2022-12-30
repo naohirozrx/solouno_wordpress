@@ -1,0 +1,31 @@
+footer {
+  padding: 50px 0;
+  text-align: center;
+  font-size: .12rem;
+  @media screen and (min-width: width(sp)) {
+    font-size: .14rem;
+  }
+  img {
+    margin-bottom: 40px;
+  }
+  address {
+    margin-bottom: 15px;
+  }
+  span {
+    display: block;
+    &.time {
+      margin-bottom: 30px;
+    }
+    &.copyright {
+      padding-bottom: 20px;
+      font-weight: $font_w_b;
+    }
+  }
+  div {
+    margin-bottom: 70px;
+    a {
+      font-size: .16rem;
+      font-weight: $font_w_b;
+    }
+  }
+}

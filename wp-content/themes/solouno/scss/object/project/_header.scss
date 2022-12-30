@@ -1,0 +1,45 @@
+#header-area {
+  padding: 20px 30px;
+  @media screen and (min-width: width(sp)) {
+    padding: 34px;
+  }
+  .area {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .header-home {
+      width: 96px;
+      margin: 0;
+      display: block;
+      @media screen and (min-width: width(sp)) {
+        margin: auto;
+      }
+    img {
+        width: 100%;
+        height: auto;
+        @media screen and (min-width: width(sp)) {
+          margin-left: 108.5px;
+        }
+      }
+    }
+    .d-r {
+      width: 192px;
+      height: 57px;
+      color: #B1926D;
+      font-weight: $font_w_b;
+      border: 1px solid #B1926D;
+      border-radius: 32px;
+      background-image: url(../images/polygon2.svg);
+      background-repeat: no-repeat;
+      background-position: 93% 50%;
+      box-shadow: 3px 3px 0px 0 #B1926D;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @media screen and (min-width: width(sp)) {
+        width: 192px;
+        height: 57px;
+      }//@media
+    }//.d-r
+  }//.area
+}

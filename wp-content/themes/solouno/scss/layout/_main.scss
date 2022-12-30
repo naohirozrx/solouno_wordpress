@@ -1,0 +1,118 @@
+body {
+  color: #535353;
+  @media screen and (min-width: width(sp)) {
+  }
+}
+
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+br.pc-none {
+  @media screen and (min-width: width(sp)) {
+    display: none;
+  }
+}
+
+
+.main-wrap {
+  @media screen and (min-width: width(sp)) {
+    display: flex;
+  }
+}
+
+.pc-only-side-box {
+  display: none;
+  @media screen and (min-width: width(sp)) {
+    background-image: url('../images/dot_bg.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+
+    .contents {
+      height: calc(100vh - 164px);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .pcmenu {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      font-size: .14rem;
+    }
+
+    .vertical {
+      transform: rotate(90deg);
+      position: absolute;
+      left: -60px;
+      top: 50%;
+      font-size: .1rem;
+    }
+
+    .qrcode {
+      display: flex;
+      flex-direction: column-reverse;
+      width: 100px;
+      position: absolute;
+      right: 20px;
+      bottom: 166px;
+      figcaption {
+        font-size: .1rem;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+    .request-link {
+      background-color: #BAA280;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 164px;
+      width: 100%;
+      padding: 0 34px;
+
+      a {
+        background-color: #ffffff;
+        background-image: url(../images/polygon4-color.svg);
+        background-repeat: no-repeat;
+        background-position: calc(100% - 30px) 50%;
+        width: 100%;
+        max-width: 492px;
+        height: 78px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 39px;
+        color: #BAA280;
+        text-align: center;
+        font-size: .14rem;
+        font-weight: $font_w_m;
+        box-shadow: 5px 5px 0px 0 #B1926D;
+      }
+    }
+  }
+}
+
+.main-contents-area {
+  @media screen and (min-width: width(sp)) {
+    max-width: 50vw;
+    margin-left: 50vw;
+    box-shadow: -10px 0 20px rgba($color: #000000, $alpha: 0.25);
+    position: relative;
+    z-index: 10;
+  }
+}

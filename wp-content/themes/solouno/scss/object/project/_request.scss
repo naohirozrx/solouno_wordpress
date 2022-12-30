@@ -1,0 +1,92 @@
+#request-page {
+  padding: 30px;
+  width: 100%;
+  @media screen and (min-width: width(sp)) {
+    width: 50vw;
+    padding: 34px;
+  }
+
+  dl {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+    margin: 0 auto 12px;
+
+    dt {
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    dd {
+      input[type="text"],
+      input[type="tel"],
+      input[type="email"] {
+        all: unset;
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        max-width: 500px;
+        padding: 0 12px;
+        border: 1px solid #DFDFDF;
+        border-radius: 4px;
+      }
+
+      textarea {
+        padding: 12px;
+        border: 1px solid #DFDFDF;
+        border-radius: 4px;
+        height: 140px;
+        width: 100%;
+        max-width: 500px;
+      }
+
+      select {
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        max-width: 500px;
+        padding: 0 12px;
+        border: 1px solid #DFDFDF;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+      }
+    }
+
+    &.required {
+      dt {
+        &:before {
+          content: '必須';
+          background-color: #B42822;
+          color: #fff;
+          font-size: .1rem;
+          border-radius: 2px;
+          height: 18px;
+          width: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          line-height: 1;
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+
+  input[type="submit"] {
+    all: unset;
+    box-sizing: border-box;
+    background-color: #B1926D;
+    border-radius: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    max-width: 320px;
+    margin: 40px auto 0;
+  }
+}

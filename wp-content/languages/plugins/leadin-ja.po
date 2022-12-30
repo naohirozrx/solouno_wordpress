@@ -1,0 +1,148 @@
+# Translation of Plugins - HubSpot &#8211; CRM, Email Marketing, Live Chat, Forms &amp; Analytics - Development (trunk) in Japanese
+# This file is distributed under the same license as the Plugins - HubSpot &#8211; CRM, Email Marketing, Live Chat, Forms &amp; Analytics - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-09-30 05:13:47+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - HubSpot &#8211; CRM, Email Marketing, Live Chat, Forms &amp; Analytics - Development (trunk)\n"
+
+#: src/admin/class-leadinadmin.php:106
+msgid "Setup Guide"
+msgstr "設定ガイド"
+
+#: src/admin/class-pluginactionsmanager.php:49
+#: src/admin/class-leadinadmin.php:114
+msgid "Upgrade"
+msgstr "アップグレード"
+
+#: src/admin/class-leadinadmin.php:107
+msgid "Reporting"
+msgstr "レポート"
+
+#. Author URI of the plugin
+msgid "http://hubspot.com/products/wordpress"
+msgstr "http://hubspot.jp/products/wordpress"
+
+#: src/admin/class-deactivationform.php:86
+msgid "Thank you for your feedback. If you would like to tell us more please add your email and we'll get in touch."
+msgstr "フィードバックをありがとうございます。さらにご意見がある場合は、メールアドレスをご記入ください。追ってご連絡いたします。 "
+
+#: src/admin/class-deactivationform.php:55
+msgid "Temporarily disabling or troubleshooting"
+msgstr "一時的に無効またはトラブルシューティング中"
+
+#: src/admin/class-deactivationform.php:51
+msgid "I can't sign up or log in"
+msgstr "登録もログインもできません"
+
+#: src/admin/class-leadinadmin.php:109
+msgid "Lists"
+msgstr "リスト"
+
+#: src/admin/class-leadinadmin.php:108
+msgid "Contacts"
+msgstr "連絡先"
+
+#: src/admin/class-deactivationform.php:100
+msgid "Skip & deactivate"
+msgstr "スキップして無効化"
+
+#: src/admin/class-deactivationform.php:95
+msgid "Submit & deactivate"
+msgstr "送信して無効化"
+
+#: src/admin/class-deactivationform.php:81
+msgid "Feedback..."
+msgstr "フィードバック..."
+
+#: src/admin/class-deactivationform.php:79
+msgid "Other"
+msgstr "その他"
+
+#: src/admin/class-deactivationform.php:54
+msgid "The plugin isn't useful"
+msgstr "プラグインが役に立たない"
+
+#: src/admin/class-deactivationform.php:53
+msgid "The plugin isn't working"
+msgstr "プラグインが動作しない"
+
+#: src/admin/class-deactivationform.php:52
+msgid "I don't want to sign up to HubSpot"
+msgstr "HubSpotに登録したくない"
+
+#: src/admin/class-deactivationform.php:37
+msgid "If you have a moment, please let us know why you're deactivating the plugin."
+msgstr "お時間があれば、プラグインを無効化した理由をお聞かせください。"
+
+#: src/admin/class-deactivationform.php:27
+msgid "We're sorry to see you go"
+msgstr "ご利用ありがとうございました"
+
+#: src/admin/class-adminconstants.php:71
+msgid "Select and embed a HubSpot form"
+msgstr "HubSpot フォームを選択して埋め込む  "
+
+#: src/admin/class-adminconstants.php:70
+msgid "HubSpot Form"
+msgstr "HubSpot フォーム"
+
+#: src/admin/class-adminconstants.php:69
+msgid "Select a form"
+msgstr "フォームを選択"
+
+#: src/admin/class-adminconstants.php:68
+msgid "Select an existing form"
+msgstr "既存のフォームを選択"
+
+#: src/admin/class-adminconstants.php:67
+msgid "Sign In"
+msgstr "ログイン"
+
+#: src/admin/class-noticemanager.php:30
+msgid "The HubSpot plugin isn’t connected right now. To use HubSpot tools on your WordPress site, %1$sconnect the plugin now%2$s."
+msgstr "HubSpot プラグインは現在連携されていません。HubSpot のツールを WordPress サイトで使用するには、%1$s今すぐプラグインを連携してください%2$s。"
+
+#: src/admin/class-leadinadmin.php:112 src/admin/class-deactivationform.php:90
+msgid "Email"
+msgstr "メール"
+
+#: src/admin/class-adminconstants.php:66 src/admin/class-leadinadmin.php:111
+msgid "Live Chat"
+msgstr "ライブチャット"
+
+#: src/admin/class-leadinadmin.php:131 src/admin/class-leadinadmin.php:137
+msgid "HubSpot All-In-One Marketing %1$s requires PHP %2$s or higher. Please upgrade WordPress first."
+msgstr "HubSpot All-In-One Marketing %1$sには PHP %2$s以上が必要です。まず WordPress をアップグレードしてください。"
+
+#: src/admin/class-pluginactionsmanager.php:34
+#: src/admin/class-leadinadmin.php:113
+msgid "Settings"
+msgstr "設定"
+
+#: src/admin/class-leadinadmin.php:110
+msgid "Forms"
+msgstr "フォーム"
+
+#. Author of the plugin
+#: src/admin/class-gutenberg.php:35 src/admin/class-leadinadmin.php:105
+#: src/admin/class-leadinadmin.php:117
+msgid "HubSpot"
+msgstr "HubSpot"
+
+#. Description of the plugin
+msgid "HubSpot’s official WordPress plugin allows you to add forms, popups, and live chat to your website and integrate with the best WordPress CRM."
+msgstr "HubSpot の公式 WordPress プラグインを利用すると、サイトにフォーム、ポップアップ、ライブチャットを追加したり、最適な WordPress CRM と統合したりできます。"
+
+#. Plugin URI of the plugin
+msgid "http://www.hubspot.com/integrations/wordpress"
+msgstr "http://www.hubspot.jp/integrations/wordpress "
+
+#. Plugin Name of the plugin
+msgid "HubSpot All-In-One Marketing - Forms, Popups, Live Chat"
+msgstr "HubSpot All-In-One Marketing - フォーム、ポップアップ、ライブチャット"

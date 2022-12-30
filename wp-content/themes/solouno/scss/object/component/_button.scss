@@ -1,0 +1,46 @@
+.all-btn {
+  padding: 1em;
+  width: 220px;
+  line-height: 1;
+  font-size: .14rem;
+  border: 1px solid colors(border);
+  background-color: colors(white);
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  @include radius(4px);
+  &:after {
+    display: inline-block;
+    content: "\f105";
+    font-family: "Font Awesome 5 Pro";
+    margin-left: 1em;
+  }
+}
+
+.button-motion {
+  @media screen and (min-width: width(sp)) {
+    position: relative;
+    overflow: hidden;
+    &:after {
+      position: absolute;
+      display: flex;
+      content: "\f32b";
+      font-family: "Font Awesome 5 Pro";
+      font-weight: 900;
+      font-size: .24rem;
+      right: 4px;
+      top: 0;
+      height: 100%;
+      align-items: center;
+      line-height: 1;
+      vertical-align: bottom;
+      @include transition();
+      @include translate(100px,0);
+    }
+    &:hover {
+      &:after {
+        @include translate(0,0);
+      }
+    }
+  }
+}
