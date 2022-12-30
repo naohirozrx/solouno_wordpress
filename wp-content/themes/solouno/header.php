@@ -74,15 +74,15 @@
         <lottie-player src="https://lottie.host/0e0894f6-8b7b-44e5-9f95-3f2ef8491532/vMfUYNWIIp.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"    autoplay></lottie-player>
       </h1>
       <ul class="pcmenu">
-        <li><a href="/request#concept">コンセプト</a></li>
-        <li><a href="/request#about">SOLO UNOについて</a></li>
-        <li><a href="/request#function">SOLO UNOの便利機能</a></li>
-        <li><a href="/request#flow">ランドセルができるまで</a></li>
-        <li><a href="/request#request">資料請求</a></li>
+        <li><a href="#concept">コンセプト</a></li>
+        <li><a href="#about">SOLO UNOについて</a></li>
+        <li><a href="#function">SOLO UNOの便利機能</a></li>
+        <li><a href="#flow">ランドセルができるまで</a></li>
+        <li><a href="#request">資料請求</a></li>
       </ul>
     </div>
     <div class="request-link">
-      <a href="/request">ランドセルオーダーメイドの<br />資料請求はこちら</a>
+      <a href="#request">ランドセルオーダーメイドの<br />資料請求はこちら</a>
     </div>
     <figure class="qrcode">
       <img src="<?php echo get_template_directory_uri(); ?>/images/qr.png" />
