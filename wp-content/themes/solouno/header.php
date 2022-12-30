@@ -74,10 +74,10 @@
         <lottie-player src="https://lottie.host/0e0894f6-8b7b-44e5-9f95-3f2ef8491532/vMfUYNWIIp.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"    autoplay></lottie-player>
       </h1>
       <ul class="pcmenu">
-        <li><a href="#concept">コンセプト</a></li>
-        <li><a href="#about">SOLO UNOについて</a></li>
-        <li><a href="#function">SOLO UNOの便利機能</a></li>
-        <li><a href="#flow">ランドセルができるまで</a></li>
+        <li><a href="/#concept">コンセプト</a></li>
+        <li><a href="/#about">SOLO UNOについて</a></li>
+        <li><a href="/#function">SOLO UNOの便利機能</a></li>
+        <li><a href="/#flow">ランドセルができるまで</a></li>
         <li><a href="/request">資料請求</a></li>
       </ul>
     </div>
