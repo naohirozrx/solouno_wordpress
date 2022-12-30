@@ -108,7 +108,7 @@
   <div>
     <h2 class="textAnimation">資料請求はこちら</h2>
     <p class="textAnimation">資料請求についてのテキストがこちらに入ります。資料請求についてのテキストがこちらに入ります。<br />資料請求についてのテキストがこちらに入ります。</p>
-    <a class="textAnimation">ランドセルオーダーメイドの<br />資料請求はこちら</a>
+    <a href="/request" class="textAnimation">ランドセルオーダーメイドの<br />資料請求はこちら</a>
   </div>
 </section>
 <?php get_footer(); ?>
