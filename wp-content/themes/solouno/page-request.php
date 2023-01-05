@@ -31,7 +31,7 @@
 
 <section id="home-about_us">
   <h2 id="about" class="textAnimation"><span>About us</span>こだわりをカタチに。</h2>
-  <p class="textAnimation">『想像力』が必要なオーダーメイドには、好みは明確になっている大人向けのアイテムが多く存在します。<br />しかし、私たちは子どもにも”オーダーメイドを選ぶ体験”をしてほしいと思っています。</p>
+  <p class="textAnimation">せっかく買うなら『気に入ったもの』を、とことん『こだわったもの』をじっくり選んで、大切に長く愛用してほしい。<br />そんな思いで、オーダーメイドのセレクトショップSOLO UNOはスタートしました。<br />SOLO UNOとは［だったひとつの］というイタリア語。<br />オーダーメイドでSOLO UNOなお気に入りを作ってください。<br />それは、たくさんの想い出のそばに、いつまでも…<br />6年間の相棒もSOLO UNO［たったひとつの］宝物になりますように。</p>
   <section class="home-function">
     <h2 id="function" class="textAnimation">SOLO UNOの便利機能</h2>
     <figure class="imgAnimation">
@@ -64,6 +64,9 @@
           <h3 class="textAnimation">組み合わせを選ぶ</h3>
           <p class="textAnimation">・店舗・展示会にサンプルを見に行く</p>
           <p class="textAnimation">・WEBページからシミュレーションをする</p>
+          <p class="textAnimation">　クラリーノエフ 64,800円</p>
+          <p class="textAnimation">　クラリーノタフロックNEO 69,800円</p>
+          <p class="textAnimation">　サイドのデザインに一部追加料金のかかるものがございます。</p>
         </div>
       </div>
       <span><figure class="imgAnimation"><img src="<?php echo get_template_directory_uri(); ?>/images/polygon3.svg" /></figure></span>
@@ -73,8 +76,10 @@
         </figure>
         <div class="list">
           <h3 class="textAnimation">お申し込み</h3>
-          <p class="textAnimation">・店舗・展示会・WEBページのシミュレーションから。</p>
-          <p class="textAnimation">・お申し込みから2週間（仮）は組み合わせのご変更を承ることが可能です。</p>
+          <p class="textAnimation">・店舗/展示会またはWEBページのシミュレーションサイトから申し込み</p>
+          <p class="textAnimation">・お申し込みから2週間は組み合わせのご変更を承ることが可能です。</p>
+          <p class="textAnimation">>※一部お申し込みを承れない展示会場がございます。</p>
+          <p class="textAnimation">>※お申し込み時にお支払いください。</p>
         </div>
       </div>
       <span><figure class="imgAnimation"><img src="<?php echo get_template_directory_uri(); ?>/images/polygon3.svg" /></figure></span>
@@ -84,8 +89,9 @@
         </figure>
         <div class="list">
           <h3 class="textAnimation">制作</h3>
-          <p class="textAnimation">・3月（仮）以降出来上がり次第お届けいたします。</p>
-          <p class="textAnimation">・出来上がり時期を早めたり、ご指定いただくことは出来かねます。</p>
+          <p class="textAnimation">お申し込みから２週間後、部材準備、製作を開始します。</p>
+          <p class="textAnimation">パーツごとに製作し、全パーツが揃ったものから組み上げます。</p>
+          <p class="textAnimation">※出来上がり時期を早めたり、ご指定いただくことは出来かねます。</p>
         </div>
       </div>
       <span><figure class="imgAnimation"><img src="<?php echo get_template_directory_uri(); ?>/images/polygon3.svg" /></figure></span>
@@ -95,8 +101,7 @@
         </figure>
         <div class="list">
           <h3 class="textAnimation">お届け</h3>
-          <p class="textAnimation">・3月以降出来上がり次第お届けいたします。</p>
-          <p class="textAnimation">・出来上がり時期を早めたり、ご指定いただくことは出来かねます。</p>
+          <p class="textAnimation">・2024年３月（仮）⇒１月中旬～３月中旬ごろ出来上がり次第お届けします。</p>
           <p class="textAnimation">・お申し込み後のキャンセル、返金は承れません。</p>
         </div>
       </div>
@@ -105,9 +110,46 @@
 </section>
 
 <section id="home-d-r">
+  <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
   <section id="request-page">
     <h2 id="request" class="textAnimation">カタログ請求フォーム</h2>
+    <p>2024SOLOUNOランドセルカタログは<br />
+    ２月上旬より順次発送いたします。</p>
     <?php the_content();?>
   <section>
 </section>
+<script>
+  $(function() {
+    $('input[name="zip"]').on('keyup', function() {
+      AjaxZip3.zip2addr(this, '', 'address', 'address');
+
+      var input = $(this).val();
+
+      //削除キーではハイフン追加処理が働かないように制御（8がBackspace、46がDelete)
+      var key = event.keyCode || event.charCode;
+      if( key == 8 || key == 46 ){
+        return false;
+      }
+
+      //３桁目に値が入ったら発動
+      if(input.length === 3){
+        $(this).val(insertStr(input));
+      }
+    });
+
+    function insertStr(input){
+      return input.slice(0, 3) + '-' + input.slice(3,input.length);
+    }
+
+    $('input[name="zip"]').on('blur',function(e){
+      var input = $(this).val();
+
+      //４桁目が'-(ハイフン)’かどうかをチェックし、違ったら挿入
+      if(input.length >= 3 && input.substr(3,1) !== '-'){
+        $(this).val(insertStr(input));
+      }
+    });
+  });
+
+</script>
 <?php get_footer(); ?>
