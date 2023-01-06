@@ -92,7 +92,7 @@
     <lottie-player src="https://lottie.host/0e0894f6-8b7b-44e5-9f95-3f2ef8491532/vMfUYNWIIp.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  autoplay></lottie-player>
   </h1>
   <p>ホームページとシュミレーターは<br />現在準備中です。</p>
-  <a href="/request" class="textAnimation">ランドセルオーダーメイドの<br />資料請求はこちら</a>
+  <a href="/request" class="textAnimation">ランドセルオーダーメイドの<br />カタログ請求はこちら</a>
 </section>
 <?php wp_footer();?>
 </body>

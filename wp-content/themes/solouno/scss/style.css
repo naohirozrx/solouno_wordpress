@@ -494,6 +494,12 @@ footer {
     @media screen and (min-width: 781px) {
       #home-about_us > p br {
         display: block; } }
+#home-about_us .kodawari-img {
+  margin: 0 !important; }
+  #home-about_us .kodawari-img img {
+    width: 100%;
+    height: auto;
+    vertical-align: bottom; }
 #home-about_us .home-function {
   background-color: #FEF6EA;
   padding: 70px 30px; }
@@ -576,6 +582,58 @@ footer {
         #home-about_us .home-function .function-line span img {
           margin-left: 77px; } }
 
+#home-showroom {
+  padding: 75px 0;
+  background-image: url(../images/dot_bg.png);
+  text-align: center; }
+  #home-showroom h2 {
+    font-size: .18rem;
+    font-weight: 500;
+    color: #BAA280;
+    margin-bottom: 50px; }
+    @media screen and (min-width: 781px) {
+      #home-showroom h2 {
+        font-size: .32rem; } }
+  #home-showroom h3 {
+    font-size: .32rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #BAA280;
+    margin-bottom: 32px; }
+    @media screen and (min-width: 781px) {
+      #home-showroom h3 {
+        font-size: .54rem; } }
+  #home-showroom > figure img {
+    width: 100%;
+    height: auto; }
+  @media screen and (min-width: 1340px) {
+    #home-showroom .address-wrap {
+      display: flex; } }
+  @media screen and (min-width: 1340px) {
+    #home-showroom .address-wrap > div {
+      width: 290px;
+      text-align: left; } }
+  #home-showroom .address-wrap > div .time {
+    background-image: url("../images/time.svg");
+    background-repeat: no-repeat;
+    background-position: left calc(50% - 61px) top 4px; }
+    @media screen and (min-width: 1340px) {
+      #home-showroom .address-wrap > div .time {
+        background-position: left 10px top 4px; } }
+  #home-showroom .address-wrap > div p {
+    margin-bottom: 1em; }
+    @media screen and (min-width: 1340px) {
+      #home-showroom .address-wrap > div p {
+        padding-left: 30px; } }
+  @media screen and (min-width: 1340px) {
+    #home-showroom .address-wrap > figure {
+      width: calc(100% - 290px); } }
+  #home-showroom .address-wrap > figure img {
+    width: 100%;
+    height: auto; }
+  #home-showroom .address-wrap > figure figcaption {
+    font-size: .11rem; }
+
 #home-d-r {
   padding: 75px 14px;
   background-image: url(../images/dot_bg.png);
@@ -618,6 +676,61 @@ footer {
     @media screen and (min-width: 781px) {
       #home-d-r a {
         font-size: .16rem; } }
+
+.notice-wrap {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10000; }
+  .notice-wrap > div {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 24px;
+    position: relative;
+    max-width: 550px; }
+    .notice-wrap > div h2 {
+      font-size: .18rem;
+      font-weight: 500;
+      margin-bottom: 50px; }
+      @media screen and (min-width: 781px) {
+        .notice-wrap > div h2 {
+          font-size: .24rem; } }
+    .notice-wrap > div p {
+      line-height: 1.7;
+      margin-bottom: 1em; }
+      .notice-wrap > div p span {
+        color: #B1926D; }
+    .notice-wrap > div .notice-close {
+      position: absolute;
+      top: -50px;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      height: 40px; }
+      .notice-wrap > div .notice-close:before {
+        content: '';
+        height: 2px;
+        width: 22px;
+        background-color: #fff;
+        border-radius: 2px;
+        transform: rotate(45deg); }
+      .notice-wrap > div .notice-close:after {
+        content: '';
+        height: 2px;
+        width: 22px;
+        background-color: #fff;
+        border-radius: 2px;
+        transform: rotate(-45deg);
+        margin-left: -22px; }
 
 #request-page {
   padding: 30px;
@@ -704,6 +817,18 @@ footer {
     transition: 0.3s; }
     #request-page input[type="submit"]:hover {
       background-color: #AC7746; }
+  #request-page .mail-notice {
+    font-size: .1rem;
+    color: #B1926D;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 1em;
+    cursor: pointer; }
+    @media screen and (min-width: 781px) {
+      #request-page .mail-notice {
+        font-size: .12rem; } }
+    #request-page .mail-notice:before {
+      content: '■'; }
 
 .clearfix:after {
   content: "";

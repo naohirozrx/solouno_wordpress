@@ -103,4 +103,20 @@
       background-color: #AC7746;
     }
   }
+
+  .mail-notice {
+    font-size: .1rem;
+    color: #B1926D;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 1em;
+    cursor: pointer;
+    @media screen and (min-width: width(sp)) {
+      font-size: .12rem;
+    }
+
+    &:before {
+      content: '■';
+    }
+  }
 }

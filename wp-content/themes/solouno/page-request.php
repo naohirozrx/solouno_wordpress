@@ -32,28 +32,14 @@
 <section id="home-about_us">
   <h2 id="about" class="textAnimation"><span>About us</span>こだわりをカタチに。</h2>
   <p class="textAnimation">せっかく買うなら『気に入ったもの』を、とことん『こだわったもの』をじっくり選んで、大切に長く愛用してほしい。<br />そんな思いで、オーダーメイドのセレクトショップSOLO UNOはスタートしました。<br />SOLO UNOとは［だったひとつの］というイタリア語。<br />オーダーメイドでSOLO UNOなお気に入りを作ってください。<br />それは、たくさんの想い出のそばに、いつまでも…<br />6年間の相棒もSOLO UNO［たったひとつの］宝物になりますように。</p>
+  <figure class="kodawari-img">
+  <img src="<?php echo get_template_directory_uri(); ?>/images/home-kodawari.jpg" class="p1"/>
+  </figure>
   <section class="home-function">
     <h2 id="function" class="textAnimation">SOLO UNOの便利機能</h2>
     <figure class="imgAnimation">
       <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p1.svg" class="p1"/>
     </figure>
-    <figure class="imgAnimation">
-      <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p2.svg" class="p2"/>
-    </figure>
-    <div class="function-area">
-      <figure class="imgAnimation">
-        <figcaption class="textAnimation">
-          A4フラットファイル<br />＆タブレット対応サイズ
-        </figcaption>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p3.png" class="p3"/>
-      </figure>
-      <figure class="imgAnimation">
-        <figcaption class="textAnimation">
-        最大12.5＋4.5=17cmの<br />大容量
-        </figcaption>
-        <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p4.png" class="p4"/>
-      </figure>
-    </div>
     <div class="function-line">
       <h2 id="flow" class="textAnimation">ランドセルができるまで</h2>
       <div class="area">
@@ -62,7 +48,7 @@
         </figure>
         <div class="list">
           <h3 class="textAnimation">組み合わせを選ぶ</h3>
-          <p class="textAnimation">・店舗・展示会にサンプルを見に行く</p>
+          <p class="textAnimation">・店舗・展示会に組み合わせサンプルを見に行く</p>
           <p class="textAnimation">・WEBページからシミュレーションをする</p>
           <p class="textAnimation">　クラリーノエフ 64,800円</p>
           <p class="textAnimation">　クラリーノタフロックNEO 69,800円</p>
@@ -78,8 +64,8 @@
           <h3 class="textAnimation">お申し込み</h3>
           <p class="textAnimation">・店舗/展示会またはWEBページのシミュレーションサイトから申し込み</p>
           <p class="textAnimation">・お申し込みから2週間は組み合わせのご変更を承ることが可能です。</p>
-          <p class="textAnimation">>※一部お申し込みを承れない展示会場がございます。</p>
-          <p class="textAnimation">>※お申し込み時にお支払いください。</p>
+          <p class="textAnimation">※一部お申し込みを承れない展示会場がございます。</p>
+          <p class="textAnimation">※お申し込み時にお支払いください。</p>
         </div>
       </div>
       <span><figure class="imgAnimation"><img src="<?php echo get_template_directory_uri(); ?>/images/polygon3.svg" /></figure></span>
@@ -109,6 +95,30 @@
   </section>
 </section>
 
+<section id="home-showroom">
+  <h2 id="showroom">Showroom</h2>
+  <figure>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/showroom-img.jpg" />
+  </figure>
+  <h3>2023.2.10<br />
+  GRAND OPEN</h3>
+  <div class="address-wrap">
+    <div>
+      <p class="time">10:00〜17:00<br />
+        [火・水曜定休] </p>
+      <p class="address">〒330-0854<br />
+        埼玉県さいたま市大宮区桜木町1-9-1<br />
+        三谷ビル1階</p>
+      <p>Tel：<a href="tel:048-658-3900">048-658-3900</a></p>
+
+    </div>
+    <figure>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" />
+      <figcaption>【大宮駅西口徒歩4分】ソニック向かい新生銀行となり</figcaption>
+    </figure>
+  </div>
+</section>
+
 <section id="home-d-r">
   <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
   <section id="request-page">
@@ -118,6 +128,15 @@
     <?php the_content();?>
   <section>
 </section>
+
+<div class="notice-wrap">
+  <div>
+    <span class="notice-close"></span>
+    <h2>携帯メール・フリーメールにて<br />カタログ請求される方へ</h2>
+    <p>フリーメールアドレスや携帯電話のアドレスをご利用されている場合、当方からのメールが届かないことがあります。</p>
+    <p>ご注文・お問い合わせの前に、必ず『迷惑メール設定』『受信拒否設定』『指定ドメイン受信設定』などの設定内容を確認し、当方からのメール（ドメインは<span>solouno-ordermade.com</span>です）が受信できる状態にしてください。</p>
+  </div>
+</div>
 <script>
   $(function() {
     $('input[name="zip"]').on('keyup', function() {
@@ -148,6 +167,15 @@
       if(input.length >= 3 && input.substr(3,1) !== '-'){
         $(this).val(insertStr(input));
       }
+    });
+
+    $('.mail-notice').on('click', function() {
+      $('.notice-wrap').fadeIn();
+      $('.notice-wrap').css('display', 'flex')
+    });
+
+    $('.notice-close').on('click', function() {
+      $('.notice-wrap').fadeOut();
     });
   });
 
