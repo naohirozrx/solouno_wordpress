@@ -466,13 +466,13 @@ footer {
   height: auto;
   margin-bottom: 75px; }
 #home-about_us h2 {
-  font-size: .18rem;
+  font-size: .24rem;
   font-weight: 500;
   margin: 0 0 35px 30px;
   line-height: 1; }
   @media screen and (min-width: 781px) {
     #home-about_us h2 {
-      font-size: .24rem;
+      font-size: .32rem;
       margin-left: 35px; } }
   #home-about_us h2 span {
     font-size: .14rem;
@@ -516,75 +516,88 @@ footer {
       margin-bottom: 110px; }
     #home-about_us .home-function > figure > img.p2 {
       margin-bottom: 77px; }
-  #home-about_us .home-function .function-area {
+#home-about_us .home-flow {
+  background-image: url(../images/dot_bg.png);
+  padding: 70px 30px; }
+  #home-about_us .home-flow .function-area {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 120px; }
-    #home-about_us .home-function .function-area figure {
+    #home-about_us .home-flow .function-area figure {
       width: calc((100vw - 80px) / 2);
       font-size: .12rem; }
       @media screen and (min-width: 781px) {
-        #home-about_us .home-function .function-area figure {
+        #home-about_us .home-flow .function-area figure {
           width: calc((50vw - 110px) / 2);
           font-size: .14rem; } }
-      #home-about_us .home-function .function-area figure img {
+      #home-about_us .home-flow .function-area figure img {
         width: 100%;
         height: auto; }
-      #home-about_us .home-function .function-area figure figcaption br {
+      #home-about_us .home-flow .function-area figure figcaption br {
         display: block; }
         @media screen and (min-width: 781px) {
-          #home-about_us .home-function .function-area figure figcaption br {
+          #home-about_us .home-flow .function-area figure figcaption br {
             display: none; } }
-  #home-about_us .home-function .function-line h2 {
+  #home-about_us .home-flow .function-line h2 {
     text-align: center;
     margin: 0 0 90px 0; }
-  #home-about_us .home-function .function-line .area {
+  #home-about_us .home-flow .function-line .area {
     margin-bottom: 40px; }
     @media screen and (min-width: 781px) {
-      #home-about_us .home-function .function-line .area {
+      #home-about_us .home-flow .function-line .area {
         display: flex;
         align-items: center;
         gap: 35px; } }
-    #home-about_us .home-function .function-line .area figure {
+    #home-about_us .home-flow .function-line .area figure {
       width: calc(100vw - 60px);
       margin-bottom: 20px; }
       @media screen and (min-width: 781px) {
-        #home-about_us .home-function .function-line .area figure {
+        #home-about_us .home-flow .function-line .area figure {
           width: 200px;
           margin-bottom: 0; } }
-      #home-about_us .home-function .function-line .area figure img {
+      #home-about_us .home-flow .function-line .area figure img {
         width: 100%;
         height: auto;
         border-radius: 50%; }
-    #home-about_us .home-function .function-line .area .list {
+    #home-about_us .home-flow .function-line .area .list {
       width: 100%; }
       @media screen and (min-width: 781px) {
-        #home-about_us .home-function .function-line .area .list {
+        #home-about_us .home-flow .function-line .area .list {
           width: calc(100% - 240px); } }
-      #home-about_us .home-function .function-line .area .list h3 {
+      #home-about_us .home-flow .function-line .area .list h3 {
         font-size: .18rem;
         font-weight: 700;
-        margin-bottom: 12px; }
-      #home-about_us .home-function .function-line .area .list p {
+        border: 1px solid;
+        border-radius: 100px;
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 40px;
+        margin: 0 auto 20px; }
+        @media screen and (min-width: 781px) {
+          #home-about_us .home-flow .function-line .area .list h3 {
+            margin: 0 0 20px; } }
+      #home-about_us .home-flow .function-line .area .list p {
         font-size: .14rem;
         margin-bottom: 12px;
         padding-left: 1em;
         text-indent: -1em; }
-  #home-about_us .home-function .function-line span {
+  #home-about_us .home-flow .function-line span {
     display: block;
     width: 100%;
     margin-bottom: 40px; }
-    #home-about_us .home-function .function-line span img {
+    #home-about_us .home-flow .function-line span img {
       display: block;
       margin: auto; }
       @media screen and (min-width: 781px) {
-        #home-about_us .home-function .function-line span img {
+        #home-about_us .home-flow .function-line span img {
           margin-left: 77px; } }
 
 #home-showroom {
   padding: 75px 0;
-  background-image: url(../images/dot_bg.png);
+  background-color: #FEF6EA;
   text-align: center; }
   #home-showroom h2 {
     font-size: .18rem;
@@ -767,6 +780,18 @@ footer {
         #request-page dl dd input[type="tel"][name="zip"],
         #request-page dl dd input[type="email"][name="zip"] {
           width: 100px;
+          margin-bottom: 10px; }
+        #request-page dl dd input[type="text"][name="pref"],
+        #request-page dl dd input[type="tel"][name="pref"],
+        #request-page dl dd input[type="email"][name="pref"] {
+          margin-bottom: 10px; }
+        #request-page dl dd input[type="text"][name="address1"],
+        #request-page dl dd input[type="tel"][name="address1"],
+        #request-page dl dd input[type="email"][name="address1"] {
+          margin-bottom: 10px; }
+        #request-page dl dd input[type="text"][name="address2"],
+        #request-page dl dd input[type="tel"][name="address2"],
+        #request-page dl dd input[type="email"][name="address2"] {
           margin-bottom: 10px; }
       #request-page dl dd textarea {
         padding: 12px;

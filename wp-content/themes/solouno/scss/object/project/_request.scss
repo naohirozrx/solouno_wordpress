@@ -38,6 +38,15 @@
           width: 100px;
           margin-bottom: 10px;
         }
+        &[name="pref"] {
+          margin-bottom: 10px;
+        }
+        &[name="address1"] {
+          margin-bottom: 10px;
+        }
+        &[name="address2"] {
+          margin-bottom: 10px;
+        }
       }
 
       textarea {

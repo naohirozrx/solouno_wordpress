@@ -11,10 +11,12 @@
   <figure class="imgAnimation">
     <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p2.jpg" class="p2" />
   </figure>
-  <h2 id="concept" class="textAnimation"><span>Concept</span>キミだけの、たった一つの。</h2>
+  <h2 id="concept" class="textAnimation"><span>Concept</span>ランドセルに、オーダーメイドという選択を。</h2>
+  <p>『想像力』が必要なオーダーメイドには、好みが明確になっている大人向けのアイテムが多く存在します。</p>
+  <p>しかし、私たちは子どもにも”オーダーメイドを選ぶ体験”をしてほしいと思っています。</p>
   <p class="textAnimation">イメージする力を伸ばすと想像力や社会性が豊かになります。</p>
-  <p class="textAnimation">リモコンを携帯に見立てたり、テーブルの下を秘密基地にしたりと遊びの中で<br />社会性にコミュニケーション能力を高めていきます。</p>
-  <p class="textAnimation">イメージしたものが形になるオーダーメイドに触れることは子供の成長を<br />見守るものになると私たちは考えます。</p>
+  <p class="textAnimation">リモコンを携帯に見立てたり、テーブルの下を秘密基地にしたりと、<br />遊びの中で社会性やコミュニケーション能力を高めていきます。</p>
+  <p class="textAnimation">『イメージしたものが形になるオーダーメイドに触れることは、子供の成長を見守るものになる』<br />と私たちは考えます。</p>
   <p class="textAnimation">ぼくだけ、わたしだけのたった一つの組み合わせを想像してください。<br />そこにはたくさんの笑顔が生まれます。</p>
   <div class="p3_p4">
     <figure class="imgAnimation">
@@ -31,7 +33,12 @@
 
 <section id="home-about_us">
   <h2 id="about" class="textAnimation"><span>About us</span>こだわりをカタチに。</h2>
-  <p class="textAnimation">せっかく買うなら『気に入ったもの』を、とことん『こだわったもの』をじっくり選んで、大切に長く愛用してほしい。<br />そんな思いで、オーダーメイドのセレクトショップSOLO UNOはスタートしました。<br />SOLO UNOとは［だったひとつの］というイタリア語。<br />オーダーメイドでSOLO UNOなお気に入りを作ってください。<br />それは、たくさんの想い出のそばに、いつまでも…<br />6年間の相棒もSOLO UNO［たったひとつの］宝物になりますように。</p>
+  <p class="textAnimation">せっかく買うなら『気に入ったもの』を、とことん『こだわったもの』をじっくり選んで、大切に長く愛用してほしい。</p>
+  <p class="textAnimation">そんな思いで、オーダーメイドのセレクトショップSOLO UNOはスタートしました。</p>
+  <p class="textAnimation">SOLO UNOとは［だったひとつの］というイタリア語。</p>
+  <p class="textAnimation">オーダーメイドでSOLO UNOなお気に入りを作ってください。</p>
+  <p class="textAnimation">それは、たくさんの想い出のそばに、いつまでも…</p>
+  <p class="textAnimation">6年間の相棒もSOLO UNO［たったひとつの］宝物になりますように。</p>
   <figure class="kodawari-img">
   <img src="<?php echo get_template_directory_uri(); ?>/images/home-kodawari.jpg" class="p1"/>
   </figure>
@@ -40,6 +47,8 @@
     <figure class="imgAnimation">
       <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p1.svg" class="p1"/>
     </figure>
+  </section>
+  <section class="home-flow">
     <div class="function-line">
       <h2 id="flow" class="textAnimation">ランドセルができるまで</h2>
       <div class="area">
@@ -48,11 +57,10 @@
         </figure>
         <div class="list">
           <h3 class="textAnimation">組み合わせを選ぶ</h3>
-          <p class="textAnimation">・店舗・展示会に組み合わせサンプルを見に行く</p>
+          <p class="textAnimation">・店舗/展示会に組み合わせサンプルを見に行く</p>
           <p class="textAnimation">・WEBページからシミュレーションをする</p>
-          <p class="textAnimation">　クラリーノエフ 64,800円</p>
-          <p class="textAnimation">　クラリーノタフロックNEO 69,800円</p>
-          <p class="textAnimation">　サイドのデザインに一部追加料金のかかるものがございます。</p>
+          <p class="textAnimation" style="text-indent: 0;">− クラリーノエフ 64,800円<br />− クラリーノタフロックNEO 69,800円<br />
+          <span style="font-size: 12px;">※サイドのデザインに一部追加料金のかかるものがございます。</span></p>
         </div>
       </div>
       <span><figure class="imgAnimation"><img src="<?php echo get_template_directory_uri(); ?>/images/polygon3.svg" /></figure></span>
@@ -74,7 +82,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/home-about_p7.jpg" />
         </figure>
         <div class="list">
-          <h3 class="textAnimation">制作</h3>
+          <h3 class="textAnimation">製作</h3>
           <p class="textAnimation">お申し込みから２週間後、部材準備、製作を開始します。</p>
           <p class="textAnimation">パーツごとに製作し、全パーツが揃ったものから組み上げます。</p>
           <p class="textAnimation">※出来上がり時期を早めたり、ご指定いただくことは出来かねます。</p>
@@ -123,7 +131,7 @@
   <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
   <section id="request-page">
     <h2 id="request" class="textAnimation">カタログ請求フォーム</h2>
-    <p>2024SOLOUNOランドセルカタログは<br />
+    <p>2024 SOLO UNOランドセルカタログは<br />
     ２月上旬より順次発送いたします。</p>
     <?php the_content();?>
   <section>
@@ -140,8 +148,8 @@
 <script>
   $(function() {
     $('input[name="zip"]').on('keyup', function() {
-      AjaxZip3.zip2addr(this, '', 'address', 'address');
-
+      AjaxZip3.zip2addr(this, '', 'pref', 'address1');
+      //AjaxZip3.zip2addr( '〒上3桁', '〒下4桁', '都道府県', '市区町村', '町域大字', '丁目番地' );
       var input = $(this).val();
 
       //削除キーではハイフン追加処理が働かないように制御（8がBackspace、46がDelete)
