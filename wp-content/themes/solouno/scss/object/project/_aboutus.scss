@@ -1,0 +1,25 @@
+#aboutus-area {
+  width: 100%;
+  max-width: 395px;
+  margin: auto;
+  .aboutus-top {
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 65px;
+    }//img
+    .area {
+      padding: 0 27px;
+      h2 {
+        @include h2title;
+      }//h2
+      .dot {
+        @include dot;
+      }
+      p {
+        font-size: .12rem;
+        margin-bottom: 30px;
+      }
+    }//.area
+  }//.aboutus-top
+}//#aboutus-area

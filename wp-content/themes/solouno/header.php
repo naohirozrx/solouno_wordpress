@@ -66,7 +66,18 @@
   <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<div class="main-wrap">
+
+<header>
+  <img src="<?php echo get_template_directory_uri(); ?>/images/solouno-logo.svg" alt="SOLO UNO" />
+  <menu>メニュー</menu>
+  <div>
+    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/user.svg" /></a>
+    <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/cart.svg" /></a>
+  </div>
+</header>
+
+
+<!-- <div class="main-wrap">
   <div class="pc-only-side-box">
     <div class="contents">
       <h1>
@@ -99,10 +110,10 @@
         </a>
         <?php if(is_page('request')):?>
         <?php else: ?>
-        <!--<a href="/request" class="d-r">カタログ請求はこちら</a>-->
+        <a href="/request" class="d-r">カタログ請求はこちら</a>
         <?php endif; ?>
       </div>
-    </header>
+    </header> -->
 
   <script>
     $(function(){

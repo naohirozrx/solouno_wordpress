@@ -1,99 +1,136 @@
-<html <?php language_attributes(); ?> class="no-js">
-<?php if (is_single()) { ?>
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-<?php } else { ?>
-<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# website: http://ogp.me/ns/website#">
-<?php } ?>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-SRR7NPDJ2S"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+<?php get_header();?>
 
-  gtag('config', 'G-SRR7NPDJ2S');
-</script>
-  <meta charset="<?php bloginfo( 'charset' ); ?>">
-  <meta name="viewport" content="width=device-width">
-  <link rel="profile" href="http://gmpg.org/xfn/11">
-  <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-  <link rel="shortcut icon" href="<?php echo home_url( "/" );?>favicon.svg" type="image/svg+xml">
-  <script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/masonry.pkgd.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/imagesloaded.pkgd.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/bxslider.min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.matchHeight-min.js"></script>
-  <script src="<?php echo get_template_directory_uri(); ?>/js/jquery.inview.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.0/lottie.min.js"></script>
+<div id="home-area">
+  <srction class="top">
+    <h1><img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p1.jpg" /></h1>
+    <p>キミだけの、たった一つの。</p>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/scroll.svg" class="scroll" />
+  </srction>
+  
+  <section class="news">
+    <h2><span>News</span>お知らせ</h2>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
+    <figure>
+      <a href="#">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
+        <figcaption>
+          <span>2023.01.01</span>
+          <p>お知らせのタイトルお知らせのタイトルお知らせのタイトルお知らせのタイトルお知...</p>
+        </figcaption>
+      </a>
+    </figure>
+    <figure>
+      <a href="#">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
+        <figcaption>
+          <span>2023.01.01</span>
+          <p>お知らせのタイトルお知らせのタイトルお知らせのタイトルお知らせのタイトルお知...</p>
+        </figcaption>
+      </a>
+    </figure>
+    <figure>
+      <a href="#">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
+        <figcaption>
+          <span>2023.01.01</span>
+          <p>お知らせのタイトルお知らせのタイトルお知らせのタイトルお知らせのタイトルお知...</p>
+        </figcaption>
+      </a>
+    </figure>
+    <a href="#">and more</a>
+  </section>
 
-  <link href="<?php echo get_template_directory_uri(); ?>/fontawesome/css/all.min.css" rel="stylesheet">
-  <link href="<?php echo get_template_directory_uri(); ?>/scss/style.css?<?php echo date('Ymd-Hi'); ?>" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
-  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
+  <section class="exhibition">
+    <h2><span>Exhibition</span>展示会情報</h2>
+    <figure>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-p1.jpg" />
+      <figcaption>
+        <span>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />2023.10.10　10:00-17:00
+        </span>
+        <span>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/spot-icon.svg" />場所の名前名前名前名前名前
+        </span>
+        <a href="#">詳しい情報を見る</a>
+      </figcaption>
+    </figure>
+    <a href="#">and more</a>
+  </section>
 
+  <section class="aboutus">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p2.jpg" />
+    <div class="area">
+      <h2><span>About US</span>SOLO UNOについて</h2>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
+      <p>テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。</p>
+      <a href="#">and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right.svg" class="angle" /></a>
+    </div>
+  </section>
 
-  <?php if (is_single()): ?>
-  <?php if(have_posts()): while(have_posts()): the_post(); ?>
-  <meta property="og:title" content="<?php echo get_post_meta($post->ID, "_aioseop_title", true); ?>" />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="<?php the_permalink(); ?>" />
-  <?php
-    $thumbnail_id = get_post_thumbnail_id();
-    $img_url = wp_get_attachment_image_src( $thumbnail_id , 'full' );
-  ?>
-  <meta property="og:image" content="<?php echo $img_url[0]; ?>" />
-  <meta property="og:site_name" content="HAUSS SUPPORT" />
-  <meta property="og:description" content="<?php echo get_post_meta($post->ID, "_aioseop_description", true); ?>" />
-  <meta property="og:image:width" content="840" />
-  <meta property="og:image:height" content="560" />
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:url" content="<?php the_permalink(); ?>" />
-  <meta name="twitter:title" content="<?php echo get_post_meta($post->ID, "_aioseop_title", true); ?>" />
-  <meta name="twitter:description" content="<?php echo get_post_meta($post->ID, "_aioseop_description", true); ?>" />
-  <meta name="twitter:image" content="<?php echo $img_url[0]; ?>" />
-  <?php endwhile; endif; ?>
-  <?php endif; ?>
+  <section class="product">
+    <h2><span>PRODUCT</span>SOLO UNOのプロダクト</h2>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
+    <a href="" class="product-custome">
+      <h3><span>CUSTOME-MADE</span>オーダーメイド</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
+      <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
+    </a>
+    <a href="" class="product-online">
+      <h3><span>ONLINE STORE</span>商品一覧</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
+      <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
+    </a>
+    <a href="" class="product-disney">
+      <h3><span>DISNEY</span>ディズニー<br />ランドセル</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
+      <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
+    </a>
+  </section>
 
-  <link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/favicon.svg" type="image/svg+xml">
+  <section class="showroom">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" />
+    <div class="area">
+      <h2><span>SHOWROOM</span>店舗案内</h2>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
+      <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" class="map" />
+      <p class="open-close">10:00〜17:00<br />[火・水曜定休] </p>
+      <p class="address">〒330-0854<br />埼玉県さいたま市大宮区桜木町1-9-1 三谷ビル1階</p>
+      <a href="">Google Mapsを開く</a>
+    </div>
+  </section>
 
-  <!--[if lt IE 9]>
-  <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
-  <![endif]-->
-  <?php wp_head(); ?>
-</head>
-<body <?php body_class(); ?>>
-  <script>
-    $(function(){
-      $('.textAnimation').on('inview', function(event, isInView) {
-        if (isInView) {
-        //表示領域に入った時
-          $(this).addClass('textAnimationIn');
-        } else {
-        }
-      });
+  <section class="column">
+    <h2><span>Column</span>コラム</h2>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
+    <figure>
+      <a href="#">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
+        <figcaption>
+          コラムのタイトルですコラムのタイトルですコラムのタイトルですコラムのタイトル...
+        </figcaption>
+      </a>
+    </figure>
+    <figure>
+      <a href="#">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
+        <figcaption>
+          コラムのタイトルですコラムのタイトルですコラムのタイトルですコラムのタイトル...
+        </figcaption>
+      </a>
+    </figure>
+    <figure>
+      <a href="#">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
+        <figcaption>
+          コラムのタイトルですコラムのタイトルですコラムのタイトルですコラムのタイトル...
+        </figcaption>
+      </a>
+    </figure>
+    <a href="#">and more</a>
+  </section>
+</div>
 
-      $('.imgAnimation').on('inview', function(event, isInView) {
-        if (isInView) {
-        //表示領域に入った時
-          $(this).addClass('imgAnimationIn');
-        } else {
-        }
-      });
-    });
-  </script>
+<?php get_sidebar('side-l');?>
+<?php get_sidebar('side-r');?>
 
-<section id="home">
-  <h1>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    <lottie-player src="https://lottie.host/0e0894f6-8b7b-44e5-9f95-3f2ef8491532/vMfUYNWIIp.json"  background="transparent"  speed="1"  style="width: 300px; height: 300px;"  autoplay></lottie-player>
-  </h1>
-  <p>ホームページとシュミレーターは<br />現在準備中です。</p>
-  <a href="/request" class="textAnimation">ランドセルオーダーメイドの<br />カタログ請求はこちら</a>
-</section>
-<?php wp_footer();?>
-</body>
-</html>
+<?php get_footer();?>

@@ -1,0 +1,32 @@
+header {
+  width: 100%;
+  max-width: 395px;
+  margin: auto;
+  padding: 20px 27px;
+  box-sizing: border-box;
+  position: relative;
+  > img {
+    width: 73px;
+    height: auto;
+    display: block;
+    margin: auto;
+  }//img
+  menu {
+    position: absolute;
+    top: 30px;
+    left: 27px;
+  }//menu
+  div {
+    position: absolute;
+    top: 30px;
+    right: 27px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px;
+    img {
+      width: auto;
+      height: 24px;
+    }
+  }
+}//header

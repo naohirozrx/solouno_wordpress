@@ -18,7 +18,8 @@ Template:
 
 @import "layout/_header.scss";
 @import "layout/_footer.scss";
-@import "layout/_main.scss";
+@import "layout/_home.scss";
+@import "layout/_request.scss";
 
 @import "object/component/_button.scss";
 @import "object/component/_title.scss";
@@ -28,6 +29,10 @@ Template:
 @import "object/project/_footer.scss";
 @import "object/project/_home.scss";
 @import "object/project/_request.scss";
+@import "object/project/_side-r.scss";
+@import "object/project/_side-l.scss";
+@import "object/project/_aboutus.scss";
+@import "object/project/_archive.scss";
 
 @import "object/utility/_clearfix.scss";
 @import "object/utility/_animation.scss";
