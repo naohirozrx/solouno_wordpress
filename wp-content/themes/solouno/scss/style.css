@@ -362,8 +362,12 @@ html {
 .request-link {
   background-image: url(../images/dot_bg.png);
   padding: 35px 27px 160px 27px;
-  width: 395px;
-  margin: auto; }
+  width: 100%;
+  margin: auto;
+  text-align: center; }
+  @media screen and (min-width: 781px) {
+    .request-link {
+      max-width: 395px; } }
   .request-link h2 {
     font-size: .2rem;
     font-weight: 500;
@@ -376,10 +380,14 @@ html {
   .request-link p {
     font-size: .12rem;
     margin-bottom: 20px; }
+    @media screen and (min-width: 781px) {
+      .request-link p br {
+        display: none; } }
   .request-link > a {
     color: #AC7746;
     width: 335px;
     height: 50px;
+    margin: auto;
     font-size: .14rem;
     font-weight: 700;
     border: 1px solid #AC7746;
@@ -1125,12 +1133,40 @@ footer {
         transform: rotate(-45deg);
         margin-left: -22px; }
 
+#request-area {
+  width: 100%;
+  margin: auto; }
+  @media screen and (min-width: 781px) {
+    #request-area {
+      max-width: 395px; } }
+  #request-area .request-top {
+    position: relative;
+    background-color: #3A1E15; }
+    #request-area .request-top > img {
+      width: 100%;
+      height: auto;
+      opacity: .65; }
+    #request-area .request-top div {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+      #request-area .request-top div h2 {
+        font-size: .18rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #fff; }
+      #request-area .request-top div img {
+        width: 87px;
+        height: auto; }
+
 #request-page {
   padding: 30px;
   width: 100%; }
   @media screen and (min-width: 781px) {
     #request-page {
-      width: 50vw;
+      max-width: 395px;
       padding: 34px; } }
   #request-page dl {
     display: flex;
@@ -2012,7 +2048,10 @@ footer {
         height: auto; }
   #exhibit-area .exhibit-area {
     background-color: #FEF6EA;
-    padding: 60px 27px; }
+    padding: 60px 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 27px; }
     #exhibit-area .exhibit-area dl dt {
       width: 100%; }
       #exhibit-area .exhibit-area dl dt img {
@@ -2020,11 +2059,67 @@ footer {
         height: auto; }
     #exhibit-area .exhibit-area dl dd {
       background-color: #fff;
-      padding: 27px; }
-      #exhibit-area .exhibit-area dl dd img {
-        width: 16px;
-        height: auto;
-        margin-right: 10px; }
+      padding: 27px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px; }
+      #exhibit-area .exhibit-area dl dd div {
+        line-height: 1;
+        display: flex; }
+        #exhibit-area .exhibit-area dl dd div img {
+          width: auto;
+          height: 17px;
+          margin-right: 10px; }
+      #exhibit-area .exhibit-area dl dd h3 a {
+        font-size: .16rem;
+        text-decoration: underline; }
+  #exhibit-area .exhibit-single-area {
+    background-color: #FEF6EA;
+    padding: 60px 27px; }
+    #exhibit-area .exhibit-single-area dl dt {
+      width: 100%; }
+      #exhibit-area .exhibit-single-area dl dt img {
+        width: 100%;
+        height: auto; }
+    #exhibit-area .exhibit-single-area dl dd {
+      background-color: #fff;
+      padding: 27px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px; }
+      #exhibit-area .exhibit-single-area dl dd .info-area {
+        line-height: 1;
+        display: flex; }
+        #exhibit-area .exhibit-single-area dl dd .info-area > img {
+          width: auto;
+          height: 17px;
+          margin-right: 10px; }
+      #exhibit-area .exhibit-single-area dl dd h3 {
+        font-size: .16rem;
+        font-weight: 700; }
+      #exhibit-area .exhibit-single-area dl dd p {
+        font-size: .12rem; }
+      #exhibit-area .exhibit-single-area dl dd hr {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 100%;
+        border-bottom: 1px solid #3A1E15; }
+      #exhibit-area .exhibit-single-area dl dd .venue-info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 21px;
+        line-height: 1;
+        font-size: .16rem;
+        font-weight: 500; }
+        #exhibit-area .exhibit-single-area dl dd .venue-info img {
+          height: 19px;
+          width: auto;
+          margin: 0; }
+      #exhibit-area .exhibit-single-area dl dd .spot {
+        font-size: .14rem;
+        font-weight: 500; }
 
 .clearfix:after {
   content: "";

@@ -1,8 +1,12 @@
 .request-link {
   background-image: url(../images/dot_bg.png);
   padding: 35px 27px 160px 27px;
-  width: 395px;
+  width: 100%;
   margin: auto;
+  text-align: center;
+  @media screen and (min-width: width(sp)) {
+    max-width: 395px;
+  }//@media
   h2 {
     @include h2title;
     text-align: center;
@@ -10,11 +14,17 @@
   p {
     font-size: .12rem;
     margin-bottom: 20px;
+    br {
+      @media screen and (min-width: width(sp)) {
+        display: none;
+      }//@media
+    }
   }//p
   > a {
     color: #AC7746;
     width: 335px;
     height: 50px;
+    margin: auto;
     font-size: .14rem;
     font-weight: $font_w_b;
     border: 1px solid #AC7746;
