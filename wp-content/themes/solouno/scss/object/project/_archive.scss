@@ -1,8 +1,10 @@
 #archive-area {
   width: 100%;
-  max-width: 395px;
   background-color: #FEF6EA;
   margin: auto;
+  @media screen and (min-width: width(sp)) {
+    max-width: 395px;
+  }//@media
   .archive-top {
     position: relative;
     margin-bottom: 60px;

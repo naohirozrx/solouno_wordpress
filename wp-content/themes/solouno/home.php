@@ -37,7 +37,7 @@
         </figcaption>
       </a>
     </figure>
-    <a href="#">and more</a>
+    <a href="<?php echo home_url('/')?>news">and more</a>
   </section>
 
   <section class="exhibition">
@@ -63,7 +63,7 @@
       <h2><span>About US</span>SOLO UNOについて</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
       <p>テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。</p>
-      <a href="#">and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right.svg" class="angle" /></a>
+      <a href="<?php echo home_url('/')?>aboutus">and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right.svg" class="angle" /></a>
     </div>
   </section>
 
@@ -126,7 +126,7 @@
         </figcaption>
       </a>
     </figure>
-    <a href="#">and more</a>
+    <a href="<?php echo home_url('/')?>column">and more</a>
   </section>
 </div>
 

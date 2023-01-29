@@ -1,0 +1,135 @@
+#flow-area {
+  width: 100%;
+  margin: auto;
+  @media screen and (min-width: width(sp)) {
+    max-width: 395px;
+  }//@media
+  .flow-top {
+    position: relative;    > img {
+      width: 100%;
+      height: auto;
+      opacity: .5;
+    }//img
+    div {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      h2 {
+        font-size: .18rem;
+        font-weight: $font_w_b;
+        margin-bottom: 15px;
+      }
+      img {
+        width: 87px;
+        height: auto;
+      }
+    }//div
+  }//.aboutus-top
+  .convenience-area {
+    padding: 60px 27px;
+    background-color: #FEF6EA;
+    h2 {
+      width: 100%;
+      margin: 0 auto 60px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      font-size: .2rem;
+      font-weight: $font_w_m;
+      img {
+        width: 39px;
+        height: auto;
+      }//img
+    }//h2
+    > img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 40px;
+    }
+  }//.convenience-area
+  .schoolbag-area {
+    padding: 60px 27px;
+    background-color: #FEF6EA;
+    h2 {
+      width: 100%;
+      margin: 0 auto 60px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      font-size: .2rem;
+      font-weight: $font_w_m;
+      img {
+        width: 39px;
+        height: auto;
+      }//img
+    }//h2
+    div {
+      dl {
+        position: relative;
+        margin-bottom: 50px;
+        dt {
+          display: flex;
+          align-items: center;
+          width: calc(100% - 48px);
+          color: #fff;
+          background-color: #BAA280;
+          border-radius: 0 10px 0 0;
+          height: 62px;
+          font-size: .16rem;
+          font-weight: $font_w_b;
+          padding-left: 65px;
+          margin-left: 48px;
+          img {
+            width: 96px;
+            height: auto;
+            border-radius: 200px;
+            position: absolute;
+            left: 0;
+            top: -17px;
+          }//img
+        }//dt
+        dd {
+          background-color: #fff;
+          margin-left: 48px;
+          padding: 35px;
+          h3 {
+            font-size: .12rem;
+            font-weight: $font_w_m;
+            color: #AC7746;
+            margin-bottom: 20px;
+          }//h3
+          p {
+            margin-bottom: 20px;
+            &.text1 {
+              font-size: .12rem;
+            }//.text1
+            &.text2 {
+              font-size: .1rem;
+            }//.text2
+          }//p
+        }//dd
+      }//dl
+      > a {
+        color: #AC7746;
+        width: 335px;
+        height: 50px;
+        margin: auto;
+        font-size: .14rem;
+        font-weight: $font_w_b;
+        border: 1px solid #AC7746;
+        border-radius: 39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/angle-right.svg);
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 300px;
+      }
+    }//div
+  }//.schoolbag-area
+}//#aboutus-area

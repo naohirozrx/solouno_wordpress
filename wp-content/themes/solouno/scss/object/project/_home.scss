@@ -1,6 +1,8 @@
 #home-area {
   width: 100%;
-  max-width: 395px;
+  @media screen and (min-width: width(sp)) {
+    max-width: 395px;
+  }//@media  
   margin: auto;
   .top {
     position: relative;
@@ -44,6 +46,7 @@
       color: #AC7746;
       width: 335px;
       height: 50px;
+      margin: auto;
       font-size: .14rem;
       font-weight: $font_w_b;
       border: 1px solid #AC7746;
@@ -108,6 +111,7 @@
       color: #AC7746;
       width: 335px;
       height: 50px;
+      margin: auto;
       font-size: .14rem;
       font-weight: $font_w_b;
       border: 1px solid #AC7746;
@@ -252,6 +256,7 @@
         color: #AC7746;
         width: 230px;
         height: 38px;
+        margin: auto;
         font-size: .12rem;
         border: 1px solid #AC7746;
         border-radius: 39px;
@@ -297,6 +302,7 @@
       color: #AC7746;
       width: 335px;
       height: 50px;
+      margin: auto;
       font-size: .14rem;
       font-weight: $font_w_b;
       border: 1px solid #AC7746;
