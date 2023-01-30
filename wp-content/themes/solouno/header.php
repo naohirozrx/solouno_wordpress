@@ -68,7 +68,7 @@
 <body <?php body_class(); ?>>
 
 <header>
-  <img src="<?php echo get_template_directory_uri(); ?>/images/solouno-logo.svg" alt="SOLO UNO" />
+  <h1><img src="<?php echo get_template_directory_uri(); ?>/images/solouno-logo.svg" alt="SOLO UNO" /><span>ソロウーノ</span></h1>
   <menu>メニュー</menu>
   <div>
     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/user.svg" /></a>

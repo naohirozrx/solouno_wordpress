@@ -34,6 +34,21 @@
           max-width: 174px;
           height: 149px;
           margin: 0 0 60px 33px;
+          span {
+            display: block;
+            font-size: .1rem;
+            text-align: center;
+            color: #BAA280;
+            font-weight: $font_w_b;
+            &:before {
+              content: "─";
+              margin-right: 5px;
+            }
+            &:after {
+              content: "─";
+              margin-left: 5px;
+            }
+          }
         }
         ul {
           margin: 0 0 150px 45px;

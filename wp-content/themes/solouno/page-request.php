@@ -4,7 +4,7 @@
   <section class="request-top">
     <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p1small.jpg" />
     <div>
-      <h2>資料請求</h2>
+      <h2>カタログ請求</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" />
     </div>
   </section>
