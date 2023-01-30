@@ -48,7 +48,7 @@
       </dl>
       <dl>
         <dt>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/flow-3.jpg" />お届け
+          <img src="<?php echo get_template_directory_uri(); ?>/images/flow-4.jpg" />お届け
         </dt>
         <dd>
           <h3>1月中旬〜3月中旬ごろ出来上がり次第お届けいたします。</h3>

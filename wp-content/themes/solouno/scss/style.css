@@ -1788,6 +1788,17 @@ footer {
         display: block;
         font-size: .12rem;
         color: #BAA280; }
+      #product-area .marty-area h2 span.info {
+        color: #AC7746;
+        font-size: .12rem;
+        font-weight: 700;
+        border: 1px solid #AC7746;
+        border-radius: 50px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 10px;
+        padding: 0px 10px; }
     #product-area .marty-area .dot {
       width: 207px;
       height: 19px;
@@ -1826,6 +1837,17 @@ footer {
         display: block;
         font-size: .12rem;
         color: #BAA280; }
+      #product-area .totebag-area h2 span.info {
+        color: #AC7746;
+        font-size: .12rem;
+        font-weight: 700;
+        border: 1px solid #AC7746;
+        border-radius: 50px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 10px;
+        padding: 0px 10px; }
     #product-area .totebag-area .dot {
       width: 207px;
       height: 19px;

@@ -2,7 +2,7 @@
 
 <div id="exhibit-area">
   <section class="exhibit-top">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" />
+    <img src="<?php echo get_template_directory_uri(); ?>/images/exhibit-top.jpg" />
     <div>
       <h2>展覧会情報</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" />
@@ -11,7 +11,7 @@
   <section class="exhibit-area">
     <dl>
       <dt>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" />
+      <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" /> -->
       </dt>
       <dd>
         <div><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />2023.10.10　10:00-17:00</div>
@@ -21,7 +21,7 @@
     </dl>
     <dl>
       <dt>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" />
+      <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" /> -->
       </dt>
       <dd>
         <div><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />2023.10.10　10:00-17:00</div>
@@ -31,7 +31,7 @@
     </dl>
     <dl>
       <dt>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" />
+      <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" /> -->
       </dt>
       <dd>
         <div><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />2023.10.10　10:00-17:00</div>
