@@ -296,7 +296,7 @@ html {
 header {
   width: 100%;
   margin: auto;
-  padding: 20px 27px;
+  padding: 8px 27px;
   box-sizing: border-box;
   position: relative; }
   @media screen and (min-width: 781px) {
@@ -314,7 +314,7 @@ header {
     text-align: center;
     color: #BAA280;
     font-weight: 700;
-    margin: 5px 0 0 5px; }
+    margin: auto; }
     header h1 span:before {
       content: "─";
       margin-right: 5px; }
@@ -325,8 +325,8 @@ header {
     width: 60px;
     height: 60px;
     position: absolute;
-    top: 27px;
-    left: 20px;
+    top: 16px;
+    left: 10px;
     color: #AC7746;
     transition: .2s;
     z-index: 9901;
