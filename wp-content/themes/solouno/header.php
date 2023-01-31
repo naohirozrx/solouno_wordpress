@@ -70,10 +70,10 @@
 <header>
   <h1><img src="<?php echo get_template_directory_uri(); ?>/images/solouno-logo.svg" alt="SOLO UNO" /><span>ソロウーノ</span></h1>
   <menu>メニュー</menu>
-  <div>
+  <!-- <div>
     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/user.svg" /></a>
     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/cart.svg" /></a>
-  </div>
+  </div> -->
 </header>
 
 
