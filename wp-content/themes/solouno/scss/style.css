@@ -2124,27 +2124,40 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 27px; }
-    #exhibit-area .exhibit-area dl dt {
-      width: 100%; }
-      #exhibit-area .exhibit-area dl dt img {
-        width: 100%;
-        height: auto; }
-    #exhibit-area .exhibit-area dl dd {
+    #exhibit-area .exhibit-area dl {
       background-color: #fff;
-      padding: 27px;
-      display: flex;
-      flex-direction: column;
-      gap: 30px; }
-      #exhibit-area .exhibit-area dl dd div {
-        line-height: 1;
-        display: flex; }
-        #exhibit-area .exhibit-area dl dd div img {
-          width: auto;
-          height: 17px;
-          margin-right: 10px; }
-      #exhibit-area .exhibit-area dl dd h3 a {
+      padding: 27px; }
+      #exhibit-area .exhibit-area dl dt {
+        width: 100%;
         font-size: .16rem;
-        text-decoration: underline; }
+        font-weight: bold;
+        margin-bottom: 2em; }
+      #exhibit-area .exhibit-area dl dd {
+        display: flex;
+        flex-direction: column;
+        gap: 24px; }
+        #exhibit-area .exhibit-area dl dd div {
+          line-height: 1;
+          display: flex; }
+          #exhibit-area .exhibit-area dl dd div img {
+            width: auto;
+            height: 17px;
+            margin-right: 10px; }
+        #exhibit-area .exhibit-area dl dd a {
+          color: #AC7746;
+          width: 216px;
+          height: 40px;
+          margin: 0 auto;
+          font-size: .14rem;
+          font-weight: 700;
+          border: 1px solid #AC7746;
+          border-radius: 39px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url(../images/angle-right.svg);
+          background-repeat: no-repeat;
+          background-position: right 14px center; }
   #exhibit-area .exhibit-single-area {
     background-color: #FEF6EA;
     padding: 60px 27px; }

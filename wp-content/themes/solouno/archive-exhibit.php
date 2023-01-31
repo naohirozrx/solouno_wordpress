@@ -9,36 +9,22 @@
     </div>
   </section>
   <section class="exhibit-area">
-    <dl>
-      <dt>
-      <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" /> -->
-      </dt>
-      <dd>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />2023.10.10　10:00-17:00</div>
-        <a href="#">展示会タイトルがこちらに入ります。展示会タイトルがこちらに入...</a>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/spot-icon.svg" />場所の名前名前名前</div>
-      </dd>
-    </dl>
-    <dl>
-      <dt>
-      <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" /> -->
-      </dt>
-      <dd>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />2023.10.10　10:00-17:00</div>
-        <a href="#">展示会タイトルがこちらに入ります。展示会タイトルがこちらに入...</a>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/spot-icon.svg" />場所の名前名前名前</div>
-      </dd>
-    </dl>
-    <dl>
-      <dt>
-      <!-- <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" /> -->
-      </dt>
-      <dd>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />2023.10.10　10:00-17:00</div>
-        <a href="#">展示会タイトルがこちらに入ります。展示会タイトルがこちらに入...</a>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/spot-icon.svg" />場所の名前名前名前</div>
-      </dd>
-    </dl>
+    <?php if(have_posts()): ?>
+      <?php while(have_posts()): the_post(); ?>
+      <dl>
+        <dt>
+          <?php the_title();?>
+        </dt>
+        <dd>
+          <div><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" /><?php echo get_field('date');?></div>
+          <div><img src="<?php echo get_template_directory_uri(); ?>/images/reserve-icon.svg" />予約：<?php echo get_field('reserve') ? 'あり' : 'なし'; ?></div>
+          <div><img src="<?php echo get_template_directory_uri(); ?>/images/spot-icon.svg" />開催エリア：<?php echo get_field('area');?></div>
+          <a href="<?php the_permalink();?>">詳細を見る</a>
+        </dd>
+      </dl>
+      <?php endwhile; ?>
+    <?php endif; ?>
+
   </section>
 </div>
 
