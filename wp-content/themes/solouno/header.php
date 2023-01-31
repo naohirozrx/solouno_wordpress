@@ -69,8 +69,33 @@
 
 <header>
   <h1><img src="<?php echo get_template_directory_uri(); ?>/images/solouno-logo.svg" alt="SOLO UNO" /><span>ソロウーノ</span></h1>
-  <menu>メニュー</menu>
-  <!-- <div>
+  
+  <div id="menu-open"><span></span><span></span><span></span><span></span></div>
+    <nav id="menu" class="close">
+      <ul> 
+        <li><a href="<?php echo home_url('/')?>">HOME</a></li>
+        <li><a href="<?php echo home_url('/')?>aboutus">SOLO UNOについて</a></li>
+        <li><a href="<?php echo home_url('/')?>product">PRODUCT</a></li>
+        <li><a href="<?php echo home_url('/')?>showroom">店舗情報</a></li>
+        <li><a href="<?php echo home_url('/')?>news">お知らせ</a></li>    
+        <li><a href="<?php echo home_url('/')?>exhibit">展示会情報</a></li>
+        <!-- <li><a href="<?php echo home_url('/')?>column">コラム</a></li> -->    
+        <li><a href="<?php echo home_url('/')?>request">カタログ請求</a></li>
+      </ul>
+    </nav>
+  </div>
+
+<script>
+  $(function(){
+    $('#menu-open').on('click', function(){
+      $('#menu').toggleClass('close');
+      $(this).toggleClass('close');
+    });
+  });
+</script>
+
+
+  <!-- <div class="icon-area">
     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/user.svg" /></a>
     <a href="#"><img src="<?php echo get_template_directory_uri(); ?>/images/cart.svg" /></a>
   </div> -->

@@ -87,50 +87,6 @@ body {
 
   .only-pc {
     display: inherit; } }
-header {
-  width: 100%;
-  margin: auto;
-  padding: 20px 27px;
-  box-sizing: border-box;
-  position: relative; }
-  @media screen and (min-width: 781px) {
-    header {
-      max-width: 395px; } }
-  header h1 > img {
-    width: 73px;
-    height: auto;
-    display: block;
-    margin: auto; }
-  header h1 span {
-    display: block;
-    font-size: .1rem;
-    transform: scale(0.8);
-    text-align: center;
-    color: #BAA280;
-    font-weight: 700;
-    margin: 5px 0 0 5px; }
-    header h1 span:before {
-      content: "─";
-      margin-right: 5px; }
-    header h1 span:after {
-      content: "─";
-      margin-left: 5px; }
-  header menu {
-    position: absolute;
-    top: 30px;
-    left: 27px; }
-  header div {
-    position: absolute;
-    top: 30px;
-    right: 27px;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    gap: 16px; }
-    header div img {
-      width: auto;
-      height: 24px; }
-
 body {
   color: #535353; }
 
@@ -336,6 +292,140 @@ html {
   height: 10px;
   background: #29d;
   pointer-events: none; }
+
+header {
+  width: 100%;
+  margin: auto;
+  padding: 20px 27px;
+  box-sizing: border-box;
+  position: relative; }
+  @media screen and (min-width: 781px) {
+    header {
+      max-width: 395px; } }
+  header h1 > img {
+    width: 73px;
+    height: auto;
+    display: block;
+    margin: auto; }
+  header h1 span {
+    display: block;
+    font-size: .1rem;
+    transform: scale(0.8);
+    text-align: center;
+    color: #BAA280;
+    font-weight: 700;
+    margin: 5px 0 0 5px; }
+    header h1 span:before {
+      content: "─";
+      margin-right: 5px; }
+    header h1 span:after {
+      content: "─";
+      margin-left: 5px; }
+  header #menu-open {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 27px;
+    left: 20px;
+    opacity: 0.7;
+    color: #AC7746;
+    transition: .2s;
+    z-index: 9901;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+    header #menu-open i {
+      vertical-align: bottom;
+      margin-right: 5px; }
+    header #menu-open span:first-child {
+      width: 30px;
+      height: 1px;
+      background-color: #AC7746;
+      display: block; }
+    header #menu-open span:nth-child(2) {
+      width: 30px;
+      height: 1px;
+      background-color: #AC7746;
+      display: block;
+      margin: 8px 0; }
+    header #menu-open span:nth-child(3) {
+      width: 30px;
+      height: 1px;
+      background-color: #AC7746;
+      display: block;
+      margin-bottom: 12px; }
+    header #menu-open span:last-child {
+      font-size: 10px;
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translate(-50%, 0); }
+    header #menu-open.close {
+      left: 240px;
+      background: none; }
+      header #menu-open.close span:first-child {
+        width: 29px;
+        height: 1px;
+        background-color: #AC7746;
+        display: block;
+        transform: rotate(45deg); }
+      header #menu-open.close span:nth-child(2) {
+        display: none; }
+      header #menu-open.close span:nth-child(3) {
+        width: 29px;
+        height: 1px;
+        margin-top: -1px;
+        background-color: #AC7746;
+        display: block;
+        margin-bottom: 12px;
+        transform: rotate(-45deg); }
+      header #menu-open.close span:last-child {
+        font-size: 10px;
+        position: absolute;
+        bottom: 12px;
+        left: 50%;
+        transform: translate(-50%, 0); }
+  header nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    opacity: 0.85;
+    transition: .2s;
+    z-index: 9900; }
+    header nav #menu-close {
+      display: block;
+      cursor: pointer;
+      padding: 10px;
+      color: #ccc; }
+    header nav ul {
+      color: #fff;
+      width: 300px;
+      height: 100vh;
+      padding: 40px 0 0 20px; }
+      @media screen and (min-width: 780px) {
+        header nav ul {
+          padding: 100px 0 0 30px; } }
+      header nav ul li {
+        font-size: 13px; }
+        header nav ul li a {
+          display: block;
+          padding: 10px 5px; }
+    header nav.close {
+      left: -310px; }
+  header > .icon-area {
+    position: absolute;
+    top: 30px;
+    right: 27px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 16px; }
+    header > .icon-area img {
+      width: auto;
+      height: 24px; }
 
 #header-area {
   padding: 20px 30px; }
