@@ -91,7 +91,7 @@
     <?php if ( have_posts() ) : ?>
     <?php while ( have_posts() ) : the_post(); ?>
     <figure>
-      <a href="#">
+      <a href="<?php echo get_permalink( $id );?>">
         <?php the_post_thumbnail();?>
         <figcaption>
           <span><?php echo get_the_date(); ?></span>
