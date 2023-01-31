@@ -1,33 +1,32 @@
 <?php get_header(); ?>
 
-<div id="exhibit-area">
+<div id="exhibit-area-single">
   <section class="exhibit-top">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p1small.jpg" />
+    <img src="<?php echo get_template_directory_uri(); ?>/images/exhibit-top.jpg" />
     <div>
       <h2>展覧会情報</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" />
     </div>
   </section>
   <section class="exhibit-single-area">
-    <dl>
+    <dl class="<?php echo get_field('cancel') ? 'cancel' : ''; ?>">
       <dt>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" />
+        <?php the_title(); ?>
       </dt>
       <dd>
-        <div class="info-area"><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />2023.10.10　10:00-17:00</div>
-        <h3>展示会タイトルがこちらに入ります。展示会タイトルがこちらに入...</h3>
-        <div><img src="<?php echo get_template_directory_uri(); ?>/images/spot-icon.svg" />東京都立産業貿易センター 台東館 展示室７階</div>
-        <hr />
-        <p>テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。テキストが入ります。</p>
-        <div class="venue-info"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini.svg" />会場情報<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini.svg" /></div>
-        <h3 class="spot">東京都立産業貿易センター 台東館 展示室７階</h3>
+        <?php the_content(); ?>
+        <div class="venue-info"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini.svg" />開催情報<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini.svg" /></div>
+        <h3 class="spot"><?php echo get_field('venue');?></h3>
+        <div class="info-area"><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />開催日：<span><?php echo get_field('date');?></span></div>
         <p>
-          東京都台東区花川戸2-6-5<br />
-          地下鉄銀座線・浅草線、東部スカイツリーライン［浅草駅］ より徒歩５分<br />
-          つくばエクスプレス［浅草駅］ より徒歩９分
+          <?php echo nl2br(get_field('access'));?>
         </p>
+        <?php if(get_field('reserve')): ?>
+          <a href="<?php echo get_field('reserveurl');?>" target="_blank">ご予約はこちら</a>
+        <?php endif; ?>
       </dd>
     </dl>
+    <a href="/exhibit/">展示会情報一覧に戻る</a>
   </section>
 </div>
 

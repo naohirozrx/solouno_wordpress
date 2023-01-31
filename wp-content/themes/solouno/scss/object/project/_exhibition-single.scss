@@ -1,4 +1,4 @@
-#exhibit-area {
+#exhibit-area-single {
   width: 100%;
   margin: auto;
   @media screen and (min-width: width(sp)) {
@@ -30,17 +30,13 @@
       }
     }//div
   }//.exhibit-top
-  .exhibit-area {
+  .exhibit-single-area {
     background-color: #FEF6EA;
     padding: 60px 27px;
-    display: flex;
-    flex-direction: column;
-    gap: 27px;
-    dl {
+    > dl {
       background-color: #fff;
       padding: 27px;
       position: relative;
-
       &.cancel {
         &:before {
           position: absolute;
@@ -52,7 +48,7 @@
           display: block;
           background-color: rgba($color: #000000, $alpha: 0.7);
         }
-
+  
         &:after {
           position: absolute;
           left: 50%;
@@ -63,28 +59,74 @@
           font-weight: bold;
           transform: translate(-50%, -50%);
         }
-
+  
       }
-      dt {
+      > dt {
         width: 100%;
         font-size: .16rem;
-        font-weight: bold;
-        margin-bottom: 2em;
+        font-weight: $font_w_b;
+        margin-bottom: 24px;
       }//dt
-      dd {
+      > dd {
 
         display: flex;
         flex-direction: column;
-        gap: 24px;
-        div {
+        gap: 30px;
+        .info-area {
           line-height: 1;
           display: flex;
-          img {
+          align-items: center;
+          > img {
             width: auto;
             height: 17px;
             margin-right: 10px;
           }//img
-        }//div
+
+          span {
+            font-size: .21rem;
+          }
+        }//.info-area
+
+        > dl {
+          display: flex;
+          dt {
+            width: 80px;
+            font-weight: bold;
+          }
+          dd {
+            width: calc(100% - 80px);
+          }
+        }
+        p:empty{display: none;}
+        p {
+          font-size: .12rem;
+        }
+        hr {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          width: 100%;
+          border-bottom: 1px solid #3A1E15;
+        }
+        .venue-info {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 21px;
+          line-height: 1;
+          font-size: .16rem;
+          font-weight: $font_w_m;
+          img {
+            height: 19px;
+            width: auto;
+            margin: 0;
+          }//img
+        }//.venue-info
+        .spot {
+          font-size: .14rem;
+          font-weight: $font_w_m;
+        }//.spot
+
         a {
           color: #AC7746;
           width: 216px;
@@ -103,5 +145,22 @@
         }
       }//dd
     }//dl
-  }//.exhibit-area
+
+    > a {
+      color: #AC7746;
+      width: 216px;
+      height: 40px;
+      margin: 40px auto 0;
+      font-size: .14rem;
+      font-weight: $font_w_b;
+      border: 1px solid #AC7746;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-left.svg);
+      background-repeat: no-repeat;
+      background-position: left 14px center;
+    }
+  }//.exhibit-single-area
 }//#exhibit-area

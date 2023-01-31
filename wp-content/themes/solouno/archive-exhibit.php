@@ -11,7 +11,7 @@
   <section class="exhibit-area">
     <?php if(have_posts()): ?>
       <?php while(have_posts()): the_post(); ?>
-      <dl>
+      <dl class="<?php echo get_field('cancel') ? 'cancel' : ''; ?>">
         <dt>
           <?php the_title();?>
         </dt>
