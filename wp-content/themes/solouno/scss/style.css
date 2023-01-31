@@ -551,6 +551,32 @@ footer {
       font-size: .14rem;
       font-weight: 700; }
 
+.release-msg {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.7);
+  align-items: center;
+  justify-content: center; }
+  .release-msg > div {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 280px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: .24rem;
+    position: relative; }
+    .release-msg > div .release-msg-close {
+      position: absolute;
+      top: -48px;
+      right: 0;
+      cursor: pointer; }
+
 #home-area {
   width: 100%;
   margin: auto; }
@@ -2110,6 +2136,12 @@ footer {
       width: 100%;
       height: auto;
       margin-bottom: 40px; }
+    #flow-area .convenience-area dl dt {
+      margin-bottom: 1em; }
+    #flow-area .convenience-area dl dd {
+      padding: 0 10px; }
+      #flow-area .convenience-area dl dd p {
+        margin-bottom: 1.5em; }
   #flow-area .schoolbag-area {
     padding: 60px 27px;
     background-color: #FEF6EA; }

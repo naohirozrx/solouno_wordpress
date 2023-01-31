@@ -22,7 +22,7 @@
     <div class="accordion">
       <div>
         <section class="text-area">
-          <h2><span>Concept</span>ランドセルに、オーダーメイドという選択を。</h2>
+          <h2><span>CONCEPT</span>ランドセルに、オーダーメイドという選択を。</h2>
           <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
           <p>『想像力』が必要なオーダーメイドには、好みが明確になっている大人向けのアイテムが多く存在します。</p>
           <p>しかし、私たちは子どもにも”オーダーメイドを選ぶ体験”をしてほしいと思っています。</p>
@@ -123,7 +123,7 @@
   <section class="exhibition">
     <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-image.jpg" />
     <div class="exhibition-inner">
-      <h2><span>Exhibition</span>展示会情報</h2>
+      <h2><span>EXHIBITION</span>展示会情報</h2>
       <p>各地で開催される展示会情報です。</p>
       <a href="exhibit">and more</a>
     </div>

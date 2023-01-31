@@ -1,7 +1,7 @@
 <section class="request-link">
-  <h2><span>Request</span>カタログ請求</h2>
+  <h2><span>REQUEST</span>カタログ請求</h2>
   <p>【SOLOUNOオーダーメイドランドセルのカタログ2024】を無料でお送りいたします。<br />2024年4月御入学のお子さまに向けたカタログです。2月中旬より順次お送りいたします。</p>
-  <a href="#">カタログ請求はこちら</a>
+  <a href="/request">カタログ請求はこちら</a>
 </section>
 
 <footer>
@@ -10,11 +10,28 @@
   <span class="time"><img src="<?php echo get_template_directory_uri(); ?>/images/clock.svg"> 10:00~17:00 [火・水定休]</span>
   <div>
     <span>【電話でのお問い合わせ】</span>
-    <a href="tel:00-0000-0000">048-658-3900</a>
+    <a href="tel:048-658-3900">048-658-3900</a>
   </div>
   <span class="copyright">©2023 SOLO UNO.</span>
 </footer>
-
+<div class="release-msg">
+  <div>
+    近日公開
+    <span class="release-msg-close"><img src="<?php echo get_template_directory_uri(); ?>/images/close.svg" /></span>
+  </div>
+</div>
+<script>
+  $(function() {
+    $('.release-open').on('click', function() {
+      event.preventDefault();
+      $('.release-msg').fadeIn();
+      $('.release-msg').css('display', 'flex');
+    });
+    $('.release-msg-close').on('click', function() {
+      $('.release-msg').fadeOut();
+    });
+  });
+</script>
 <?php wp_footer();?>
 </body>
 </html>

@@ -11,7 +11,28 @@
   <section class="convenience-area">
     <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />SOLO UNOの便利機能<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/flow-convenience.svg" />
-    <img src="<?php echo get_template_directory_uri(); ?>/images/flow-quality.svg" />
+    <dl>
+      <dt><img src="<?php echo get_template_directory_uri(); ?>/images/flow-quality1.svg" /></dt>
+      <dd>
+        <p>SOLO UNOのオーダーメイドランドセルは<br />
+        60年の歴史のある老舗国内工場に製作をお願いしています。<br />
+        職人さんの手により一つひとつ丁寧に縫製されます。</p>
+        <p>ランドセルの色、デザイン形はもちろん、形状や機能、安全性に至るまで何度も打ち合わせをし、サンプルを製作してもらいつくりあげたランドセルです。</p>
+        <p>6年間安心してご使用ください。</p>
+      </dd>
+    </dl>
+    <dl>
+      <dt><img src="<?php echo get_template_directory_uri(); ?>/images/flow-quality2.svg" /></dt>
+      <dd>
+        <p>SOLO UNOのオーダーメイドランドセルには<br />
+        ご入学からご卒業までの6年間の修理保証サービスがございます。</p>
+        <p>万が一、不具合が発生した場合はご連絡ください。国内工場の職人の手により迅速にお直しいたします。</p>
+        <p>糸ほつれや金具の破損などの通常利用時の不具合は無償にてお直しいたします。<br />
+        キズやらくがき、使用による擦れなど故障ではないお直しは、有償にて承らせていただきます。</p>
+        <p>お直し中にご使用いただく代替えランドセルのご用意がございます。無料でお貸出しいたしますが、お戻しいただく際の片道送料のみご負担をお願いいたします。</p>
+      </dd>
+    </dl>
+
   </section>
   <section class="schoolbag-area">
     <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />ランドセルができるまで<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
@@ -55,7 +76,7 @@
           <h3>お申し込み後のキャンセル、返金は承れません。</h3>
         </dd>
       </dl>
-      <a href="#">ランドセルをオーダーメイドする</a>
+      <a href="#" class="release-open">オーダーメイドを選んでみよう！</a>
     </div>
   </section>
 </div>

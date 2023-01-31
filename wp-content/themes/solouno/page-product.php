@@ -14,7 +14,7 @@
     <img src="<?php echo get_template_directory_uri(); ?>/images/ordermade.jpg" class="om-p1" />
     <p>SOLO UNOのオーダーメイドランドセルは メインカラーやコンビカラー、デザインなど、806,400通りの 組み合わせから選んでつくるランドセルです。</p>
     <p>シミュレーターでたくさんの組み合わせの中から [たったひとつ]の自分だけのランドセルを探し出さしてください。</p>
-    <a href="<?php echo home_url('/')?>flow" class="om-link">オーダーメイドを選んでみよう</a>
+    <a href="<?php echo home_url('/')?>flow" class="om-link release-open">オーダーメイドを選んでみよう</a>
     <a href="<?php echo home_url('/')?>flow" class="flow-link">便利機能・ランドセルができるまで</a>
   </section>
   <section class="disney-area">
@@ -22,6 +22,8 @@
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
     <img src="<?php echo get_template_directory_uri(); ?>/images/disney-p1.jpg" class="disney-p1" />
     <p>大好きなキャラクターと毎日一緒に。<br />ミッキーマウスとミニーマウスの選べるランドセルが新登場。</p>
+    <p>ミッキーとミニーのディズニーランドセルは、色の組み合わせが選べるオーダーメイドのランドセルです。<br />
+    店舗には、手に取り背負い心地や色味をお確かめいただけるサンプルをご用意しています。</p>
     <!-- <a href="#">商品を見る</a> -->
   </section>
   <section class="marty-area">

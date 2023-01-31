@@ -49,6 +49,19 @@
       height: auto;
       margin-bottom: 40px;
     }
+
+    dl {
+      dt {
+        margin-bottom: 1em;
+      }
+
+      dd {
+        padding: 0 10px;
+        p {
+          margin-bottom: 1.5em;
+        }
+      }
+    }
   }//.convenience-area
   .schoolbag-area {
     padding: 60px 27px;

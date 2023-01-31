@@ -11,7 +11,7 @@
       </h1>
       <ul>
         <li><a href="<?php echo home_url('/')?>">HOME</a></li>
-        <li><a href="<?php echo home_url('/')?>aboutus">SOLO UNOについて</a></li>
+        <li><a href="<?php echo home_url('/')?>#aboutus-area">SOLO UNOについて</a></li>
         <li><a href="<?php echo home_url('/')?>product">PRODUCT</a></li>
         <li><a href="<?php echo home_url('/')?>showroom">店舗情報</a></li>
         <li><a href="<?php echo home_url('/')?>news">お知らせ</a></li>
@@ -21,6 +21,6 @@
       </ul>
     </div>
   </div>
-  <a href="#" class="ordermade">オーダーメイドを選んでみよう！</a>
+  <a href="#" class="ordermade release-open">オーダーメイドを選んでみよう！</a>
   <img src="<?php echo get_template_directory_uri(); ?>/images/sbmto.svg" class="sbmto">
 </section>
