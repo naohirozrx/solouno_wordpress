@@ -538,7 +538,11 @@ footer {
     display: block;
     font-size: .1rem; }
     footer span.time {
-      margin-bottom: 30px; }
+      margin-bottom: 30px;
+      line-height: 1.5; }
+      footer span.time img {
+        width: 15px;
+        height: auto; }
     footer span.copyright {
       padding-bottom: 20px; }
   footer div {
@@ -744,13 +748,14 @@ footer {
       height: 195px;
       padding: 25px 20px 0 20px;
       margin-bottom: 35px;
-      position: relative; }
+      position: relative;
+      border-radius: 10px; }
       #home-area .product > a.product-custome {
         background-image: url(../images/home-product_p1.jpg); }
       #home-area .product > a.product-online {
-        background-image: url(../images/home-product_p2.jpg); }
+        background-image: url(../images/home-product_p5.jpg); }
       #home-area .product > a.product-disney {
-        background-image: url(../images/home-product_p3.jpg); }
+        background-image: url(../images/home-product_p4.jpg); }
       #home-area .product > a h3 {
         color: #fff;
         font-size: .16rem;
@@ -1842,7 +1847,23 @@ footer {
     #product-area .ordermade-area p {
       font-size: .12rem;
       margin-bottom: 30px; }
-    #product-area .ordermade-area > a {
+    #product-area .ordermade-area .om-link {
+      color: #fff;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 20px auto;
+      font-size: .14rem;
+      font-weight: 700;
+      background-color: #6F6356;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right-white.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px; }
+    #product-area .ordermade-area .flow-link {
       color: #AC7746;
       width: 335px;
       height: 50px;
@@ -2212,7 +2233,9 @@ footer {
           height: auto;
           margin-right: 10px; }
       #showroom-area .showroom-grandopen div .moyori {
-        font-size: .12rem; }
+        font-size: .12rem;
+        margin-bottom: 25px;
+        display: block; }
 
 #exhibit-area {
   width: 100%;

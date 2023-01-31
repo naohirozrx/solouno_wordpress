@@ -9,7 +9,7 @@
     </div>
   </section>
   <section class="text-area">
-    <h2><span>Concept</span>キミだけの、たった一つの。</h2>
+    <h2><span>CONCEPT</span>キミだけの、たった一つの。</h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
     <p>イメージする力を伸ばすと想像力や社会性が豊かになります。</p>
     <p>リモコンを携帯に見立てたり、テーブルの下を秘密基地にしたりと遊びの中で社会性にコミュニケーション能力を高めていきます。</p>

@@ -2,7 +2,7 @@
   <div class="bg-area">
     <div class="menu-area">
       <span class="sns">
-        SNS<img src="<?php echo get_template_directory_uri(); ?>/images/sns-border.svg" /><img src="<?php echo get_template_directory_uri(); ?>/images/sns-twitter.svg" /><img src="<?php echo get_template_directory_uri(); ?>/images/sns-instagram.svg" />
+        SNS<img src="<?php echo get_template_directory_uri(); ?>/images/sns-border.svg" /><img src="<?php echo get_template_directory_uri(); ?>/images/sns-instagram.svg" />
       </span>
       <h1>
         <a href="<?php echo home_url('/')?>"><script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>

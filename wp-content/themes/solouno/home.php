@@ -16,10 +16,10 @@
       </div>
     </section>
     <section class="text-area">
-      <h2><span>Concept</span>キミだけの、たった一つの。</h2>
+      <h2><span>CONCEPT</span>キミだけの、たった一つの。</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
       <p>イメージする力を伸ばすと想像力や社会性が豊かになります。</p>
-      <p>リモコンを携帯に見立てたり、テーブルの下を秘密基地にしたりと遊びの中で社会性にコミュニケーション能力を高めていきます。</p>
+      <p>リモコンを携帯に見立てたり、テーブルの下を秘密基地にしたりと遊びの中で社会性やコミュニケーション能力を高めていきます。</p>
       <p>イメージしたものが形になるオーダーメイドに触れることは子供の成長を見守るものになると私たちは考えます。</p>
       <p>ぼくだけ、わたしだけのたった一つの組み合わせを想像してください。<br />そこにはたくさんの笑顔が生まれます。</p>
     </section>
@@ -31,12 +31,12 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p5.jpg" />
     </section>
     <section class="about-area">
-      <h2><span>About Us</span>こだわりをカタチに。</h2>
+      <h2><span>ABOUT US</span>こだわりを、カタチに。</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
-      <p>せっかく買うなら『気に入ったもの』を、とことん『こだわったもの』をじっくり選んで、大切に長く愛用してほしい。</p>
-      <p>そんな思いで、オーダーメイドのセレクトショップSOLO UNOはスタートしました。</p>
+      <p>せっかく買うなら『気に入ったもの』を、<br />とことん『こだわったもの』をじっくり選んで、大切に長く愛用してほしい。</p>
+      <p>そんな思いで、オーダーメイドのセレクトショップ<br />SOLO UNOはスタートしました。</p>
       <p>SOLO UNOとは[たったひとつの]というイタリア語。</p>
-      <p>オーダーメイドでSOLO UNOなお気に入りを作ってください。</p>
+      <p>オーダーメイドでSOLO UNOなお気に入りをつくってください。</p>
       <p>それは、たくさんの想い出のそばに、いつまでも...<br />6年間の相棒もSOLO UNO[たったひとつの]宝物になりますように。</p>
     </section>
 
@@ -45,7 +45,7 @@
   <section class="aboutus">
     <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p2.jpg" />
     <div class="area">
-      <h2><span>About US</span>SOLO UNOについて</h2>
+      <h2><span>ABOUT US</span>SOLO UNOについて</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
       <p>テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。</p>
       <a href="<?php echo home_url('/')?>aboutus">and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right.svg" class="angle" /></a>
@@ -60,16 +60,16 @@
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
       <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
     </a>
-    <a href="" class="product-online">
-      <h3><span>Other</span>その他商品</h3>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
-      <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
-    </a>
-    <!-- <a href="" class="product-disney">
+    <a href="#" class="product-disney">
       <h3><span>DISNEY</span>ディズニー<br />ランドセル</h3>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
       <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
-    </a>-->
+    </a>
+    <a href="#" class="product-online">
+      <h3><span>ONLINE STORE</span>商品一覧</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
+      <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
+    </a>
   </section>
 
   <section class="showroom">
@@ -85,7 +85,7 @@
   </section>
 
   <section class="news">
-    <h2><span>News</span>お知らせ</h2>
+    <h2><span>NEWS</span>お知らせ</h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
 
     <?php if ( have_posts() ) : ?>

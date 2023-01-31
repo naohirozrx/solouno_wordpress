@@ -78,6 +78,11 @@ footer {
     font-size: .1rem;
     &.time {
       margin-bottom: 30px;
+      line-height: 1.5;
+      img {
+        width: 15px;
+        height: auto;
+      }
     }
     &.copyright {
       padding-bottom: 20px;
