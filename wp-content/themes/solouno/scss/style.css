@@ -624,6 +624,44 @@ footer {
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 300px; }
+  #home-area .accordion > div,
+  #home-area .accordion2 > div {
+    max-height: 310px;
+    overflow: hidden;
+    position: relative;
+    transition: 1s; }
+    #home-area .accordion > div .more,
+    #home-area .accordion2 > div .more {
+      all: unset;
+      position: absolute;
+      bottom: 0;
+      color: #AC7746;
+      font-size: .12rem;
+      font-weight: bold;
+      padding-right: 20px;
+      background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, white 50%, white 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      width: 100%;
+      height: 40px; }
+      #home-area .accordion > div .more:before,
+      #home-area .accordion2 > div .more:before {
+        content: 'すべて表示する'; }
+  #home-area .accordion.show > div,
+  #home-area .accordion2.show > div {
+    max-height: 1600px; }
+    #home-area .accordion.show > div .more:before,
+    #home-area .accordion2.show > div .more:before {
+      content: '閉じる'; }
+    #home-area .accordion.show > div .more img,
+    #home-area .accordion2.show > div .more img {
+      transform: rotate(180deg); }
+  #home-area .accordion2 > div {
+    max-height: 300px; }
+  #home-area .accordion2.show > div {
+    max-height: 700px; }
   #home-area .exhibition {
     background-color: #FEF6EA; }
     #home-area .exhibition > img {
