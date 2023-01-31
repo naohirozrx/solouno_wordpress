@@ -63,67 +63,77 @@
 
   .exhibition {
     background-color: #FEF6EA;
-    padding: 85px 27px 80px 27px;
-    h2 {
-      @include h2title;
-    }
-    figure {
+    > img {
       width: 100%;
-      background-color: #fff;
-      margin-bottom: 88px;
-      > img {
-        width: 100%;
+      height: auto;
+      margin-bottom: 60px;
+    }
+    .exhibition-inner {
+      padding: 0 27px 80px 27px;
+      h2 {
+        @include h2title;
       }
-      figcaption {
-        padding: 15px;
-        span {
-          display: flex;
-          align-items: center;
-          gap: 15px;
-          font-size: .14rem;
-          line-height: 1;
-          margin-bottom: 20px;
-          img {
-            width: auto;
-            height: 17px;
-          }//img
-        }//span
-        > a {
-          color: #AC7746;
-          width: 216px;
-          height: 40px;
-          margin: 45px auto 10px auto;
-          font-size: .14rem;
-          font-weight: $font_w_b;
-          border: 1px solid #AC7746;
-          border-radius: 39px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-image: url(../images/angle-right.svg);
-          background-repeat: no-repeat;
-          background-position-y: 50%;
-          background-position-x: 200px;
-        }    
+      p {
+        margin-bottom: 40px;
+      }
+      figure {
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 88px;
+        > img {
+          width: 100%;
+        }
+        figcaption {
+          padding: 15px;
+          span {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: .14rem;
+            line-height: 1;
+            margin-bottom: 20px;
+            img {
+              width: auto;
+              height: 17px;
+            }//img
+          }//span
+          > a {
+            color: #AC7746;
+            width: 216px;
+            height: 40px;
+            margin: 45px auto 10px auto;
+            font-size: .14rem;
+            font-weight: $font_w_b;
+            border: 1px solid #AC7746;
+            border-radius: 39px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../images/angle-right.svg);
+            background-repeat: no-repeat;
+            background-position-y: 50%;
+            background-position-x: 200px;
+          }
+        }
       }//figcaption
+      > a {
+        color: #AC7746;
+        width: 335px;
+        height: 50px;
+        margin: auto;
+        font-size: .14rem;
+        font-weight: $font_w_b;
+        border: 1px solid #AC7746;
+        border-radius: 39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/angle-right.svg);
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 300px;
+      }//a
     }//figure
-    > a {
-      color: #AC7746;
-      width: 335px;
-      height: 50px;
-      margin: auto;
-      font-size: .14rem;
-      font-weight: $font_w_b;
-      border: 1px solid #AC7746;
-      border-radius: 39px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: url(../images/angle-right.svg);
-      background-repeat: no-repeat;
-      background-position-y: 50%;
-      background-position-x: 300px;
-    }//a
   }//.exhibiton
 
   .aboutus {
@@ -131,7 +141,7 @@
     > img {
       width: 100%;
       height: auto;
-      margin-bottom: 60px
+      margin-bottom: 60px;
     }//img
     .area {
       padding: 0 27px;

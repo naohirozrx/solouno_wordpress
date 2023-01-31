@@ -531,66 +531,73 @@ footer {
       background-position-y: 50%;
       background-position-x: 300px; }
   #home-area .exhibition {
-    background-color: #FEF6EA;
-    padding: 85px 27px 80px 27px; }
-    #home-area .exhibition h2 {
-      font-size: .2rem;
-      font-weight: 500;
-      margin-bottom: 20px; }
-      #home-area .exhibition h2 span {
-        display: block;
-        font-size: .12rem;
-        color: #BAA280; }
-    #home-area .exhibition figure {
+    background-color: #FEF6EA; }
+    #home-area .exhibition > img {
       width: 100%;
-      background-color: #fff;
-      margin-bottom: 88px; }
-      #home-area .exhibition figure > img {
-        width: 100%; }
-      #home-area .exhibition figure figcaption {
-        padding: 15px; }
-        #home-area .exhibition figure figcaption span {
-          display: flex;
-          align-items: center;
-          gap: 15px;
-          font-size: .14rem;
-          line-height: 1;
-          margin-bottom: 20px; }
-          #home-area .exhibition figure figcaption span img {
-            width: auto;
-            height: 17px; }
-        #home-area .exhibition figure figcaption > a {
-          color: #AC7746;
-          width: 216px;
-          height: 40px;
-          margin: 45px auto 10px auto;
-          font-size: .14rem;
-          font-weight: 700;
-          border: 1px solid #AC7746;
-          border-radius: 39px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-image: url(../images/angle-right.svg);
-          background-repeat: no-repeat;
-          background-position-y: 50%;
-          background-position-x: 200px; }
-    #home-area .exhibition > a {
-      color: #AC7746;
-      width: 335px;
-      height: 50px;
-      margin: auto;
-      font-size: .14rem;
-      font-weight: 700;
-      border: 1px solid #AC7746;
-      border-radius: 39px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: url(../images/angle-right.svg);
-      background-repeat: no-repeat;
-      background-position-y: 50%;
-      background-position-x: 300px; }
+      height: auto;
+      margin-bottom: 60px; }
+    #home-area .exhibition .exhibition-inner {
+      padding: 0 27px 80px 27px; }
+      #home-area .exhibition .exhibition-inner h2 {
+        font-size: .2rem;
+        font-weight: 500;
+        margin-bottom: 20px; }
+        #home-area .exhibition .exhibition-inner h2 span {
+          display: block;
+          font-size: .12rem;
+          color: #BAA280; }
+      #home-area .exhibition .exhibition-inner p {
+        margin-bottom: 40px; }
+      #home-area .exhibition .exhibition-inner figure {
+        width: 100%;
+        background-color: #fff;
+        margin-bottom: 88px; }
+        #home-area .exhibition .exhibition-inner figure > img {
+          width: 100%; }
+        #home-area .exhibition .exhibition-inner figure figcaption {
+          padding: 15px; }
+          #home-area .exhibition .exhibition-inner figure figcaption span {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-size: .14rem;
+            line-height: 1;
+            margin-bottom: 20px; }
+            #home-area .exhibition .exhibition-inner figure figcaption span img {
+              width: auto;
+              height: 17px; }
+          #home-area .exhibition .exhibition-inner figure figcaption > a {
+            color: #AC7746;
+            width: 216px;
+            height: 40px;
+            margin: 45px auto 10px auto;
+            font-size: .14rem;
+            font-weight: 700;
+            border: 1px solid #AC7746;
+            border-radius: 39px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(../images/angle-right.svg);
+            background-repeat: no-repeat;
+            background-position-y: 50%;
+            background-position-x: 200px; }
+      #home-area .exhibition .exhibition-inner > a {
+        color: #AC7746;
+        width: 335px;
+        height: 50px;
+        margin: auto;
+        font-size: .14rem;
+        font-weight: 700;
+        border: 1px solid #AC7746;
+        border-radius: 39px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../images/angle-right.svg);
+        background-repeat: no-repeat;
+        background-position-y: 50%;
+        background-position-x: 300px; }
   #home-area .aboutus {
     padding-bottom: 160px; }
     #home-area .aboutus > img {

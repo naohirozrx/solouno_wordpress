@@ -1,12 +1,12 @@
 <?php get_header();?>
 
 <div id="home-area">
-  <srction class="top">
+  <section class="top">
     <h1><img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p1.jpg" /></h1>
     <p>キミだけの、たった一つの。</p>
     <img src="<?php echo get_template_directory_uri(); ?>/images/scroll.svg" class="scroll" />
-  </srction>
-  
+  </section>
+
   <section class="news">
     <h2><span>News</span>お知らせ</h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
@@ -41,20 +41,12 @@
   </section>
 
   <section class="exhibition">
-    <h2><span>Exhibition</span>展示会情報</h2>
-    <figure>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-p1.jpg" />
-      <figcaption>
-        <span>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />2023.10.10　10:00-17:00
-        </span>
-        <span>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/spot-icon.svg" />場所の名前名前名前名前名前
-        </span>
-        <a href="#">詳しい情報を見る</a>
-      </figcaption>
-    </figure>
-    <a href="#">and more</a>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-image.jpg" />
+    <div class="exhibition-inner">
+      <h2><span>Exhibition</span>展示会情報</h2>
+      <p>各地で開催される展示会情報です。</p>
+      <a href="exhibit">and more</a>
+    </div>
   </section>
 
   <section class="aboutus">
@@ -99,6 +91,7 @@
     </div>
   </section>
 
+  <!--
   <section class="column">
     <h2><span>Column</span>コラム</h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
@@ -128,6 +121,7 @@
     </figure>
     <a href="<?php echo home_url('/')?>column">and more</a>
   </section>
+-->
 </div>
 
 <?php get_sidebar('side-l');?>
