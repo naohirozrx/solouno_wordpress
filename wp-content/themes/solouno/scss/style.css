@@ -505,7 +505,7 @@ footer {
       margin: 0 0 20px 0; }
       #home-area .news figure > a img {
         width: 118px;
-        height: 90px;
+        height: auto;
         border-radius: 10px 0 0 10px; }
       #home-area .news figure > a figcaption p {
         font-size: .12rem;
@@ -1551,7 +1551,7 @@ footer {
       margin: 0 0 20px 0; }
       #archive-area .news-area figure > a img {
         width: 118px;
-        height: 90px;
+        height: auto;
         border-radius: 10px 0 0 10px; }
       #archive-area .news-area figure > a figcaption p {
         font-size: .12rem;
@@ -1634,7 +1634,7 @@ footer {
       margin: 0 0 20px 0; }
       #column-area .column-area figure > a img {
         width: 118px;
-        height: 90px;
+        height: auto;
         border-radius: 10px 0 0 10px; }
       #column-area .column-area figure > a figcaption p {
         font-size: .12rem;

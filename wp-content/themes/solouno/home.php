@@ -42,48 +42,6 @@
 
   </div>
 
-  <section class="news">
-    <h2><span>News</span>お知らせ</h2>
-    <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
-    <figure>
-      <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
-        <figcaption>
-          <span>2023.01.01</span>
-          <p>お知らせのタイトルお知らせのタイトルお知らせのタイトルお知らせのタイトルお知...</p>
-        </figcaption>
-      </a>
-    </figure>
-    <figure>
-      <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
-        <figcaption>
-          <span>2023.01.01</span>
-          <p>お知らせのタイトルお知らせのタイトルお知らせのタイトルお知らせのタイトルお知...</p>
-        </figcaption>
-      </a>
-    </figure>
-    <figure>
-      <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
-        <figcaption>
-          <span>2023.01.01</span>
-          <p>お知らせのタイトルお知らせのタイトルお知らせのタイトルお知らせのタイトルお知...</p>
-        </figcaption>
-      </a>
-    </figure>
-    <a href="<?php echo home_url('/')?>news">and more</a>
-  </section>
-
-  <section class="exhibition">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-image.jpg" />
-    <div class="exhibition-inner">
-      <h2><span>Exhibition</span>展示会情報</h2>
-      <p>各地で開催される展示会情報です。</p>
-      <a href="exhibit">and more</a>
-    </div>
-  </section>
-
   <section class="aboutus">
     <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p2.jpg" />
     <div class="area">
@@ -103,26 +61,56 @@
       <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
     </a>
     <a href="" class="product-online">
-      <h3><span>ONLINE STORE</span>商品一覧</h3>
+      <h3><span>Other</span>その他商品</h3>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
       <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
     </a>
-    <a href="" class="product-disney">
+    <!-- <a href="" class="product-disney">
       <h3><span>DISNEY</span>ディズニー<br />ランドセル</h3>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
       <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
-    </a>
+    </a>-->
   </section>
 
   <section class="showroom">
     <img src="<?php echo get_template_directory_uri(); ?>/images/showroom_p1.jpg" />
     <div class="area">
-      <h2><span>SHOWROOM</span>店舗案内</h2>
+      <h2><span>SHOWROOM</span>店舗情報</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
       <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" class="map" />
       <p class="open-close">10:00〜17:00<br />[火・水曜定休] </p>
       <p class="address">〒330-0854<br />埼玉県さいたま市大宮区桜木町1-9-1 三谷ビル1階</p>
       <a href="">Google Mapsを開く</a>
+    </div>
+  </section>
+
+  <section class="news">
+    <h2><span>News</span>お知らせ</h2>
+    <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
+
+    <?php if ( have_posts() ) : ?>
+    <?php while ( have_posts() ) : the_post(); ?>
+    <figure>
+      <a href="#">
+        <?php the_post_thumbnail();?>
+        <figcaption>
+          <span><?php echo get_the_date(); ?></span>
+          <p><?php the_title(); ?></p>
+        </figcaption>
+      </a>
+    </figure>
+    <?php endwhile; ?>
+    <?php endif; ?>
+
+    <a href="<?php echo home_url('/')?>news">and more</a>
+  </section>
+
+  <section class="exhibition">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/exhibition-image.jpg" />
+    <div class="exhibition-inner">
+      <h2><span>Exhibition</span>展示会情報</h2>
+      <p>各地で開催される展示会情報です。</p>
+      <a href="exhibit">and more</a>
     </div>
   </section>
 

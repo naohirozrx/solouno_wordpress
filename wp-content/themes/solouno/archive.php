@@ -9,33 +9,19 @@
     </div>
   </section>
   <section class="news-area">
+    <?php if ( have_posts() ) : ?>
+    <?php while ( have_posts() ) : the_post(); ?>
     <figure>
       <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
+        <?php the_post_thumbnail();?>
         <figcaption>
-          <span>2023.01.01</span>
-          <p>お知らせのタイトルお知らせのタイトルお知らせのタイトルお知らせのタイトルお知...</p>
+          <span><?php echo get_the_date(); ?></span>
+          <p><?php the_title(); ?></p>
         </figcaption>
       </a>
     </figure>
-    <figure>
-      <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
-        <figcaption>
-          <span>2023.01.01</span>
-          <p>お知らせのタイトルお知らせのタイトルお知らせのタイトルお知らせのタイトルお知...</p>
-        </figcaption>
-      </a>
-    </figure>
-    <figure>
-      <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
-        <figcaption>
-          <span>2023.01.01</span>
-          <p>お知らせのタイトルお知らせのタイトルお知らせのタイトルお知らせのタイトルお知...</p>
-        </figcaption>
-      </a>
-    </figure>
+    <?php endwhile; ?>
+    <?php endif; ?>
   </section>
 </div>
 
