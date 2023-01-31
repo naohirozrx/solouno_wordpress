@@ -70,17 +70,17 @@
   <section class="product">
     <h2><span>PRODUCT</span>SOLO UNOのプロダクト</h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
-    <a href="" class="product-custome">
+    <a href="/product" class="product-custome">
       <h3><span>CUSTOME-MADE</span>オーダーメイド</h3>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
       <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
     </a>
-    <a href="#" class="product-disney">
+    <a href="/product#disney" class="product-disney">
       <h3><span>DISNEY</span>ディズニー<br />ランドセル</h3>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
       <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>
     </a>
-    <a href="#" class="product-online">
+    <a href="/product#etc" class="product-online">
       <h3><span>ONLINE STORE</span>商品一覧</h3>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot-white.svg" class="dot-white" />
       <span>and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right-white.svg" class="angle" /></span>

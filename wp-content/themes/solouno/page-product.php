@@ -17,7 +17,7 @@
     <a href="<?php echo home_url('/')?>flow" class="om-link release-open">オーダーメイドを選んでみよう</a>
     <a href="<?php echo home_url('/')?>flow" class="flow-link">便利機能・ランドセルができるまで</a>
   </section>
-  <section class="disney-area">
+  <section class="disney-area" id="disney">
     <h2><span>DISNEY</span>ディズニーランドセル<span class="info">店舗</span></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
     <img src="<?php echo get_template_directory_uri(); ?>/images/disney-p1.jpg" class="disney-p1" />
@@ -26,7 +26,7 @@
     店舗には、手に取り背負い心地や色味をお確かめいただけるサンプルをご用意しています。</p>
     <!-- <a href="#">商品を見る</a> -->
   </section>
-  <section class="marty-area">
+  <section class="marty-area" id="etc">
     <h2><span>MARTY</span>マーティ<span class="info">店舗</span></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
     <img src="<?php echo get_template_directory_uri(); ?>/images/marty.jpg" class="marty-p1" />
