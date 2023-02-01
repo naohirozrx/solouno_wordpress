@@ -11,6 +11,7 @@
   <section class="exhibit-single-area">
     <dl class="<?php echo get_field('cancel') ? 'cancel' : ''; ?>">
       <dt>
+        <?php echo get_field('addition') ? '<span>追加開催</span>' : ''; ?>
         <?php the_title(); ?>
       </dt>
       <dd>
@@ -18,6 +19,9 @@
         <div class="venue-info"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini.svg" />開催情報<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini.svg" /></div>
         <h3 class="spot"><?php echo get_field('venue');?></h3>
         <div class="info-area"><img src="<?php echo get_template_directory_uri(); ?>/images/calendar-icon.svg" />開催日：<span><?php echo get_field('date');?></span></div>
+        <?php if(get_field('time') != ''):?>
+            <div class="info-area"><img src="<?php echo get_template_directory_uri(); ?>/images/clock-ex.svg" />時　間：<?php echo get_field('time');?></div>
+          <?php endif; ?>
         <p>
           <?php echo nl2br(get_field('access'));?>
         </p>

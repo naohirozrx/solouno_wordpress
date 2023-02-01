@@ -57,16 +57,6 @@
     </div>
   </div>
 
-  <section class="aboutus">
-    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p2.jpg" />
-    <div class="area">
-      <h2><span>ABOUT US</span>SOLO UNOについて</h2>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
-      <p>テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。テキストがこちらに入ります。</p>
-      <a href="<?php echo home_url('/')?>aboutus">and more<img src="<?php echo get_template_directory_uri(); ?>/images/angle-right.svg" class="angle" /></a>
-    </div>
-  </section>
-
   <section class="product">
     <h2><span>PRODUCT</span>SOLO UNOのプロダクト</h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />

@@ -2379,6 +2379,16 @@ footer {
         font-size: .16rem;
         font-weight: bold;
         margin-bottom: 2em; }
+        #exhibit-area .exhibit-area dl dt > span {
+          display: flex;
+          width: 80px;
+          align-items: center;
+          justify-content: center;
+          border: #AC7746 1px solid;
+          border-radius: 100px;
+          font-size: .12rem;
+          color: #AC7746;
+          padding: 2px 12px; }
       #exhibit-area .exhibit-area dl dd {
         display: flex;
         flex-direction: column;
@@ -2463,6 +2473,16 @@ footer {
         font-size: .16rem;
         font-weight: 700;
         margin-bottom: 24px; }
+        #exhibit-area-single .exhibit-single-area > dl > dt > span {
+          display: flex;
+          width: 100px;
+          align-items: center;
+          justify-content: center;
+          border: #AC7746 1px solid;
+          border-radius: 100px;
+          font-size: .12rem;
+          color: #AC7746;
+          padding: 2px 12px; }
       #exhibit-area-single .exhibit-single-area > dl > dd {
         display: flex;
         flex-direction: column;

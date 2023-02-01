@@ -70,6 +70,18 @@
         font-size: .16rem;
         font-weight: bold;
         margin-bottom: 2em;
+
+        > span {
+          display: flex;
+          width: 80px;
+          align-items: center;
+          justify-content: center;
+          border: #AC7746 1px solid;
+          border-radius: 100px;
+          font-size: .12rem;
+          color: #AC7746;
+          padding: 2px 12px;
+        }
       }//dt
       dd {
 
