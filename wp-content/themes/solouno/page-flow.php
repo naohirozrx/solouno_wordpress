@@ -28,17 +28,23 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/flow-2.jpg" />お申し込み
         </dt>
         <dd>
-          <h3>店舗・展示会・WEBページのシミュレーションサイトから申し込み</h3>
-          <h3>お申し込みから2週間は組み合わせのご変更を承ることが可能です。</h3>
-          <p class="text2">※一部お申し込みを承れない展示場がございます。<br />※お申し込み時にお支払いください。</p>
+          <h3>組み合わせが決まりましたらお申し込みください。<br />
+          ■ WEBサイトのシミュレーションから<br />
+          ■ 店舗/展示会で</h3>
+          <p class="text2">※一部お申し込みを承れない展示会場がございます。<br />※お申し込み時にお支払いください。</p>
+          <h3 style="text-decoration: underline;">お申し込みから２週間は組み合わせの変更が可能です。</h3>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/gentei.svg" />
         </dd>
       </dl>
       <dl>
         <dt>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/flow-3.jpg" />制作
+          <img src="<?php echo get_template_directory_uri(); ?>/images/flow-3.jpg" />製作
         </dt>
         <dd>
-          <h3>お申し込みから2週間後、部材準備、製作を開始します。パーツごとに製作し、全パーツが揃ったものから組み上げます。</h3>
+          <h3>お申し込みから2週間（組み合わせ確定）後、部材準備、製作を開始。出来上がり次第順次お届けいたします。</h3>
+          <p class="text2">※製作都合上、お申し込み順でのお届けではありません。<br />
+          ※出来上がり時期を早めたり、ご指定いただくことは出来かねます。<br />
+          ※お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</p>
         </dd>
       </dl>
       <dl>
@@ -46,7 +52,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/flow-4.jpg" />お届け
         </dt>
         <dd>
-          <h3>1月中旬〜3月中旬ごろ出来上がり次第お届けいたします。</h3>
+          <h3>2024年1月中旬〜3月中旬ごろ出来上がり次第お届けいたします。</h3>
           <h3>お申し込み後のキャンセル、返金は承れません。</h3>
         </dd>
       </dl>
