@@ -12,7 +12,7 @@
     <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />ランドセルができるまで<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <div>
       <dl>
-        <dt>
+        <!--<dt>
           <img src="<?php echo get_template_directory_uri(); ?>/images/flow-1.jpg" />組み合わせを選ぶ
         </dt>
         <dd>
@@ -22,10 +22,10 @@
           <p class="text2">※サイドのデザインに一部追加料金のかかるものがございます。</p>
           <h3>WEBページからシミュレーションをする</h3>
         </dd>
-      </dl>
+      </dl>-->
       <dl>
         <dt>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/flow-2.jpg" />お申し込み
+          <img src="<?php echo get_template_directory_uri(); ?>/images/flow-2.jpg" />1. お申し込み
         </dt>
         <dd>
           <h3>組み合わせが決まりましたらお申し込みください。<br />
@@ -38,24 +38,26 @@
       </dl>
       <dl>
         <dt>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/flow-3.jpg" />製作
+          <img src="<?php echo get_template_directory_uri(); ?>/images/flow-4.jpg" />2. 製作/お届け
         </dt>
         <dd>
           <h3>お申し込みから2週間（組み合わせ確定）後、部材準備、製作を開始。出来上がり次第順次お届けいたします。</h3>
           <p class="text2">※製作都合上、お申し込み順でのお届けではありません。<br />
           ※出来上がり時期を早めたり、ご指定いただくことは出来かねます。<br />
           ※お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</p>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/yotei.svg" />
         </dd>
       </dl>
-      <dl>
+      <!--<dl>
         <dt>
           <img src="<?php echo get_template_directory_uri(); ?>/images/flow-4.jpg" />お届け
         </dt>
         <dd>
           <h3>2024年1月中旬〜3月中旬ごろ出来上がり次第お届けいたします。</h3>
           <h3>お申し込み後のキャンセル、返金は承れません。</h3>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/gentei.svg" />
         </dd>
-      </dl>
+      </dl>-->
       <a href="#" class="release-open">オーダーメイドを選んでみよう！<br />【シュミレーター】</a>
     </div>
   </section>
