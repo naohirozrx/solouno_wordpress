@@ -23,6 +23,7 @@
           <?php endif; ?>
           <div><img src="<?php echo get_template_directory_uri(); ?>/images/reserve-icon.svg" />予約：<?php echo get_field('reserve') ? '必要' : '不要'; ?></div>
           <div><img src="<?php echo get_template_directory_uri(); ?>/images/spot-icon.svg" />開催エリア：<?php echo get_field('area');?></div>
+          <div style="margin-left: 26px; line-height: 1.4;">会場：<?php echo get_field('venue');?></div>
           <a href="<?php the_permalink();?>">詳細を見る</a>
         </dd>
       </dl>

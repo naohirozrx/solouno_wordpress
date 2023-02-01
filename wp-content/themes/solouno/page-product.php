@@ -9,16 +9,16 @@
     </div>
   </section>
   <section class="ordermade-area">
-    <h2><span>CUSTOME-MADE</span>オーダーメイドランドセル <br /><span class="ec">EC</span><span class="info">店舗</span></h2>
+    <h2><span>CUSTOME-MADE</span>オーダーメイドランドセル<br /><span class="ec">EC取り扱い</span><span class="info">店舗取り扱い</span></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
     <img src="<?php echo get_template_directory_uri(); ?>/images/ordermade.jpg" class="om-p1" />
     <p>SOLO UNOのオーダーメイドランドセルは メインカラーやコンビカラー、デザインなど、806,400通りの 組み合わせから選んでつくるランドセルです。</p>
     <p>シミュレーターでたくさんの組み合わせの中から [たったひとつ]の自分だけのランドセルを探し出さしてください。</p>
-    <a href="<?php echo home_url('/')?>flow" class="om-link release-open">オーダーメイドを選んでみよう</a>
+    <a href="<?php echo home_url('/')?>flow" class="om-link release-open">オーダーメイドを選んでみよう<br />【シュミレーター】</a>
     <a href="<?php echo home_url('/')?>flow" class="flow-link">便利機能・ランドセルができるまで</a>
   </section>
   <section class="disney-area" id="disney">
-    <h2><span>DISNEY</span>ディズニーランドセル<span class="info">店舗</span></h2>
+    <h2><span>DISNEY</span>ディズニーランドセル<br /><span class="info">店舗取り扱い</span></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
     <img src="<?php echo get_template_directory_uri(); ?>/images/disney-p1.jpg" class="disney-p1" />
     <p>大好きなキャラクターと毎日一緒に。<br />ミッキーマウスとミニーマウスの選べるランドセルが新登場。</p>
@@ -27,14 +27,14 @@
     <!-- <a href="#">商品を見る</a> -->
   </section>
   <section class="marty-area" id="etc">
-    <h2><span>MARTY</span>マーティ<span class="info">店舗</span></h2>
+    <h2><span>MARTY</span>マーティ<br /><span class="info">店舗取り扱い</span></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
     <img src="<?php echo get_template_directory_uri(); ?>/images/marty.jpg" class="marty-p1" />
     <p>神戸、芦屋のレザーショップ「Marty」の本革パーツを組み合わせてランドセルカバーをデコレーション。</p>
     <!-- <a href="#">商品を見る</a> -->
   </section>
   <section class="totebag-area">
-    <h2><span>TOTE BAG</span>トートバッグ<span class="info">店舗</span></h2>
+    <h2><span>TOTE BAG</span>トートバッグ<br /><span class="info">店舗取り扱い</span></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
     <img src="<?php echo get_template_directory_uri(); ?>/images/totebag.jpg" class="totebag-p1" />
     <p>イニシャルやマークをワンポイントで刺繍。<br />オリジナルデザインのトートバッグがつくれます。</p>

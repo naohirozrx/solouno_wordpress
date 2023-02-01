@@ -689,7 +689,7 @@ footer {
         content: 'すべて表示する'; }
   #home-area .accordion.show > div,
   #home-area .accordion2.show > div {
-    max-height: 1600px; }
+    max-height: 780px; }
     #home-area .accordion.show > div .more:before,
     #home-area .accordion2.show > div .more:before {
       content: '閉じる'; }
@@ -880,32 +880,58 @@ footer {
         width: 100%;
         height: auto;
         margin-bottom: 35px; }
-      #home-area .showroom .area .open-close {
-        font-size: .12rem;
-        font-weight: 500;
-        background-image: url("../images/time.svg");
-        background-repeat: no-repeat;
-        background-position: left 10px top 4px;
-        padding-left: 35px;
-        margin-bottom: 20px; }
-      #home-area .showroom .area .address {
-        font-size: .12rem;
-        margin-bottom: 25px; }
-      #home-area .showroom .area a {
-        color: #AC7746;
-        width: 230px;
-        height: 38px;
-        margin: auto;
-        font-size: .12rem;
-        border: 1px solid #AC7746;
-        border-radius: 39px;
-        padding-left: 20px;
-        display: flex;
-        align-items: center;
-        background-image: url(../images/blank-link.svg);
-        background-repeat: no-repeat;
-        background-position-y: 50%;
-        background-position-x: 200px; }
+      #home-area .showroom .area div {
+        text-align: left; }
+        #home-area .showroom .area div > img {
+          width: 100%;
+          height: auto;
+          margin-bottom: 35px; }
+        #home-area .showroom .area div span.open-close {
+          display: flex;
+          align-items: center;
+          line-height: 1;
+          margin-bottom: 25px;
+          font-size: .12rem;
+          font-weight: 500;
+          font-size: .12rem;
+          font-weight: 500; }
+          #home-area .showroom .area div span.open-close img {
+            width: 17px;
+            height: auto;
+            margin-right: 10px; }
+        #home-area .showroom .area div address {
+          font-size: .12rem;
+          margin-bottom: 20px; }
+        #home-area .showroom .area div > a {
+          color: #AC7746;
+          width: 230px;
+          height: 38px;
+          margin: 0 0 25px 0;
+          font-size: .12rem;
+          border: 1px solid #AC7746;
+          border-radius: 39px;
+          padding-left: 20px;
+          display: flex;
+          align-items: center;
+          background-image: url(../images/blank-link.svg);
+          background-repeat: no-repeat;
+          background-position-y: 50%;
+          background-position-x: 200px; }
+        #home-area .showroom .area div .tell {
+          display: flex;
+          align-items: center;
+          line-height: 1;
+          margin-bottom: 25px;
+          font-size: .12rem;
+          font-weight: 500; }
+          #home-area .showroom .area div .tell img {
+            width: 15px;
+            height: auto;
+            margin-right: 10px; }
+        #home-area .showroom .area div .moyori {
+          font-size: .12rem;
+          margin-bottom: 25px;
+          display: block; }
   #home-area .column {
     padding: 0 27px;
     margin-bottom: 160px; }
@@ -1389,6 +1415,9 @@ footer {
       align-items: center; }
     #request-page dl dd {
       text-align: left; }
+      #request-page dl dd.name {
+        display: flex;
+        gap: 10px; }
       #request-page dl dd input[type="text"],
       #request-page dl dd input[type="tel"],
       #request-page dl dd input[type="email"] {
@@ -1591,7 +1620,9 @@ footer {
         position: absolute;
         bottom: 30px;
         left: 50%;
-        transform: translateX(-50%); }
+        transform: translateX(-50%);
+        text-align: center;
+        line-height: 1.2; }
       #side-l .sbmto {
         position: absolute;
         left: 12px;
@@ -1898,7 +1929,7 @@ footer {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        margin: 0 0 0 10px;
+        margin-right: 10px;
         padding: 0px 10px; }
       #product-area .ordermade-area h2 span.info {
         color: #AC7746;
@@ -1909,7 +1940,7 @@ footer {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        margin: 0 0 0 10px;
+        margin-right: 10px;
         padding: 0px 10px; }
     #product-area .ordermade-area .dot {
       width: 207px;
@@ -1938,7 +1969,9 @@ footer {
       background-image: url(../images/angle-right-white.svg);
       background-repeat: no-repeat;
       background-position-y: 50%;
-      background-position-x: 300px; }
+      background-position-x: 300px;
+      text-align: center;
+      line-height: 1.2; }
     #product-area .ordermade-area .flow-link {
       color: #AC7746;
       width: 335px;
@@ -1974,7 +2007,7 @@ footer {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        margin: 0 0 0 10px;
+        margin-right: 10px;
         padding: 0px 10px; }
     #product-area .disney-area .dot {
       width: 207px;
@@ -2024,7 +2057,7 @@ footer {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        margin: 0 0 0 10px;
+        margin-right: 10px;
         padding: 0px 10px; }
     #product-area .marty-area .dot {
       width: 207px;
@@ -2073,7 +2106,7 @@ footer {
         display: inline-flex;
         justify-content: center;
         align-items: center;
-        margin: 0 0 0 10px;
+        margin-right: 10px;
         padding: 0px 10px; }
     #product-area .totebag-area .dot {
       width: 207px;
@@ -2155,7 +2188,7 @@ footer {
       #flow-area .convenience-area dl dd p {
         margin-bottom: 1.5em; }
   #flow-area .schoolbag-area {
-    padding: 60px 27px;
+    padding: 60px 27px 0;
     background-color: #FEF6EA; }
     #flow-area .schoolbag-area h2 {
       width: 100%;
@@ -2221,7 +2254,9 @@ footer {
       background-image: url(../images/angle-right.svg);
       background-repeat: no-repeat;
       background-position-y: 50%;
-      background-position-x: 300px; }
+      background-position-x: 300px;
+      text-align: center;
+      line-height: 1.2; }
 
 #showroom-area {
   width: 100%;

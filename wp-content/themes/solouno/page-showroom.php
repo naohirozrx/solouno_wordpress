@@ -20,7 +20,7 @@
       </span>
       <address>〒330-0854<br />埼玉県さいたま市大宮区桜木町1-9-1 三谷ビル1階</address>
       <span class="tell"><img src="<?php echo get_template_directory_uri(); ?>/images/tell.svg" />048-658-3900</span>
-      <a href="#">Google Mapsを開く</a>
+      <a href="https://goo.gl/maps/eoRcmGMziU8eKetU8" target="_blank">Google Mapsを開く</a>
     </div>
   </section>
 </div>

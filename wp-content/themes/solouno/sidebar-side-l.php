@@ -21,6 +21,6 @@
       </ul>
     </div>
   </div>
-  <a href="#" class="ordermade release-open">オーダーメイドを選んでみよう！</a>
+  <a href="#" class="ordermade release-open">オーダーメイドを選んでみよう！<br />【シュミレーター】</a>
   <img src="<?php echo get_template_directory_uri(); ?>/images/sbmto.svg" class="sbmto">
 </section>

@@ -64,7 +64,7 @@
     }
   }//.convenience-area
   .schoolbag-area {
-    padding: 60px 27px;
+    padding: 60px 27px 0;
     background-color: #FEF6EA;
     h2 {
       width: 100%;
@@ -142,6 +142,8 @@
         background-repeat: no-repeat;
         background-position-y: 50%;
         background-position-x: 300px;
+        text-align: center;
+        line-height: 1.2;
       }
     }//div
   }//.schoolbag-area

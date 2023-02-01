@@ -31,16 +31,17 @@
           <p>『イメージしたものが形になるオーダーメイドに触れることは、子供の成長を見守るものになる』<br />と私たちは考えます。</p>
           <p>ぼくだけ、わたしだけのたった一つの組み合わせを想像してください。<br />そこにはたくさんの笑顔が生まれます。</p>
         </section>
-        <section class="photo">
-          <div>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p3.jpg" class="p3"/>
-            <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p4.jpg" class="p4"/>
-          </div>
-          <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p5.jpg" />
-        </section>
         <button class="more"><img src="<?php echo get_template_directory_uri(); ?>/images/slide-toggle-arrow.svg" /></button>
       </div>
     </div>
+    <section class="photo">
+      <div>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p3.jpg" class="p3"/>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p4.jpg" class="p4"/>
+      </div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p5.jpg" />
+    </section>
+
     <div class="accordion2">
       <div>
         <section class="about-area">
@@ -83,9 +84,15 @@
       <h2><span>SHOWROOM</span>店舗情報</h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
       <img src="<?php echo get_template_directory_uri(); ?>/images/map.png" class="map" />
-      <p class="open-close">10:00〜17:00<br />[火・水曜定休] </p>
-      <p class="address">〒330-0854<br />埼玉県さいたま市大宮区桜木町1-9-1 三谷ビル1階</p>
-      <a href="">Google Mapsを開く</a>
+      <div>
+        <span class="moyori">【大宮駅西口徒歩4分】<br />ソニックシティ向かい新生銀行となり</span>
+        <span class="open-close">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/clock.svg" />10:00〜17:00  [火・水曜定休]
+        </span>
+        <address>〒330-0854<br />埼玉県さいたま市大宮区桜木町1-9-1 三谷ビル1階</address>
+        <span class="tell"><img src="<?php echo get_template_directory_uri(); ?>/images/tell.svg" />048-658-3900</span>
+        <a href="https://goo.gl/maps/eoRcmGMziU8eKetU8" target="_blank">Google Mapsを開く</a>
+      </div>
     </div>
   </section>
 
