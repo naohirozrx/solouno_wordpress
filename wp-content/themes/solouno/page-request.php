@@ -64,7 +64,7 @@
     });
   });
   jQuery(function($){
-    $('input[name="mei-kana"],input[name="sei-kana"]').attr('pattern', "[\u3041-\u3096]*");
+    $('input[name="mei-kana"],input[name="sei-kana"]').attr('pattern', "^[ぁ-ん]+$ , [\u3041-\u309F]*");
   });
 </script>
 
