@@ -37,8 +37,8 @@
     </dl>
     <a href="/exhibit/">展示会情報一覧に戻る</a>
   </section>
-</div>
 
+</div>
 <?php get_sidebar('side-l');?>
 <?php get_sidebar('side-r');?>
 
