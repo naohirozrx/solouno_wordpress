@@ -11,8 +11,8 @@
   <section class="schoolbag-area">
     <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />ランドセルができるまで<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <div>
-      <dl>
-        <!--<dt>
+      <!--<dl>
+        <dt>
           <img src="<?php echo get_template_directory_uri(); ?>/images/flow-1.jpg" />組み合わせを選ぶ
         </dt>
         <dd>

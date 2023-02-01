@@ -16,7 +16,9 @@
       <?php echo the_content(); ?>
     </div>
     <?php endwhile; endif; ?>
+    <a href="/news/">お知らせ一覧に戻る</a>
   </section>
+
 </div>
 
 <?php get_sidebar('side-l');?>

@@ -1800,6 +1800,21 @@ footer {
       #archive-area .news-single-area .area a {
         color: #BAA280;
         text-decoration: underline; }
+    #archive-area .news-single-area > a {
+      color: #AC7746;
+      width: 216px;
+      height: 40px;
+      margin: 40px auto 0;
+      font-size: .14rem;
+      font-weight: 700;
+      border: 1px solid #AC7746;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-left.svg);
+      background-repeat: no-repeat;
+      background-position: left 14px center; }
 
 #column-area {
   width: 100%;
@@ -2181,12 +2196,14 @@ footer {
       width: 100%;
       height: auto;
       margin-bottom: 40px; }
-    #flow-area .convenience-area dl dt {
-      margin-bottom: 1em; }
-    #flow-area .convenience-area dl dd {
-      padding: 0 10px; }
-      #flow-area .convenience-area dl dd p {
-        margin-bottom: 1.5em; }
+    #flow-area .convenience-area dl {
+      margin-bottom: 60px; }
+      #flow-area .convenience-area dl dt {
+        margin-bottom: 1em; }
+      #flow-area .convenience-area dl dd {
+        padding: 0 10px; }
+        #flow-area .convenience-area dl dd p {
+          margin-bottom: 1.5em; }
   #flow-area .schoolbag-area {
     padding: 60px 27px 0;
     background-color: #FEF6EA; }
@@ -2576,7 +2593,7 @@ footer {
           display: flex;
           justify-content: center;
           align-items: center;
-          background-image: url(../images/angle-right.svg);
+          background-image: url(../images/blank-link.svg);
           background-repeat: no-repeat;
           background-position: right 14px center; }
     #exhibit-area-single .exhibit-single-area > a {

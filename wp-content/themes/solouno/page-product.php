@@ -15,7 +15,7 @@
     <p>SOLO UNOのオーダーメイドランドセルは メインカラーやコンビカラー、デザインなど、806,400通りの 組み合わせから選んでつくるランドセルです。</p>
     <p>シミュレーターでたくさんの組み合わせの中から [たったひとつ]の自分だけのランドセルを探し出さしてください。</p>
     <a href="<?php echo home_url('/')?>flow" class="om-link release-open">オーダーメイドを選んでみよう<br />【シュミレーター】</a>
-    <a href="<?php echo home_url('/')?>flow" class="flow-link">便利機能・ランドセルができるまで</a>
+    <a href="<?php echo home_url('/')?>flow" class="flow-link">オーダーメイドランドセル</a>
   </section>
   <section class="disney-area" id="disney">
     <h2><span>DISNEY</span>ディズニーランドセル<br /><span class="info">店舗取り扱い</span></h2>
