@@ -63,9 +63,7 @@
       $('.notice-wrap').fadeOut();
     });
   });
-  jQuery(function($){
-    $('input[name="mei-kana"],input[name="sei-kana"]').attr('pattern', "^[ぁ-ん]+$ , [\u3041-\u309F]*");
-  });
+
 </script>
 
 <?php get_footer(); ?>

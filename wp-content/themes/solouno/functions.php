@@ -42,4 +42,27 @@ function post_has_archive( $args, $post_type ) {
 }
 add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
 
+
+
+add_filter('wpcf7_validate_text', 'wpcf7_validate_kana', 11, 2); add_filter('wpcf7_validate_text*', 'wpcf7_validate_kana', 11, 2); function wpcf7_validate_kana($result,$tag){ $tag = new WPCF7_Shortcode($tag); $name = $tag->name;
+  $value = isset($_POST[$name]) ? trim(wp_unslash(strtr((string) $_POST[$name], "\n", " "))) : "";
+
+  // "firstname-kana" または "lastname-kana" の場合
+  if ( $name === "sei-kana") {
+
+    if (!preg_match("/^[ぁ-ゞー]+$/u",$value)) { // ひらがな以外だった場合
+      $result->invalidate($tag, "全角ひらがなで入力してください。"); // エラーメッセージを表示
+    }
+
+  }
+
+  if ( $name === "mei-kana" ) {
+
+    if (!preg_match("/^[ぁ-ゞー]+$/u",$value)) { // ひらがな以外だった場合
+      $result->invalidate($tag, "全角ひらがなで入力してください。"); // エラーメッセージを表示
+    }
+
+  }
+  return $result;
+}
 ?>
