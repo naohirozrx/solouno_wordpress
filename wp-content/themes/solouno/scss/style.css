@@ -2622,7 +2622,8 @@ footer {
           overflow: scroll;
           display: flex;
           align-items: center;
-          justify-content: center; }
+          justify-content: center;
+          display: none; }
           #flow-area .gallery-area .photo-area > div .gallery-modal .close {
             position: absolute;
             width: 40px;

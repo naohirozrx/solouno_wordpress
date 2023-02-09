@@ -582,6 +582,7 @@
 
     $('.attachment-full').on('click', function() {
       $(this).next().fadeIn();
+      $(this).next().css('display', 'flex')
     })
   });
 </script>
