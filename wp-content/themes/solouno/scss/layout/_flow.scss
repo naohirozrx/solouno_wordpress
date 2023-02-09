@@ -1,0 +1,26 @@
+@mixin oflist {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  dt {
+    margin-bottom: 10px;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 300px;
+    }//img
+  }//dt
+  dd {
+    text-align: center;
+    font-size: .11rem;
+    span {
+      font-size: .14rem;
+      font-weight: $font_w_m;
+      margin-bottom: 10px;
+    }//span
+    p {
+      font-size: .11rem;
+    }//p
+  }//dd
+}

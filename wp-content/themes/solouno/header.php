@@ -67,6 +67,7 @@
 </head>
 <body <?php body_class(); ?>>
 
+<?php if(!is_page('simulator')):?>
 <header>
   <h1><img src="<?php echo get_template_directory_uri(); ?>/images/solouno-logo.svg" alt="SOLO UNO" /><span>ソロウーノ</span></h1>
   <div id="menu-open"><span></span><span></span><span></span><span></span></div>
@@ -162,3 +163,4 @@
       });
     });
   </script>
+  <?php endif; ?>

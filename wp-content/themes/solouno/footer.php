@@ -1,3 +1,4 @@
+<?php if(!is_page('simulator')):?>
 <section class="request-link">
   <h2><span>REQUEST</span>カタログ請求</h2>
   <p>【SOLOUNOオーダーメイドランドセルのカタログ2024】を無料でお送りいたします。<br />2024年4月御入学のお子さまに向けたカタログです。2月中旬より順次お送りいたします。</p>
@@ -20,6 +21,7 @@
     <span class="release-msg-close"><img src="<?php echo get_template_directory_uri(); ?>/images/close.svg" /></span>
   </div>
 </div>
+<?php endif; ?>
 <script>
   $(function() {
     $('.release-open').on('click', function() {

@@ -2177,9 +2177,312 @@ footer {
       #flow-area .flow-top div img {
         width: 87px;
         height: auto; }
+  #flow-area .order-flow {
+    width: 100%;
+    padding: 60px 0;
+    background-color: #FEF6EA; }
+    @media screen and (min-width: 781px) {
+      #flow-area .order-flow {
+        max-width: 395px; } }
+    #flow-area .order-flow > img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 60px; }
+    #flow-area .order-flow > div {
+      padding: 0 27px;
+      margin-bottom: 60px; }
+      #flow-area .order-flow > div h2 {
+        width: 100%;
+        margin: 0 auto 60px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        font-size: .2rem;
+        font-weight: 500; }
+        #flow-area .order-flow > div h2 img {
+          width: 39px;
+          height: auto; }
+      #flow-area .order-flow > div > img {
+        height: auto;
+        display: block; }
+        #flow-area .order-flow > div > img.step1 {
+          width: 59px;
+          margin: 0 auto 25px auto; }
+        #flow-area .order-flow > div > img.icon1 {
+          width: 75px;
+          border-radius: 100px;
+          margin: 0 auto 25px auto; }
+        #flow-area .order-flow > div > img.dot-line {
+          width: 100%;
+          margin: 0 auto 25px auto; }
+      #flow-area .order-flow > div h3 {
+        font-size: .16rem;
+        font-weight: 500;
+        text-align: center;
+        margin-bottom: 25px; }
+      #flow-area .order-flow > div > span {
+        font-weight: 500;
+        color: #BAA280;
+        text-align: center;
+        display: block; }
+        #flow-area .order-flow > div > span.font18 {
+          font-size: .18rem;
+          margin-bottom: 25px; }
+        #flow-area .order-flow > div > span.font16 {
+          font-size: .16rem; }
+        #flow-area .order-flow > div > span.font14 {
+          font-size: .14rem; }
+      #flow-area .order-flow > div p {
+        font-size: .12rem;
+        margin-bottom: 25px; }
+      #flow-area .order-flow > div div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin: 30px 0;
+        gap: 20px; }
+        #flow-area .order-flow > div div.bottom {
+          margin-bottom: 100px; }
+        #flow-area .order-flow > div div.maincolor {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap; }
+          #flow-area .order-flow > div div.maincolor dt {
+            margin-bottom: 10px; }
+            #flow-area .order-flow > div div.maincolor dt img {
+              width: 100%;
+              height: auto;
+              border-radius: 300px; }
+          #flow-area .order-flow > div div.maincolor dd {
+            text-align: center;
+            font-size: .11rem; }
+            #flow-area .order-flow > div div.maincolor dd span {
+              font-size: .14rem;
+              font-weight: 500;
+              margin-bottom: 10px; }
+            #flow-area .order-flow > div div.maincolor dd p {
+              font-size: .11rem; }
+          #flow-area .order-flow > div div.maincolor dl {
+            width: calc((100% - 20px) / 2); }
+        #flow-area .order-flow > div div.combicolor {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap; }
+          #flow-area .order-flow > div div.combicolor dt {
+            margin-bottom: 10px; }
+            #flow-area .order-flow > div div.combicolor dt img {
+              width: 100%;
+              height: auto;
+              border-radius: 300px; }
+          #flow-area .order-flow > div div.combicolor dd {
+            text-align: center;
+            font-size: .11rem; }
+            #flow-area .order-flow > div div.combicolor dd span {
+              font-size: .14rem;
+              font-weight: 500;
+              margin-bottom: 10px; }
+            #flow-area .order-flow > div div.combicolor dd p {
+              font-size: .11rem; }
+          #flow-area .order-flow > div div.combicolor dl {
+            width: calc((100% - 20px) / 2);
+            display: flex;
+            align-items: center; }
+            #flow-area .order-flow > div div.combicolor dl dt {
+              width: 42px;
+              height: 42px;
+              border-radius: 100px;
+              margin: 0 10px 0 0; }
+              #flow-area .order-flow > div div.combicolor dl dt.black {
+                background-color: #1A1919; }
+              #flow-area .order-flow > div div.combicolor dl dt.navy {
+                background-color: #373350; }
+              #flow-area .order-flow > div div.combicolor dl dt.blue {
+                background-color: #273251; }
+              #flow-area .order-flow > div div.combicolor dl dt.olive {
+                background-color: #565D4C; }
+              #flow-area .order-flow > div div.combicolor dl dt.viviedpink {
+                background-color: #A93331; }
+              #flow-area .order-flow > div div.combicolor dl dt.tnblack {
+                background-color: #1A1816; }
+              #flow-area .order-flow > div div.combicolor dl dt.tnnavy {
+                background-color: #373350; }
+              #flow-area .order-flow > div div.combicolor dl dt.mistyrose {
+                background-color: #BE9291; }
+              #flow-area .order-flow > div div.combicolor dl dt.marshmallowpink {
+                background-color: #EFCEC4; }
+              #flow-area .order-flow > div div.combicolor dl dt.iris {
+                background-color: #BAB5CD; }
+              #flow-area .order-flow > div div.combicolor dl dt.marshmallowblue {
+                background-color: #839FC5; }
+              #flow-area .order-flow > div div.combicolor dl dt.mintgreen {
+                background-color: #B9C9BD; }
+              #flow-area .order-flow > div div.combicolor dl dt.ivory {
+                background-color: #D8CBB4; }
+              #flow-area .order-flow > div div.combicolor dl dt.cinnamon {
+                background-color: #B58265; }
+              #flow-area .order-flow > div div.combicolor dl dt.gureige {
+                background-color: #615E5A; }
+              #flow-area .order-flow > div div.combicolor dl dt.brown {
+                background-color: #2A1211; }
+              #flow-area .order-flow > div div.combicolor dl dt.red {
+                background-color: #823135; }
+              #flow-area .order-flow > div div.combicolor dl dt.silver {
+                background-color: #A2A3AA; }
+        #flow-area .order-flow > div div.backcolor {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap; }
+          #flow-area .order-flow > div div.backcolor dt {
+            margin-bottom: 10px; }
+            #flow-area .order-flow > div div.backcolor dt img {
+              width: 100%;
+              height: auto;
+              border-radius: 300px; }
+          #flow-area .order-flow > div div.backcolor dd {
+            text-align: center;
+            font-size: .11rem; }
+            #flow-area .order-flow > div div.backcolor dd span {
+              font-size: .14rem;
+              font-weight: 500;
+              margin-bottom: 10px; }
+            #flow-area .order-flow > div div.backcolor dd p {
+              font-size: .11rem; }
+          #flow-area .order-flow > div div.backcolor dl {
+            width: calc((100% - 40px) / 3); }
+        #flow-area .order-flow > div div.kabusestitch {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap; }
+          #flow-area .order-flow > div div.kabusestitch dt {
+            margin-bottom: 10px; }
+            #flow-area .order-flow > div div.kabusestitch dt img {
+              width: 100%;
+              height: auto;
+              border-radius: 300px; }
+          #flow-area .order-flow > div div.kabusestitch dd {
+            text-align: center;
+            font-size: .11rem; }
+            #flow-area .order-flow > div div.kabusestitch dd span {
+              font-size: .14rem;
+              font-weight: 500;
+              margin-bottom: 10px; }
+            #flow-area .order-flow > div div.kabusestitch dd p {
+              font-size: .11rem; }
+          #flow-area .order-flow > div div.kabusestitch dl {
+            width: calc((100% - 40px) / 3); }
+        #flow-area .order-flow > div div.fastener {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap; }
+          #flow-area .order-flow > div div.fastener dt {
+            margin-bottom: 10px; }
+            #flow-area .order-flow > div div.fastener dt img {
+              width: 100%;
+              height: auto;
+              border-radius: 300px; }
+          #flow-area .order-flow > div div.fastener dd {
+            text-align: center;
+            font-size: .11rem; }
+            #flow-area .order-flow > div div.fastener dd span {
+              font-size: .14rem;
+              font-weight: 500;
+              margin-bottom: 10px; }
+            #flow-area .order-flow > div div.fastener dd p {
+              font-size: .11rem; }
+          #flow-area .order-flow > div div.fastener dl {
+            width: calc((100% - 20px) / 2); }
+            #flow-area .order-flow > div div.fastener dl dt img {
+              border-radius: 4px; }
+        #flow-area .order-flow > div div.inner {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          flex-direction: row; }
+          #flow-area .order-flow > div div.inner dt {
+            margin-bottom: 10px; }
+            #flow-area .order-flow > div div.inner dt img {
+              width: 100%;
+              height: auto;
+              border-radius: 300px; }
+          #flow-area .order-flow > div div.inner dd {
+            text-align: center;
+            font-size: .11rem; }
+            #flow-area .order-flow > div div.inner dd span {
+              font-size: .14rem;
+              font-weight: 500;
+              margin-bottom: 10px; }
+            #flow-area .order-flow > div div.inner dd p {
+              font-size: .11rem; }
+          #flow-area .order-flow > div div.inner dl {
+            width: calc((100% - 40px) / 3); }
+            #flow-area .order-flow > div div.inner dl dt img {
+              border-radius: 4px; }
+        #flow-area .order-flow > div div.side {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          flex-direction: row; }
+          #flow-area .order-flow > div div.side dt {
+            margin-bottom: 10px; }
+            #flow-area .order-flow > div div.side dt img {
+              width: 100%;
+              height: auto;
+              border-radius: 300px; }
+          #flow-area .order-flow > div div.side dd {
+            text-align: center;
+            font-size: .11rem; }
+            #flow-area .order-flow > div div.side dd span {
+              font-size: .14rem;
+              font-weight: 500;
+              margin-bottom: 10px; }
+            #flow-area .order-flow > div div.side dd p {
+              font-size: .11rem; }
+          #flow-area .order-flow > div div.side dl {
+            width: calc((100% - 40px) / 3); }
+            #flow-area .order-flow > div div.side dl dt img {
+              border-radius: 4px; }
+        #flow-area .order-flow > div div.name {
+          display: flex;
+          align-items: flex-start;
+          justify-content: center;
+          flex-wrap: wrap; }
+          #flow-area .order-flow > div div.name dt {
+            margin-bottom: 10px; }
+            #flow-area .order-flow > div div.name dt img {
+              width: 100%;
+              height: auto;
+              border-radius: 300px; }
+          #flow-area .order-flow > div div.name dd {
+            text-align: center;
+            font-size: .11rem; }
+            #flow-area .order-flow > div div.name dd span {
+              font-size: .14rem;
+              font-weight: 500;
+              margin-bottom: 10px; }
+            #flow-area .order-flow > div div.name dd p {
+              font-size: .11rem; }
+          #flow-area .order-flow > div div.name dl {
+            width: calc((100% - 20px) / 2); }
+            #flow-area .order-flow > div div.name dl dt img {
+              border-radius: 4px; }
+      #flow-area .order-flow > div .sample {
+        color: #BAA280; }
+      #flow-area .order-flow > div > p {
+        margin-top: -20px; }
   #flow-area .convenience-area {
     padding: 60px 27px;
-    background-color: #FEF6EA; }
+    background-color: #fff; }
     #flow-area .convenience-area h2 {
       width: 100%;
       margin: 0 auto 60px auto;
@@ -2256,6 +2559,11 @@ footer {
             font-size: .12rem; }
           #flow-area .schoolbag-area div dl dd p.text2 {
             font-size: .1rem; }
+        #flow-area .schoolbag-area div dl dd img {
+          max-width: 300px;
+          height: auto;
+          margin: auto;
+          display: block; }
     #flow-area .schoolbag-area div > a {
       color: #AC7746;
       width: 335px;
@@ -2274,6 +2582,121 @@ footer {
       background-position-x: 300px;
       text-align: center;
       line-height: 1.2; }
+  #flow-area .gallery-area {
+    width: 100%; }
+    #flow-area .gallery-area .text-area {
+      padding: 60px 27px 60px 27px;
+      background-color: #FEF6EA; }
+      #flow-area .gallery-area .text-area h2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        font-size: .2rem;
+        font-weight: 500; }
+        #flow-area .gallery-area .text-area h2 img {
+          width: 39px;
+          height: auto; }
+    #flow-area .gallery-area .photo-area {
+      background-color: #FEF6EA;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 3px;
+      padding-bottom: 60px; }
+      #flow-area .gallery-area .photo-area > div {
+        width: calc((100% - 6px) / 3);
+        height: auto; }
+        #flow-area .gallery-area .photo-area > div > img {
+          width: 100%;
+          height: auto; }
+        #flow-area .gallery-area .photo-area > div .gallery-modal {
+          position: fixed;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          z-index: 10000;
+          background: rgba(0, 0, 0, 0.8);
+          padding: 24px;
+          overflow: scroll;
+          display: flex;
+          align-items: center;
+          justify-content: center; }
+          #flow-area .gallery-area .photo-area > div .gallery-modal .close {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            right: 20px;
+            z-index: 10;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 30px;
+            top: 30px; }
+            #flow-area .gallery-area .photo-area > div .gallery-modal .close:before {
+              content: '';
+              display: block;
+              width: 24px;
+              height: 2px;
+              background-color: #fff;
+              transform: rotate(45deg); }
+            #flow-area .gallery-area .photo-area > div .gallery-modal .close:after {
+              content: '';
+              display: block;
+              width: 24px;
+              height: 2px;
+              background-color: #fff;
+              position: absolute;
+              transform: rotate(-45deg); }
+          #flow-area .gallery-area .photo-area > div .gallery-modal > div {
+            border-radius: 8px;
+            overflow: hidden;
+            background-color: #fff; }
+            @media screen and (min-width: 781px) {
+              #flow-area .gallery-area .photo-area > div .gallery-modal > div {
+                max-width: 900px;
+                display: flex; } }
+            #flow-area .gallery-area .photo-area > div .gallery-modal > div figure {
+              width: 50%; }
+              #flow-area .gallery-area .photo-area > div .gallery-modal > div figure img {
+                width: 100%;
+                height: auto; }
+              #flow-area .gallery-area .photo-area > div .gallery-modal > div figure > a {
+                border: 1px solid #AC7746;
+                width: calc(100% - 48px);
+                background-color: #fff;
+                height: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #FFF;
+                border-radius: 100px;
+                margin: 10px auto;
+                font-size: 12px;
+                text-align: center;
+                margin-top: -100px;
+                mix-blend-mode: luminosity; }
+            #flow-area .gallery-area .photo-area > div .gallery-modal > div > div {
+              padding: 10px; }
+              #flow-area .gallery-area .photo-area > div .gallery-modal > div > div ul {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                gap: 20px; }
+                #flow-area .gallery-area .photo-area > div .gallery-modal > div > div ul li {
+                  display: flex;
+                  align-items: center;
+                  font-size: .12rem; }
+                  @media screen and (min-width: 781px) {
+                    #flow-area .gallery-area .photo-area > div .gallery-modal > div > div ul li {
+                      font-size: .16rem; } }
+                  #flow-area .gallery-area .photo-area > div .gallery-modal > div > div ul li img:first-child {
+                    height: 40px;
+                    width: auto; }
+                  #flow-area .gallery-area .photo-area > div .gallery-modal > div > div ul li span:nth-child(2) {
+                    width: 120px; }
 
 #showroom-area {
   width: 100%;

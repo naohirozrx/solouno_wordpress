@@ -61,6 +61,412 @@
       <a href="#" class="release-open">オーダーメイドを選んでみよう！<br />【シュミレーター】</a>
     </div>
   </section>
+
+  <section class="order-flow">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_p1.jpg" />
+    <div>
+      <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />オーダーの手順<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step1.svg" class="step1" />
+      <h3>メインカラーを選ぶ</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon1.png" class="icon1" />
+      <span class="font18">Deep</span>
+      <p>性別の枠にとらわれず、好きな色を選べるように。黒や赤などの定番色を中心に、落ち着いた色味のカラー展開。</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <span class="font16">クラリーノ エフ</span>
+      <span class="font14">64,800円</span>
+      <div class="maincolor">
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-1black.png" /></dt>
+          <dd>
+            <span>ブラック</span>
+            <p>重厚感のあるカラーがシックで高級感のある印象。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-2navy.png" /></dt>
+          <dd>
+            <span>ネイビー</span>
+            <p>知的で洗練され、落ち着いたシックなカラー。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-3blue.png" /></dt>
+          <dd>
+            <span>ブルー</span>
+            <p>あざやかなカラーで元気で活発な印象。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-4olive.png" /></dt>
+          <dd>
+            <span>オリーブ</span>
+            <p>安らぎと安心感のある自然に溶け込む優しいカラー。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-5vividpink.png" /></dt>
+          <dd>
+            <span>ビビッドピンク</span>
+            <p>シャープで凛としたカラーが情熱的で華やか。</p>
+          </dd>
+        </dl>
+      </div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <span class="font16">クラリーノ タフロックNEO</span>
+      <span class="font14">69,800円</span>
+      <div class="maincolor">
+      <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-6tnblack.png" /></dt>
+          <dd>
+            <span>タフネオブラック</span>
+            <p>定番とは一味違う黒は上品か洗練された印象。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-7tnnavy.png" /></dt>
+          <dd>
+            <span>ラフネオネイビー</span>
+            <p>青海のあるマットな紺は気品と優しさを兼ね備えたカラー。</p>
+          </dd>
+        </dl>
+      </div>
+      <span class="font18">Smoky</span>
+      <p>肌なじみが良く、優しく大人らしい印象を醸し出してくれるくすみカラー。優しい色味のカラー展開。</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <span class="font16">クラリーノ エフ</span>
+      <span class="font14">64,800円</span>
+      <div class="maincolor bottom">
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-9mistyrose.png" /></dt>
+          <dd>
+            <span>ミスティローズ</span>
+            <p>華やかなのに甘すぎない大人な雰囲気のくすみカラー。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-10marshmallowpink.png" /></dt>
+          <dd>
+            <span>マシュマロピンク</span>
+            <p>心が弾むような明るいカラーは元気でピュアな印象に。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-11iris.png" /></dt>
+          <dd>
+            <span>アイリス</span>
+            <p>気品のあるカラーで高級感のあるおしゃれさ。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-12marshmallowblue.png" /></dt>
+          <dd>
+            <span>マシュマロブルー</span>
+            <p>柔らかで優しいカラーは爽やかで清潔な印象に。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-13mintgreen.png" /></dt>
+          <dd>
+            <span>ミントグリーン</span>
+            <p>シャーベットのようなカラーではじけるような爽やかさ。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-14ivory.png" /></dt>
+          <dd>
+            <span>アイボリー</span>
+            <p>温かみのある柔らかい雰囲気で優しい印象。</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-15cinnamon.png" /></dt>
+          <dd>
+            <span>シナモン</span>
+            <p>温もりのある落ち着いたカラーはナチュラルな印象</p>
+          </dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-16greige.png" /></dt>
+          <dd>
+            <span>グレージュ</span>
+            <p>落ち着きのある淡いカラーは上品で誠実な印象。</p>
+          </dd>
+        </dl>
+      </div>
+    </div>
+
+    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_p2.jpg" />
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step2.svg" class="step1" />
+      <h3>コンビカラーを選ぶ</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon2.png" class="icon1" />
+      <p>メインカラーとの組み合わせでイメージが変化します。</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <div class="combicolor bottom">
+        <dl>
+          <dt class="black"></dt>
+          <dd>ブラック</dd>
+        </dl>
+        <dl>
+          <dt class="navy"></dt>
+          <dd>ネイビー</dd>
+        </dl>
+        <dl>
+          <dt class="blue"></dt>
+          <dd>ブルー</dd>
+        </dl>
+        <dl>
+          <dt class="olive"></dt>
+          <dd>オリーブ</dd>
+        </dl>
+        <dl>
+          <dt class="viviedpink"></dt>
+          <dd>ビビットピンク</dd>
+        </dl>
+        <dl>
+          <dt class="tnblack"></dt>
+          <dd>タフネオブラック</dd>
+        </dl>
+        <dl>
+          <dt class="tnnavy"></dt>
+          <dd>タフネオネイビー</dd>
+        </dl>
+        <dl>
+          <dt class="mistyrose"></dt>
+          <dd>ミスティローズ</dd>
+        </dl>
+        <dl>
+          <dt class="marshmallowpink"></dt>
+          <dd>マシュマロピンク</dd>
+        </dl>
+        <dl>
+          <dt class="iris"></dt>
+          <dd>アイリス</dd>
+        </dl>
+        <dl>
+          <dt class="marshmallowblue"></dt>
+          <dd>マシュマロブルー</dd>
+        </dl>
+        <dl>
+          <dt class="mintgreen"></dt>
+          <dd>ミントグリーン</dd>
+        </dl>
+        <dl>
+          <dt class="ivory"></dt>
+          <dd>アイボリー</dd>
+        </dl>
+        <dl>
+          <dt class="cinnamon"></dt>
+          <dd>シナモン</dd>
+        </dl>
+        <dl>
+          <dt class="gureige"></dt>
+          <dd>グレージュ</dd>
+        </dl>
+        <dl>
+          <dt class="brown"></dt>
+          <dd>ブラウン</dd>
+        </dl>
+        <dl>
+          <dt class="red"></dt>
+          <dd>レッド</dd>
+        </dl>
+        <dl>
+          <dt class="silver"></dt>
+          <dd>シルバー</dd>
+        </dl>
+      </div>
+    </div>
+
+    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p6.jpg" />
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step3.svg" class="step1" />
+      <h3>バックカラーを選ぶ</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon3.png" class="icon1" />
+      <p>ショルダーベルトの裏も同じ色になります。メインカラーの次に大きく目立つ色味です。</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <div class="backcolor bottom">
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-17black.png" /></dt>
+          <dd>ブラック</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-18blue.png" /></dt>
+          <dd>ブルー</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-19ivory.png" /></dt>
+          <dd>アイボリー</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-20beige.png" /></dt>
+          <dd>ベージュ</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-21pink.png" /></dt>
+          <dd>ピンク</dd>
+        </dl>
+      </div>
+    </div>
+
+    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p6.jpg" />
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step4.svg" class="step1" />
+      <h3>カブセステッチを選ぶ</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon4.png" class="icon1" />
+      <p>カブセのデザインでランドセルの印象が決まります。</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <div class="kabusestitch bottom">
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-22chain.png" /></dt>
+          <dd>チェーン</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-23wing.png" /></dt>
+          <dd>ウイング</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-24nostitch.png" /></dt>
+          <dd>ノーステッチ</dd>
+        </dl>
+      </div>
+    </div>
+
+    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p6.jpg" />
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step5.svg" class="step1" />
+      <h3>カブセ鋲＆ファスナー引手の<br />デザインを選ぶ</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon5.png" class="icon1" />
+      <p>オーダーメイドだからこそ、細部にまでこだわって選べます。</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <div class="fastener bottom">
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-25standard.png" /></dt>
+          <dd>スタンダード</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-26dia.png" /></dt>
+          <dd>ダイヤ</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-27ribbon.png" /></dt>
+          <dd>リボン</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-28emblem.png" /></dt>
+          <dd>エンブレム</dd>
+        </dl>
+      </div>
+    </div>
+
+    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_p6.jpg" />
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step6.svg" class="step1" />
+      <h3>インナーデザインを選ぶ</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon6.png" class="icon1" />
+      <p>好きな色で、好きな柄で。<br />開けないと見えない内装は、自分らしさとこだわりをアピール</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <div class="inner bottom">
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-29princess.png" /></dt>
+          <dd>プリンセス</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-30flower.png" /></dt>
+          <dd>フラワーガーデン</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-31majorica.png" /></dt>
+          <dd>マジョリカ</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-32keycharm.png" /></dt>
+          <dd>キーチャーム</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-33planet.png" /></dt>
+          <dd>プラネット</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-34stripe.png" /></dt>
+          <dd>ストライプ</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-35sports.png" /></dt>
+          <dd>スポーツ</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-36solidblack.png" /></dt>
+          <dd>ソリッドブラック</dd>
+        </dl>
+      </div>
+    </div>
+
+    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p6.jpg" />
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step7.svg" class="step1" />
+      <h3>サイドのデザインを選ぶ</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon7.png" class="icon1" />
+      <p>シンプルにも、かわいらしくも。好みのイメージに仕上がります。</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <div class="side bottom">
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-37square.png" /></dt>
+          <dd>スクエア</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-38wing.png" /></dt>
+          <dd>ウイング</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-39flower.png" /></dt>
+          <dd>フラワー</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-40emblem.png" /></dt>
+          <dd>エンブレム</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-41arabesque.png" /></dt>
+          <dd>アラベスク</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-42clover.png" /></dt>
+          <dd>クローバー</dd>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-43lace.png" /></dt>
+          <dd>レース</dd>
+        </dl>
+      </div>
+    </div>
+
+    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_p8.jpg" />
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step8.svg" class="step1" />
+      <h3>名前を入れる</h3>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon8.png" class="icon1" />
+      <p>ヌメ革にレザー彫刻で名前を刻印します。</p>
+      <img src="<?php echo get_template_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
+      <h3 class="sample">刻印可能な文字のサンプル</h3>
+      <div class="name">
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-44.png" /></dt>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-45.png" /></dt>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-46.png" /></dt>
+        </dl>
+        <dl>
+          <dt><img src="<?php echo get_template_directory_uri(); ?>/images/order-47.png" /></dt>
+        </dl>
+      </div>
+      <p>推奨は13文字程度です。<br />文字数が多い場合、文字が小さくなります。</p>
+    </div>
+  </section>
+
   <section class="convenience-area">
     <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />SOLO UNOの便利機能<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/flow-convenience.svg" />
@@ -85,9 +491,100 @@
         <p>お直し中にご使用いただく代替えランドセルのご用意がございます。無料でお貸出しいたしますが、お戻しいただく際の片道送料のみご負担をお願いいたします。</p>
       </dd>
     </dl>
+  </section>
 
+  <section class="gallery-area">
+    <div class="text-area">
+      <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />GALLERY<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+    </div>
+    <div class="photo-area">
+      <?php
+        $args = array (
+          'post_type'      => 'gallery', // 投稿タイプ
+          'posts_per_page' => -100, // 取得する投稿数
+        );
+        $myposts = get_posts( $args );
+        foreach( $myposts as $post ):
+          setup_postdata($post); //　グローバル変数$postを書き換え
+      ?>
+        <div>
+          <?php the_post_thumbnail('full'); ?>
+          <div class="gallery-modal">
+            <span class="close"></span>
+            <div>
+              <figure>
+                <img src="<?php echo get_field('img1')['url']?>" class="thumbnail" />
+                <a href="http://sim.solouno-ordermade.com/?type=gallery&maincolor=<?php echo get_field('maincolorid');?>&combicolor=<?php echo get_field('combicolorid');?>&backcolor=<?php echo get_field('backcolorid');?>&stitch=<?php echo get_field('kabuseid');?>&tack=<?php echo get_field('byouid');?>&inner=<?php echo get_field('innercolorid');?>&side=<?php echo get_field('sidedesignid');?>">このパターンで<br />シミュレーションする</a>
+              </figure>
+              <div>
+                <ul>
+                  <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon1.png" />
+                    <span>メインカラー</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" />
+                    <span><?php echo get_field('maincolortxt');?></span>
+                  </li>
+                  <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon2.png" />
+                    <span>コンビカラー</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" />
+                    <span><?php echo get_field('combicolortext');?></span>
+                  </li>
+                  <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon3.png" />
+                    <span>バックカラー</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" />
+                    <span><?php echo get_field('backcolortext');?></span>
+                  </li>
+                  <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon4.png" />
+                    <span>カブセステッチ</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" />
+                    <span><?php echo get_field('kabusetext');?></span>
+                  </li>
+                  <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon5.png" />
+                    <span>カブセ鋲＆<br />
+                    ファスナー引手</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" />
+                    <span><?php echo get_field('byoutext');?></span>
+                  </li>
+                  <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon6.png" />
+                    <span>インナーデザイン</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" />
+                    <span><?php echo get_field('innercolortxt');?></span>
+                  </li>
+                  <li>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon7.png" />
+                    <span>サイドデザイン</span>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" />
+                    <span><?php echo get_field('sidedesigntest');?></span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      <?php
+        endforeach;
+        wp_reset_postdata(); // postをグローバル変数に戻す
+      ?>
+
+    </div>
   </section>
 </div>
+<script>
+  $(function() {
+    $('.gallery-modal .close').on('click', function() {
+      $('.gallery-modal').fadeOut();
+    });
+
+    $('.attachment-full').on('click', function() {
+      $(this).next().fadeIn();
+    })
+  });
+</script>
 
 <?php get_sidebar('side-l');?>
 <?php get_sidebar('side-r');?>
