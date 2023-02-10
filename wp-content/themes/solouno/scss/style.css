@@ -2158,6 +2158,14 @@ footer {
   @media screen and (min-width: 781px) {
     #flow-area {
       max-width: 395px; } }
+  #flow-area .pagetop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10; }
+    @media screen and (min-width: 781px) {
+      #flow-area .pagetop {
+        right: calc(50% - 180px); } }
   #flow-area .flow-top {
     position: relative; }
     #flow-area .flow-top > img {

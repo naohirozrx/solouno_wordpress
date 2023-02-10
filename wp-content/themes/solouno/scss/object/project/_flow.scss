@@ -4,6 +4,16 @@
   @media screen and (min-width: width(sp)) {
     max-width: 395px;
   }//@media
+
+  .pagetop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+    @media screen and (min-width: width(sp)) {
+      right: calc(50% - 180px)
+    }//@medi
+  }
   .flow-top {
     position: relative;    > img {
       width: 100%;
