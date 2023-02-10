@@ -9,7 +9,15 @@
     </div>
   </section>
   <section class="schoolbag-area">
-    <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />ランドセルができるまで<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+    <nav style="margin-bottom: 40px;">
+      <ul style="line-height: 1.3;">
+        <li style="margin-bottom: 0.5em;">〇<a href="#flow" style="text-decoration: underline;">ランドセルができるまで</a></li>
+        <li style="margin-bottom: 0.5em;">〇<a href="#step" style="text-decoration: underline;">オーダーの手順</a></li>
+        <li style="margin-bottom: 0.5em;">〇<a href="#spec" style="text-decoration: underline;">SOLO UNOの便利機能</a></li>
+        <li style="margin-bottom: 0.5em;">〇<a href="#gallery" style="text-decoration: underline;">GALLERY</a></li>
+      </ul>
+    </nav>
+    <h2 id="flow"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />ランドセルができるまで<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <div>
       <!--<dl>
         <dt>
@@ -58,14 +66,14 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/gentei.svg" />
         </dd>
       </dl>-->
-      <a href="#" class="release-open">オーダーメイドを選んでみよう！<br />【シュミレーター】</a>
+      <a href="http://sim.solouno-ordermade.com" class="">オーダーメイドを選んでみよう！<br />【シュミレーター】</a>
     </div>
   </section>
 
   <section class="order-flow">
     <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_p1.jpg" />
     <div>
-      <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />オーダーの手順<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+      <h2 id="step"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />オーダーの手順<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
       <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step1.svg" class="step1" />
       <h3>メインカラーを選ぶ</h3>
       <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon1.png" class="icon1" />
@@ -468,7 +476,7 @@
   </section>
 
   <section class="convenience-area">
-    <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />SOLO UNOの便利機能<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+    <h2 id="spec"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />SOLO UNOの便利機能<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/flow-convenience.svg" />
     <dl>
       <dt><img src="<?php echo get_template_directory_uri(); ?>/images/flow-quality1.svg" /></dt>
@@ -495,7 +503,7 @@
 
   <section class="gallery-area">
     <div class="text-area">
-      <h2><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />GALLERY<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+      <h2 id="gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />GALLERY<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     </div>
     <div class="photo-area">
       <?php
