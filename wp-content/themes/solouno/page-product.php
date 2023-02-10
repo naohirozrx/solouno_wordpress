@@ -14,7 +14,7 @@
     <img src="<?php echo get_template_directory_uri(); ?>/images/ordermade.jpg" class="om-p1" />
     <p>SOLO UNOのオーダーメイドランドセルは メインカラーやコンビカラー、デザインなど、806,400通りの 組み合わせから選んでつくるランドセルです。</p>
     <p>シミュレーターでたくさんの組み合わせの中から [たったひとつ]の自分だけのランドセルを探し出さしてください。</p>
-    <a href="<?php echo home_url('/')?>flow" class="om-link release-open">オーダーメイドを選んでみよう<br />【シュミレーター】</a>
+    <a href="http://sim.solouno-ordermade.com" class="om-link release-open">オーダーメイドを選んでみよう<br />【シュミレーター】</a>
     <a href="<?php echo home_url('/')?>flow" class="flow-link">オーダーメイドランドセル</a>
   </section>
   <section class="disney-area" id="disney">
