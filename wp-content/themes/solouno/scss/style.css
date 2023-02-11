@@ -2488,6 +2488,96 @@ footer {
         color: #BAA280; }
       #flow-area .order-flow > div > p {
         margin-top: -20px; }
+  #flow-area .spec-area {
+    padding: 60px 27px;
+    background-color: #fff; }
+    #flow-area .spec-area h2 {
+      width: 100%;
+      margin: 0 auto 60px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      font-size: .2rem;
+      font-weight: 500; }
+      #flow-area .spec-area h2 img {
+        width: 39px;
+        height: auto; }
+    #flow-area .spec-area > img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 40px; }
+    #flow-area .spec-area h3 {
+      font-size: .16rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 0 auto 24px; }
+    #flow-area .spec-area .price-list {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px dotted #000000; }
+      #flow-area .spec-area .price-list li {
+        width: 80px; }
+        #flow-area .spec-area .price-list li figure img {
+          width: 100%;
+          height: auto; }
+        #flow-area .spec-area .price-list li figure figcaption {
+          font-size: 10px;
+          line-height: 1.4; }
+    #flow-area .spec-area .price-list2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px dotted #000000; }
+      #flow-area .spec-area .price-list2 li {
+        width: 120px; }
+        #flow-area .spec-area .price-list2 li figure img {
+          width: 80px;
+          height: auto; }
+        #flow-area .spec-area .price-list2 li figure figcaption {
+          font-size: 10px;
+          line-height: 1.4; }
+    #flow-area .spec-area .price-list3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px dotted #000000; }
+      #flow-area .spec-area .price-list3 li {
+        width: 160px; }
+        #flow-area .spec-area .price-list3 li h4 {
+          font-size: 12px;
+          font-weight: bold;
+          margin-bottom: 1em; }
+        #flow-area .spec-area .price-list3 li img {
+          width: auto;
+          height: 80px;
+          margin-bottom: 1em; }
+        #flow-area .spec-area .price-list3 li p {
+          font-size: 12px;
+          font-weight: bold;
+          line-height: 1.4; }
+    #flow-area .spec-area dl {
+      display: flex;
+      margin-bottom: 2px; }
+      #flow-area .spec-area dl dt {
+        background-color: #B6A384;
+        padding: 10px;
+        width: 124px;
+        color: #fff;
+        font-weight: bold; }
+      #flow-area .spec-area dl dd {
+        background-color: #FDF6EB;
+        padding: 10px;
+        width: calc(100% - 124px); }
   #flow-area .convenience-area {
     padding: 60px 27px;
     background-color: #fff; }
@@ -2515,10 +2605,12 @@ footer {
         padding: 0 10px; }
         #flow-area .convenience-area dl dd p {
           margin-bottom: 1.5em; }
-  #flow-area .schoolbag-area {
-    padding: 60px 27px 0;
+  #flow-area .schoolbag-area,
+  #flow-area .howtoorder {
+    padding: 60px 27px 60px;
     background-color: #FEF6EA; }
-    #flow-area .schoolbag-area h2 {
+    #flow-area .schoolbag-area h2,
+    #flow-area .howtoorder h2 {
       width: 100%;
       margin: 0 auto 60px auto;
       display: flex;
@@ -2527,13 +2619,16 @@ footer {
       gap: 15px;
       font-size: .2rem;
       font-weight: 500; }
-      #flow-area .schoolbag-area h2 img {
+      #flow-area .schoolbag-area h2 img,
+      #flow-area .howtoorder h2 img {
         width: 39px;
         height: auto; }
-    #flow-area .schoolbag-area div dl {
+    #flow-area .schoolbag-area div dl,
+    #flow-area .howtoorder div dl {
       position: relative;
       margin-bottom: 50px; }
-      #flow-area .schoolbag-area div dl dt {
+      #flow-area .schoolbag-area div dl dt,
+      #flow-area .howtoorder div dl dt {
         display: flex;
         align-items: center;
         width: calc(100% - 48px);
@@ -2545,34 +2640,42 @@ footer {
         font-weight: 700;
         padding-left: 65px;
         margin-left: 48px; }
-        #flow-area .schoolbag-area div dl dt img {
+        #flow-area .schoolbag-area div dl dt img,
+        #flow-area .howtoorder div dl dt img {
           width: 96px;
           height: auto;
           border-radius: 200px;
           position: absolute;
           left: 0;
           top: -17px; }
-      #flow-area .schoolbag-area div dl dd {
+      #flow-area .schoolbag-area div dl dd,
+      #flow-area .howtoorder div dl dd {
         background-color: #fff;
         margin-left: 48px;
         padding: 35px; }
-        #flow-area .schoolbag-area div dl dd h3 {
+        #flow-area .schoolbag-area div dl dd h3,
+        #flow-area .howtoorder div dl dd h3 {
           font-size: .12rem;
           font-weight: 500;
           color: #AC7746;
           margin-bottom: 20px; }
-        #flow-area .schoolbag-area div dl dd p {
+        #flow-area .schoolbag-area div dl dd p,
+        #flow-area .howtoorder div dl dd p {
           margin-bottom: 20px; }
-          #flow-area .schoolbag-area div dl dd p.text1 {
+          #flow-area .schoolbag-area div dl dd p.text1,
+          #flow-area .howtoorder div dl dd p.text1 {
             font-size: .12rem; }
-          #flow-area .schoolbag-area div dl dd p.text2 {
+          #flow-area .schoolbag-area div dl dd p.text2,
+          #flow-area .howtoorder div dl dd p.text2 {
             font-size: .1rem; }
-        #flow-area .schoolbag-area div dl dd img {
+        #flow-area .schoolbag-area div dl dd img,
+        #flow-area .howtoorder div dl dd img {
           max-width: 300px;
           height: auto;
           margin: auto;
           display: block; }
-    #flow-area .schoolbag-area div > a {
+    #flow-area .schoolbag-area div > a,
+    #flow-area .howtoorder div > a {
       color: #AC7746;
       width: 335px;
       height: 50px;

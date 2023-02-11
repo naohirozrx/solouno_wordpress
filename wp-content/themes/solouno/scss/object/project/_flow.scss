@@ -264,6 +264,128 @@
     }//div
   }//.order-flow
 
+  .spec-area {
+    padding: 60px 27px;
+    background-color: #fff;
+    h2 {
+      width: 100%;
+      margin: 0 auto 60px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      font-size: .2rem;
+      font-weight: $font_w_m;
+      img {
+        width: 39px;
+        height: auto;
+      }//img
+    }//h2
+    > img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 40px;
+    }
+
+    h3 {
+      font-size: .16rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 0 auto 24px;
+    }
+
+    .price-list {
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px dotted #000000;
+      li {
+        width: 80px;
+        figure {
+          img {
+            width: 100%;
+            height: auto;
+          }
+          figcaption {
+            font-size: 10px;
+            line-height: 1.4;
+          }
+        }
+      }
+    }
+    .price-list2 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px dotted #000000;
+      li {
+        width: 120px;
+        figure {
+          img {
+            width: 80px;
+            height: auto;
+          }
+          figcaption {
+            font-size: 10px;
+            line-height: 1.4;
+          }
+        }
+      }
+    }
+
+    .price-list3 {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      text-align: center;
+      padding-bottom: 30px;
+      margin-bottom: 30px;
+      border-bottom: 1px dotted #000000;
+      li {
+        width: 160px;
+        h4 {
+          font-size: 12px;
+          font-weight: bold;
+          margin-bottom: 1em;
+        }
+        img {
+          width: auto;
+          height: 80px;
+          margin-bottom: 1em;
+        }
+        p {
+          font-size: 12px;
+          font-weight: bold;
+          line-height: 1.4;
+        }
+      }
+    }
+
+    dl {
+      display: flex;
+      margin-bottom: 2px;
+      dt {
+        background-color: #B6A384;
+        padding: 10px;
+        width: 124px;
+        color: #fff;
+        font-weight: bold;
+
+      }
+
+      dd {
+        background-color: #FDF6EB;
+        padding: 10px;
+        width: calc(100% - 124px);
+      }
+    }
+  }//.convenience-area
+
 
   .convenience-area {
     padding: 60px 27px;
@@ -302,8 +424,9 @@
       }
     }
   }//.convenience-area
-  .schoolbag-area {
-    padding: 60px 27px 0;
+  .schoolbag-area,
+  .howtoorder {
+    padding: 60px 27px 60px;
     background-color: #FEF6EA;
     h2 {
       width: 100%;
