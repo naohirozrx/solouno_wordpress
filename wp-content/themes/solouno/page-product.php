@@ -16,6 +16,7 @@
     <p>シミュレーターでたくさんの組み合わせの中から [たったひとつ]の自分だけのランドセルを探し出さしてください。</p>
     <a href="https://sim.solouno-ordermade.com" class="om-link">オーダーメイドを選んでみよう<br />【シュミレーター】</a>
     <a href="<?php echo home_url('/')?>flow" class="flow-link">オーダーメイドランドセル</a>
+    <a href="<?php echo home_url('/')?>flow#gallery" class="flow-link">GALLERY</a>
   </section>
   <section class="disney-area" id="disney">
     <h2><span>DISNEY</span>ディズニーランドセル<br /><span class="info">店舗取り扱い</span></h2>
