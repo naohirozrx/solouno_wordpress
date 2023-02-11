@@ -2602,6 +2602,9 @@ footer {
         gap: 15px;
         font-size: .2rem;
         font-weight: 500; }
+        #flow-area .gallery-area .text-area h2 p {
+          margin: 10px auto;
+          text-align: center; }
         #flow-area .gallery-area .text-area h2 img {
           width: 39px;
           height: auto; }
@@ -2614,10 +2617,15 @@ footer {
       padding-bottom: 60px; }
       #flow-area .gallery-area .photo-area > div {
         width: calc((100% - 6px) / 3);
-        height: auto; }
+        height: auto;
+        cursor: pointer; }
         #flow-area .gallery-area .photo-area > div > img {
           width: 100%;
-          height: auto; }
+          height: auto;
+          cursor: pointer;
+          transition: 0.3s; }
+          #flow-area .gallery-area .photo-area > div > img:hover {
+            opacity: 0.5; }
         #flow-area .gallery-area .photo-area > div .gallery-modal {
           position: fixed;
           left: 0;
@@ -2662,13 +2670,22 @@ footer {
           #flow-area .gallery-area .photo-area > div .gallery-modal > div {
             border-radius: 8px;
             overflow: hidden;
-            background-color: #fff; }
+            background-color: #fff;
+            max-height: 90%;
+            overflow: scroll; }
             @media screen and (min-width: 781px) {
               #flow-area .gallery-area .photo-area > div .gallery-modal > div {
                 max-width: 900px;
                 display: flex; } }
             #flow-area .gallery-area .photo-area > div .gallery-modal > div figure {
-              width: 50%; }
+              width: 100%;
+              display: flex;
+              width: 100%;
+              position: relative; }
+              @media screen and (min-width: 781px) {
+                #flow-area .gallery-area .photo-area > div .gallery-modal > div figure {
+                  width: 50%;
+                  margin: 0; } }
               #flow-area .gallery-area .photo-area > div .gallery-modal > div figure img {
                 width: 100%;
                 height: auto; }
@@ -2685,10 +2702,18 @@ footer {
                 margin: 10px auto;
                 font-size: 12px;
                 text-align: center;
-                margin-top: -100px;
-                mix-blend-mode: luminosity; }
+                mix-blend-mode: luminosity;
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                transform: translate(-50%, 0);
+                cursor: pointer; }
+                @media screen and (min-width: 781px) {
+                  #flow-area .gallery-area .photo-area > div .gallery-modal > div figure > a br {
+                    display: none; } }
             #flow-area .gallery-area .photo-area > div .gallery-modal > div > div {
-              padding: 10px; }
+              padding: 10px;
+              display: flex; }
               #flow-area .gallery-area .photo-area > div .gallery-modal > div > div ul {
                 display: flex;
                 flex-direction: column;
@@ -2706,6 +2731,9 @@ footer {
                     width: auto; }
                   #flow-area .gallery-area .photo-area > div .gallery-modal > div > div ul li span:nth-child(2) {
                     width: 120px; }
+                    @media screen and (min-width: 781px) {
+                      #flow-area .gallery-area .photo-area > div .gallery-modal > div > div ul li span:nth-child(2) {
+                        width: 140px; } }
 
 #showroom-area {
   width: 100%;

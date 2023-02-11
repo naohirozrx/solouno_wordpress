@@ -406,11 +406,17 @@
         gap: 15px;
         font-size: .2rem;
         font-weight: $font_w_m;
+
+        p {
+          margin: 10px auto;
+          text-align: center;
+        }
+
         img {
           width: 39px;
           height: auto;
         }//img
-      }//h2 
+      }//h2
     }//div
     .photo-area {
       background-color: #FEF6EA;
@@ -422,9 +428,15 @@
       > div {
         width: calc((100% - 6px) / 3);
         height: auto;
+        cursor: pointer;
         > img {
           width: 100%;
           height: auto;
+          cursor: pointer;
+          transition: 0.3s;
+          &:hover {
+            opacity: 0.5;
+          }
         }
 
         .gallery-modal {
@@ -479,12 +491,21 @@
             border-radius: 8px;
             overflow: hidden;
             background-color: #fff;
+            max-height: 90%;
+            overflow: scroll;
             @media screen and (min-width: width(sp)) {
               max-width: 900px;
               display: flex;
             }
             figure {
-              width: 50%;
+              width: 100%;
+              display: flex;
+              width: 100%;
+              position: relative;
+              @media screen and (min-width: width(sp)) {
+                width: 50%;
+                margin: 0;
+              }
               img {
                 width: 100%;
                 height: auto;
@@ -502,13 +523,23 @@
                 margin: 10px auto;
                 font-size: 12px;
                 text-align: center;
-                margin-top: -100px;
                 mix-blend-mode: luminosity;
+                position: absolute;
+                bottom: 20px;
+                left: 50%;
+                transform: translate(-50%, 0);
+                cursor: pointer;
+                @media screen and (min-width: width(sp)) {
+                  br {
+                    display: none;
+                  }
+                }
               }
             }
 
             > div {
               padding: 10px;
+              display: flex;
               ul {
                 display: flex;
                 flex-direction: column;
@@ -527,6 +558,9 @@
                   }
                   span:nth-child(2) {
                     width: 120px;
+                    @media screen and (min-width: width(sp)) {
+                      width: 140px;
+                    }
                   }
                 }
               }

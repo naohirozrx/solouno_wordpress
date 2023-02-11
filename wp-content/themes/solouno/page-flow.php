@@ -286,7 +286,7 @@
       </div>
     </div>
 
-    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p6.jpg" />
+    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p3.jpg" />
     <div>
       <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step3.svg" class="step1" />
       <h3>バックカラーを選ぶ</h3>
@@ -317,7 +317,7 @@
       </div>
     </div>
 
-    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p6.jpg" />
+    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p4.jpg" />
     <div>
       <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step4.svg" class="step1" />
       <h3>カブセステッチを選ぶ</h3>
@@ -340,7 +340,7 @@
       </div>
     </div>
 
-    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p6.jpg" />
+    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p5.jpg" />
     <div>
       <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step5.svg" class="step1" />
       <h3>カブセ鋲＆ファスナー引手の<br />デザインを選ぶ</h3>
@@ -410,7 +410,7 @@
       </div>
     </div>
 
-    <img src="<?php echo get_template_directory_uri(); ?>/images/home-top_p6.jpg" />
+    <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_p7.jpg" />
     <div>
       <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_step7.svg" class="step1" />
       <h3>サイドのデザインを選ぶ</h3>
@@ -504,6 +504,7 @@
   <section class="gallery-area">
     <div class="text-area">
       <h2 id="gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />GALLERY<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+      <p>クリックすると組み合わせが確認できます。</p>
     </div>
     <div class="photo-area">
       <?php
@@ -561,7 +562,7 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon6.png" />
                     <span>インナーデザイン</span>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/arrow.svg" />
-                    <span><?php echo get_field('innercolortxt');?></span>
+                    <span><?php echo get_field('innercolortext');?></span>
                   </li>
                   <li>
                     <img src="<?php echo get_template_directory_uri(); ?>/images/order-flow_icon7.png" />
