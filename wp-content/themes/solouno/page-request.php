@@ -45,12 +45,35 @@
       return input.slice(0, 3) + '-' + input.slice(3,input.length);
     }
 
+    function is_postcode( postcode ) {
+      if ( postcode.match(/^\d{3}-?\d{4}$/) ) {
+          return true;
+      } else {
+          return false;
+      }
+    }
+
     $('input[name="zip"]').on('blur',function(e){
       var input = $(this).val();
 
       //４桁目が'-(ハイフン)’かどうかをチェックし、違ったら挿入
       if(input.length >= 3 && input.substr(3,1) !== '-'){
         $(this).val(insertStr(input));
+      }
+
+      if ( is_postcode( $(this).val() ) ) {
+        return true;
+      } else {
+        return false;
+      }
+    });
+
+    $('input[type="submit"]').on('click', function () {
+      if ( is_postcode( $('input[name="zip"]').val() ) ) {
+        return true;
+      } else {
+        alert('郵便番号が正しくありません。')
+        return false;
       }
     });
 
