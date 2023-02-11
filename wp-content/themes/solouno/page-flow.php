@@ -66,7 +66,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/gentei.svg" />
         </dd>
       </dl>-->
-      <a href="http://sim.solouno-ordermade.com" class="">オーダーメイドを選んでみよう！<br />【シュミレーター】</a>
+      <a href="https://sim.solouno-ordermade.com" class="">オーダーメイドを選んでみよう！<br />【シュミレーター】</a>
     </div>
   </section>
 
@@ -523,7 +523,7 @@
             <div>
               <figure>
                 <img src="<?php echo get_field('img1')['url']?>" class="thumbnail" />
-                <a href="http://sim.solouno-ordermade.com/?type=gallery&maincolor=<?php echo get_field('maincolorid');?>&combicolor=<?php echo get_field('combicolorid');?>&backcolor=<?php echo get_field('backcolorid');?>&stitch=<?php echo get_field('kabuseid');?>&tack=<?php echo get_field('byouid');?>&inner=<?php echo get_field('innercolorid');?>&side=<?php echo get_field('sidedesignid');?>">このパターンで<br />シミュレーションする</a>
+                <a href="https://sim.solouno-ordermade.com/?type=gallery&maincolor=<?php echo get_field('maincolorid');?>&combicolor=<?php echo get_field('combicolorid');?>&backcolor=<?php echo get_field('backcolorid');?>&stitch=<?php echo get_field('kabuseid');?>&tack=<?php echo get_field('byouid');?>&inner=<?php echo get_field('innercolorid');?>&side=<?php echo get_field('sidedesignid');?>">このパターンで<br />シミュレーションする</a>
               </figure>
               <div>
                 <ul>
