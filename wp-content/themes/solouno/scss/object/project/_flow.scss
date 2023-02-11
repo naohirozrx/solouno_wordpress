@@ -366,6 +366,26 @@
       }
     }
 
+    .present {
+      background-color: #FAD8CC;
+      border-radius: 8px;
+      text-align: center;
+      padding: 32px;
+      margin-top: 40px;
+      img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 32px;
+      }
+
+      p {
+        font-size: 14px;
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+
     dl {
       display: flex;
       margin-bottom: 2px;
@@ -424,7 +444,10 @@
       }
     }
   }//.convenience-area
-  .schoolbag-area,
+  .schoolbag-area {
+    padding: 60px 27px 20px;
+    background-color: #FEF6EA;
+  }
   .howtoorder {
     padding: 60px 27px 60px;
     background-color: #FEF6EA;

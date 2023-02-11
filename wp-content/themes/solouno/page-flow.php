@@ -9,13 +9,13 @@
     </div>
   </section>
   <section class="schoolbag-area">
-    <nav style="margin-bottom: 40px;">
+    <nav>
       <ul style="line-height: 1.3;">
         <li style="margin-bottom: 0.5em;">〇<a href="#step" style="text-decoration: underline;">オーダーの手順</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#spec" style="text-decoration: underline;">PRICE＆SPEC</a></li>
+        <li style="margin-bottom: 0.5em;">〇<a href="#gallery" style="text-decoration: underline;">GALLERY</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#howtoorder" style="text-decoration: underline;">HOW TO ORDER</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#function" style="text-decoration: underline;">SOLO UNOの便利機能</a></li>
-        <li style="margin-bottom: 0.5em;">〇<a href="#gallery" style="text-decoration: underline;">GALLERY</a></li>
       </ul>
     </nav>
   </section>
@@ -559,6 +559,15 @@
       <dt>重量</dt>
       <dd>約1200g</dd>
     </dl>
+
+    <div class="present">
+      <img src="<?php echo get_template_directory_uri(); ?>/images/solouno-logo.svg" />
+      <p>
+        <span>”時間割が書き込める”</span><br />
+        <span>オリジナルクリアファイル</span><br />
+        をプレゼント！
+      </p>
+    </div>
   </section>
 
   <section class="gallery-area">

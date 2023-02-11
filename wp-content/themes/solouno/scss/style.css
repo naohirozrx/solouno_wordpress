@@ -2565,6 +2565,20 @@ footer {
           font-size: 12px;
           font-weight: bold;
           line-height: 1.4; }
+    #flow-area .spec-area .present {
+      background-color: #FAD8CC;
+      border-radius: 8px;
+      text-align: center;
+      padding: 32px;
+      margin-top: 40px; }
+      #flow-area .spec-area .present img {
+        width: 100px;
+        height: auto;
+        margin-bottom: 32px; }
+      #flow-area .spec-area .present p {
+        font-size: 14px; }
+        #flow-area .spec-area .present p span {
+          font-weight: bold; }
     #flow-area .spec-area dl {
       display: flex;
       margin-bottom: 2px; }
@@ -2605,11 +2619,12 @@ footer {
         padding: 0 10px; }
         #flow-area .convenience-area dl dd p {
           margin-bottom: 1.5em; }
-  #flow-area .schoolbag-area,
+  #flow-area .schoolbag-area {
+    padding: 60px 27px 20px;
+    background-color: #FEF6EA; }
   #flow-area .howtoorder {
     padding: 60px 27px 60px;
     background-color: #FEF6EA; }
-    #flow-area .schoolbag-area h2,
     #flow-area .howtoorder h2 {
       width: 100%;
       margin: 0 auto 60px auto;
@@ -2619,15 +2634,12 @@ footer {
       gap: 15px;
       font-size: .2rem;
       font-weight: 500; }
-      #flow-area .schoolbag-area h2 img,
       #flow-area .howtoorder h2 img {
         width: 39px;
         height: auto; }
-    #flow-area .schoolbag-area div dl,
     #flow-area .howtoorder div dl {
       position: relative;
       margin-bottom: 50px; }
-      #flow-area .schoolbag-area div dl dt,
       #flow-area .howtoorder div dl dt {
         display: flex;
         align-items: center;
@@ -2640,7 +2652,6 @@ footer {
         font-weight: 700;
         padding-left: 65px;
         margin-left: 48px; }
-        #flow-area .schoolbag-area div dl dt img,
         #flow-area .howtoorder div dl dt img {
           width: 96px;
           height: auto;
@@ -2648,33 +2659,26 @@ footer {
           position: absolute;
           left: 0;
           top: -17px; }
-      #flow-area .schoolbag-area div dl dd,
       #flow-area .howtoorder div dl dd {
         background-color: #fff;
         margin-left: 48px;
         padding: 35px; }
-        #flow-area .schoolbag-area div dl dd h3,
         #flow-area .howtoorder div dl dd h3 {
           font-size: .12rem;
           font-weight: 500;
           color: #AC7746;
           margin-bottom: 20px; }
-        #flow-area .schoolbag-area div dl dd p,
         #flow-area .howtoorder div dl dd p {
           margin-bottom: 20px; }
-          #flow-area .schoolbag-area div dl dd p.text1,
           #flow-area .howtoorder div dl dd p.text1 {
             font-size: .12rem; }
-          #flow-area .schoolbag-area div dl dd p.text2,
           #flow-area .howtoorder div dl dd p.text2 {
             font-size: .1rem; }
-        #flow-area .schoolbag-area div dl dd img,
         #flow-area .howtoorder div dl dd img {
           max-width: 300px;
           height: auto;
           margin: auto;
           display: block; }
-    #flow-area .schoolbag-area div > a,
     #flow-area .howtoorder div > a {
       color: #AC7746;
       width: 335px;
