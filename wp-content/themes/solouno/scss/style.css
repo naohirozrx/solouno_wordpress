@@ -2708,13 +2708,16 @@ footer {
         align-items: center;
         gap: 15px;
         font-size: .2rem;
-        font-weight: 500; }
+        font-weight: 500;
+        margin-bottom: 20px; }
         #flow-area .gallery-area .text-area h2 p {
           margin: 10px auto;
           text-align: center; }
         #flow-area .gallery-area .text-area h2 img {
           width: 39px;
           height: auto; }
+      #flow-area .gallery-area .text-area p {
+        margin-bottom: 1em; }
     #flow-area .gallery-area .photo-area {
       background-color: #FEF6EA;
       display: flex;

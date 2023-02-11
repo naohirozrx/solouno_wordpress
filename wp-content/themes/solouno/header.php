@@ -18,7 +18,7 @@
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
   <link rel="shortcut icon" href="<?php echo home_url( "/" );?>favicon.svg" type="image/svg+xml">
-  <link rel="icon" sizes="any" href="<?php echo get_template_directory_uri(); ?>/images/solouno-logo.svg">
+  <link rel="icon" sizes="any" href="<?php echo get_template_directory_uri(); ?>/images/solouno-git logo.svg">
   <script
   src="https://code.jquery.com/jquery-3.5.1.js"
   integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="

@@ -552,6 +552,7 @@
         gap: 15px;
         font-size: .2rem;
         font-weight: $font_w_m;
+        margin-bottom: 20px;
 
         p {
           margin: 10px auto;
@@ -563,6 +564,9 @@
           height: auto;
         }//img
       }//h2
+      p {
+        margin-bottom: 1em;
+      }
     }//div
     .photo-area {
       background-color: #FEF6EA;

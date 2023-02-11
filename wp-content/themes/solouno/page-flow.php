@@ -573,7 +573,12 @@
   <section class="gallery-area">
     <div class="text-area">
       <h2 id="gallery"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />GALLERY<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
-      <p>クリックすると組み合わせが確認できます。</p>
+      <p>SOLO UNOのオーダーメイドランドセルは<br />
+このためだけに考えられたオリジナルデザインです。</p>
+
+<p>このギャラリーに並ぶ組み合わせサンプルは、806,400通りの組み合わせのほんの一部です。</p>
+
+<p>シンプルにもスポーティにもデコラティブにもお選びいただけますので大好きな組み合わせをみつけてください。</p>
     </div>
     <div class="photo-area">
       <?php
