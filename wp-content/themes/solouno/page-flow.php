@@ -544,6 +544,16 @@
     <h3>SPEC</h3>
 
     <dl>
+      <dt>本体素材</dt>
+      <dd>クラリーノ エフまたはクラリーノ タフロック ネオ</dd>
+    </dl>
+
+    <dl>
+      <dt>かぶせ裏</dt>
+      <dd>クラリーノ</dd>
+    </dl>
+
+    <dl>
       <dt>背中/ベルト裏</dt>
       <dd>人工皮革</dd>
     </dl>
@@ -682,8 +692,8 @@
         </dt>
         <dd>
           <h3>組み合わせが決まりましたらお申し込みください。<br />
-          ■ WEBサイトのシミュレーションから<br />
-          ■ 店舗/展示会で</h3>
+          ■ <a href="https://sim.solouno-ordermade.com/">WEBサイトのシミュレーションから</a><br />
+          ■ <a href="<?php echo home_url('/')?>showroom">店舗 </a>/ <a href="<?php echo home_url('/')?>exhibit">展示会</a> で</h3>
           <p class="text2">※一部お申し込みを承れない展示会場がございます。<br />※お申し込み時にお支払いください。</p>
           <h3 style="text-decoration: underline;">お申し込みから２週間は組み合わせの変更が可能です。</h3>
           <img src="<?php echo get_template_directory_uri(); ?>/images/gentei.svg" />
@@ -740,6 +750,50 @@
       </dd>
     </dl>
   </section>
+
+  <section class="change-combi">
+    <h2 id="combination"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />組み合わせご変更<br />受付方法のご案内<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+    <p>お申し込みから２週間はオーダーメイドランドセルの組み合わせのご変更が可能です。</p>
+    <p>下記手順にてお手続きをお願いいたします</p>
+    <dl>
+      <dt>●お申し込み時の受付メールをお持ちの方</dt>
+      <dd>⇒受付メールに変更内容を返信してください。</dd>
+    </dl>
+    <dl>
+      <dt>●お申し込み時の受付メールから返信できない方</dt>
+      <dd>
+        ⇒<a href="mail:shop@solouno-ordermade.com">こちら</a>からメールをお送りください。<br />
+        その際、下記内容もご記入ください。<br />
+        ・ご使用者さまのお名前<br />
+        ・お電話番号<br />
+        ・お申し込み方法（WEBサイト/店舗/展示会）<br />
+      </dd>
+    </dl>
+    <span>組み合わせのご変更により<br />お支払金額がご変更になる場合</span>
+    <dl>
+      <dt>・WEBサイトからクレジットカードにてご注文</dt>
+      <dd>⇒金額を訂正して決済いたします。</dd>
+    </dl>
+    <dl>
+      <dt>・店舗でお支払い</dt>
+      <dd>
+      ⇒差額返金：銀行振込にてご返金いたします。<br />
+      　ご返金先をご記載ください。<br />
+      ⇒差額お支払い：店舗にご来店いただくか、<br />
+      　銀行振込にてお支払いをお願いいたします。<br />
+      ※振込手数料はご負担くださいますようお願いいたします。
+      </dd>
+    </dl>
+    <div class="bank">
+    振込先口座<br />
+    三菱東京UFJ銀行　淡路支店（028）<br />
+    普通　口座番号0316799<br />
+    ソロウーノ<br />
+    </div>
+
+  </section>
+
+
 </div>
 <script>
   $(function() {

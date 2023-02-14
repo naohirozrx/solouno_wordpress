@@ -2844,6 +2844,49 @@ footer {
                     @media screen and (min-width: 781px) {
                       #flow-area .gallery-area .photo-area > div .gallery-modal > div > div ul li span:nth-child(2) {
                         width: 140px; } }
+  #flow-area .change-combi {
+    padding: 60px 27px; }
+    @media screen and (min-width: 781px) {
+      #flow-area .change-combi {
+        max-width: 395px; } }
+    #flow-area .change-combi h2 {
+      width: 100%;
+      margin: 0 auto 60px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      font-size: .2rem;
+      font-weight: 500;
+      line-height: 1.3; }
+      #flow-area .change-combi h2 img {
+        width: 39px;
+        height: auto; }
+    #flow-area .change-combi > img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 40px; }
+    #flow-area .change-combi p {
+      font-size: .14rem;
+      margin-bottom: 10px; }
+    #flow-area .change-combi dl {
+      margin: 40px auto;
+      font-size: .14rem; }
+      #flow-area .change-combi dl dt {
+        font-weight: 500; }
+      #flow-area .change-combi dl dd {
+        padding-left: 1em; }
+        #flow-area .change-combi dl dd a {
+          color: #823135;
+          text-decoration: underline; }
+    #flow-area .change-combi span {
+      text-align: center;
+      font-size: .14rem;
+      font-weight: 700;
+      display: block;
+      margin: auto; }
+    #flow-area .change-combi .bank {
+      text-align: center; }
 
 #showroom-area {
   width: 100%;

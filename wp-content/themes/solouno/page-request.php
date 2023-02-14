@@ -14,7 +14,7 @@
     <section id="request-page">
       <h2 id="request" class="textAnimation">カタログ請求フォーム</h2>
       <p>2024 SOLO UNOランドセルカタログは<br />
-      ２月中旬より順次発送いたします。</p>
+      10日ほどでお届けします。</p>
     <?php the_content();?>
   <section>
 </div>
