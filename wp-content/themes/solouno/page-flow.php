@@ -16,6 +16,7 @@
         <li style="margin-bottom: 0.5em;">〇<a href="#gallery" style="text-decoration: underline;">GALLERY</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#howtoorder" style="text-decoration: underline;">HOW TO ORDER</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#function" style="text-decoration: underline;">SOLO UNOの便利機能</a></li>
+        <li style="margin-bottom: 0.5em;">〇<a href="#change" style="text-decoration: underline;">組み合わせご変更受付方法のご案内</a></li>
       </ul>
     </nav>
   </section>
@@ -752,7 +753,7 @@
   </section>
 
   <section class="change-combi">
-    <h2 id="combination"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />組み合わせご変更<br />受付方法のご案内<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+    <h2 id="change"><img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" />組み合わせご変更<br />受付方法のご案内<img src="<?php echo get_template_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <p>お申し込みから２週間はオーダーメイドランドセルの組み合わせのご変更が可能です。</p>
     <p>下記手順にてお手続きをお願いいたします</p>
     <dl>
