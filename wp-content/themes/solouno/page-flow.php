@@ -763,7 +763,7 @@
     <dl>
       <dt>●お申し込み時の受付メールから返信できない方</dt>
       <dd>
-        ⇒<a href="mail:shop@solouno-ordermade.com">こちら</a>からメールをお送りください。<br />
+        ⇒<a href="mailto:change@solouno-ordermade.com">こちら</a>からメールをお送りください。<br />
         その際、下記内容もご記入ください。<br />
         ・ご使用者さまのお名前<br />
         ・お電話番号<br />
