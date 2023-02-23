@@ -1,0 +1,15 @@
+table.stock-update-log {
+	border-collapse: collapse;
+}
+table.stock-update-log th {
+	padding: .5em;
+	background-color: #f5f5f5;
+	border: 1px solid #d3d3d3;
+}
+table.stock-update-log td {
+	padding: .5em;
+	border: 1px solid #d3d3d3;
+}
+table.stock-update-log tr.request {
+	background-color: #fffacd;
+}

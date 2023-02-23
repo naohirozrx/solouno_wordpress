@@ -8,7 +8,54 @@
 
 get_header();
 ?>
+<?php
+$maincolor = '';
+$combicolor = '';
+$backcolor = '';
+$stitch = '';
+$kabuse = '';
+$innerdesign = '';
+$sidedesign = '';
+$nametype = '';
+$nametext = '';
 
+if(isset($_GET['maincolor'])) {
+	$maincolor = htmlspecialchars($_GET['maincolor']);
+}
+
+if(isset($_GET['combicolor'])) {
+	$combicolor = htmlspecialchars($_GET['combicolor']);
+}
+
+if(isset($_GET['backcolor'])) {
+	$backcolor = htmlspecialchars($_GET['backcolor']);
+}
+
+if(isset($_GET['stitch'])) {
+	$stitch = htmlspecialchars($_GET['stitch']);
+}
+
+if(isset($_GET['kabuse'])) {
+	$kabuse = htmlspecialchars($_GET['kabuse']);
+}
+
+if(isset($_GET['innerdesign'])) {
+	$innerdesign = htmlspecialchars($_GET['innerdesign']);
+}
+
+if(isset($_GET['sidedesign'])) {
+	$sidedesign = htmlspecialchars($_GET['sidedesign']);
+}
+
+if(isset($_GET['nametype'])) {
+	$nametype = htmlspecialchars($_GET['nametype']);
+}
+
+if(isset($_GET['nametext'])) {
+	$nametext = htmlspecialchars($_GET['nametext']);
+}
+
+?>
 <div id="primary" class="site-content">
 	<div id="content" role="main">
 
@@ -148,6 +195,16 @@ get_header();
 							<?php } while ( usces_have_skus() ); ?>
 
 							<?php do_action( 'usces_action_single_item_inform' ); ?>
+
+							<input type="hidden" name="maincolor" value="<?php echo $maincolor?>" />
+							<input type="hidden" name="combicolor" value="<?php echo $combicolor?>" />
+							<input type="hidden" name="backcolor" value="<?php echo $backcolor?>" />
+							<input type="hidden" name="stitch" value="<?php echo $stitch?>" />
+							<input type="hidden" name="kabuse" value="<?php echo $kabuse?>" />
+							<input type="hidden" name="innerdesign" value="<?php echo $innerdesign?>" />
+							<input type="hidden" name="sidedesign" value="<?php echo $sidedesign?>" />
+							<input type="hidden" name="nametype" value="<?php echo $nametype?>" />
+							<input type="hidden" name="nametext" value="<?php echo $nametext?>" />
 						</form>
 						<?php do_action( 'usces_action_single_item_outform' ); ?>
 					</div><!-- .item-info -->

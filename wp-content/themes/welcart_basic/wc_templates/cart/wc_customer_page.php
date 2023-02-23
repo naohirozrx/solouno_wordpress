@@ -8,7 +8,54 @@
 
 get_header();
 ?>
+<?php
+$maincolor = '';
+$combicolor = '';
+$backcolor = '';
+$stitch = '';
+$kabuse = '';
+$innerdesign = '';
+$sidedesign = '';
+$nametype = '';
+$nametext = '';
 
+if(isset($_POST['maincolor'])) {
+	$maincolor = htmlspecialchars($_POST['maincolor']);
+}
+
+if(isset($_POST['combicolor'])) {
+	$combicolor = htmlspecialchars($_POST['combicolor']);
+}
+
+if(isset($_POST['backcolor'])) {
+	$backcolor = htmlspecialchars($_POST['backcolor']);
+}
+
+if(isset($_POST['stitch'])) {
+	$stitch = htmlspecialchars($_POST['stitch']);
+}
+
+if(isset($_POST['kabuse'])) {
+	$kabuse = htmlspecialchars($_POST['kabuse']);
+}
+
+if(isset($_POST['innerdesign'])) {
+	$innerdesign = htmlspecialchars($_POST['innerdesign']);
+}
+
+if(isset($_POST['sidedesign'])) {
+	$sidedesign = htmlspecialchars($_POST['sidedesign']);
+}
+
+if(isset($_POST['nametype'])) {
+	$nametype = htmlspecialchars($_POST['nametype']);
+}
+
+if(isset($_POST['nametext'])) {
+	$nametext = htmlspecialchars($_POST['nametext']);
+}
+
+?>
 	<div id="primary" class="site-content">
 		<div id="content" class="cart-page" role="main">
 
@@ -22,7 +69,6 @@ get_header();
 				<h1 class="cart_page_title"><?php esc_html_e( 'Customer Information', 'usces' ); ?></h1>
 
 				<div id="customer-info">
-
 					<div class="cart_navi">
 						<ul>
 							<li><?php esc_html_e( '1.Cart', 'usces' ); ?></li>
@@ -61,6 +107,15 @@ get_header();
 							<?php endif; ?>
 							<div class="send"><input name="customerlogin" class="to_memberlogin_button" type="submit" value="<?php esc_html_e( ' Next ', 'usces' ); ?>" /></div>
 							<?php do_action( 'usces_action_customer_page_member_inform' ); ?>
+							<input type="hidden" name="maincolor" value="<?php echo $maincolor?>" />
+								<input type="hidden" name="combicolor" value="<?php echo $combicolor?>" />
+								<input type="hidden" name="backcolor" value="<?php echo $backcolor?>" />
+								<input type="hidden" name="stitch" value="<?php echo $stitch?>" />
+								<input type="hidden" name="kabuse" value="<?php echo $kabuse?>" />
+								<input type="hidden" name="innerdesign" value="<?php echo $innerdesign?>" />
+								<input type="hidden" name="sidedesign" value="<?php echo $sidedesign?>" />
+								<input type="hidden" name="nametype" value="<?php echo $nametype?>" />
+								<input type="hidden" name="nametext" value="<?php echo $nametext?>" />
 						</form>
 					<?php endif; ?>
 
@@ -128,6 +183,15 @@ get_header();
 							</div>
 							<?php usces_agree_member_field(); ?>
 							<?php do_action( 'usces_action_customer_page_inform' ); ?>
+							<input type="hidden" name="maincolor" value="<?php echo $maincolor?>" />
+								<input type="hidden" name="combicolor" value="<?php echo $combicolor?>" />
+								<input type="hidden" name="backcolor" value="<?php echo $backcolor?>" />
+								<input type="hidden" name="stitch" value="<?php echo $stitch?>" />
+								<input type="hidden" name="kabuse" value="<?php echo $kabuse?>" />
+								<input type="hidden" name="innerdesign" value="<?php echo $innerdesign?>" />
+								<input type="hidden" name="sidedesign" value="<?php echo $sidedesign?>" />
+								<input type="hidden" name="nametype" value="<?php echo $nametype?>" />
+								<input type="hidden" name="nametext" value="<?php echo $nametext?>" />
 						</form>
 
 					<?php endif; ?>

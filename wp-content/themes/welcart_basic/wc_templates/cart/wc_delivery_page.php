@@ -9,7 +9,54 @@
 get_header();
 usces_delivery_info_script();
 ?>
+<?php
+$maincolor = '';
+$combicolor = '';
+$backcolor = '';
+$stitch = '';
+$kabuse = '';
+$innerdesign = '';
+$sidedesign = '';
+$nametype = '';
+$nametext = '';
 
+if(isset($_POST['maincolor'])) {
+	$maincolor = htmlspecialchars($_POST['maincolor']);
+}
+
+if(isset($_POST['combicolor'])) {
+	$combicolor = htmlspecialchars($_POST['combicolor']);
+}
+
+if(isset($_POST['backcolor'])) {
+	$backcolor = htmlspecialchars($_POST['backcolor']);
+}
+
+if(isset($_POST['stitch'])) {
+	$stitch = htmlspecialchars($_POST['stitch']);
+}
+
+if(isset($_POST['kabuse'])) {
+	$kabuse = htmlspecialchars($_POST['kabuse']);
+}
+
+if(isset($_POST['innerdesign'])) {
+	$innerdesign = htmlspecialchars($_POST['innerdesign']);
+}
+
+if(isset($_POST['sidedesign'])) {
+	$sidedesign = htmlspecialchars($_POST['sidedesign']);
+}
+
+if(isset($_POST['nametype'])) {
+	$nametype = htmlspecialchars($_POST['nametype']);
+}
+
+if(isset($_POST['nametext'])) {
+	$nametext = htmlspecialchars($_POST['nametext']);
+}
+
+?>
 	<div id="primary" class="site-content">
 		<div id="content" class="cart-page" role="main">
 
@@ -159,6 +206,15 @@ usces_delivery_info_script();
 							<input name="confirm" type="submit" class="to_confirm_button" value="<?php esc_attr_e( ' Next ', 'usces' ); ?>"<?php echo apply_filters( 'usces_filter_deliveryinfo_nextbutton', null ); // phpcs:ignore ?> />
 						</div>
 						<?php do_action( 'usces_action_delivery_page_inform' ); ?>
+						<input type="hidden" name="maincolor" value="<?php echo $maincolor?>" />
+								<input type="hidden" name="combicolor" value="<?php echo $combicolor?>" />
+								<input type="hidden" name="backcolor" value="<?php echo $backcolor?>" />
+								<input type="hidden" name="stitch" value="<?php echo $stitch?>" />
+								<input type="hidden" name="kabuse" value="<?php echo $kabuse?>" />
+								<input type="hidden" name="innerdesign" value="<?php echo $innerdesign?>" />
+								<input type="hidden" name="sidedesign" value="<?php echo $sidedesign?>" />
+								<input type="hidden" name="nametype" value="<?php echo $nametype?>" />
+								<input type="hidden" name="nametext" value="<?php echo $nametext?>" />
 					</form>
 
 					<div class="footer_explanation">
@@ -176,6 +232,11 @@ usces_delivery_info_script();
 
 		</div><!-- #content -->
 	</div><!-- #primary -->
-
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script>
+	$(function() {
+		$('#note').val("メインカラー：<?php echo $maincolor?>\nコンビカラー：<?php echo $combicolor?>\nバックカラー：<?php echo $backcolor?>\nカブセステッチ：<?php echo $stitch?>\nカブセ鋲＆ファスナー引手：<?php echo $kabuse?>\nインナーデザイン：<?php echo $innerdesign?>\nサイドデザイン：<?php echo $sidedesign?>\n名入れ：<?php echo $nametype?>\n名前：<?php echo $nametext?>");
+	});
+</script>
 <?php
 get_footer();
