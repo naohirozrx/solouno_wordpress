@@ -1,0 +1,45 @@
+/*
+Theme Name: HAUSS SUPPORT Template
+Theme URL: http://hauss_support.co.jp/
+Description: HAUSS SUPPORT Template 2022
+Author: NAOHIRO FUKUMOTO
+Version: 1.0
+Tags:
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Template:
+*/
+
+@import "foundation/_reset.scss";
+@import "foundation/_width.scss";
+@import "foundation/_font.scss";
+@import "foundation/_color.scss";
+@import "foundation/_base.scss";
+
+@import "layout/_header.scss";
+@import "layout/_footer.scss";
+@import "layout/_home.scss";
+@import "layout/_request.scss";
+@import "layout/_flow.scss";
+
+@import "object/component/_button.scss";
+@import "object/component/_title.scss";
+@import "object/component/_pace.scss";
+
+@import "object/project/_header.scss";
+@import "object/project/_footer.scss";
+@import "object/project/_home.scss";
+@import "object/project/_request.scss";
+@import "object/project/_side-r.scss";
+@import "object/project/_side-l.scss";
+@import "object/project/_aboutus.scss";
+@import "object/project/_archive.scss";
+@import "object/project/_column.scss";
+@import "object/project/_product.scss";
+@import "object/project/_flow.scss";
+@import "object/project/_showroom.scss";
+@import "object/project/_exhibition-information.scss";
+@import "object/project/_exhibition-single.scss";
+
+@import "object/utility/_clearfix.scss";
+@import "object/utility/_animation.scss";

@@ -1,0 +1,10 @@
+$width: (
+  sp: 781px,
+  tablet: 1024px,
+  pc: 1200px,
+
+);
+
+@function width($key) {
+    @return map-get($width, $key);
+}

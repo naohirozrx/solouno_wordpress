@@ -1,0 +1,140 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WCEX Multi Price\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-09-14 00:00+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Collne Inc. <info@collne.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Description of the plugin/theme
+msgid "This plug-in is an extension plug-in dedicated to Welcart. Please use in conjunction with the Welcart e-Commerce."
+msgstr "このプラグインは Welcart 専用の拡張プラグインです。Welcart 本体と一緒にご利用ください。"
+
+#. Author of the plugin/theme
+msgid "Collne Inc."
+msgstr "コルネ株式会社"
+
+msgid "Multi Price"
+msgstr "マルチプライス"
+
+msgid "Multi Price Setting"
+msgstr "マルチプライス設定"
+
+msgid "Option 1"
+msgstr "オプション１"
+
+msgid "Option 2"
+msgstr "オプション２"
+
+msgid "Price fluctuation value"
+msgstr "価格変動値"
+
+msgid "Rule"
+msgstr "ルール"
+
+msgid "Add condition"
+msgstr "条件を追加する"
+
+msgid "Select the item option to link prices. Beforehand, you need to register common options from \"General Setting\"."
+msgstr "価格を連動させる商品オプションを選択します。前もって「基本設定」より、共通オプションを登録しておく必要があります。"
+
+msgid "If you check \"Add condition\", you can specify another item option."
+msgstr "”条件を追加する”にチェックを入れると、もうひとつ商品オプションを指定できるようになります。"
+
+msgid "The two options interact to change the price."
+msgstr "ふたつのオプションは相互に関わって価格を変動させます。"
+
+msgid "Select the second item option."
+msgstr "ふたつ目の商品オプションを選択します。"
+
+msgid "Please note that if you uncheck \"Add condition\", variable value of option 2 will be cleared."
+msgstr "”条件を追加する”のチェックを外すとオプション２の変動値がクリアされますのでご注意ください。"
+
+msgid "Enter the amount to be increased or decreased relative to the price set in the item registration. You can only enter numbers, if you want cheaper, add - (minus)."
+msgstr "商品登録で設定した価格に対して増減させる金額を入力します。入力できるのは数値のみで、安くしたい場合は -（マイナス）をつけます。"
+
+msgid "Add column"
+msgstr "列を追加"
+
+msgid "Delete column"
+msgstr "列を削除"
+
+msgid "Column : "
+msgstr "列＝"
+
+msgid "Add row"
+msgstr "行を追加"
+
+msgid "Delete row"
+msgstr "行を削除"
+
+msgid "Row : "
+msgstr "行＝"
+
+msgid "Update %s"
+msgstr "%s を更新"
+
+msgid "Delete %s"
+msgstr "%s を削除"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Caution"
+msgstr "ご注意"
+
+msgid "* When using \"WCEX Multi Price\", make the setting in the procedure of \"Common option registration\" &raquo; \"Multiprice setting\" &raquo; \"Item registration - Item option setting\"."
+msgstr "※マルチプライスを利用する場合、「共通オプション登録」→「マルチプライス設定」→「商品登録-商品オプション設定」の手順で設定を行います。"
+
+msgid "* \"WCEX WCEX Multi Price\" can be set for multiple price fluctuation rules. If you create a price for the same rule, the first price will be applied."
+msgstr "※マルチプライスは複数の価格変動ルール設定できます。同じルールのプライスを作成した場合は最初のプライスが適用されます。"
+
+msgid "* \"WCEX WCEX Multi Price\" will set price increase / decrease based on common option settings. Therefore, the name and value of the item option must always be the same as the common option."
+msgstr "※マルチプライスは共通オプションの設定をもとに価格の増減の設定を行います。従って商品オプションの名前や値は、常に共通オプションと同じでなくてはいけません。"
+
+msgid "\"WCEX Multi Price\" is an extension function for fluctuating unit price in conjunction with item options."
+msgstr "マルチプライスは、商品オプションと連動して商品単価を変動させるための拡張機能です。"
+
+msgid "%s updated."
+msgstr "%s を更新しました。"
+
+msgid "%s deleted."
+msgstr "%s を削除しました。"
+
+msgid "Added a new price list."
+msgstr "新しい価格表を追加しました。"
+
+msgid "It exceeds the maximum value(%2$s) of %1$s."
+msgstr "%1$s の最大値(%2$s)を超えています。"
+
+msgid "The same options as option 1 can not be set."
+msgstr "オプション１と同じオプションは設定できません。"
+
+msgid "The same options as option 2 can not be set."
+msgstr "オプション２と同じオプションは設定できません。"
+
+msgid "Delete %s. Is it OK?"
+msgstr "%s を削除します。よろしいですか？"
+
+msgid "Option 1 is not selected."
+msgstr "オプション１が選択されていません。"
+
+msgid "Please enter the amount."
+msgstr "金額を入力してください。"
+
+msgid "Please enter a numeric value."
+msgstr "数値を入力してください。"
+
+msgid " - "
+msgstr "～"
+
+msgid "0 - "
+msgstr "0～"
+
+msgid "Name"
+msgstr ""
