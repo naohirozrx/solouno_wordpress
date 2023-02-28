@@ -1,0 +1,36 @@
+#side-r {
+  display: none;
+  @media screen and (min-width: width(sp)) {
+    display: block;
+    width: 100%;
+    max-width: calc((100% - 395px) / 2);
+    position: fixed;
+    top: 0;
+    right: 0;
+    .bg-area {
+      background-image: url(../images/home-top_p1big.jpg);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+      position: relative;
+      .text-area {
+        font-size: .24rem;
+        font-weight: $font_w_b;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+        text-align: center;
+        line-height: 1;
+        img {
+          max-width: 231px;
+          height: auto;
+          margin-top: 20px;
+        }
+      }
+    }
+  }//@media
+}

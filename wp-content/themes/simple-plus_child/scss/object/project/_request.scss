@@ -1,0 +1,170 @@
+#request-area {
+  width: 100%;
+  margin: auto;
+  @media screen and (min-width: width(sp)) {
+    max-width: 395px;
+  }//@media
+  .request-top {
+    position: relative;
+    background-color: #3A1E15;
+    > img {
+      width: 100%;
+      height: auto;
+      opacity: .65;
+    }//img
+    div {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      h2 {
+        font-size: .18rem;
+        font-weight: $font_w_b;
+        margin-bottom: 15px;
+        color: #fff;
+      }
+      img {
+        width: 87px;
+        height: auto;
+      }
+    }//div
+  }//.request-top
+}
+#request-page {
+  padding: 30px;
+  width: 100%;
+  @media screen and (min-width: width(sp)) {
+    max-width: 395px;
+    padding: 34px;
+  }
+
+  dl {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    max-width: 500px;
+    margin: 0 auto 12px;
+
+    dt {
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+    }
+
+    dd {
+      text-align: left;
+
+      &.name {
+        display: flex;
+        gap: 10px;
+      }
+
+      input[type="text"],
+      input[type="tel"],
+      input[type="email"] {
+        all: unset;
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        max-width: 500px;
+        padding: 0 12px;
+        border: 1px solid #DFDFDF;
+        border-radius: 4px;
+        background-color: #fff;
+
+        &[name="zip"] {
+          width: 100px;
+          margin-bottom: 10px;
+        }
+        &[name="pref"] {
+          margin-bottom: 10px;
+        }
+        &[name="address1"] {
+          margin-bottom: 10px;
+        }
+        &[name="address2"] {
+          margin-bottom: 10px;
+        }
+      }
+
+      textarea {
+        padding: 12px;
+        border: 1px solid #DFDFDF;
+        border-radius: 4px;
+        height: 140px;
+        width: 100%;
+        max-width: 500px;
+        background-color: #fff;
+      }
+
+      select {
+        box-sizing: border-box;
+        height: 50px;
+        width: 100%;
+        max-width: 500px;
+        padding: 0 12px;
+        border: 1px solid #DFDFDF;
+        border-radius: 4px;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+      }
+    }
+
+    &.required {
+      dt {
+        &:before {
+          content: '必須';
+          background-color: #B42822;
+          color: #fff;
+          font-size: .1rem;
+          border-radius: 2px;
+          height: 18px;
+          width: 30px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          line-height: 1;
+          margin-right: 4px;
+        }
+      }
+    }
+  }
+
+  input[type="submit"] {
+    all: unset;
+    box-sizing: border-box;
+    background-color: #B1926D;
+    border-radius: 100px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    width: 100%;
+    max-width: 320px;
+    margin: 40px auto 0;
+    cursor: pointer;
+    transition: 0.3s;
+    &:hover {
+      background-color: #AC7746;
+    }
+  }
+
+  .mail-notice {
+    font-size: .1rem;
+    color: #B1926D;
+    text-decoration: underline;
+    display: block;
+    margin-bottom: 1em;
+    cursor: pointer;
+    @media screen and (min-width: width(sp)) {
+      font-size: .12rem;
+    }
+
+    &:before {
+      content: '■';
+    }
+  }
+}

@@ -794,7 +794,8 @@
 
   </section>
 
-
+  https://stg.solouno-ordermade.com/%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%a0%e3%83%a9%e3%83%b3%e3%83%89%e3%82%bb%e3%83%ab%e3%83%99%e3%83%bc%e3%82%b7%e3%83%83%e3%82%af/
+  ?maincolor=ブラック&combicolor=ネイビー&backcolor=ブルー&stitch=チェーン&kabuse=ダイヤ&innerdesign=プリンセス&sidedesign=スクエア&nametype=ブロック体&nametext=Naohiro Fukumoto
 </div>
 <script>
   $(function() {

@@ -1,0 +1,71 @@
+input.form-range {
+  width: 100%;
+}
+
+.customize-control-number input[type="number"] {
+  width: 100px;
+}
+
+#customize-control-header-before-bg-color_control::before,
+#customize-control-btn-bg-color_control::before,
+#customize-control-topics_list_display::before,
+#customize-control-items_list_display::before,
+#customize-control-news_list_display::before,
+#customize-control-itempage_display_tag::before,
+#customize-control-itempage_incart_text::before,
+#customize-control-itempage_contact_btn::before,
+#customize-control-itempage_reviews::before {
+  background: #899f6f;
+  display: block;
+  margin: 0 -12px 12px;
+  padding: 12px 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#customize-control-header-before-bg-color_control::before,
+#customize-control-btn-bg-color_control::before {
+  margin-bottom: 0;
+}
+
+#customize-control-header_logo_pc .customize-control-title,
+#customize-control-header_logo_sp .customize-control-title,
+#customize-control-menu-type_display .customize-control-title,
+#customize-control-main-base-bg-color_control .customize-control-title,
+#customize-control-main-bg-color_control .customize-control-title,
+#customize-control-accent-color_control .customize-control-title,
+#customize-control-top_main_image_sp .customize-control-title,
+#customize-control-facebook_page_name .customize-control-title,
+#customize-control-instagram_page_name .customize-control-title,
+#customize-control-twitter_page_name .customize-control-title,
+#customize-control-line_page_name .customize-control-title,
+#customize-control-youtube_page_name .customize-control-title {
+  background: #899f6f;
+  margin: 0 -12px 12px;
+  padding: 12px 10px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#customize-control-header-before-bg-color_control .customize-control-title,
+#customize-control-header-after-bg-color_control .customize-control-title,
+#customize-control-btn-bg-color_control .customize-control-title,
+#customize-control-subbtn1-bg-color_control .customize-control-title,
+#customize-control-subbtn2-bg-color_control .customize-control-title,
+#customize-control-cartbtn-bg-color_control .customize-control-title,
+#customize-control-btn-hover-bg-color_control .customize-control-title {
+  background: #fff;
+  margin: 0 -12px 12px;
+  padding: 12px 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#customize-control-main-bg-color_control .description::before,
+#customize-control-btn-hover-bg-color_control .description::before {
+  display: block;
+  margin-bottom: 12px;
+}
+/*# sourceMappingURL=customizer-style.css.map */
