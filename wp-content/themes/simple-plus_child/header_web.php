@@ -106,7 +106,7 @@
     <a href="#"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/cart.svg" /></a>
   </div> -->
   <div class="icon-area">
-    <?php get_template_part( 'template-parts/header/incart' ); ?>
+    <?php //get_template_part( 'template-parts/header/incart' ); ?>
   </div>
 </header>
 
