@@ -100,8 +100,15 @@
     <h2><span>NEWS</span>お知らせ</h2>
     <img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot" />
 
-    <?php if ( have_posts() ) : ?>
-    <?php while ( have_posts() ) : the_post(); ?>
+    <?php
+      $args = array (
+        'post_type'      => 'news',
+        'posts_per_page' => 3,
+      );
+      $myposts = get_posts( $args );
+      foreach( $myposts as $post ):
+        setup_postdata($post);
+    ?>
     <figure>
       <a href="<?php echo get_permalink( $id );?>">
         <?php the_post_thumbnail();?>
@@ -111,8 +118,10 @@
         </figcaption>
       </a>
     </figure>
-    <?php endwhile; ?>
-    <?php endif; ?>
+    <?php
+      endforeach;
+      wp_reset_postdata();
+    ?>
 
     <a href="<?php echo home_url('/')?>news">and more</a>
   </section>
