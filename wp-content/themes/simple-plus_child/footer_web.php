@@ -13,7 +13,7 @@
     <span>【電話でのお問い合わせ】</span>
     <a href="tel:048-658-3900">048-658-3900</a>
   </div>
-  <span class="copyright">©2023 SOLO UNO.</span>
+  <span class="copyrights">©2023 SOLO UNO.</span>
 </footer>
 <div class="release-msg">
   <div>
