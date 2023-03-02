@@ -10,7 +10,8 @@
 		|| is_archive('exhibit')
 		|| is_singular('exhibit')
 		|| is_page('request')
-
+		|| is_page('law')
+		|| is_page('privacy')
 	):
 		include_once('footer_web.php');
 	else:

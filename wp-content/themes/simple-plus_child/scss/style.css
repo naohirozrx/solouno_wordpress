@@ -298,7 +298,8 @@ header {
   margin: auto;
   padding: 8px 27px;
   box-sizing: border-box;
-  position: relative; }
+  position: relative;
+  z-index: 9000; }
   @media screen and (min-width: 781px) {
     header {
       max-width: 395px; } }
@@ -2894,6 +2895,123 @@ footer {
       margin: auto; }
     #flow-area .change-combi .bank {
       text-align: center; }
+
+#law-area {
+  width: 100%;
+  margin: auto; }
+  @media screen and (min-width: 781px) {
+    #law-area {
+      max-width: 395px; } }
+  #law-area .pagetop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10; }
+    @media screen and (min-width: 781px) {
+      #law-area .pagetop {
+        right: calc(50% - 180px); } }
+  #law-area .law-top {
+    position: relative; }
+    #law-area .law-top > img {
+      width: 100%;
+      height: auto;
+      opacity: .5; }
+    #law-area .law-top div {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+      #law-area .law-top div h2 {
+        font-size: .18rem;
+        font-weight: 700;
+        margin-bottom: 15px; }
+      #law-area .law-top div img {
+        width: 87px;
+        height: auto; }
+  #law-area .law-contents {
+    padding: 42px 27px; }
+    #law-area .law-contents > dl {
+      margin-bottom: 32px; }
+      #law-area .law-contents > dl > dt {
+        font-weight: bold;
+        font-size: 14px;
+        position: relative; }
+        #law-area .law-contents > dl > dt:before {
+          content: '− '; }
+      #law-area .law-contents > dl > dd > ul {
+        list-style-type: decimal;
+        padding-left: 1.5em; }
+      #law-area .law-contents > dl > dd strong {
+        font-weight: bold; }
+      #law-area .law-contents > dl > dd .notice {
+        padding-left: 1em;
+        text-indent: -1em;
+        display: block;
+        font-size: 12px; }
+      #law-area .law-contents > dl > dd > dl {
+        display: flex;
+        margin-bottom: 2px; }
+        #law-area .law-contents > dl > dd > dl > dt {
+          background-color: #eee;
+          padding: 1em;
+          width: 100px; }
+        #law-area .law-contents > dl > dd > dl > dd {
+          padding: 1em; }
+
+#privacy-area {
+  width: 100%;
+  margin: auto; }
+  @media screen and (min-width: 781px) {
+    #privacy-area {
+      max-width: 395px; } }
+  #privacy-area .pagetop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10; }
+    @media screen and (min-width: 781px) {
+      #privacy-area .pagetop {
+        right: calc(50% - 180px); } }
+  #privacy-area .privacy-top {
+    position: relative; }
+    #privacy-area .privacy-top > img {
+      width: 100%;
+      height: auto;
+      opacity: .5; }
+    #privacy-area .privacy-top div {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+      #privacy-area .privacy-top div h2 {
+        font-size: .18rem;
+        font-weight: 700;
+        margin-bottom: 15px; }
+      #privacy-area .privacy-top div img {
+        width: 87px;
+        height: auto; }
+  #privacy-area .privacy-contents {
+    padding: 42px 27px; }
+    #privacy-area .privacy-contents p {
+      margin-bottom: 2em; }
+    #privacy-area .privacy-contents > dl {
+      margin-bottom: 32px; }
+      #privacy-area .privacy-contents > dl > dt {
+        font-weight: bold;
+        font-size: 14px;
+        position: relative; }
+        #privacy-area .privacy-contents > dl > dt:before {
+          content: '− '; }
+      #privacy-area .privacy-contents > dl > dd ul {
+        list-style-type: decimal;
+        padding-left: 1.5em; }
+      #privacy-area .privacy-contents > dl > dd strong {
+        font-weight: bold; }
+      #privacy-area .privacy-contents > dl > dd .end {
+        text-align: right;
+        display: block; }
 
 #showroom-area {
   width: 100%;
