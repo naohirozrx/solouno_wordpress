@@ -4,6 +4,7 @@ header {
   padding: 8px 27px;
   box-sizing: border-box;
   position: relative;
+  z-index: 9000;
   @media screen and (min-width: width(sp)) {
     max-width: 395px;
   }//@media
