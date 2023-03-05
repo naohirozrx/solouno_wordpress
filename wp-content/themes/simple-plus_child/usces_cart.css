@@ -5,3 +5,6 @@
  * @subpackage simple-plus_child
  * @since 1.0.0
  */
+.custombagspec select {
+    background: var(--customer_form--bg-color, #f1f1f1) !important;[]
+}
