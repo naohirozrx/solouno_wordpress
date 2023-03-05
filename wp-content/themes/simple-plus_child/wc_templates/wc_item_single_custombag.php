@@ -167,7 +167,7 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 				<form action="<?php echo esc_html( USCES_CART_URL ); ?>" method="post">
 
 					<?php do { ?>
-						<div class="skuform">
+						<div class="skuform custombagspec">
 
 							<?php welcart_simpleplus_skuinfo(); ?>
 
