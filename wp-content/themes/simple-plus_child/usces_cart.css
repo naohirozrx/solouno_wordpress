@@ -42,3 +42,7 @@
     left: 174px;
   }
 }
+
+#cart_table tbody tr.changebutton {
+  grid-template-columns: 1fr;
+}
