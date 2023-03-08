@@ -40,3 +40,34 @@ function post_has_archive( $args, $post_type ) {
 
 }
 add_filter( 'register_post_type_args', 'post_has_archive', 10, 2 );
+
+//フォームカスタマイズ
+
+//郵便番号
+function my_example_zipcode() {
+  return '330-8564';
+}
+add_filter('usces_filter_after_zipcode', 'my_example_zipcode');
+
+//市区郡町村
+function my_example_address1() {
+  return 'さいたま市大宮区桜木町';
+}
+add_filter('usces_filter_after_address1', 'my_example_address1');
+
+//番地
+function my_example_address2() {
+  return '1-9-1';
+}
+add_filter('usces_filter_after_address2', 'my_example_address2');
+
+//ビル名
+function my_example_address3() {
+  return '三谷ビル1階';
+}
+
+//電話番号
+function my_example_tel() {
+  return 'ハイフンを入れてご入力ください。';
+}
+add_filter('usces_filter_after_tel', 'my_example_tel');
