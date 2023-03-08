@@ -206,11 +206,15 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 								<?php usces_crform_the_itemPriceCr_taxincluded(); ?>
 							</div>
 
-
 							<?php if ( ! usces_have_zaiko() ) : ?>
 								<?php welcart_simpleplus_soldout(); ?>
 							<?php else : ?>
+
+
 								<div class="add-to-cart c-box">
+									<div class="consent-wrap">
+										<input type="checkbox" required id="consent" /><label for="consent">販売規約に同意します</label>
+									</div>
 									<span class="quantity"><?php esc_html_e( 'Quantity', 'usces' ); ?><?php usces_the_itemQuant(); ?><?php usces_the_itemSkuUnit(); ?></span>
 									<span class="cart-button"><?php usces_the_itemSkuButton( get_theme_mod( 'itempage_incart_text_setting', __( 'Add to Shopping Cart', 'usces' ) ), 0 ); ?></span>
 								</div>
