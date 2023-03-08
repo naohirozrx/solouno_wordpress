@@ -6,5 +6,56 @@
  * @since 1.0.0
  */
 .custombagspec select {
-    background: var(--customer_form--bg-color, #f1f1f1) !important;[]
+  background: var(--customer_form--bg-color, #f1f1f1) !important;
+}
+
+.add-to-cart {
+  position: relative;
+}
+
+.add-to-cart .consent-wrap {
+  position: absolute;
+  bottom: 90px;
+  left: 0;
+}
+
+@media screen and (min-width: 780px) {
+  .add-to-cart .consent-wrap {
+    position: absolute;
+    bottom: 100px;
+    left: 0;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .add-to-cart .consent-wrap {
+    position: absolute;
+    bottom: 110px;
+    left: 0px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .add-to-cart .consent-wrap {
+    position: absolute;
+    bottom: 120px;
+    left: 174px;
+  }
+}
+
+#cart_table tbody tr.changebutton {
+  grid-template-columns: 1fr;
+}
+
+
+@media screen and (min-width: 768px) {
+  table.customer_form tr td {
+    display: flex;
+    align-items: center;
+    padding: 1em;
+  }
+}
+
+.email-notice span {
+  font-weight: bold;
 }
