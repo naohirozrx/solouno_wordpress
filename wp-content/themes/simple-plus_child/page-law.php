@@ -11,11 +11,15 @@
 
   <section class="law-contents">
     <dl>
-      <dt>販売業者</dt>
-      <dd>ソロウーノ</dd>
+      <dt>ショップ名</dt>
+      <dd>SOLO UNO ［ソロ ウーノ］</dd>
     </dl>
     <dl>
-      <dt>代表責任者</dt>
+      <dt>販売業者名</dt>
+      <dd>株式会社シブヤ</dd>
+    </dl>
+    <dl>
+      <dt>販売責任者</dt>
       <dd>相川　亜希乃</dd>
     </dl>
     <dl>
