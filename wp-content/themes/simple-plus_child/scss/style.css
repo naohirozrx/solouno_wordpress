@@ -1631,7 +1631,12 @@ footer {
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
-        line-height: 1.2; }
+        line-height: 1.2;
+        transition: 0.3s; }
+        #side-l .ordermade:hover {
+          background-position-x: 96%; }
+        #side-l .ordermade.disneybutton {
+          bottom: 100px; }
       #side-l .sbmto {
         position: absolute;
         left: 12px;
