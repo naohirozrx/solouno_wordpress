@@ -1,6 +1,7 @@
-#flow-area {
+#disney-area {
   width: 100%;
   margin: auto;
+  background-color: #FEF6EA;
   @media screen and (min-width: width(sp)) {
     max-width: 395px;
   }//@media
@@ -15,21 +16,28 @@
     }//@medi
   }
   .flow-top {
-    position: relative;    > img {
+    position: relative;
+     > img {
       width: 100%;
       height: auto;
-      opacity: .5;
     }//img
     div {
       width: 100%;
       text-align: center;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
+      padding: 40px 0 0;
       h2 {
         font-size: .18rem;
         font-weight: $font_w_b;
         margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        span {
+          &:first-child {
+            font-size: .14rem;
+          }
+        }
       }
       img {
         width: 87px;
@@ -70,6 +78,7 @@
       > img {
         height: auto;
         display: block;
+        max-width: 100%;
         &.step1 {
           width: 59px;
           margin: 0 auto 25px auto;
@@ -89,6 +98,13 @@
         font-weight: $font_w_m;
         text-align: center;
         margin-bottom: 25px;
+      }//h3
+      h4 {
+        font-size: .14rem;
+        font-weight: $font_w_m;
+        text-align: center;
+        margin-top: 25px;
+        margin-bottom: 20px;
       }//h3
       > span {
         font-weight: $font_w_m;
@@ -366,6 +382,13 @@
       }
     }
 
+    .guarantee {
+      margin-top: 40px;
+      h4 {
+        font-weight: bold;
+      }
+    }
+
     .present {
       background-color: #FAD8CC;
       border-radius: 8px;
@@ -511,6 +534,7 @@
           }//p
           img {
             max-width: 300px;
+            width: 100%;
             height: auto;
             margin: auto;
             display: block;

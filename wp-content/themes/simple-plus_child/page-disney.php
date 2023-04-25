@@ -1,10 +1,13 @@
 <?php get_header(); ?>
 
-<div id="flow-area">
+<div id="disney-area">
   <section class="flow-top">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home-top_p6.jpg" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/mickey-header.jpg" />
     <div>
-      <h2>オーダーメイドランドセル</h2>
+      <h2>
+        <span>＜ミッキーマウス・ミニーマウス＞</span>
+        <span>ディズニーオーダーメイドランドセル</span>
+      </h2>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini.svg" />
     </div>
   </section>
@@ -27,269 +30,32 @@
     <div>
       <h2 id="step"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />オーダーの手順<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step1.svg" class="step1" />
-      <h3>メインカラーを選ぶ</h3>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_icon1.png" class="icon1" />
-      <span class="font18">Deep</span>
-      <p>性別の枠にとらわれず、好きな色を選べるように。黒や赤などの定番色を中心に、落ち着いた色味のカラー展開。</p>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
-      <span class="font16">クラリーノ エフ</span>
-      <span class="font14">64,800円</span>
-      <div class="maincolor">
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-1black.png" /></dt>
-          <dd>
-            <span>ブラック</span>
-            <p>重厚感のあるカラーがシックで高級感のある印象。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-2navy.png" /></dt>
-          <dd>
-            <span>ネイビー</span>
-            <p>知的で洗練され、落ち着いたシックなカラー。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-3blue.png" /></dt>
-          <dd>
-            <span>ブルー</span>
-            <p>あざやかなカラーで元気で活発な印象。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-4olive.png" /></dt>
-          <dd>
-            <span>オリーブ</span>
-            <p>安らぎと安心感のある自然に溶け込む優しいカラー。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-5vividpink.png" /></dt>
-          <dd>
-            <span>ビビッドピンク</span>
-            <p>シャープで凛としたカラーが情熱的で華やか。</p>
-          </dd>
-        </dl>
-      </div>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
-      <span class="font16">クラリーノ タフロックNEO</span>
-      <span class="font14">69,800円</span>
-      <div class="maincolor">
-      <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-6tnblack.png" /></dt>
-          <dd>
-            <span>タフネオブラック</span>
-            <p>定番とは一味違う黒は上品か洗練された印象。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-7tnnavy.png" /></dt>
-          <dd>
-            <span>ラフネオネイビー</span>
-            <p>青海のあるマットな紺は気品と優しさを兼ね備えたカラー。</p>
-          </dd>
-        </dl>
-      </div>
-      <span class="font18">Smoky</span>
-      <p>肌なじみが良く、優しく大人らしい印象を醸し出してくれるくすみカラー。優しい色味のカラー展開。</p>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
-      <span class="font16">クラリーノ エフ</span>
-      <span class="font14">64,800円</span>
-      <div class="maincolor bottom">
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-9mistyrose.png" /></dt>
-          <dd>
-            <span>ミスティローズ</span>
-            <p>華やかなのに甘すぎない大人な雰囲気のくすみカラー。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-10marshmallowpink.png" /></dt>
-          <dd>
-            <span>マシュマロピンク</span>
-            <p>心が弾むような明るいカラーは元気でピュアな印象に。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-11iris.png" /></dt>
-          <dd>
-            <span>アイリス</span>
-            <p>気品のあるカラーで高級感のあるおしゃれさ。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-12marshmallowblue.png" /></dt>
-          <dd>
-            <span>マシュマロブルー</span>
-            <p>柔らかで優しいカラーは爽やかで清潔な印象に。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-13mintgreen.png" /></dt>
-          <dd>
-            <span>ミントグリーン</span>
-            <p>シャーベットのようなカラーではじけるような爽やかさ。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-14ivory.png" /></dt>
-          <dd>
-            <span>アイボリー</span>
-            <p>温かみのある柔らかい雰囲気で優しい印象。</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-15cinnamon.png" /></dt>
-          <dd>
-            <span>シナモン</span>
-            <p>温もりのある落ち着いたカラーはナチュラルな印象</p>
-          </dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-16greige.png" /></dt>
-          <dd>
-            <span>グレージュ</span>
-            <p>落ち着きのある淡いカラーは上品で誠実な印象。</p>
-          </dd>
-        </dl>
-      </div>
+      <h3>カブセ柄を選ぶ</h3>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step1.jpg" />
     </div>
-
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_p2.jpg" />
     <div>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step2.svg" class="step1" />
-      <h3>コンビカラーを選ぶ</h3>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_icon2.png" class="icon1" />
-      <p>メインカラーとの組み合わせでイメージが変化します。</p>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
-      <div class="combicolor bottom">
-        <dl>
-          <dt class="black"></dt>
-          <dd>ブラック</dd>
-        </dl>
-        <dl>
-          <dt class="navy"></dt>
-          <dd>ネイビー</dd>
-        </dl>
-        <dl>
-          <dt class="blue"></dt>
-          <dd>ブルー</dd>
-        </dl>
-        <dl>
-          <dt class="olive"></dt>
-          <dd>オリーブ</dd>
-        </dl>
-        <dl>
-          <dt class="viviedpink"></dt>
-          <dd>ビビットピンク</dd>
-        </dl>
-        <dl>
-          <dt class="tnblack"></dt>
-          <dd>タフネオブラック</dd>
-        </dl>
-        <dl>
-          <dt class="tnnavy"></dt>
-          <dd>タフネオネイビー</dd>
-        </dl>
-        <dl>
-          <dt class="mistyrose"></dt>
-          <dd>ミスティローズ</dd>
-        </dl>
-        <dl>
-          <dt class="marshmallowpink"></dt>
-          <dd>マシュマロピンク</dd>
-        </dl>
-        <dl>
-          <dt class="iris"></dt>
-          <dd>アイリス</dd>
-        </dl>
-        <dl>
-          <dt class="marshmallowblue"></dt>
-          <dd>マシュマロブルー</dd>
-        </dl>
-        <dl>
-          <dt class="mintgreen"></dt>
-          <dd>ミントグリーン</dd>
-        </dl>
-        <dl>
-          <dt class="ivory"></dt>
-          <dd>アイボリー</dd>
-        </dl>
-        <dl>
-          <dt class="cinnamon"></dt>
-          <dd>シナモン</dd>
-        </dl>
-        <dl>
-          <dt class="gureige"></dt>
-          <dd>グレージュ</dd>
-        </dl>
-        <dl>
-          <dt class="brown"></dt>
-          <dd>ブラウン</dd>
-        </dl>
-        <dl>
-          <dt class="red"></dt>
-          <dd>レッド</dd>
-        </dl>
-        <dl>
-          <dt class="silver"></dt>
-          <dd>シルバー</dd>
-        </dl>
-      </div>
+      <h3>カラーを選ぶ</h3>
+      <h4>生地色1 - カブセ/前締めベルト</h4>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step2-1.jpg" style="margin-bottom: 40px;" />
+      <h4>生地色2 - 大マチ/前ポケット/肩ベルト</h4>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step2-2.jpg" />
     </div>
-
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home-top_p3.jpg" />
     <div>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step3.svg" class="step1" />
-      <h3>バックカラーを選ぶ</h3>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_icon3.png" class="icon1" />
-      <p>ショルダーベルトの裏も同じ色になります。メインカラーの次に大きく目立つ色味です。</p>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
-      <div class="backcolor bottom">
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-17black.png" /></dt>
-          <dd>ブラック</dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-18blue.png" /></dt>
-          <dd>ブルー</dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-19ivory.png" /></dt>
-          <dd>アイボリー</dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-20beige.png" /></dt>
-          <dd>ベージュ</dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-21pink.png" /></dt>
-          <dd>ピンク</dd>
-        </dl>
-      </div>
+      <h3>箔のカラーを選ぶ</h3>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step3.jpg" />
     </div>
 
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home-top_p4.jpg" />
     <div>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step4.svg" class="step1" />
-      <h3>カブセステッチを選ぶ</h3>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_icon4.png" class="icon1" />
-      <p>カブセのデザインでランドセルの印象が決まります。</p>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
-      <div class="kabusestitch bottom">
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-22chain.png" /></dt>
-          <dd>チェーン</dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-23wing.png" /></dt>
-          <dd>ウイング</dd>
-        </dl>
-        <dl>
-          <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-24nostitch.png" /></dt>
-          <dd>ノーステッチ</dd>
-        </dl>
-      </div>
+      <h3>背カンを選ぶ</h3>
+      <h4>ペガサスの翼</h4>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step4-1.png" />
+      <span>ペーシックな従来の左右可動式背カン</span>
+      <h4>ペガサスの翼α</h4>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step4-2.png" />
+      <span>左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！</span>
     </div>
 
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home-top_p5.jpg" />
@@ -428,7 +194,7 @@
   </section>
 
   <section class="spec-area">
-    <h2 id="spec"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />ORDER PRICE & SPEC<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+    <h2 id="spec"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />PRICE & SPEC<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <h3>クラリーノ エフ 64,800円</h3>
     <ul class="price-list">
       <li>
@@ -547,17 +313,12 @@
 
     <dl>
       <dt>本体素材</dt>
-      <dd>クラリーノ エフまたはクラリーノ タフロック ネオ</dd>
-    </dl>
-
-    <dl>
-      <dt>かぶせ裏</dt>
-      <dd>クラリーノ</dd>
+      <dd>コードレ</dd>
     </dl>
 
     <dl>
       <dt>背中/ベルト裏</dt>
-      <dd>人工皮革</dd>
+      <dd>エアリー</dd>
     </dl>
     <dl>
       <dt>内張り</dt>
@@ -565,12 +326,66 @@
     </dl>
     <dl>
       <dt>大マチ内寸</dt>
-      <dd>ヨコ23.0×マチ幅12.5× 高さ31cm</dd>
+      <dd>ヨコ23.5×マチ幅12.5× 高さ32cm</dd>
     </dl>
     <dl>
       <dt>重量</dt>
-      <dd>約1200g</dd>
+      <dd>約1240g〜1260g<br />※生地、箔、背カンなど仕様にyって異なります。</dd>
     </dl>
+    <h3>学習院型</h3>
+    <dl>
+      <dt>背カン</dt>
+      <dd>
+        ペガサスの翼<br />
+        又は<br />
+        ペガサスの翼α（折りたたみ背カン）<br />
+        ※ペガサスの翼の根本の金具は本体色に合わせた色、ペガサスの翼α（折りたたみ背カン）の根元の金具はシルバーになります。
+      </dd>
+    </dl>
+    <dl>
+      <dt>錠前</dt>
+      <dd>ワンタッチオートロック</dd>
+    </dl>
+    <dl>
+      <dt>持ち手</dt>
+      <dd>有り</dd>
+    </dl>
+    <dl>
+      <dt>ナスカン</dt>
+      <dd>大マチに１つずつ</dd>
+    </dl>
+    <dl>
+      <dt>Dカン</dt>
+      <dd>両肩ベルトに１つずつ、前段ポケット内に１つ</dd>
+    </dl>
+    <dl>
+      <dt>反射材</dt>
+      <dd>前締めベルト、鋲、肩ベルトDカンパーツ</dd>
+    </dl>
+    <dl>
+      <dt>保証</dt>
+      <dd>6年修理保証</dd>
+    </dl>
+    <dl>
+      <dt>付属品</dt>
+      <dd>
+        ・時間割表<br />
+        ・ネームカード<br />
+        ・連絡袋<br />
+        ・雨カバー<br />
+        ・取り替え鋲（4個、内2個はランドセルに装着された状態でお送りいたします）
+      </dd>
+    </dl>
+
+    <div class="guarantee">
+      <h3>保証</h3>
+      <h4>6年間しっかりサポートいたします。</h4>
+      <p>
+        ご入学日より有効な修理田央保証で6年間のランドセル生活をしっかりサポート。<br />
+        ランドセルの通常使用状態で保証期間内に不良箇所が生じた場合に修理を行います。<br />
+        ※内容・箇所によっては有償となる場合がございます。
+      </p>
+    </div>
 
     <div class="present">
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/solouno-logo.svg" />
@@ -695,10 +510,9 @@
         <dd>
           <h3>組み合わせが決まりましたらお申し込みください。<br />
           ■ <a href="https://sim.solouno-ordermade.com/">WEBサイトのシミュレーションから</a><br />
-          ■ <a href="<?php echo home_url('/')?>showroom">店舗 </a>/ <a href="<?php echo home_url('/')?>exhibit">展示会</a> で</h3>
-          <p class="text2">※一部お申し込みを承れない展示会場がございます。<br />※お申し込み時にお支払いください。</p>
-          <h3 style="text-decoration: underline;">お申し込みから２週間は組み合わせの変更が可能です。</h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gentei.svg" />
+          ■ <a href="<?php echo home_url('/')?>showroom">店舗 </a>で</h3>
+          <p class="text2">※お申し込み時にお支払いください。</p>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/gentei.svg" />
         </dd>
       </dl>
       <dl>
@@ -706,11 +520,11 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-4.jpg" />2. 製作/お届け
         </dt>
         <dd>
-          <h3>お申し込みから2週間（組み合わせ確定）後、部材準備、製作を開始。出来上がり次第順次お届けいたします。</h3>
+          <h3>お申し込み後、部材準備、製作を開始。出来上がり次第順次お届けいたします。</h3>
           <p class="text2">※製作都合上、お申し込み順でのお届けではありません。<br />
           ※出来上がり時期を早めたり、ご指定いただくことは出来かねます。<br />
           ※お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</p>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/yotei.svg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/yotei.svg" />
         </dd>
       </dl>
       <!--<dl>
