@@ -20,13 +20,15 @@
     <a href="<?php echo home_url('/')?>flow#change" class="flow-link">組み合わせのご変更はこちら</a>
   </section>
   <section class="disney-area" id="disney">
-    <h2><span>DISNEY</span>ディズニーランドセル<br /><span class="info">店舗取り扱い</span></h2>
+    <h2><span>DISNEY</span>ディズニーランドセル<br /><span class="ec">EC取り扱い</span><span class="info">店舗取り扱い</span></h2>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot" />
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney-p1.jpg" class="disney-p1" />
     <p>大好きなキャラクターと毎日一緒に。<br />ミッキーマウスとミニーマウスの選べるランドセルが新登場。</p>
     <p>ミッキーとミニーのディズニーランドセルは、色の組み合わせが選べるオーダーメイドのランドセルです。<br />
     店舗には、手に取り背負い心地や色味をお確かめいただけるサンプルをご用意しています。</p>
-    <!-- <a href="#">商品を見る</a> -->
+    <a href="https://disneysim.solouno-ordermade.com" class="om-link">ディズニーオーダーを選んでみよう<br />【シュミレーター】</a>
+    <a href="<?php echo home_url('/')?>disney" class="flow-link">ディズニーオーダーメイドランドセル</a>
+    <a href="<?php echo home_url('/')?>disney#change" class="flow-link">組み合わせのご変更はこちら</a>
   </section>
   <section class="marty-area" id="etc">
     <h2><span>MARTY</span>マーティ<br /><span class="info">店舗取り扱い</span></h2>
