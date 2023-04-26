@@ -528,6 +528,7 @@ header {
 
 footer {
   width: 100%;
+  max-width: 395px;
   margin: auto;
   padding: 40px 27px 0 27px;
   text-align: center;
