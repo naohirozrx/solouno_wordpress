@@ -6,6 +6,7 @@
 		|| is_archive('news')
 		|| is_singular('news')
 		|| is_page('flow')
+		|| is_page('disney')
 		|| is_page('showroom')
 		|| is_archive('exhibit')
 		|| is_singular('exhibit')
