@@ -2038,6 +2038,17 @@ footer {
         align-items: center;
         margin-right: 10px;
         padding: 0px 10px; }
+      #product-area .disney-area h2 span.ec {
+        color: #6F6356;
+        font-size: .12rem;
+        font-weight: 700;
+        border: 1px solid #6F6356;
+        border-radius: 50px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        padding: 0px 10px; }
     #product-area .disney-area .dot {
       width: 207px;
       height: 19px;
@@ -2050,11 +2061,29 @@ footer {
     #product-area .disney-area p {
       font-size: .12rem;
       margin-bottom: 30px; }
-    #product-area .disney-area > a {
+    #product-area .disney-area .om-link {
+      color: #fff;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 20px auto;
+      font-size: .14rem;
+      font-weight: 700;
+      background-color: #6F6356;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right-white.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px;
+      text-align: center;
+      line-height: 1.2; }
+    #product-area .disney-area .flow-link {
       color: #AC7746;
       width: 335px;
       height: 50px;
-      margin: auto;
+      margin: 0 auto 20px;
       font-size: .14rem;
       font-weight: 700;
       border: 1px solid #AC7746;

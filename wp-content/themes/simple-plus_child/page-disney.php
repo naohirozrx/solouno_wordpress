@@ -22,14 +22,7 @@
 
 <div id="disney-area">
   <section class="flow-top">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/mickey-header.jpg" />
-    <div>
-      <h2>
-        <span>＜ミッキーマウス・ミニーマウス＞</span>
-        <span>ディズニーオーダーメイドランドセル</span>
-      </h2>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini.svg" />
-    </div>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/mickey-header.jpg" alt="ディズニーオーダーメイドランドセル（ミッキーマウス・ミニーマウス）70,000円" />
   </section>
   <section class="schoolbag-area">
     <nav>
@@ -38,7 +31,7 @@
         <li style="margin-bottom: 0.5em;">〇<a href="#flow" style="text-decoration: underline;">選べるポイントStep1〜5</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#design" style="text-decoration: underline;">デザイン紹介</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#howtoorder" style="text-decoration: underline;">HOW TO ORDER</a></li>
-        <li style="margin-bottom: 0.5em;">〇<a href="#function" style="text-decoration: underline;">便利機能</a></li>
+        <li style="margin-bottom: 0.5em;">〇<a href="#function" style="text-decoration: underline;">ディズニーランドセルの便利機能</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#change" style="text-decoration: underline;">組み合わせご変更受付方法のご案内</a></li>
       </ul>
     </nav>
@@ -228,6 +221,9 @@
     <h3>品質へのこだわり</h3>
     <div style="margin-bottom: 20px;">6年間使用するものだからこそ品質にもこだわります。当ランドセルは国内の工場で生産されています。</div>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function04.png" />
+    <h3>保証</h3>
+    <h4>6年間しっかりサポートいたします。</h4>
+    <p style="margin-bottom:40px;">御入学日より有効な修理対応保証で6年間のランドセル生活をしっかりサポート。<br />ランドセルの通常使用状態で保証期間内に不良箇所が生じた場合に修理を行います。<br /><span style="font-size: 12px;">※内容・箇所によっては有償となる場合がございます。</span></p>
     <h3 id="ybero">ランドセルに刻印・お名前入れ</h3>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function05.png" />
     <h4>STEP1　文字色を選択</h4>
@@ -239,10 +235,13 @@
     <h3>SPEC</h3>
 
     <dl>
+      <dt>型</dt>
+      <dd>学習院型</dd>
+    </dl>
+    <dl>
       <dt>本体素材</dt>
       <dd>コードレ</dd>
     </dl>
-
     <dl>
       <dt>背中/ベルト裏</dt>
       <dd>エアリー</dd>
