@@ -3403,6 +3403,46 @@ footer {
       width: 100%;
       height: auto;
       margin-bottom: 60px; }
+    #disney-area .disney-flow .simlink {
+      color: #AC7746;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 40px;
+      font-size: .14rem;
+      font-weight: 700;
+      border: 1px solid #AC7746;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px;
+      text-align: center;
+      line-height: 1.2;
+      transition: 0.3s; }
+      #disney-area .disney-flow .simlink:hover {
+        background-position-x: 305px; }
+    #disney-area .disney-flow .chara-choise-txt {
+      font-size: 14px;
+      text-align: center; }
+    #disney-area .disney-flow .chara {
+      display: flex;
+      justify-content: space-between;
+      align-items: center; }
+      #disney-area .disney-flow .chara img {
+        width: calc(50% - 30px); }
+    #disney-area .disney-flow .colorList {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px 20px; }
+      #disney-area .disney-flow .colorList img {
+        width: 100%; }
+      #disney-area .disney-flow .colorList figcaption {
+        font-size: 10px;
+        font-weight: bold;
+        text-align: center; }
     #disney-area .disney-flow > div {
       padding: 0 27px;
       margin-bottom: 60px; }
@@ -3726,6 +3766,36 @@ footer {
       font-weight: bold;
       text-align: center;
       margin: 0 auto 24px; }
+    #disney-area .spec-area h4 {
+      font-size: .14rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 0 auto 20px; }
+    #disney-area .spec-area .tab {
+      margin: 0 auto; }
+    #disney-area .spec-area .tab-list {
+      display: flex;
+      justify-content: space-between; }
+    #disney-area .spec-area .tab-list-item {
+      all: unset;
+      width: calc(50% - 4px);
+      text-align: center;
+      padding: 8px 0;
+      cursor: pointer;
+      display: block;
+      border-radius: 4px 4px 0 0;
+      border: 1px solid #AC7746;
+      border-bottom: none; }
+      #disney-area .spec-area .tab-list-item.is-btn-active {
+        background-color: #AC7746;
+        color: #fff; }
+    #disney-area .spec-area .tab-contents {
+      display: none; }
+      #disney-area .spec-area .tab-contents.is-contents-active {
+        display: block; }
+      #disney-area .spec-area .tab-contents img {
+        width: 100%;
+        height: auto; }
     #disney-area .spec-area .price-list {
       display: flex;
       flex-wrap: wrap;
