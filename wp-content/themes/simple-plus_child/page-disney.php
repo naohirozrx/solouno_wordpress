@@ -43,7 +43,7 @@
     <div>
       <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />オーダーの手順<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step1.svg" class="step1" />
-      <h3>キャカラクターを選ぶ</h3>
+      <h3>キャラクターを選ぶ</h3>
       <p class="chara-choise-txt">ミッキーまたはミニー</p>
       <figure class="chara">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step1-1.png" />
