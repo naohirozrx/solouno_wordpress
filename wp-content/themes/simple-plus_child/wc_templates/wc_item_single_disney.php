@@ -29,6 +29,10 @@ if(isset($_POST['type'])):
 	$type = htmlspecialchars($_POST['type'], ENT_QUOTES, "UTF-8");
 endif;
 
+if(isset($_POST['pegasus'])):
+	$pegasus = htmlspecialchars($_POST['pegasus'], ENT_QUOTES, "UTF-8");
+endif;
+
 if(isset($_POST['nametype'])):
 	$nametype = htmlspecialchars($_POST['nametype'], ENT_QUOTES, "UTF-8");
 endif;
@@ -37,12 +41,16 @@ if(isset($_POST['nametext'])):
 	$nametext = htmlspecialchars($_POST['nametext'], ENT_QUOTES, "UTF-8");
 endif;
 
+if(isset($_POST['namecolor'])):
+	$namecolor = htmlspecialchars($_POST['namecolor'], ENT_QUOTES, "UTF-8");
+endif;
+
 $price_price = number_format($price_price);
 
 $pricetext = "¥$price_price<em class='tax'>（税込）</em>";
 
 if($maincolor == ''):
-	header('Location: https://sim.solouno-ordermade.com/');
+	header('Location: https://disneysim.solouno-ordermade.com/');
 	exit;
 endif;
 ?>
@@ -55,7 +63,7 @@ endif;
  */
 
 get_header();
-echo $type;
+echo $namecolor;
 $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ? $args['column'] : '';
 ?>
 
@@ -63,12 +71,14 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 <script>
 	$(function() {
 		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $type; ?>"]').prop('selected', true);
-		$('.item-option > dd:nth-child(4) > select option[value="<?php echo $stitch; ?>"]').prop('selected', true);
-		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $maincolor; ?>"]').prop('selected', true);
-		$('.item-option > dd:nth-child(8) > select option[value="<?php echo $combicolor; ?>"]').prop('selected', true);
+		$('.item-option > dd:nth-child(4) > select option[value="<?php echo $maincolor; ?>"]').prop('selected', true);
+		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $combicolor; ?>"]').prop('selected', true);
+		$('.item-option > dd:nth-child(8) > select option[value="<?php echo $stitch; ?>"]').prop('selected', true);
 		$('.item-option > dd:nth-child(10) > select option[value="<?php echo $hakucolor; ?>"]').prop('selected', true);
-		$('.item-option > dd:nth-child(12) > select option[value="<?php echo $nametype; ?>"]').prop('selected', true);
-		$('.item-option > dd:nth-child(14) > input').val("<?php echo $nametext; ?>");
+		$('.item-option > dd:nth-child(12) > select option[value="<?php echo $pegasus; ?>"]').prop('selected', true);
+		$('.item-option > dd:nth-child(14) > select option[value="<?php echo $namecolor; ?>"]').prop('selected', true);
+		$('.item-option > dd:nth-child(16) > select option[value="<?php echo $nametype; ?>"]').prop('selected', true);
+		$('.item-option > dd:nth-child(18) > input').val("<?php echo $nametext; ?>");
 
 		$('.field-price').html("<?php echo $pricetext; ?>");
 
