@@ -1779,6 +1779,8 @@ footer {
         display: block; }
   #archive-area .news-single-area {
     padding-bottom: 40px; }
+    #archive-area .news-single-area figure {
+      margin: auto !important; }
     #archive-area .news-single-area > img {
       width: calc(100% - 54px);
       height: auto;

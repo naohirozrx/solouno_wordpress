@@ -38,6 +38,9 @@
   }//.news-area
   .news-single-area {
     padding-bottom: 40px;
+    figure {
+      margin: auto !important;
+    }
     > img {
       width: calc(100% - 54px);
       height: auto;
