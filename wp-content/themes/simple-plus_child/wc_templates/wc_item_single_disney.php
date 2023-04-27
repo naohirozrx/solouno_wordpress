@@ -63,7 +63,7 @@ endif;
  */
 
 get_header();
-echo $namecolor;
+
 $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ? $args['column'] : '';
 ?>
 
