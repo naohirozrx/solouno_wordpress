@@ -722,7 +722,7 @@
           <img src="<?php echo get_template_directory_uri(); ?>/images/gentei.svg" />
         </dd>
       </dl>-->
-      <a href="https://sim.solouno-ordermade.com" class="">オーダーメイドを選んでみよう！<br />【シュミレーター】</a>
+      <a href="https://sim.solouno-ordermade.com" class="">オーダーメイドを選んでみよう！<br />【シミュレーター】</a>
     </div>
   </section>
 

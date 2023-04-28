@@ -14,7 +14,7 @@
     <a href="https://sim.solouno-ordermade.com/"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ordermade.jpg" class="om-p1" /></a>
     <p>SOLO UNOのオーダーメイドランドセルは メインカラーやコンビカラー、デザインなど、806,400通りの 組み合わせから選んでつくるランドセルです。</p>
     <p>シミュレーターでたくさんの組み合わせの中から [たったひとつ]の自分だけのランドセルを探し出さしてください。</p>
-    <a href="https://sim.solouno-ordermade.com" class="om-link">オーダーメイドを選んでみよう<br />【シュミレーター】</a>
+    <a href="https://sim.solouno-ordermade.com" class="om-link">オーダーメイドを選んでみよう<br />【シミュレーター】</a>
     <a href="<?php echo home_url('/')?>flow" class="flow-link">オーダーメイドランドセル</a>
     <a href="<?php echo home_url('/')?>flow#gallery" class="flow-link">GALLERY</a>
     <a href="<?php echo home_url('/')?>flow#change" class="flow-link">組み合わせのご変更はこちら</a>
@@ -26,9 +26,8 @@
     <p>大好きなキャラクターと毎日一緒に。<br />ミッキーマウスとミニーマウスの選べるランドセルが新登場。</p>
     <p>ミッキーとミニーのディズニーランドセルは、色の組み合わせが選べるオーダーメイドのランドセルです。<br />
     店舗には、手に取り背負い心地や色味をお確かめいただけるサンプルをご用意しています。</p>
-    <a href="https://disneysim.solouno-ordermade.com" class="om-link">ディズニーオーダーを選んでみよう<br />【シュミレーター】</a>
+    <a href="https://disneysim.solouno-ordermade.com" class="om-link">ディズニーオーダーを選んでみよう<br />【シミュレーター】</a>
     <a href="<?php echo home_url('/')?>disney" class="flow-link">ディズニーオーダーメイドランドセル</a>
-    <a href="<?php echo home_url('/')?>disney#change" class="flow-link">組み合わせのご変更はこちら</a>
   </section>
   <section class="marty-area" id="etc">
     <h2><span>MARTY</span>マーティ<br /><span class="info">店舗取り扱い</span></h2>

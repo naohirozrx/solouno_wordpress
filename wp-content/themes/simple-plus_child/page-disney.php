@@ -32,7 +32,6 @@
         <li style="margin-bottom: 0.5em;">〇<a href="#design" style="text-decoration: underline;">デザイン紹介</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#howtoorder" style="text-decoration: underline;">HOW TO ORDER</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#function" style="text-decoration: underline;">ディズニーランドセルの便利機能</a></li>
-        <li style="margin-bottom: 0.5em;">〇<a href="#change" style="text-decoration: underline;">組み合わせご変更受付方法のご案内</a></li>
       </ul>
     </nav>
   </section>
@@ -168,7 +167,7 @@
         <dd>
           <h3>組み合わせが決まりましたらお申し込みください。<br />
           ■ <a href="https://sim.solouno-ordermade.com/">WEBサイトのシミュレーションから</a><br />
-          ■ <a href="<?php echo home_url('/')?>showroom">店舗 </a>で</h3>
+          ■ <a href="<?php echo home_url('/')?>showroom">店舗で</a></h3>
           <p class="text2">※お申し込み時にお支払いください。</p>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/gentei.svg" />
         </dd>
@@ -206,25 +205,25 @@
     <h3>大容量</h3>
     <div style="margin-bottom: 20px;">大マチ12.5cm・中マチ最大4.5cm「デカポケ」横幅はA4フラットファイルサイズ対応の23.5cm</div>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function01.png" />
-    <h3>ワンタッチオートロック</h3>
+    <h3 style="margin-top:60px;">ワンタッチオートロック</h3>
     <div style="margin-bottom: 20px;">錠前は押すとかんたんに閉まります。</div>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function1-1.png" />
-    <h3>反射材</h3>
+    <h3 style="margin-top:60px;">反射材</h3>
     <div style="margin-bottom: 20px;">前締めベルト・肩ベルト・かぶせ鋲に反射材を使用しています。<br />車などのライトに反射し、安全に通学。</div>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function1-2.png" />
-    <h3>そのほか使いやすい機能</h3>
-    <div style="margin-bottom: 20px;">大マチ・右ベルトの「mナスカン」<br />左肩ベルト・前段ポケット内部の「Dカン」<br />「持ち手」</div>
+    <h3 style="margin-top:60px;">そのほか使いやすい機能</h3>
+    <div style="margin-bottom: 20px;">大マチ・右ベルトの「ナスカン」<br />左肩ベルト・前段ポケット内部の「Dカン」<br />「持ち手」</div>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function02.png" />
-    <h3>生地</h3>
-    <div style="margin-bottom: 20px;">本体記事には軽量で丈夫な人口皮革、コードレ®︎を採用。</div>
+    <h3 style="margin-top:60px;">生地</h3>
+    <div style="margin-bottom: 20px;">本体生地には軽量で丈夫な人工皮革、コードレ®︎を採用。</div>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function03.png" />
-    <h3>品質へのこだわり</h3>
+    <h2 style="margin-top:60px; margin-bottom:20px;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />品質へのこだわり<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <div style="margin-bottom: 20px;">6年間使用するものだからこそ品質にもこだわります。当ランドセルは国内の工場で生産されています。</div>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function04.png" />
-    <h3>保証</h3>
+    <h2 style="margin-top:60px;margin-bottom:20px;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />保証<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <h4>6年間しっかりサポートいたします。</h4>
     <p style="margin-bottom:40px;">御入学日より有効な修理対応保証で6年間のランドセル生活をしっかりサポート。<br />ランドセルの通常使用状態で保証期間内に不良箇所が生じた場合に修理を行います。<br /><span style="font-size: 12px;">※内容・箇所によっては有償となる場合がございます。</span></p>
-    <h3 id="ybero">ランドセルに刻印・お名前入れ</h3>
+    <h3 id="ybero" style="margin-top:80px;">ランドセルに刻印・お名前入れ</h3>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function05.png" />
     <h4>STEP1　文字色を選択</h4>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function06.png" />
@@ -277,11 +276,11 @@
     </dl>
     <dl>
       <dt>ナスカン</dt>
-      <dd>大マチに１つずつ</dd>
+      <dd>大マチ左右／肩ベルト（右）</dd>
     </dl>
     <dl>
       <dt>Dカン</dt>
-      <dd>両肩ベルトに１つずつ、前段ポケット内に１つ</dd>
+      <dd>肩ベルト（左）／ファスナーポケット内</dd>
     </dl>
     <dl>
       <dt>反射材</dt>
@@ -318,48 +317,6 @@
 <path d="M8.49769 19.9832L20.4294 11.1914C20.7776 10.9362 21.2233 10.9362 21.5715 11.1914L33.5032 19.9832C33.8143 20.2151 34 20.6141 34 21.0549V28.7332C34 29.2435 33.7447 29.7028 33.35 29.8977C33.0193 30.0661 32.6496 30.0228 32.3519 29.7956L20.9773 21.1801L9.6398 29.5358C8.8821 30.0989 7.96631 29.3569 8.00095 28.4641C8.00092 28.4641 8.00092 21.0549 8.00092 21.0549C8.00092 20.6141 8.18663 20.2151 8.49769 19.9832Z" fill="#AC7746"/>
 </svg></a>
 </span>
-  </section>
-
-  <section class="change-combi">
-    <h2 id="change"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />組み合わせご変更<br />受付方法のご案内<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
-    <p>お申し込みから２週間はオーダーメイドランドセルの組み合わせのご変更が可能です。</p>
-    <p>下記手順にてお手続きをお願いいたします</p>
-    <dl>
-      <dt>●お申し込み時の受付メールをお持ちの方</dt>
-      <dd>⇒受付メールに変更内容を返信してください。</dd>
-    </dl>
-    <dl>
-      <dt>●お申し込み時の受付メールから返信できない方</dt>
-      <dd>
-        ⇒<a href="mailto:change@solouno-ordermade.com">こちら</a>からメールをお送りください。<br />
-        その際、下記内容もご記入ください。<br />
-        ・ご使用者さまのお名前<br />
-        ・お電話番号<br />
-        ・お申し込み方法（WEBサイト/店舗/展示会）<br />
-      </dd>
-    </dl>
-    <span>組み合わせのご変更により<br />お支払金額がご変更になる場合</span>
-    <dl>
-      <dt>・WEBサイトからクレジットカードにてご注文</dt>
-      <dd>⇒金額を訂正して決済いたします。</dd>
-    </dl>
-    <dl>
-      <dt>・店舗でお支払い</dt>
-      <dd>
-      ⇒差額返金：銀行振込にてご返金いたします。<br />
-      　ご返金先をご記載ください。<br />
-      ⇒差額お支払い：店舗にご来店いただくか、<br />
-      　銀行振込にてお支払いをお願いいたします。<br />
-      ※振込手数料はご負担くださいますようお願いいたします。
-      </dd>
-    </dl>
-    <div class="bank">
-    振込先口座<br />
-    三菱東京UFJ銀行　淡路支店（028）<br />
-    普通　口座番号0316799<br />
-    ソロウーノ<br />
-    </div>
-
   </section>
 
 </div>
