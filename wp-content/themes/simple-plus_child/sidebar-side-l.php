@@ -24,6 +24,6 @@
     </div>
   </div>
   <a href="https://sim.solouno-ordermade.com" class="ordermade">オーダーメイドを選んでみよう！<br />【シミュレーター】</a>
-  <a href="http://disneysim.solouno-ordermade.com" class="ordermade disneybutton">ディズニーオーダーを選んでみよう！<br />【シミュレーター】</a>
+  <a href="https://disneysim.solouno-ordermade.com" class="ordermade disneybutton">ディズニーオーダーを選んでみよう！<br />【シミュレーター】</a>
   <img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/sbmto.svg" class="sbmto">
 </section>
