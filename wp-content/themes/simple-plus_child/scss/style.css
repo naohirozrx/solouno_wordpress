@@ -1628,7 +1628,7 @@ footer {
         background-position-y: 50%;
         background-position-x: 95%;
         position: absolute;
-        bottom: 30px;
+        bottom: 100px;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
@@ -1637,7 +1637,7 @@ footer {
         #side-l .ordermade:hover {
           background-position-x: 96%; }
         #side-l .ordermade.disneybutton {
-          bottom: 100px; }
+          bottom: 30px; }
       #side-l .sbmto {
         position: absolute;
         left: 12px;
@@ -4208,6 +4208,42 @@ footer {
       margin: auto; }
     #disney-area .change-combi .bank {
       text-align: center; }
+
+.nameInsert {
+  border: 1px solid #BAA280;
+  border-radius: 10px;
+  margin-top: 20px; }
+  .nameInsert dt {
+    padding: 1em;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer; }
+    .nameInsert dt:after {
+      position: absolute;
+      top: calc(50% - 8px);
+      right: calc(50% - 100px);
+      content: '';
+      width: 10px;
+      height: 10px;
+      display: block;
+      border-bottom: 1px solid #535353;
+      border-right: 1px solid #535353;
+      transform: rotate(45deg);
+      transition: 0.3s; }
+    .nameInsert dt.open:after {
+      top: calc(50% - 3px);
+      transform: rotate(-135deg); }
+  .nameInsert dd {
+    padding: 0 16px 16px;
+    display: none; }
+    .nameInsert dd img {
+      width: 100%;
+      height: auto; }
+    .nameInsert dd h3 {
+      margin-top: 0 !important;
+      border-top: 1px solid #BAA280;
+      padding-top: 20px; }
 
 .clearfix:after {
   content: "";

@@ -107,7 +107,21 @@
       <h3>名前を入れる</h3>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step7.jpg" />
       <span>「Yベロ」裏側部分へお名前入れができます。</span>
-      <span><a href="#ybero" style="text-decoration: underline;">※詳しくはこちら</a></span>
+      <dl class="nameInsert">
+        <dt>詳しくはこちら</dt>
+        <dd>
+          <h3 id="ybero" style="margin-top:80px;">ランドセルに刻印・お名前入れ</h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function05.png" />
+          <h4>STEP1　文字色を選択</h4>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function06.png" />
+          <h4>STEP2　フォントを選択</h4>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function07.png" />
+          <h4>STEP2　お名前を入力</h4>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function08.png" />
+
+        </dd>
+      </dl>
+      <span></span>
     </div>
   </section>
 
@@ -121,7 +135,12 @@
         $('.tab-contents').removeClass('is-contents-active');
         $('.tab-contents').eq(index).addClass('is-contents-active');
       });
-    }); 
+
+      $('.nameInsert dt').on('click', function() {
+        $(this).next().slideToggle();
+        $(this).toggleClass('open');
+      });
+    });
   </script>
 
   <section class="spec-area">
@@ -223,14 +242,6 @@
     <h2 style="margin-top:60px;margin-bottom:20px;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />保証<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <h4>6年間しっかりサポートいたします。</h4>
     <p style="margin-bottom:40px;">御入学日より有効な修理対応保証で6年間のランドセル生活をしっかりサポート。<br />ランドセルの通常使用状態で保証期間内に不良箇所が生じた場合に修理を行います。<br /><span style="font-size: 12px;">※内容・箇所によっては有償となる場合がございます。</span></p>
-    <h3 id="ybero" style="margin-top:80px;">ランドセルに刻印・お名前入れ</h3>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function05.png" />
-    <h4>STEP1　文字色を選択</h4>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function06.png" />
-    <h4>STEP2　フォントを選択</h4>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function07.png" />
-    <h4>STEP2　お名前を入力</h4>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function08.png" />
     <h3>SPEC</h3>
 
     <dl>

@@ -902,3 +902,53 @@
   }//.change-combi
 
 }//#flow-area
+
+.nameInsert {
+  border: 1px solid #BAA280;
+  border-radius: 10px;
+  margin-top: 20px;
+
+  dt {
+    padding: 1em;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:after {
+      position: absolute;
+      top: calc(50% - 8px);
+      right: calc(50% - 100px);
+      content: '';
+      width: 10px;
+      height: 10px;
+      display: block;
+      border-bottom: 1px solid #535353;
+      border-right: 1px solid #535353;
+      transform: rotate(45deg);
+      transition: 0.3s;
+    }
+
+    &.open {
+      &:after {
+        top: calc(50% - 3px);
+        transform: rotate(-135deg);
+      }
+    }
+  }
+  dd {
+    padding: 0 16px 16px;
+    display: none;
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    h3 {
+      margin-top: 0 !important;
+      border-top: 1px solid #BAA280;
+      padding-top: 20px;
+    }
+  }
+}
