@@ -2616,7 +2616,8 @@ footer {
       border-radius: 8px;
       text-align: center;
       padding: 32px;
-      margin-top: 40px; }
+      margin-top: 40px;
+      margin-bottom: 40px; }
       #flow-area .spec-area .present img {
         width: 100px;
         height: auto;
@@ -2638,6 +2639,46 @@ footer {
         background-color: #FDF6EB;
         padding: 10px;
         width: calc(100% - 124px); }
+  #flow-area .eishin {
+    padding: 60px 27px;
+    background-color: #FEF6EA; }
+    #flow-area .eishin h2 {
+      width: 100%;
+      margin: 0 auto 60px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+      font-size: .2rem;
+      font-weight: 500; }
+      #flow-area .eishin h2 img {
+        width: 39px;
+        height: auto; }
+    #flow-area .eishin h3 {
+      line-height: 1.3;
+      font-size: .16rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 0 auto 24px; }
+    #flow-area .eishin h4 {
+      line-height: 1.3;
+      font-size: .14rem;
+      font-weight: bold;
+      text-align: center;
+      margin: 40px auto 20px; }
+    #flow-area .eishin p {
+      margin-bottom: 1em; }
+      #flow-area .eishin p a {
+        text-decoration: underline; }
+    #flow-area .eishin > figure {
+      margin-bottom: 1em; }
+      #flow-area .eishin > figure img {
+        width: 100%;
+        height: auto; }
+      #flow-area .eishin > figure figcaption {
+        font-size: 10px;
+        text-align: right; }
   #flow-area .convenience-area {
     padding: 60px 27px;
     background-color: #fff; }
@@ -2746,8 +2787,7 @@ footer {
   #flow-area .gallery-area {
     width: 100%; }
     #flow-area .gallery-area .text-area {
-      padding: 60px 27px 60px 27px;
-      background-color: #FEF6EA; }
+      padding: 60px 27px 60px 27px; }
       #flow-area .gallery-area .text-area h2 {
         display: flex;
         justify-content: space-between;
@@ -2765,7 +2805,6 @@ footer {
       #flow-area .gallery-area .text-area p {
         margin-bottom: 1em; }
     #flow-area .gallery-area .photo-area {
-      background-color: #FEF6EA;
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;

@@ -526,7 +526,6 @@
       </li>
     </ul>
 
-
     <h3>サイドのデザイン</h3>
 
     <ul class="price-list3">
@@ -541,6 +540,16 @@
         <p>上記の金額に<br />＋5,000円</p>
       </li>
     </ul>
+
+
+    <div class="present">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/solouno-logo.svg" />
+      <p>
+        <span>”時間割が書き込める”</span><br />
+        <span>オリジナルクリアファイル</span><br />
+        をプレゼント！
+      </p>
+    </div>
 
     <h3>SPEC</h3>
 
@@ -570,26 +579,76 @@
       <dt>重量</dt>
       <dd>約1200g</dd>
     </dl>
+  </section>
 
-    <div class="present">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/solouno-logo.svg" />
-      <p>
-        <span>”時間割が書き込める”</span><br />
-        <span>オリジナルクリアファイル</span><br />
-        をプレゼント！
-      </p>
-    </div>
+  <section class="eishin">
+    <h2 id="gallery"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+      <span>SOLO UNO<br />
+      ✖️<br />
+      ランドセルメーカー<br />
+      （株）栄伸コラボ<br />
+      の安心機能
+      </span>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+    </h2>
+    <p>SOLO UNOのオーダーメイドランドセルは、老舗ランドセルメーカー<a href="https://www.kk-eishin.com/" target="_blank">（株）栄伸</a>に制作を依頼してます。</p>
+    <p>SOLO UNOオリジナルデザインで、こだわりの便利機能満載のランドセルを職人さんの手で丁寧に縫製されます。もちろん安心の日本製です。</p>
+    <figure>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/eishin-factory-img.jpg" alt="（株）栄伸" />
+      <figcaption>（株）栄伸の工場</figcaption>
+    </figure>
+
+    <h3>ランドセルの機能</h3>
+    <h4>フィットちゃん®︎搭載</h4>
+    <figure class="fitchan-img">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/fitchan.png" alt="フィットちゃん" />
+    </figure>
+    <p>体感荷重を軽減する背カン、フィットちゃんを搭載。自然に起き上がる肩ベルトの構造により、背中にフィット。肩と背中で重みを分散し、軽く感じます。また、肩ベルトが左右別々に動き着脱をサポートします。</p>
+
+    <h4>ミラくるっロック</h4>
+    <figure>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/mirakururock.png" alt="ミラくるっロック" />
+    </figure>
+    <p>錠前を合わせるだけで鍵がかかるワンタッチロックと、お子様の成長に合わせて固定金具が左右に広がるスライドロックを合体した『ミラくるっロック』搭載</p>
+
+    <h4>しっかりくん®︎搭載</h4>
+    <figure>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/shikkarikun.png" alt="しっかりくん" />
+    </figure>
+    <p>ランドセルで最も負担のかかる開口部を補強する「しっかりくん®︎」搭載。<br />
+    形状補正樹脂とその中央に鉄芯を内蔵した構造で型崩れや変形を防ぎます。</p>
+
+    <h4>大マチ２重補強</h4>
+    <figure>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/oomachi-hokyou.png" alt="大マチ２重補強" />
+    </figure>
+    <p>ランドセルの左右側面と底面をコの字型の補強財（タフテル芯材）で強化。<br />
+    側面にはさらに補強剤を重ね貼り合わせ、２重にすることで強度をアップしています。</p>
+
+    <h4>360度の反射機能</h4>
+    <figure>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/hansha.png" alt="360度の反射機能" />
+    </figure>
+    <p>車のライトに反射して光る反射素材を４カ所、全方向に搭載。<br />
+    持ち手に縫い込まれた反射素材は、ランドセルカバーをつけても隠れないので、黄色いカバーの１年生も安心です。</p>
+
+    <h4>ヘリなしですっきり</h4>
+    <figure>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/herinashi.png" alt="ヘリなしですっきり" />
+    </figure>
+    <p>特殊な縫製技術でヘリ部分のないすっきりとした形状の”E-QBU”<br />
+    従来の学習院型ランドセルに比べ、内容量そのままに、外寸がコンパクトな仕様になりました。</p>
   </section>
 
   <section class="gallery-area">
     <div class="text-area">
       <h2 id="gallery"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />GALLERY<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
       <p>SOLO UNOのオーダーメイドランドセルは<br />
-このためだけに考えられたオリジナルデザインです。</p>
+      このためだけに考えられたオリジナルデザインです。</p>
 
-<p>このギャラリーに並ぶ組み合わせサンプルは、806,400通りの組み合わせのほんの一部です。</p>
+      <p>このギャラリーに並ぶ組み合わせサンプルは、806,400通りの組み合わせのほんの一部です。</p>
 
-<p>シンプルにもスポーティにもデコラティブにもお選びいただけますので大好きな組み合わせをみつけてください。</p>
+      <p>シンプルにもスポーティにもデコラティブにもお選びいただけますので大好きな組み合わせをみつけてください。</p>
     </div>
     <div class="photo-area">
       <?php
