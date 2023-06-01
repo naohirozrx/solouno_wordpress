@@ -591,7 +591,7 @@
       </span>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
     </h2>
-    <p>SOLO UNOのオーダーメイドランドセルは、老舗ランドセルメーカー<a href="https://www.kk-eishin.com/" target="_blank">（株）栄伸</a>に制作を依頼してます。</p>
+    <p>SOLO UNOのオーダーメイドランドセルは、老舗ランドセルメーカー<a href="https://www.kk-eishin.com/" target="_blank">（株）栄伸</a>に製作を依頼してます。</p>
     <p>SOLO UNOオリジナルデザインで、こだわりの便利機能満載のランドセルを職人さんの手で丁寧に縫製されます。もちろん安心の日本製です。</p>
     <figure>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/eishin-factory-img.jpg" alt="（株）栄伸" />
