@@ -71,7 +71,7 @@ $price_price = number_format($price_price);
 
 $pricetext = "¥$price_price<em class='tax'>（税込）</em>";
 
-if($maincolor == ''):
+if($heartTypeA == ''):
 	header('Location: https://sim.solouno-ordermade.com/');
 	exit;
 endif;
