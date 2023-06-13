@@ -3,6 +3,8 @@
 		include_once('wc_item_single_custombag.php');
 	elseif(is_single('custom02')):
 		include_once('wc_item_single_disney.php');
+	elseif(is_single('marty-heart')):
+		include_once('wc_item_single_martyheart.php');
 	else:
 		include_once('wc_item_single_default.php');
 	endif;
