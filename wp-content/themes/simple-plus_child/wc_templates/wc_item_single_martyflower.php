@@ -137,7 +137,7 @@ get_header();
 
 $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ? $args['column'] : '';
 ?>
-
+<?php echo $flowerTypeNameA2; ?>【<?php echo $flowerTypeA2; ?>】
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script>
 	$(function() {
