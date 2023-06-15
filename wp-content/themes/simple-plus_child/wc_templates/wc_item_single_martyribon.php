@@ -47,7 +47,7 @@ if(isset($_POST['ribonTypePriceD'])):
 endif;
 
 if(isset($_POST['ribonTypeNameA'])):
-	$ribonTypeNameA = htmlspecialchars($_POST['heartTribonTypeNameAypeNameA'], ENT_QUOTES, "UTF-8");
+	$ribonTypeNameA = htmlspecialchars($_POST['ribonTypeNameA'], ENT_QUOTES, "UTF-8");
 endif;
 
 if(isset($_POST['ribonTypeNameB'])):
@@ -94,17 +94,17 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 	$(function() {
 
 		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $ribonTypeNameA; ?>【<?php echo $ribonTypeA; ?>】"]').prop('selected', true);
-		if($ribonTypeNameB == "なし") {
-			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $ribonTypeB; ?>"]').prop('selected', true);
+		if(<?php echo $ribonTypeNameB; ?> == "なし") {
+			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $ribonTypeB; ?>"]').prop('selected', true);
 		} else {
-			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $ribonTypeNameB; ?>【<?php echo $ribonTypeB; ?>】"]').prop('selected', true);
+			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $ribonTypeNameB; ?>【<?php echo $ribonTypeB; ?>】"]').prop('selected', true);
 		}
-		if($ribonTypeNameC == "なし") {
-			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $ribonTypeC; ?>"]').prop('selected', true);
+		if(<?php echo $ribonTypeNameC; ?> == "なし") {
+			$('.item-option > dd:nth-child(6) > select option[value="<?php echo $ribonTypeC; ?>"]').prop('selected', true);
 		} else {
-			$('.item-option > dd:nth-child(10) > select option[value="<?php echo $ribonTypeNameC; ?>【<?php echo $ribonTypeC; ?>】"]').prop('selected', true);
+			$('.item-option > dd:nth-child(6) > select option[value="<?php echo $ribonTypeNameC; ?>【<?php echo $ribonTypeC; ?>】"]').prop('selected', true);
 		}
-		$('.item-option > dd:nth-child(12) > select option[value="<?php echo $ribonTypeNameD; ?>【<?php echo $ribonTypeD; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(8) > select option[value="<?php echo $ribonTypeNameD; ?>【<?php echo $ribonTypeD; ?>】"]').prop('selected', true);
 
 		$('.field-price').html("<?php echo $pricetext; ?>");
 
