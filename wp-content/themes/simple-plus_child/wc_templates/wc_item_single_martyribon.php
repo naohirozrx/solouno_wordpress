@@ -1,65 +1,65 @@
 
 <?php
-$heartTypeA = '';
-$heartTypeC = '';
-$heartTypeE = '';
-$heartTypeF = '';
-$heartTypePriceA = '';
-$heartTypePriceC = '';
-$heartTypePriceE = '';
-$heartTypePriceF = '';
-$heartTypeNameA = '';
-$heartTypeNameC = '';
-$heartTypeNameE = '';
-$heartTypeNameF = '';
+$ribonTypeA = '';
+$ribonTypeB = '';
+$ribonTypeC = '';
+$ribonTypeD = '';
+$ribonTypePriceA = '';
+$ribonTypePriceB = '';
+$ribonTypePriceC = '';
+$ribonTypePriceD = '';
+$ribonTypeNameA = '';
+$ribonTypeNameB = '';
+$ribonTypeNameC = '';
+$ribonTypeNameD = '';
 $price_price = 0;
 
-if(isset($_POST['heartTypeA'])):
-	$heartTypeA = htmlspecialchars($_POST['heartTypeA'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypeA'])):
+	$ribonTypeA = htmlspecialchars($_POST['ribonTypeA'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypeC'])):
-	$heartTypeC = htmlspecialchars($_POST['heartTypeC'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypeB'])):
+	$ribonTypeB = htmlspecialchars($_POST['ribonTypeB'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypeE'])):
-	$heartTypeE = htmlspecialchars($_POST['heartTypeE'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypeC'])):
+	$ribonTypeC = htmlspecialchars($_POST['ribonTypeC'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypeF'])):
-	$heartTypeF = htmlspecialchars($_POST['heartTypeF'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypeD'])):
+	$ribonTypeD = htmlspecialchars($_POST['ribonTypeD'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypePriceA'])):
-	$heartTypePriceA = htmlspecialchars($_POST['heartTypePriceA'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypePriceA'])):
+	$ribonTypePriceA = htmlspecialchars($_POST['ribonTypePriceA'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypePriceC'])):
-	$heartTypePriceC = htmlspecialchars($_POST['heartTypePriceC'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypePriceB'])):
+	$ribonTypePriceB = htmlspecialchars($_POST['ribonTypePriceB'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypePriceE'])):
-	$heartTypePriceE = htmlspecialchars($_POST['heartTypePriceE'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypePriceC'])):
+	$ribonTypePriceC = htmlspecialchars($_POST['ribonTypePriceC'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypePriceF'])):
-	$heartTypePriceF = htmlspecialchars($_POST['heartTypePriceF'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypePriceD'])):
+	$ribonTypePriceD = htmlspecialchars($_POST['ribonTypePriceD'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypeNameA'])):
-	$heartTypeNameA = htmlspecialchars($_POST['heartTypeNameA'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypeNameA'])):
+	$ribonTypeNameA = htmlspecialchars($_POST['heartTribonTypeNameAypeNameA'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypeNameC'])):
-	$heartTypeNameC = htmlspecialchars($_POST['heartTypeNameC'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypeNameB'])):
+	$ribonTypeNameB = htmlspecialchars($_POST['ribonTypeNameB'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypeNameE'])):
-	$heartTypeNameE = htmlspecialchars($_POST['heartTypeNameE'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypeNameC'])):
+	$ribonTypeNameC = htmlspecialchars($_POST['ribonTypeNameC'], ENT_QUOTES, "UTF-8");
 endif;
 
-if(isset($_POST['heartTypeNameF'])):
-	$heartTypeNameF = htmlspecialchars($_POST['heartTypeNameF'], ENT_QUOTES, "UTF-8");
+if(isset($_POST['ribonTypeNameD'])):
+	$ribonTypeNameD = htmlspecialchars($_POST['ribonTypeNameD'], ENT_QUOTES, "UTF-8");
 endif;
 
 if(isset($_POST['price'])):
@@ -71,7 +71,7 @@ $price_price = number_format($price_price);
 
 $pricetext = "¥$price_price<em class='tax'>（税込）</em>";
 
-if($heartTypeA == ''):
+if($ribonTypeA == ''):
 	header('Location: https://sim.solouno-ordermade.com/');
 	exit;
 endif;
@@ -93,12 +93,18 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 <script>
 	$(function() {
 
-		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $heartTypeNameA; ?>【<?php echo $heartTypeA; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(4) > select option[value="<?php echo $heartTypeNameA; ?>【<?php echo $heartTypeA; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $heartTypeNameC; ?>【<?php echo $heartTypeC; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(8) > select option[value="<?php echo $heartTypeNameA; ?>【<?php echo $heartTypeA; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(10) > select option[value="<?php echo $heartTypeNameE; ?>【<?php echo $heartTypeE; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(12) > select option[value="<?php echo $heartTypeNameF; ?>【<?php echo $heartTypeF; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $ribonTypeNameA; ?>【<?php echo $ribonTypeA; ?>】"]').prop('selected', true);
+		if($ribonTypeNameB == "なし") {
+			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $ribonTypeB; ?>"]').prop('selected', true);
+		} else {
+			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $ribonTypeNameB; ?>【<?php echo $ribonTypeB; ?>】"]').prop('selected', true);
+		}
+		if($ribonTypeNameC == "なし") {
+			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $ribonTypeC; ?>"]').prop('selected', true);
+		} else {
+			$('.item-option > dd:nth-child(10) > select option[value="<?php echo $ribonTypeNameC; ?>【<?php echo $ribonTypeC; ?>】"]').prop('selected', true);
+		}
+		$('.item-option > dd:nth-child(12) > select option[value="<?php echo $ribonTypeNameD; ?>【<?php echo $ribonTypeD; ?>】"]').prop('selected', true);
 
 		$('.field-price').html("<?php echo $pricetext; ?>");
 
