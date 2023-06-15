@@ -94,12 +94,12 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 	$(function() {
 
 		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $ribonTypeNameA; ?>【<?php echo $ribonTypeA; ?>】"]').prop('selected', true);
-		if(<?php echo $ribonTypeNameB; ?> == "なし") {
+		if("<?php echo $ribonTypeNameB; ?>" == "なし") {
 			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $ribonTypeB; ?>"]').prop('selected', true);
 		} else {
 			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $ribonTypeNameB; ?>【<?php echo $ribonTypeB; ?>】"]').prop('selected', true);
 		}
-		if(<?php echo $ribonTypeNameC; ?> == "なし") {
+		if("<?php echo $ribonTypeNameC; ?>" == "なし") {
 			$('.item-option > dd:nth-child(6) > select option[value="<?php echo $ribonTypeC; ?>"]').prop('selected', true);
 		} else {
 			$('.item-option > dd:nth-child(6) > select option[value="<?php echo $ribonTypeNameC; ?>【<?php echo $ribonTypeC; ?>】"]').prop('selected', true);
