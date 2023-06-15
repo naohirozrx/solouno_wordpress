@@ -141,19 +141,19 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 	$(function() {
 
 		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $flowerTypeNameA; ?>【<?php echo $flowerTypeA; ?>】"]').prop('selected', true);
-		if("<?php echo $flowerTypeNameA2; ?>" == "なし") {
-			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $flowerTypeNameA2; ?>"]').prop('selected', true);
+		if("<?php echo $flowerTypeA2; ?>" == "なし") {
+			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $flowerTypeA2; ?>"]').prop('selected', true);
 		} else {
 			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $flowerTypeNameA2; ?>【<?php echo $flowerTypeA2; ?>】"]').prop('selected', true);
 		}
 		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $flowerTypeNameB; ?>【<?php echo $flowerTypeB; ?>】"]').prop('selected', true);
-		if("<?php echo $flowerTypeNameB2; ?>" == "なし") {
+		if("<?php echo $flowerTypeB2; ?>" == "なし") {
 			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $flowerTypeB2; ?>"]').prop('selected', true);
 		} else {
 			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $flowerTypeNameB2; ?>【<?php echo $flowerTypeB2; ?>】"]').prop('selected', true);
 		}
 		$('.item-option > dd:nth-child(10) > select option[value="<?php echo $flowerTypeNameC; ?>【<?php echo $flowerTypeNameC; ?>】"]').prop('selected', true);
-		if("<?php echo $flowerTypeNameC2; ?>" == "なし") {
+		if("<?php echo $flowerTypeC2; ?>" == "なし") {
 			$('.item-option > dd:nth-child(12) > select option[value="<?php echo $flowerTypeC2; ?>"]').prop('selected', true);
 		} else {
 			$('.item-option > dd:nth-child(12) > select option[value="<?php echo $flowerTypeNameC2; ?>【<?php echo $flowerTypeC2; ?>】"]').prop('selected', true);
