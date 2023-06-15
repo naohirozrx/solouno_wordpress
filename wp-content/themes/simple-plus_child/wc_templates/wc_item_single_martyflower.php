@@ -23,6 +23,8 @@ $flowerTypeNameC2 = '';
 $flowerTypeNameD = '';
 $price_price = 0;
 
+var_dump($_POST);
+
 if(isset($_POST['flowerTypeA'])):
 	$flowerTypeA = htmlspecialchars($_POST['flowerTypeA'], ENT_QUOTES, "UTF-8");
 endif;
