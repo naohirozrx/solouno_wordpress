@@ -23,7 +23,6 @@ $flowerTypeNameC2 = '';
 $flowerTypeNameD = '';
 $price_price = 0;
 
-var_dump($_POST);
 
 if(isset($_POST['flowerTypeA'])):
 	$flowerTypeA = htmlspecialchars($_POST['flowerTypeA'], ENT_QUOTES, "UTF-8");
@@ -86,7 +85,7 @@ if(isset($_POST['flowerTypeNameA'])):
 endif;
 
 if(isset($_POST['flowerTypeNameA2'])):
-	$flowerTypeAName2 = htmlspecialchars($_POST['flowerTypeNameA2'], ENT_QUOTES, "UTF-8");
+	$flowerTypeName2 = htmlspecialchars($_POST['flowerTypeNameA2'], ENT_QUOTES, "UTF-8");
 endif;
 
 if(isset($_POST['flowerTypeNameB'])):
@@ -137,7 +136,6 @@ get_header();
 
 $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ? $args['column'] : '';
 ?>
-<?php echo $flowerTypeNameA2; ?>【<?php echo $flowerTypeA2; ?>】
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script>
 	$(function() {
@@ -154,13 +152,13 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 		} else {
 			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $flowerTypeNameB2; ?>【<?php echo $flowerTypeB2; ?>】"]').prop('selected', true);
 		}
-		$('.item-option > dd:nth-child(10) > select option[value="<?php echo $flowerTypeNameC; ?>【<?php echo $flowerTypeNameC; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(10) > select option[value="<?php echo $flowerTypeNameC; ?>【<?php echo $flowerTypeC; ?>】"]').prop('selected', true);
 		if("<?php echo $flowerTypeC2; ?>" == "なし") {
 			$('.item-option > dd:nth-child(12) > select option[value="<?php echo $flowerTypeC2; ?>"]').prop('selected', true);
 		} else {
 			$('.item-option > dd:nth-child(12) > select option[value="<?php echo $flowerTypeNameC2; ?>【<?php echo $flowerTypeC2; ?>】"]').prop('selected', true);
 		}
-		$('.item-option > dd:nth-child(14) > select option[value="<?php echo $flowerTypeNameD; ?>【<?php echo $flowerTypeNameD; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(14) > select option[value="<?php echo $flowerTypeNameD; ?>【<?php echo $flowerTypeD; ?>】"]').prop('selected', true);
 		$('.field-price').html("<?php echo $pricetext; ?>");
 
 	});
