@@ -85,7 +85,7 @@ if(isset($_POST['flowerTypeNameA'])):
 endif;
 
 if(isset($_POST['flowerTypeNameA2'])):
-	$flowerTypeName2 = htmlspecialchars($_POST['flowerTypeNameA2'], ENT_QUOTES, "UTF-8");
+	$flowerTypeNameA2 = htmlspecialchars($_POST['flowerTypeNameA2'], ENT_QUOTES, "UTF-8");
 endif;
 
 if(isset($_POST['flowerTypeNameB'])):
