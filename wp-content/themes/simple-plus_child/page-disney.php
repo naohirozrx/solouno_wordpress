@@ -188,7 +188,11 @@
           ■ <a href="https://sim.solouno-ordermade.com/">WEBサイトのシミュレーションから</a><br />
           ■ <a href="<?php echo home_url('/')?>showroom">店舗で</a></h3>
           <p class="text2">※お申し込み時にお支払いください。</p>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/gentei.svg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/gentei2.svg" />
+          <p class="text2">
+            ※最終販売期間につきまして<br />
+            第3回販売：お申込期限2024/1/31までのお申込みで3月初旬ごろお届けとなります。
+          </p>
         </dd>
       </dl>
       <dl>
@@ -200,7 +204,7 @@
           <p class="text2">※製作都合上、お申し込み順でのお届けではありません。<br />
           ※出来上がり時期を早めたり、ご指定いただくことは出来かねます。<br />
           ※お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</p>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/yotei.svg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/yotei2.svg" />
         </dd>
       </dl>
       <!--<dl>
