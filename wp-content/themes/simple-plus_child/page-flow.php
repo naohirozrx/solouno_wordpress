@@ -756,7 +756,7 @@
           ■ <a href="<?php echo home_url('/')?>showroom">店舗 </a>/ <a href="<?php echo home_url('/')?>exhibit">展示会</a> で</h3>
           <p class="text2">※一部お申し込みを承れない展示会場がございます。<br />※お申し込み時にお支払いください。</p>
           <h3 style="text-decoration: underline;">お申し込みから２週間は組み合わせの変更が可能です。</h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gentei_fix.svg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gentei.svg" />
         </dd>
       </dl>
       <dl>
@@ -768,7 +768,7 @@
           <p class="text2">※製作都合上、お申し込み順でのお届けではありません。<br />
           ※出来上がり時期を早めたり、ご指定いただくことは出来かねます。<br />
           ※お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</p>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/yotei_fix.svg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/yotei.svg" />
         </dd>
       </dl>
       <!--<dl>
