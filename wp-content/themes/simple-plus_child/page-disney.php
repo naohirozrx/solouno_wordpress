@@ -191,7 +191,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/gentei2.svg" />
           <p class="text2" style="margin-top: 20px;">
             ※最終販売期間につきまして<br />
-            第3回販売：お申込期限2024/1/31までのお申込みで3月初旬ごろお届けとなります。
+            第3回販売を予定しております。確定し次第掲載いたします。
           </p>
         </dd>
       </dl>
