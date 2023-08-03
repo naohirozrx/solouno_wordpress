@@ -127,24 +127,25 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script>
 	$(function() {
+		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $size; ?>【<?php echo $size; ?>】"]').prop('selected', true);
 
 		if("<?php echo $animalTypeNameA; ?>" == "なし") {
-			$('.item-option > dd:nth-child(2) > select option[value="<?php echo $animalTypeA; ?>"]').prop('selected', true);
+			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $animalTypeA; ?>"]').prop('selected', true);
 		} else {
-			$('.item-option > dd:nth-child(2) > select option[value="<?php echo $animalTypeNameA; ?>【<?php echo $animalTypeA; ?>】"]').prop('selected', true);
+			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $animalTypeNameA; ?>【<?php echo $animalTypeA; ?>】"]').prop('selected', true);
 		}
-		$('.item-option > dd:nth-child(4) > select option[value="<?php echo $animalTypeNameB; ?>【<?php echo $animalTypeB; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $animalTypeNameC; ?>【<?php echo $animalTypeC; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $animalTypeNameB; ?>【<?php echo $animalTypeB; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(8) > select option[value="<?php echo $animalTypeNameC; ?>【<?php echo $animalTypeC; ?>】"]').prop('selected', true);
 		if("<?php echo $animalTypeNameD; ?>" == "なし") {
-			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $animalTypeD; ?>"]').prop('selected', true);
+			$('.item-option > dd:nth-child(10) > select option[value="<?php echo $animalTypeD; ?>"]').prop('selected', true);
 		} else {
-			$('.item-option > dd:nth-child(8) > select option[value="<?php echo $animalTypeNameD; ?>【<?php echo $animalTypeD; ?>】"]').prop('selected', true);
+			$('.item-option > dd:nth-child(10) > select option[value="<?php echo $animalTypeNameD; ?>【<?php echo $animalTypeD; ?>】"]').prop('selected', true);
 		}
-		$('.item-option > dd:nth-child(10) > select option[value="<?php echo $animalTypeNameE; ?>【<?php echo $animalTypeE; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(12) > select option[value="<?php echo $animalTypeNameE; ?>【<?php echo $animalTypeE; ?>】"]').prop('selected', true);
 		if("<?php echo $animalTypeNameE2; ?>" == "なし") {
-			$('.item-option > dd:nth-child(12) > select option[value="<?php echo $animalTypeE2; ?>"]').prop('selected', true);
+			$('.item-option > dd:nth-child(14) > select option[value="<?php echo $animalTypeE2; ?>"]').prop('selected', true);
 		} else {
-			$('.item-option > dd:nth-child(12) > select option[value="<?php echo $animalTypeNameE2; ?>【<?php echo $animalTypeE2; ?>】"]').prop('selected', true);
+			$('.item-option > dd:nth-child(14) > select option[value="<?php echo $animalTypeNameE2; ?>【<?php echo $animalTypeE2; ?>】"]').prop('selected', true);
 		}
 
 		$('.field-price').html("<?php echo $pricetext; ?>");

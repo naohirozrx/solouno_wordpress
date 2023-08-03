@@ -97,13 +97,13 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script>
 	$(function() {
-
-		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $heartTypeNameA; ?>【<?php echo $heartTypeA; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $size; ?>【<?php echo $size; ?>】"]').prop('selected', true);
 		$('.item-option > dd:nth-child(4) > select option[value="<?php echo $heartTypeNameA; ?>【<?php echo $heartTypeA; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $heartTypeNameC; ?>【<?php echo $heartTypeC; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(8) > select option[value="<?php echo $heartTypeNameA; ?>【<?php echo $heartTypeA; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(10) > select option[value="<?php echo $heartTypeNameE; ?>【<?php echo $heartTypeE; ?>】"]').prop('selected', true);
-		$('.item-option > dd:nth-child(12) > select option[value="<?php echo $heartTypeNameF; ?>【<?php echo $heartTypeF; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $heartTypeNameA; ?>【<?php echo $heartTypeA; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(8) > select option[value="<?php echo $heartTypeNameC; ?>【<?php echo $heartTypeC; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(10) > select option[value="<?php echo $heartTypeNameA; ?>【<?php echo $heartTypeA; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(12) > select option[value="<?php echo $heartTypeNameE; ?>【<?php echo $heartTypeE; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(14) > select option[value="<?php echo $heartTypeNameF; ?>【<?php echo $heartTypeF; ?>】"]').prop('selected', true);
 
 		$('.field-price').html("<?php echo $pricetext; ?>");
 
