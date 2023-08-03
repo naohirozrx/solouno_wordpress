@@ -1,5 +1,6 @@
 
 <?php
+$size = '';
 $flowerTypeA = '';
 $flowerTypeA2 = '';
 $flowerTypeB = '';
@@ -23,6 +24,9 @@ $flowerTypeNameC2 = '';
 $flowerTypeNameD = '';
 $price_price = 0;
 
+if(isset($_POST['size'])):
+	$size = htmlspecialchars($_POST['size'], ENT_QUOTES, "UTF-8");
+endif;
 
 if(isset($_POST['flowerTypeA'])):
 	$flowerTypeA = htmlspecialchars($_POST['flowerTypeA'], ENT_QUOTES, "UTF-8");

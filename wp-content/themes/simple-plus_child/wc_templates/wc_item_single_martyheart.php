@@ -1,5 +1,6 @@
 
 <?php
+$size = '';
 $heartTypeA = '';
 $heartTypeC = '';
 $heartTypeE = '';
@@ -13,6 +14,10 @@ $heartTypeNameC = '';
 $heartTypeNameE = '';
 $heartTypeNameF = '';
 $price_price = 0;
+
+if(isset($_POST['size'])):
+	$size = htmlspecialchars($_POST['size'], ENT_QUOTES, "UTF-8");
+endif;
 
 if(isset($_POST['heartTypeA'])):
 	$heartTypeA = htmlspecialchars($_POST['heartTypeA'], ENT_QUOTES, "UTF-8");

@@ -1,5 +1,6 @@
 
 <?php
+$size = '';
 $animalTypeA = '';
 $animalTypeB = '';
 $animalTypeC = '';
@@ -19,6 +20,10 @@ $animalTypeNameD = '';
 $animalTypeNameE = '';
 $animalTypeNameE2 = '';
 $price_price = 0;
+
+if(isset($_POST['size'])):
+	$size = htmlspecialchars($_POST['size'], ENT_QUOTES, "UTF-8");
+endif;
 
 if(isset($_POST['animalTypeA'])):
 	$animalTypeA = htmlspecialchars($_POST['animalTypeA'], ENT_QUOTES, "UTF-8");
