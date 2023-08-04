@@ -13,6 +13,11 @@
 
   gtag('config', 'G-SRR7NPDJ2S');
 </script>
+<script type="text/javascript" charset="utf-8" async defer>
+    !function(e,t,n,a,c,s,o){e.FirstContact=c,e.fcSrc="https://first-contact.jp/assets/js/firstcontact.js",e[c]=e[c]||function(){(e[c].q=e[c].q||[]).push(arguments)},e[c].l=1*new 
+Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o.parentNode.insertBefore(s,o)}(window,document,"script",0,"firstcontact");
+    firstcontact("73af129b-ce50-f2f6-1552-815bc6380940");
+</script>
   <meta charset="<?php bloginfo( 'charset' ); ?>">
   <meta name="viewport" content="width=device-width">
   <link rel="profile" href="http://gmpg.org/xfn/11">
