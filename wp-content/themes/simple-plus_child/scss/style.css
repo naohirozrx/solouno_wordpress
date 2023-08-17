@@ -1475,7 +1475,9 @@ footer {
         border-radius: 4px;
         display: flex;
         align-items: center;
-        background-color: #fff; }
+        background-color: #fff;
+        background-size: 14px auto;
+        background-position: right 11px center; }
     #request-page dl.required dt:before {
       content: '必須';
       background-color: #B42822;
