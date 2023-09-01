@@ -190,7 +190,7 @@
           <p class="text2">※お申し込み時にお支払いください。</p>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/gentei3.svg" />
           <p class="text2" style="margin-top: 20px;">
-            2024モデル最終受付です。
+            ※2024モデル最終受付です。
           </p>
         </dd>
       </dl>
