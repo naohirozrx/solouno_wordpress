@@ -1,11 +1,8 @@
 <?php if(!is_page('simulator')):?>
 <section class="request-link">
   <h2><span>REQUEST</span>カタログ請求</h2>
-  <p>
-    【2024 SOLO UNOランドセルカタログ】のお送りは終了いたしました。<br />2025年4月ご入学のお子さま（現年中さん）に向けたカタログのご請求開始は9月ごろの予定です。
-  </p>
-
-  <a href="/request" onclick="alert('現在カタログの請求は停止しております。'); return false;">カタログ請求はこちら</a>
+  <p>【SOLOUNOオーダーメイドランドセルのカタログ2025】を無料でお送りいたします。<br />2025年4月御入学のお子さまに向けたカタログです。10日ほどでお届けします。</p>
+  <a href="/request">カタログ請求はこちら</a>
 </section>
 
 <footer>

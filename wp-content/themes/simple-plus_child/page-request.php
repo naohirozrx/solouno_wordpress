@@ -13,8 +13,9 @@
     <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
     <section id="request-page">
       <h2 id="request" class="textAnimation">カタログ請求フォーム</h2>
-      <p>【2024 SOLO UNOランドセルカタログ】のお送りは終了いたしました。<br />2025年4月ご入学のお子さま（現年中さん）に向けたカタログのご請求開始は9月ごろの予定です。</p>
-    <?php //the_content();?>
+      <p>2025 SOLO UNOランドセルカタログは<br />
+      10日ほどでお届けします。</p>
+    <?php the_content();?>
   <section>
 </div>
 
