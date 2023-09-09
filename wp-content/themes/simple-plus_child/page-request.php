@@ -13,7 +13,7 @@
     <script src="https://ajaxzip3.github.io/ajaxzip3.js" charset="UTF-8"></script>
     <section id="request-page">
       <h2 id="request" class="textAnimation">カタログ請求フォーム</h2>
-      <p>2024カタログのご請求は終了いたしました。<p>
+      <p>2024カタログのご請求は終了いたしました。</p>
       
       <p>2025年4月ご入学のお子さまに向けた2025カタログのご請求を承ります。</br >
       2024年2月ごろの発送開始予定です。</p>
