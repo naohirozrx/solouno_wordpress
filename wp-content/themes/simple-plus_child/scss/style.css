@@ -2751,7 +2751,18 @@ footer {
       #flow-area .howtoorder div dl dd {
         background-color: #fff;
         margin-left: 48px;
-        padding: 35px; }
+        padding: 35px;
+        position: relative; }
+        #flow-area .howtoorder div dl dd .stop {
+          position: absolute;
+          width: 100%;
+          left: 0;
+          z-index: 100;
+          background-color: rgba(255, 255, 255, 0.9);
+          padding: 20px;
+          font-weight: bold;
+          height: 700px;
+          font-size: 18px; }
         #flow-area .howtoorder div dl dd h3 {
           font-size: .12rem;
           font-weight: 500;

@@ -756,6 +756,11 @@
           ■ <a href="<?php echo home_url('/')?>showroom">店舗 </a>/ <a href="<?php echo home_url('/')?>exhibit">展示会</a> で</h3>
           <p class="text2">※一部お申し込みを承れない展示会場がございます。<br />※お申し込み時にお支払いください。</p>
           <h3 style="text-decoration: underline;">お申し込みから２週間は組み合わせの変更が可能です。</h3>
+          <div class="stop">
+            　2024年4月ご入学のお子さまに向けたオーダーメイドランドセルの承りは終了いたしました。<br />
+            <br />
+            　なお、2025年4月ご入学のお子さまに向けたオーダーメイドランドセルは2024年2月ごろ販売開始を予定しております。 デザイン、企画が変更になる可能性がありますが、シミュレーターはご利用可能です。
+          </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gentei_fix.svg" />
         </dd>
       </dl>
