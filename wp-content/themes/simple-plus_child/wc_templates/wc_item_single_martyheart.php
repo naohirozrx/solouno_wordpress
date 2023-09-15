@@ -13,6 +13,7 @@ $heartTypeNameA = '';
 $heartTypeNameC = '';
 $heartTypeNameE = '';
 $heartTypeNameF = '';
+$kashime = '';
 $price_price = 0;
 
 if(isset($_POST['size'])):
@@ -71,6 +72,10 @@ if(isset($_POST['price'])):
 	$price_price = htmlspecialchars($_POST['price'], ENT_QUOTES, "UTF-8");
 endif;
 
+if(isset($_POST['kashime'])):
+	$kashime = htmlspecialchars($_POST['kashime'], ENT_QUOTES, "UTF-8");
+endif;
+
 
 $price_price = number_format($price_price);
 
@@ -104,6 +109,7 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 		$('.item-option > dd:nth-child(10) > select option[value="<?php echo $heartTypeNameA; ?>【<?php echo $heartTypeA; ?>】"]').prop('selected', true);
 		$('.item-option > dd:nth-child(12) > select option[value="<?php echo $heartTypeNameE; ?>【<?php echo $heartTypeE; ?>】"]').prop('selected', true);
 		$('.item-option > dd:nth-child(14) > select option[value="<?php echo $heartTypeNameF; ?>【<?php echo $heartTypeF; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(16) > select option[value="<?php echo $kashime; ?>"]').prop('selected', true);
 
 		$('.field-price').html("<?php echo $pricetext; ?>");
 

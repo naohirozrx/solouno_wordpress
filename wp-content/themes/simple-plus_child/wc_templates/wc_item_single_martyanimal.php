@@ -19,6 +19,7 @@ $animalTypeNameC = '';
 $animalTypeNameD = '';
 $animalTypeNameE = '';
 $animalTypeNameE2 = '';
+$kashime = '';
 $price_price = 0;
 
 if(isset($_POST['size'])):
@@ -97,6 +98,10 @@ if(isset($_POST['animalTypeNameE2'])):
 	$animalTypeNameE2 = htmlspecialchars($_POST['animalTypeNameE2'], ENT_QUOTES, "UTF-8");
 endif;
 
+if(isset($_POST['kashime'])):
+	$kashime = htmlspecialchars($_POST['kashime'], ENT_QUOTES, "UTF-8");
+endif;
+
 if(isset($_POST['price'])):
 	$price_price = htmlspecialchars($_POST['price'], ENT_QUOTES, "UTF-8");
 endif;
@@ -147,6 +152,8 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 		} else {
 			$('.item-option > dd:nth-child(14) > select option[value="<?php echo $animalTypeNameE2; ?>【<?php echo $animalTypeE2; ?>】"]').prop('selected', true);
 		}
+
+		$('.item-option > dd:nth-child(16) > select option[value="<?php echo $kashime; ?>"]').prop('selected', true);
 
 		$('.field-price').html("<?php echo $pricetext; ?>");
 
