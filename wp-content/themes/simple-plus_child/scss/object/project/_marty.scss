@@ -1,14 +1,13 @@
-#product-area {
+#marty-area {
   width: 100%;
   margin: auto;
   @media screen and (min-width: width(sp)) {
     max-width: 395px;
   }//@media
-  .product-top {
+  .marty-top {
     position: relative;    > img {
       width: 100%;
       height: auto;
-      opacity: .5;
     }//img
     div {
       width: 100%;
@@ -20,6 +19,7 @@
         font-size: .18rem;
         font-weight: $font_w_b;
         margin-bottom: 15px;
+        color: #fff;
       }
       img {
         width: 87px;
@@ -27,8 +27,8 @@
       }
     }//div
   }//.aboutus-top
-  .ordermade-area {
-    padding: 60px 27px 160px 27px;
+  .online-area {
+    padding: 60px 27px 60px 27px;
     background-color: #FEF6EA;
     h2 {
       @include h2title;
@@ -62,41 +62,19 @@
     .dot {
       @include dot;
     }//.dot
-    .om-p1 {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 30px;
-    }
+
     p {
       font-size: .12rem;
       margin-bottom: 30px;
-    }//p
-    .om-link {
-      color: #fff;
-      width: 335px;
-      height: 50px;
-      margin: 0 auto 20px auto;
-      font-size: .14rem;
-      font-weight: $font_w_b;
-      background-color: #6F6356;
-      border-radius: 39px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: url(../images/angle-right-white.svg);
-      background-repeat: no-repeat;
-      background-position-y: 50%;
-      background-position-x: 300px;
-      text-align: center;
-      line-height: 1.2;
     }
-    .flow-link {
+
+    > a {
       color: #AC7746;
       width: 335px;
       height: 50px;
-      margin: 0 auto 20px;
+      margin: 0 auto 2em;
       font-size: .14rem;
+      ;line-height: 1.3;
       font-weight: $font_w_b;
       border: 1px solid #AC7746;
       border-radius: 39px;
@@ -107,9 +85,60 @@
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 300px;
+      transition: 0.3s;
+      &:hover {
+        background-position-x: 305px;
+      }
+    }
+
+    .sim-movie {
+      position: relative;
+      width: 260px;
+      height: 524px;
+      margin: 0 auto 40px;
+      img {
+        position: absolute;
+        left: 0;
+        width: 260px;
+        height: 524px;
+        top: 0;
+      }
+
+      video {
+        width: 231px;
+        position: absolute;
+        left: 15px;
+        top: 12px;
+      }
+    }
+
+    .pattern {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-bottom: 40px;
+
+      li {
+        background-color: #fff;
+        padding: 10px;
+        border-radius: 8px;
+
+        figure {
+          img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+          }
+
+          figcaption {
+            text-align: center;
+            font-weight: bold;
+          }
+        }
+      }
     }
   }//.ordermade-area
-  .disney-area {
+  .shop-area {
     padding: 60px 27px 160px 27px;
     h2 {
       @include h2title;
@@ -143,16 +172,57 @@
     .dot {
       @include dot;
     }//.dot
-    .disney-p1 {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 30px;
-    }
+
     p {
       font-size: .12rem;
       margin-bottom: 30px;
     }//p
+
+    .shop-image {
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+
+    > img {
+      width: 100%;
+      height: auto;
+    }
+
+    h3 {
+      font-size: .16rem;
+      font-weight: bold ;
+      margin: 40px 0 1em;
+    }
+
+    .marty-contents {
+      width: calc(100% + 54px);
+      margin-left: -27px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 30px;
+
+      img {
+        width: 50%;
+        height: auto;
+      }
+
+      > div {
+        width: 50%;
+        padding-left: 20px;
+        padding-right: 20px;
+
+        p {
+          margin: 0;
+        }
+      }
+
+      &:nth-child(2n) {
+        flex-direction: row-reverse;
+      }
+    }
 
     .om-link {
       color: #fff;
@@ -237,42 +307,6 @@
       margin-bottom: 30px;
     }//p
 
-    .om-link {
-      color: #fff;
-      width: 335px;
-      height: 50px;
-      margin: 0 auto 20px auto;
-      font-size: .14rem;
-      font-weight: $font_w_b;
-      background-color: #6F6356;
-      border-radius: 39px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: url(../images/angle-right-white.svg);
-      background-repeat: no-repeat;
-      background-position-y: 50%;
-      background-position-x: 300px;
-      text-align: center;
-      line-height: 1.2;
-    }
-    .flow-link {
-      color: #AC7746;
-      width: 335px;
-      height: 50px;
-      margin: 0 auto 20px;
-      font-size: .14rem;
-      font-weight: $font_w_b;
-      border: 1px solid #AC7746;
-      border-radius: 39px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-image: url(../images/angle-right.svg);
-      background-repeat: no-repeat;
-      background-position-y: 50%;
-      background-position-x: 300px;
-    }
   }//.marty-area
   .totebag-area {
     padding: 60px 27px 160px 27px;

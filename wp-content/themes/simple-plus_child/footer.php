@@ -13,6 +13,7 @@
 		|| is_page('request')
 		|| is_page('law')
 		|| is_page('privacy')
+		|| is_page('marty')
 	):
 		include_once('footer_web.php');
 	else:
