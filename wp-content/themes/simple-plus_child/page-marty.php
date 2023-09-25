@@ -8,10 +8,19 @@
     </div>
   </section>
   <section class="online-area">
+    <h2>『Marty 』とは・・</h2>
+    <p>20周年を迎えた『Marty 』は本革と国内生産にこだわった“お客様の笑顔に寄り添う”モノづくりを目指す神戸、芦屋のレザーショップです。</p>
+
+    <h2>『SOLO UNO』× 『Marty 』</h2>
+    <p>牛革パーツの組み合わせを選んで出来上がる“オーダーメイド”なアイテムの中から「ランドセルカバー」と「キーホルダー」がSOLO UNOでご覧いただけます。<br />
+      本革の型抜きからコバ磨き、縫製まで国内生産にこだわった上質なパーツは、スワロフスキーのクリスタルのついたものもあり、選ぶのが楽しいアイテムです。</p>
+
     <h2>Webサイトで選ぶ</h2>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot" />
     <p>SOLO UNOのWebサイトでは「Marty」のランドセルカバーがオーダーできます。<br />
-    シミュレーターでお選びいただくパターンオーダーです。</p>
+    シミュレーターでお選びいただくパターンオーダーです。<br />
+    カバーは透明です。ランドセルの色に合うデザインをお選びください。<br />
+    パーツはカバーに打ち留めるのでランドセルを傷付けることはありません。</p>
     <a href="//marty.solouno-ordermade.com/" target="_blank">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>
     <div class="sim-movie">
       <video src="<?php echo get_stylesheet_directory_uri(); ?>/images/marty/marty.mp4" autoplay muted loop playsinline></video>
@@ -42,6 +51,7 @@
           <figcaption>アニマルタイプ</figcaption>
         </figure>
       </li>
+      <li style="font-size:10px; background:none; padding: 0;">※カバーは透明です。</li>
     </ul>
     <a href="//marty.solouno-ordermade.com/" target="_blank">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>
   </section>
