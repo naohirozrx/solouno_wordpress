@@ -1413,16 +1413,19 @@ footer {
     #request-page {
       max-width: 395px;
       padding: 34px; } }
+  #request-page h2 {
+    margin-top: 50px; }
   #request-page dl {
     display: flex;
     flex-direction: column;
     gap: 8px;
     max-width: 500px;
-    margin: 0 auto 12px; }
+    margin: 0 auto 32px; }
     #request-page dl dt {
       font-weight: bold;
       display: flex;
-      align-items: center; }
+      align-items: center;
+      text-align: left; }
     #request-page dl dd {
       text-align: left; }
       #request-page dl dd.name {
@@ -1478,6 +1481,30 @@ footer {
         background-color: #fff;
         background-size: 14px auto;
         background-position: right 11px center; }
+      #request-page dl dd input[type="checkbox"],
+      #request-page dl dd input[type="radio"] {
+        all: unset;
+        border: 1px solid #262626;
+        width: 26px;
+        height: 26px;
+        border-radius: 4px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative; }
+      #request-page dl dd input[type="radio"] {
+        border-radius: 100px; }
+      #request-page dl dd label {
+        display: flex;
+        gap: 8px; }
+      #request-page dl dd .wpcf7-checkbox {
+        display: flex;
+        flex-direction: column;
+        gap: 16px; }
+      #request-page dl dd .wpcf7-radio {
+        display: flex;
+        flex-direction: column;
+        gap: 16px; }
     #request-page dl.required dt:before {
       content: '必須';
       background-color: #B42822;

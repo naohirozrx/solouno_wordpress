@@ -39,17 +39,22 @@
     padding: 34px;
   }
 
+  h2 {
+    margin-top: 50px;
+  }
+
   dl {
     display: flex;
     flex-direction: column;
     gap: 8px;
     max-width: 500px;
-    margin: 0 auto 12px;
+    margin: 0 auto 32px;
 
     dt {
       font-weight: bold;
       display: flex;
       align-items: center;
+      text-align: left;
     }
 
     dd {
@@ -111,6 +116,40 @@
         background-color: #fff;
         background-size: 14px auto;
         background-position: right 11px center;
+      }
+
+      input[type="checkbox"],
+      input[type="radio"] {
+        all: unset;
+        border: 1px solid #262626;
+        width: 26px;
+        height: 26px;
+        border-radius: 4px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+      }
+
+      input[type="radio"] {
+        border-radius: 100px;
+      }
+
+      label {
+        display: flex;
+        gap: 8px;
+      }
+
+      .wpcf7-checkbox {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+      }
+
+      .wpcf7-radio {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
       }
     }
 
