@@ -23,6 +23,6 @@
       </ul>
     </div>
   </div>
-  <a href="https://sim.solouno-ordermade.com" class="ordermade">オーダーメイドを選んでみよう！<br />【シミュレーター】</a>
+  <a href="https://sim.solouno-ordermade.com" target="_blank" class="ordermade">オーダーメイドを選んでみよう！<br />【シミュレーター】</a>
   <img src="<?php echo get_template_directory_uri(); ?>/images/sbmto.svg" class="sbmto">
 </section>

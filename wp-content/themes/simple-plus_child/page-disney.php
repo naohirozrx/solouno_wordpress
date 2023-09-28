@@ -37,7 +37,7 @@
   </section>
 
   <section class="disney-flow">
-    <a href="https://disneysim.solouno-ordermade.com/" id="simlink" class="simlink">オーダーを選んでみよう！<br />【シミューレーター】</a>
+    <a href="https://disneysim.solouno-ordermade.com/" target="_blank" id="simlink" class="simlink">オーダーを選んでみよう！<br />【シミューレーター】</a>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/flow-img.jpg" id="flow" />
     <div>
       <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />オーダーの手順<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
@@ -216,7 +216,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gentei.svg" />
         </dd>
       </dl>-->
-      <a href="https://disneysim.solouno-ordermade.com/" class="">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>
+      <a href="https://disneysim.solouno-ordermade.com/" target="_blank" class="">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>
     </div>
   </section>
 

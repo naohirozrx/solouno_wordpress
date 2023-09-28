@@ -667,7 +667,7 @@
             <div>
               <figure>
                 <img src="<?php echo get_field('img1')['url']?>" class="thumbnail" />
-                <a href="https://sim.solouno-ordermade.com/?type=gallery&maincolor=<?php echo get_field('maincolorid');?>&combicolor=<?php echo get_field('combicolorid');?>&backcolor=<?php echo get_field('backcolorid');?>&stitch=<?php echo get_field('kabuseid');?>&tack=<?php echo get_field('byouid');?>&inner=<?php echo get_field('innercolorid');?>&side=<?php echo get_field('sidedesignid');?>">このパターンで<br />シミュレーションする</a>
+                <a target="_blank" href="https://sim.solouno-ordermade.com/?type=gallery&maincolor=<?php echo get_field('maincolorid');?>&combicolor=<?php echo get_field('combicolorid');?>&backcolor=<?php echo get_field('backcolorid');?>&stitch=<?php echo get_field('kabuseid');?>&tack=<?php echo get_field('byouid');?>&inner=<?php echo get_field('innercolorid');?>&side=<?php echo get_field('sidedesignid');?>">このパターンで<br />シミュレーションする</a>
               </figure>
               <div>
                 <ul>
@@ -752,7 +752,7 @@
         </dt>
         <dd>
           <h3>組み合わせが決まりましたらお申し込みください。<br />
-          ■ <a href="https://sim.solouno-ordermade.com/">WEBサイトのシミュレーションから</a><br />
+          ■ <a href="https://sim.solouno-ordermade.com/" target="_blank">WEBサイトのシミュレーションから</a><br />
           ■ <a href="<?php echo home_url('/')?>showroom">店舗 </a>/ <a href="<?php echo home_url('/')?>exhibit">展示会</a> で</h3>
           <p class="text2">※一部お申し込みを承れない展示会場がございます。<br />※お申し込み時にお支払いください。</p>
           <h3 style="text-decoration: underline;">お申し込みから２週間は組み合わせの変更が可能です。</h3>
@@ -786,7 +786,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gentei.svg" />
         </dd>
       </dl>-->
-      <a href="https://sim.solouno-ordermade.com" class="">オーダーメイドを選んでみよう！<br />【シミュレーター】</a>
+      <a href="https://sim.solouno-ordermade.com" target="_blank" class="">オーダーメイドを選んでみよう！<br />【シミュレーター】</a>
     </div>
   </section>
 

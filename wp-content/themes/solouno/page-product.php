@@ -11,10 +11,10 @@
   <section class="ordermade-area">
     <h2><span>CUSTOME-MADE</span>オーダーメイドランドセル<br /><span class="ec">EC取り扱い</span><span class="info">店舗取り扱い</span></h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
-    <a href="https://sim.solouno-ordermade.com/"><img src="<?php echo get_template_directory_uri(); ?>/images/ordermade.jpg" class="om-p1" /></a>
+    <a href="https://sim.solouno-ordermade.com/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/ordermade.jpg" class="om-p1" /></a>
     <p>SOLO UNOのオーダーメイドランドセルは メインカラーやコンビカラー、デザインなど、806,400通りの 組み合わせから選んでつくるランドセルです。</p>
     <p>シミュレーターでたくさんの組み合わせの中から [たったひとつ]の自分だけのランドセルを探し出さしてください。</p>
-    <a href="https://sim.solouno-ordermade.com" class="om-link">オーダーメイドを選んでみよう<br />【シミュレーター】</a>
+    <a href="https://sim.solouno-ordermade.com" target="_blank" class="om-link">オーダーメイドを選んでみよう<br />【シミュレーター】</a>
     <a href="<?php echo home_url('/')?>flow" class="flow-link">オーダーメイドランドセル</a>
     <a href="<?php echo home_url('/')?>flow#gallery" class="flow-link">GALLERY</a>
     <a href="<?php echo home_url('/')?>flow#change" class="flow-link">組み合わせのご変更はこちら</a>
