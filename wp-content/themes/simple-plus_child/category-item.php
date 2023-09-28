@@ -51,7 +51,7 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 
 		<ul class="item-list">
 			<?php
-			$args = array( 'category_name' => 'randosel', );
+			$args = array( 'category_name' => 'totebag', );
 			$myposts = get_posts( $args );
 			foreach ( $myposts as $post ) :
 					setup_postdata( $post );
@@ -80,7 +80,7 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 
 		<ul class="item-list">
 			<?php
-			$args = array( 'category_name' => 'randosel', );
+			$args = array( 'category_name' => 'accessories', );
 			$myposts = get_posts( $args );
 			foreach ( $myposts as $post ) :
 					setup_postdata( $post );
@@ -109,7 +109,7 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 
 		<ul class="item-list">
 			<?php
-			$args = array( 'category_name' => 'randosel', );
+			$args = array( 'category_name' => 'etc', );
 			$myposts = get_posts( $args );
 			foreach ( $myposts as $post ) :
 					setup_postdata( $post );
