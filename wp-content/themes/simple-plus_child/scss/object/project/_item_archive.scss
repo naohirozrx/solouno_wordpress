@@ -1,0 +1,77 @@
+.item-archive {
+  max-width: 395px;
+  margin: 0 auto;
+  padding: 0 27px;
+
+  h3 {
+    font-size: 21px;
+    font-weight: bold;
+
+  }
+
+  .dot {
+    margin: 5px 0 32px;
+  }
+
+  .item-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 64px;
+
+    li {
+      figure {
+        border-radius: 10px;
+        overflow: hidden;
+        margin-bottom: 5px;
+      }
+
+      .item-title {
+        line-height: 1.3;
+        font-size: 12px;
+        display: block;
+      }
+
+      .price {
+        display: block;
+        font-size: .18rem;
+        font-weight: bold;
+      }
+    }
+
+  }
+  #content {
+    max-width: 395px;
+
+    .archive-header .page-title {
+      margin: 0 0 .11rem;
+    }
+
+    .category-count-item {
+      display: none;
+    }
+
+    .archive-header .category-count-page {
+      margin-top: .3rem;
+      margin-bottom: .17rem;
+      display: none;
+    }
+
+    .filter-category {
+    display: none !important;
+    }
+
+    .container {
+      width: 100%;
+      padding: 0;
+      .grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+
+        > article {
+          grid-column:auto;
+        }
+      }
+    }
+  }
+}
