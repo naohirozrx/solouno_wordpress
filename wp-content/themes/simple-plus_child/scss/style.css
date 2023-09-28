@@ -1407,12 +1407,12 @@ footer {
         height: auto; }
 
 #request-page {
-  padding: 30px;
+  padding: 0 30px;
   width: 100%; }
   @media screen and (min-width: 781px) {
     #request-page {
       max-width: 395px;
-      padding: 34px; } }
+      padding: 0 34px; } }
   #request-page h2 {
     margin-top: 50px; }
   #request-page dl {

@@ -32,11 +32,11 @@
   }//.request-top
 }
 #request-page {
-  padding: 30px;
+  padding: 0 30px;
   width: 100%;
   @media screen and (min-width: width(sp)) {
     max-width: 395px;
-    padding: 34px;
+    padding: 0 34px;
   }
 
   h2 {
