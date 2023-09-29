@@ -181,6 +181,35 @@ html {
     position: relative;
     z-index: 10; } }
 
+.pagination {
+  margin-top: 64px; }
+  .pagination .screen-reader-text {
+    display: none; }
+  .pagination .nav-links {
+    margin: 0;
+    font-size: 12px;
+    width: 100%;
+    display: block; }
+    .pagination .nav-links .page-numbers {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      gap: 8px; }
+      .pagination .nav-links .page-numbers li .page-numbers {
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 42px;
+        height: 42px;
+        border: 1px solid #AC7746;
+        border-radius: 4px;
+        color: #AC7746; }
+        .pagination .nav-links .page-numbers li .page-numbers.current {
+          background-color: #AC7746;
+          color: #fff; }
+
 .all-btn {
   padding: 1em;
   width: 220px;
