@@ -86,7 +86,7 @@ Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o
         <li><a href="<?php echo home_url('/')?>showroom">店舗情報</a></li>
         <li><a href="<?php echo home_url('/')?>news">お知らせ</a></li>
         <li><a href="<?php echo home_url('/')?>exhibit">展示会情報</a></li>
-        <!-- <li><a href="<?php echo home_url('/')?>column">コラム</a></li> -->
+        <li><a href="<?php echo home_url('/')?>column">コラム</a></li>
         <li><a href="<?php echo home_url('/')?>request">カタログ請求</a></li>
         <li><a href="<?php echo home_url('/')?>law">特定商取引法に基づく表記</a></li>
         <li><a href="<?php echo home_url('/')?>privacy">プライバシーポリシー</a></li>

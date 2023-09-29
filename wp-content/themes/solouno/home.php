@@ -126,37 +126,32 @@
     </div>
   </section>
 
-  <!--
   <section class="column">
     <h2><span>Column</span>コラム</h2>
     <img src="<?php echo get_template_directory_uri(); ?>/images/dot.svg" class="dot" />
+
+    <?php
+			$args = array( 'post_type' => 'column', );
+			$myposts = get_posts( $args );
+			foreach ( $myposts as $post ) :
+					setup_postdata( $post );
+		?>
     <figure>
-      <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
+      <a href="<?php echo get_permalink( $id );?>">
+        <?php the_post_thumbnail();?>
         <figcaption>
-          コラムのタイトルですコラムのタイトルですコラムのタイトルですコラムのタイトル...
+          <span><?php echo get_the_date(); ?></span>
+          <p><?php the_title(); ?></p>
         </figcaption>
       </a>
     </figure>
-    <figure>
-      <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
-        <figcaption>
-          コラムのタイトルですコラムのタイトルですコラムのタイトルですコラムのタイトル...
-        </figcaption>
-      </a>
-    </figure>
-    <figure>
-      <a href="#">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/news-sample.svg" />
-        <figcaption>
-          コラムのタイトルですコラムのタイトルですコラムのタイトルですコラムのタイトル...
-        </figcaption>
-      </a>
-    </figure>
+    <?php
+			endforeach; 
+			wp_reset_postdata();
+    ?>
+
     <a href="<?php echo home_url('/')?>column">and more</a>
   </section>
--->
 </div>
 
 <?php get_sidebar('side-l');?>

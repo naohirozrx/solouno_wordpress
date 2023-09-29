@@ -972,8 +972,7 @@ footer {
           margin-bottom: 25px;
           display: block; }
   #home-area .column {
-    padding: 0 27px;
-    margin-bottom: 160px; }
+    padding: 80px 27px; }
     #home-area .column h2 {
       font-size: .2rem;
       font-weight: 500;
@@ -1973,6 +1972,21 @@ footer {
       #column-area .column-single-area .area a {
         color: #BAA280;
         text-decoration: underline; }
+    #column-area .column-single-area > a {
+      color: #AC7746;
+      width: 216px;
+      height: 40px;
+      margin: 40px auto 0;
+      font-size: .14rem;
+      font-weight: 700;
+      border: 1px solid #AC7746;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-left.svg);
+      background-repeat: no-repeat;
+      background-position: left 14px center; }
 
 #product-area {
   width: 100%;
