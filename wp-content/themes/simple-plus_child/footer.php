@@ -5,6 +5,8 @@
 		|| is_page('product')
 		|| is_archive('news')
 		|| is_singular('news')
+		|| is_archive('column')
+		|| is_singular('column')
 		|| is_page('flow')
 		|| is_page('disney')
 		|| is_page('showroom')

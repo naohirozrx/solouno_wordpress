@@ -9,8 +9,15 @@
     </div>
   </section>
   <section class="column-area">
-   <?php if ( have_posts() ) : ?>
-    <?php while ( have_posts() ) : the_post(); ?>
+    <?php
+			$args = array(
+        'post_type' => 'column',
+        'posts_per_page' => -1
+      );
+			$myposts = get_posts( $args );
+			foreach ( $myposts as $post ) :
+					setup_postdata( $post );
+		?>
     <figure>
       <a href="<?php the_permalink();?>">
         <?php the_post_thumbnail();?>
@@ -20,17 +27,10 @@
         </figcaption>
       </a>
     </figure>
-    <?php endwhile; ?>
-    <?php endif; ?>
-    <?php the_posts_pagination(
-      array(
-      'mid_size'      => 2, // 現在ページの左右に表示するページ番号の数
-      'prev_next'     => true, // 「前へ」「次へ」のリンクを表示する場合はtrue
-      'prev_text'     => __( '前へ'), // 「前へ」リンクのテキスト
-      'next_text'     => __( '次へ'), // 「次へ」リンクのテキスト
-      'type'          => 'list', // 戻り値の指定 (plain/list)
-      )
-    ); ?>
+    <?php
+			endforeach; 
+			wp_reset_postdata();
+    ?>
   </section>
 </div>
 
