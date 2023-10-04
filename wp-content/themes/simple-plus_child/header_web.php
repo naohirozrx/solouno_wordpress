@@ -79,10 +79,18 @@ Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o
   <h1><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/solouno-logo.svg" alt="SOLO UNO" /><span>ソロウーノ</span></h1>
   <div id="menu-open"><span></span><span></span><span></span><span></span></div>
     <nav id="menu" class="close">
+      <span class="sns">
+        SNS<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sns-border.svg" /><a href="https://www.instagram.com/solo_uno_ordermade/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sns-instagram.svg" /></a>
+      </span>
+
       <ul>
         <li><a href="<?php echo home_url('/')?>">HOME</a></li>
         <li><a href="<?php echo home_url('/')?>aboutus">SOLO UNOについて</a></li>
         <li><a href="<?php echo home_url('/')?>product">PRODUCT</a></li>
+        <li><a href="<?php echo home_url('/')?>flow/">　オーダーメイドランドセル</a></li>
+        <li><a href="<?php echo home_url('/')?>disney">　ディズニーランドセル</a></li>
+        <li><a href="<?php echo home_url('/')?>marty">　マーティー</a></li>
+        <li><a href="<?php echo home_url('/')?>category/item/">　ストア</a></li>
         <li><a href="<?php echo home_url('/')?>showroom">店舗情報</a></li>
         <li><a href="<?php echo home_url('/')?>news">お知らせ</a></li>
         <li><a href="<?php echo home_url('/')?>exhibit">展示会情報</a></li>
@@ -92,9 +100,6 @@ Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o
         <li><a href="<?php echo home_url('/')?>privacy">プライバシーポリシー</a></li>
       </ul>
 
-      <span class="sns">
-        SNS<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sns-border.svg" /><a href="https://www.instagram.com/solo_uno_ordermade/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sns-instagram.svg" /></a>
-      </span>
     </nav>
   </div>
 
