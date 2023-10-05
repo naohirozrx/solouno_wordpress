@@ -1948,6 +1948,8 @@ footer {
       margin: 0 27px;
       background-color: #fff;
       font-size: .12rem; }
+      #column-area .column-single-area .area figure {
+        margin: 1em auto; }
       #column-area .column-single-area .area img {
         width: 100%;
         height: auto; }
