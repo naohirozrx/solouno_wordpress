@@ -22,7 +22,7 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot">
 		<ul class="item-list">
 			<?php
-			$args = array( 'category_name' => 'randosel', );
+			$args = array( 'category_name' => 'randosel', 'posts_per_page'=> 6 );
 			$myposts = get_posts( $args );
 			foreach ( $myposts as $post ) :
 					setup_postdata( $post );
@@ -46,12 +46,13 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 			wp_reset_postdata();
 			?>
 		</ul>
+		<a href="/category/item/randosel" class="category-more-link">すべての商品を見る</a>
 		<h3>トートバッグ</h3>
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot">
 
 		<ul class="item-list">
 			<?php
-			$args = array( 'category_name' => 'totebag', );
+			$args = array( 'category_name' => 'totebag', 'posts_per_page'=> 6 );
 			$myposts = get_posts( $args );
 			foreach ( $myposts as $post ) :
 					setup_postdata( $post );
@@ -75,12 +76,13 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 			wp_reset_postdata();
 			?>
 		</ul>
+		<a href="/category/item/totebag" class="category-more-link">すべての商品を見る</a>
 		<h3>ランドセル付属品</h3>
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot">
 
 		<ul class="item-list">
 			<?php
-			$args = array( 'category_name' => 'accessories', );
+			$args = array( 'category_name' => 'accessories', 'posts_per_page'=> 6);
 			$myposts = get_posts( $args );
 			foreach ( $myposts as $post ) :
 					setup_postdata( $post );
@@ -104,12 +106,13 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 			wp_reset_postdata();
 			?>
 		</ul>
+		<a href="/category/item/accessories" class="category-more-link">すべての商品を見る</a>
 		<h3>その他</h3>
 		<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot">
 
 		<ul class="item-list">
 			<?php
-			$args = array( 'category_name' => 'etc', );
+			$args = array( 'category_name' => 'etc', 'posts_per_page'=> 6 );
 			$myposts = get_posts( $args );
 			foreach ( $myposts as $post ) :
 					setup_postdata( $post );
@@ -133,6 +136,7 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 			wp_reset_postdata();
 			?>
 		</ul>
+		<a href="/category/item/etc" class="category-more-link">すべての商品を見る</a>
 	</section>
 <?php get_sidebar('side-l');?>
 <?php get_sidebar('side-r');?>
