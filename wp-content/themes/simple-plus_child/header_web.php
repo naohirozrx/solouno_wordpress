@@ -86,10 +86,16 @@ Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o
       <ul>
         <li><a href="<?php echo home_url('/')?>">HOME</a></li>
         <li><a href="<?php echo home_url('/')?>aboutus">SOLO UNOについて</a></li>
-        <li><a href="<?php echo home_url('/')?>product">PRODUCT</a></li>
+        <li><a href="<?php echo home_url('/')?>product">PRODUCT -商品一覧-</a></li>
         <li><a href="<?php echo home_url('/')?>flow/">　オーダーメイドランドセル</a></li>
-        <li><a href="<?php echo home_url('/')?>disney">　ディズニーランドセル</a></li>
-        <li><a href="<?php echo home_url('/')?>marty">　マーティー</a></li>
+        <li><a href="<?php echo home_url('/')?>flow/">　　オーダーメイドランドセルとは</a></li>
+        <li><a href="https://sim.solouno-ordermade.com/" target="_blank">　　シミュレーター</a></li>
+        <li><a href="<?php echo home_url('/')?>disney">　ディズニーオーダーランドセル</a></li>
+        <li><a href="<?php echo home_url('/')?>disney">　　ディズニーオーダーとは</a></li>
+        <li><a href="https://disneysim.solouno-ordermade.com/" target="_blank">　　シミュレーター</a></li>
+        <li><a href="<?php echo home_url('/')?>marty">　Marty オーダーメイドランドセルカバー</a></li>
+        <li><a href="<?php echo home_url('/')?>marty">　　Martyとは</a></li>
+        <li><a href="https://marty.solouno-ordermade.com/" target="_blank">　　シミュレーター</a></li>
         <li><a href="<?php echo home_url('/')?>category/item/">　ストア</a></li>
         <li><a href="<?php echo home_url('/')?>showroom">店舗情報</a></li>
         <li><a href="<?php echo home_url('/')?>news">お知らせ</a></li>
