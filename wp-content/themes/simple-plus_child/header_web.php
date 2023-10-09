@@ -86,6 +86,11 @@ Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o
       <ul>
         <li><a href="<?php echo home_url('/')?>">HOME</a></li>
         <li><a href="<?php echo home_url('/')?>aboutus">SOLO UNOについて</a></li>
+        <li><a href="<?php echo home_url('/')?>showroom">店舗情報</a></li>
+        <li><a href="<?php echo home_url('/')?>news">お知らせ</a></li>
+        <li><a href="<?php echo home_url('/')?>exhibit">展示会情報</a></li>
+        <li><a href="<?php echo home_url('/')?>column">コラム</a></li>
+        <li><a href="<?php echo home_url('/')?>request">カタログ請求</a></li>
         <li><a href="<?php echo home_url('/')?>product">PRODUCT -商品一覧-</a></li>
         <li><a href="<?php echo home_url('/')?>flow/">　オーダーメイドランドセル</a></li>
         <li><a href="<?php echo home_url('/')?>flow/">　　オーダーメイドランドセルとは</a></li>
@@ -97,11 +102,6 @@ Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o
         <li><a href="<?php echo home_url('/')?>marty">　　Martyとは</a></li>
         <li><a href="https://marty.solouno-ordermade.com/" target="_blank">　　シミュレーター</a></li>
         <li><a href="<?php echo home_url('/')?>category/item/">　ストア</a></li>
-        <li><a href="<?php echo home_url('/')?>showroom">店舗情報</a></li>
-        <li><a href="<?php echo home_url('/')?>news">お知らせ</a></li>
-        <li><a href="<?php echo home_url('/')?>exhibit">展示会情報</a></li>
-        <li><a href="<?php echo home_url('/')?>column">コラム</a></li>
-        <li><a href="<?php echo home_url('/')?>request">カタログ請求</a></li>
         <li><a href="<?php echo home_url('/')?>law">特定商取引法に基づく表記</a></li>
         <li><a href="<?php echo home_url('/')?>privacy">プライバシーポリシー</a></li>
       </ul>
