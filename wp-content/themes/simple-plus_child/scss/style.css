@@ -1589,6 +1589,49 @@ footer {
       position: fixed;
       top: 0;
       right: 0; }
+      #side-r .menu-area-r {
+        width: 100%;
+        max-width: 426px;
+        height: 100%;
+        margin: auto;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; }
+        #side-r .menu-area-r .sns {
+          font-size: .12rem;
+          font-weight: 700;
+          color: #AC7746;
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          padding-left: 10px; }
+        #side-r .menu-area-r h1 {
+          width: 100%;
+          max-width: 174px;
+          height: 149px;
+          margin: 0 0 60px 0; }
+          #side-r .menu-area-r h1 span {
+            display: block;
+            font-size: .1rem;
+            text-align: center;
+            color: #BAA280;
+            font-weight: 700; }
+            #side-r .menu-area-r h1 span:before {
+              content: "─";
+              margin-right: 5px; }
+            #side-r .menu-area-r h1 span:after {
+              content: "─";
+              margin-left: 5px; }
+        #side-r .menu-area-r ul {
+          margin: 0 0 150px 45px; }
+          #side-r .menu-area-r ul li {
+            line-height: 1;
+            margin-bottom: 20px; }
+            #side-r .menu-area-r ul li a {
+              font-size: .12rem;
+              font-weight: 500; }
       #side-r .bg-area {
         background-image: url(../images/home-top_p1big.jpg);
         background-repeat: no-repeat;

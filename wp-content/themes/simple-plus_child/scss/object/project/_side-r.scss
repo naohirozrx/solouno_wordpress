@@ -7,6 +7,58 @@
     position: fixed;
     top: 0;
     right: 0;
+    .menu-area-r {
+      width: 100%;
+      max-width: 426px;
+      height: 100%;
+      margin: auto;
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .sns {
+        font-size: .12rem;
+        font-weight: $font_w_b;
+        color: #AC7746;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        padding-left: 10px;
+      }
+      h1 {
+        width: 100%;
+        max-width: 174px;
+        height: 149px;
+        margin: 0 0 60px 0;
+        span {
+          display: block;
+          font-size: .1rem;
+          text-align: center;
+          color: #BAA280;
+          font-weight: $font_w_b;
+          &:before {
+            content: "─";
+            margin-right: 5px;
+          }
+          &:after {
+            content: "─";
+            margin-left: 5px;
+          }
+        }
+      }
+      ul {
+        margin: 0 0 150px 45px;
+        li {
+          line-height: 1;
+          margin-bottom: 20px;
+          a {
+            font-size: .12rem;
+            font-weight: $font_w_m;
+          }
+        }
+      }
+    }//.menu-area
     .bg-area {
       background-image: url(../images/home-top_p1big.jpg);
       background-repeat: no-repeat;
