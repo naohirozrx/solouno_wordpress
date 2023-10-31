@@ -21,7 +21,7 @@
     シミュレーターでお選びいただくパターンオーダーです。<br />
     カバーは透明です。ランドセルの色に合うデザインをお選びください。<br />
     パーツはカバーに打ち留めるのでランドセルを傷付けることはありません。</p>
-    <a href="//marty.solouno-ordermade.com/" target="_blank">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>
+    <!--<a href="https://marty.solouno-ordermade.com/" target="_blank">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>-->
     <div class="sim-movie">
       <video src="<?php echo get_stylesheet_directory_uri(); ?>/images/marty/marty.mp4" autoplay muted loop playsinline></video>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/marty/sp-mok.png" />
@@ -53,7 +53,7 @@
       </li>
       <li style="font-size:10px; background:none; padding: 0;">※カバーは透明です。</li>
     </ul>
-    <a href="//marty.solouno-ordermade.com/" target="_blank">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>
+    <!--<a href="https://marty.solouno-ordermade.com/" target="_blank">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>-->
   </section>
 
   <section class="shop-area">
