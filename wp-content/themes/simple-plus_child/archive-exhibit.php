@@ -17,6 +17,7 @@
           <?php the_title();?>
         </dt>
         <dd>
+          <?php the_content(); ?>
           <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/calendar-icon.svg" /><?php echo get_field('date');?></div>
           <?php if(get_field('time') != ''):?>
             <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/clock-ex.svg" /><?php echo get_field('time');?></div>
