@@ -18,6 +18,11 @@ $price_price = 0;
 
 if(isset($_POST['size'])):
 	$size = htmlspecialchars($_POST['size'], ENT_QUOTES, "UTF-8");
+	if($size == "Mサイズ"):
+		$size = "Mサイズ（H45cm X W26cm）";
+	elseif($size == "Lサイズ"):
+		$size = "Lサイズ（H47cm X W26.7cm）";
+	endif;
 endif;
 
 if(isset($_POST['ribonTypeA'])):
