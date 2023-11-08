@@ -137,7 +137,7 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script>
 	$(function() {
-		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $size; ?>【<?php echo $size; ?>】"]').prop('selected', true);
+		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $size; ?>"]').prop('selected', true);
 
 		if("<?php echo $animalTypeNameA; ?>" == "なし") {
 			$('.item-option > dd:nth-child(4) > select option[value="<?php echo $animalTypeA; ?>"]').prop('selected', true);
