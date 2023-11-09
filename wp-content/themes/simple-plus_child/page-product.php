@@ -35,7 +35,7 @@
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/marty.jpg" class="marty-p1" />
     <p>神戸、芦屋のオリジナルデザインのレザーショップ「Marty」関東での取り扱い店舗はSOLO UNOだけ！</p>
     <p>本革、国内生産にこだわったパーツを組み合わせてオリジナルのランドセルカバーがつくれます。</p>
-    <!--<a href="https://marty.solouno-ordermade.com" class="om-link" target="_blank">オーダーを選んでみよう<br />【シミュレーター】</a>-->
+    <a href="https://marty.solouno-ordermade.com" class="om-link" target="_blank">オーダーを選んでみよう<br />【シミュレーター】</a>
     <a href="<?php echo home_url('/')?>marty" class="flow-link">Marty</a>
     <!-- <a href="#">商品を見る</a> -->
   </section>
