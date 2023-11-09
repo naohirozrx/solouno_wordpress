@@ -3,6 +3,7 @@
  * Welcart simple plus theme setup
  *
  * @package Welcart
+ * @subpackage Welcart_SimplePlus
  */
 
 /**
@@ -45,36 +46,36 @@ class Welcart_SimplePlus_Theme_Setup {
 
 		require_once get_template_directory() . '/inc/class-bootstrap-5-navbar-walker.php';
 
-		// 先頭固定表示をカスタム投稿に拡張
+		// 先頭固定表示をカスタム投稿に拡張.
 		require_once get_template_directory() . '/inc/class-welcart-simpleplus-sticky-customposts.php';
 		$this->sticky_custom_posts = new Welcart_Simpleplus_Sticky_CustomPosts();
 
-		// カテゴリーに画像を登録できるように拡張
+		// カテゴリーに画像を登録できるように拡張.
 		require_once get_template_directory() . '/inc/class-welcart-simpleplus-term-customize.php';
 		$this->terms_customize = new Welcart_Simpleplus_Term_Customize();
 
-		// レビュー用の拡張
+		// レビュー用の拡張.
 		require_once get_template_directory() . '/inc/class-welcart-simpleplus-review-customize.php';
 		$this->review_customize = new Welcart_Simpleplus_Review_Customize();
 
-		// 初期設定
+		// 初期設定.
 		add_action( 'after_setup_theme', array( $this, 'setup' ) );
 
-		// 管理画面のスクリプトの読み込み
+		// 管理画面のスクリプトの読み込み.
 		add_action( 'admin_enqueue_scripts', array( $this, 'admin_enqueue_scripts' ) );
 		add_action( 'wp_footer', array( $this, 'the_theme_version' ) );
 		add_filter( 'wp_page_menu_args', array( $this, 'page_menu_args' ), 10 );
 		add_action( 'widgets_init', array( $this, 'widgets_init' ) );
 
-		// フロントのスクリプト読み込み
+		// フロントのスクリプト読み込み.
 		add_action( 'wp_enqueue_scripts', array( $this, 'enqueue_scripts_styles' ), 12 );
 		add_action( 'wp_enqueue_scripts', array( $this, 'dashicons_dequeue_dashicon' ), 10 );
 
-		// 抜粋の長さ
+		// 抜粋の長さ.
 		add_filter( 'excerpt_length', array( $this, 'excerpt_length' ), 10 );
 		add_filter( 'excerpt_mblength', array( $this, 'excerpt_mblength' ), 10 );
 
-		// カスタム投稿タイプの登録
+		// カスタム投稿タイプの登録.
 		add_action( 'init', array( $this, 'create_post_type' ) );
 
 		add_action( 'the_post', array( $this, 'the_post' ), 9 );
@@ -86,31 +87,30 @@ class Welcart_SimplePlus_Theme_Setup {
 
 		add_action( 'pre_get_posts', array( $this, 'pre_get_posts_query' ) );
 
-		// 商品検索時のクエリ変数を指定
+		// 商品検索時のクエリ変数を指定.
 		add_filter( 'query_vars', array( $this, 'add_query_vars_filter' ) );
 
 		add_filter( 'usces_filter_member_update_settlement_page_sidebar', array( $this, 'member_update_settlement_page_sidebar' ), 10, 1 );
 
-		// prefetchを追加
+		// prefetchを追加.
 		add_filter( 'wp_resource_hints', array( $this, 'add_resource_hints' ), 10, 2 );
 
-		// no-imageの置き換え
+		// no-imageの置き換え.
 		add_filter( 'post_thumbnail_html', array( $this, 'filter_post_thumbnail_html_no_image' ), 10, 1 );
 
-		// カテゴリーページのタイトル前の文言を削除
+		// カテゴリーページのタイトル前の文言を削除.
 		add_filter( 'get_the_archive_title', array( $this, 'remove_category_pre_title' ), 10, 1 );
 
-		// ノーイメージの時にBodyのclassを追加
+		// ノーイメージの時にBodyのclassを追加.
 		add_filter( 'body_class', array( $this, 'no_image_body_class' ), 10, 1 );
 
 		add_filter( 'welcart_simpleplus_header_class', array( $this, 'notice_header_class' ), 10, 1 );
 
-		// 関連商品部分の作り替え
+		// 関連商品部分の作り替え.
 		add_filter( 'usces_filter_assistance_item_list', array( $this, 'assistance_item_list' ), 10, 0 );
 
-		// 投稿タイプアーカイブの title 属性変更
+		// 投稿タイプアーカイブの title 属性変更.
 		add_filter( 'document_title_parts', array( $this, 'welcart_simpleplus_title_output' ), 10, 1 );
-
 	}
 
 	/**
@@ -121,8 +121,6 @@ class Welcart_SimplePlus_Theme_Setup {
 	public function setup() {
 
 		add_theme_support( 'post-thumbnails' );
-		add_image_size( 'thumb-rect', 350, 350, true );
-		add_image_size( 'thumb-rect-nocrop', 350, 350, false );
 		add_image_size( 'thumb-rect', 650, 650, true );
 		add_image_size( 'thumb-rect-nocrop', 650, 650, false );
 
@@ -152,7 +150,6 @@ class Welcart_SimplePlus_Theme_Setup {
 				),
 			)
 		);
-
 	}
 
 	/* Admin page _ Add style */
@@ -179,7 +176,10 @@ class Welcart_SimplePlus_Theme_Setup {
 	 */
 	public function create_post_type() {
 
-		// Topics
+		$topic_slug = get_theme_mod( 'topics_list_slug_setting', 'topic' );
+		$news_slug  = get_theme_mod( 'news_list_slug_setting', 'news' );
+
+		// Topics.
 		$labels = array(
 			'name'               => __( 'Topic', 'welcart_simpleplus' ),
 			'singular_name'      => __( 'Topic', 'welcart_simpleplus' ),
@@ -213,9 +213,9 @@ class Welcart_SimplePlus_Theme_Setup {
 			),
 			'taxonomies'    => array( 'topic_cat', 'topic_tag' ),
 		);
-		register_post_type( 'topic', $args );
+		register_post_type( $topic_slug, $args );
 
-		// News
+		// News.
 		$labels = array(
 			'name'               => __( 'News', 'welcart_simpleplus' ),
 			'singular_name'      => __( 'News', 'welcart_simpleplus' ),
@@ -249,7 +249,7 @@ class Welcart_SimplePlus_Theme_Setup {
 			),
 			'taxonomies'    => array( 'news_cat', 'news_tag' ),
 		);
-		register_post_type( 'news', $args );
+		register_post_type( $news_slug, $args );
 	}
 
 	/**
@@ -291,10 +291,10 @@ class Welcart_SimplePlus_Theme_Setup {
 	 */
 	public function widgets_init() {
 
-		// 商品一覧ウィジェットの読み込み
+		// 商品一覧ウィジェットの読み込み.
 		require get_template_directory() . '/widgets/class-basic-item-list.php';
 
-		// welcart_basicからあるが、Gutenbergが間に合うのであれば削除予定
+		// welcart_basicからあるが、Gutenbergが間に合うのであれば削除予定.
 		register_widget( 'Basic_Item_List' );
 
 		include_once get_template_directory() . '/inc/class-welcart-simpleplus-theme-widgets-init.php';
@@ -324,7 +324,6 @@ class Welcart_SimplePlus_Theme_Setup {
 		wp_enqueue_style( 'welcart_simpleplus_css', get_theme_file_uri( '/css/theme_style.min.css' ), array(), $this->get_theme_version() );
 		wp_enqueue_script( 'welcart_simpleplus_bootstrap_js', get_template_directory_uri() . '/assets/js/bootstrap.bundle.min.js', array(), $this->get_theme_version(), true );
 		wp_enqueue_script( 'welcart_simpleplus_js', get_template_directory_uri() . '/js/front-customized.js', array( 'welcart_simpleplus_bootstrap_js' ), $this->get_theme_version(), true );
-
 	}
 
 	/* wp_enqueue_scripts */
@@ -341,7 +340,7 @@ class Welcart_SimplePlus_Theme_Setup {
 	}
 
 	/**
-	 * Undocumented function
+	 * Is poplink page
 	 *
 	 * @return bool
 	 */
@@ -361,7 +360,6 @@ class Welcart_SimplePlus_Theme_Setup {
 		}
 		return $flag;
 	}
-
 
 	/**
 	 * Welcart_excerpt_length
@@ -408,7 +406,7 @@ class Welcart_SimplePlus_Theme_Setup {
 	 * @return void
 	 */
 	public function pre_get_posts_query( $query ) {
-		// pre_get_posts
+		// pre_get_posts.
 		$item_cat     = get_category_by_slug( 'item' );
 		$item_cat_id  = $item_cat->cat_ID;
 		$sticky_posts = get_option( 'sticky_posts' );
@@ -424,7 +422,7 @@ class Welcart_SimplePlus_Theme_Setup {
 			$this->posts_per_page( $query );
 		}
 
-		// ホームページの選択が固定ページかつ「投稿ページ」を選択した場合はindex.phpになる
+		// ホームページの選択が固定ページかつ「投稿ページ」を選択した場合はindex.phpになる.
 		if ( 'page' === get_option( 'show_on_front' ) && $query->is_home() ) {
 			$query->set( 'ignore_sticky_posts', true );
 			$query->set( 'category__not_in', array( $item_cat_id ) );
@@ -542,12 +540,12 @@ class Welcart_SimplePlus_Theme_Setup {
 
 		$screen = get_current_screen();
 
-		// Only continue if this is an edit screen for a custom post type
+		// Only continue if this is an edit screen for a custom post type.
 		if ( ! in_array( $screen->base, array( 'post', 'edit' ), true ) || in_array( $screen->post_type, array( 'post', 'page' ), true ) ) {
 			return;
 		}
 
-		// Editing an individual custom post
+		// Editing an individual custom post.
 		if ( 'post' === $screen->base ) {
 			$is_sticky = is_sticky();
 			$js_vars   = array(
@@ -558,7 +556,7 @@ class Welcart_SimplePlus_Theme_Setup {
 				'sticky_visibility_text' => __( 'Public, Sticky' ),
 			);
 
-			// Browsing custom posts
+		// Browsing custom posts.
 		} else {
 			global $wpdb;
 
@@ -577,7 +575,7 @@ class Welcart_SimplePlus_Theme_Setup {
 			);
 		}
 
-		// Enqueue js and pass it specified variables
+		// Enqueue js and pass it specified variables.
 		wp_enqueue_script(
 			'sscpt-admin',
 			plugins_url( 'admin.min.js', __FILE__ ),
@@ -586,7 +584,6 @@ class Welcart_SimplePlus_Theme_Setup {
 			true
 		);
 		wp_localize_script( 'sscpt-admin', 'sscpt', $js_vars );
-
 	}
 
 	/**
@@ -617,7 +614,7 @@ class Welcart_SimplePlus_Theme_Setup {
 	 */
 	public function no_image_body_class( $classes ) {
 		if ( ! get_header_image() ) {
-			// ヘッダーイメージがない時はBodyにクラスを追加してリターン
+			// ヘッダーイメージがない時はBodyにクラスを追加してリターン.
 			return array_merge( $classes, array( 'no-header-image' ) );
 		}
 		return $classes;
@@ -662,14 +659,16 @@ class Welcart_SimplePlus_Theme_Setup {
 	 * @return array
 	 */
 	public function welcart_simpleplus_title_output( $title ) {
-		if ( is_post_type_archive( 'topic' ) ) {
+		$topic_slug = get_theme_mod( 'topics_list_slug_setting', 'topic' );
+		$news_slug  = get_theme_mod( 'news_list_slug_setting', 'news' );
+		if ( is_post_type_archive( $topic_slug ) ) {
 			$topics_label = get_theme_mod( 'topics_list_label_setting', 'TOPICS' );
 			if ( ! empty( $topics_label ) ) {
 				$title['title'] = $topics_label;
 			} else {
 				$title['title'] = __( 'Topic', 'welcart_simpleplus' );
 			}
-		} elseif ( is_post_type_archive( 'news' ) ) {
+		} elseif ( is_post_type_archive( $news_slug ) ) {
 			$news_label = get_theme_mod( 'news_list_label_setting', 'NEWS' );
 			if ( ! empty( $news_label ) ) {
 				$title['title'] = $news_label;

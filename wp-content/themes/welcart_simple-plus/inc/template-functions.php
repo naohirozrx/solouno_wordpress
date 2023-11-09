@@ -7,7 +7,7 @@
  */
 
 /**
- * Welcart simpleplus get site title
+ * The site title
  *
  * @return void
  */
@@ -15,9 +15,8 @@ function welcart_simpleplus_the_site_title() {
 	echo wp_kses_post( welcart_simpleplus_get_site_title() );
 }
 
-
 /**
- * Welcart simpleplus get site title
+ * Get site title
  *
  * @return string
  */
@@ -48,7 +47,8 @@ function welcart_simpleplus_get_site_title() {
 		$logo_class .= ' not-set-sp-logo';
 	}
 
-	ob_start();?>
+	ob_start();
+	?>
 	<h1 class="navbar-brand m-0 p-0 align-middle<?php echo esc_attr( $logo_class ); ?>">
 		<div class="d-none d-lg-block">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -82,7 +82,7 @@ function welcart_simpleplus_get_site_title() {
 }
 
 /**
- * Welcart simpleplus the menu login pc
+ * The menu login pc
  *
  * @return void
  */
@@ -99,7 +99,7 @@ function welcart_simpleplus_the_menu_login_pc() {
 			'xmlns'           => true,
 			'width'           => true,
 			'height'          => true,
-			'viewbox'         => true, // <= Must be lower case!
+			'viewbox'         => true, // <= Must be lower case!.
 		),
 		'g'     => array( 'fill' => true ),
 		'title' => array( 'title' => true ),
@@ -117,7 +117,7 @@ function welcart_simpleplus_the_menu_login_pc() {
 }
 
 /**
- * Welcart simpleplus get menu login pc
+ * Get menu login pc
  *
  * @return void
  */
@@ -135,8 +135,9 @@ function welcart_simpleplus_get_menu_login_pc() {
 	ob_end_clean();
 	return apply_filters( 'welcart_simpleplus_get_menu_login', $content );
 }
+
 /**
- * Undocumented function
+ * Get cart url
  *
  * @return string
  */
@@ -147,7 +148,7 @@ function welcart_simpleplus_get_cart_url() {
 }
 
 /**
- * Undocumented function
+ * Is cart page
  *
  * @return bool
  */
@@ -164,7 +165,7 @@ function welcart_simpleplus_is_cart_page() {
 }
 
 /**
- * Undocumented function
+ * Is member page
  *
  * @return bool
  */
@@ -181,7 +182,8 @@ function welcart_simpleplus_is_member_page() {
 }
 
 /**
- * Welcart_simpleplus_action_single_item_outform
+ * Single item outform
+ * usces_action_single_item_outform
  *
  * @return void
  */
@@ -292,13 +294,9 @@ function welcart_simpleplus_action_single_item_outform() {
 	echo $html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 }
 
-
-/*******************************************************************
- * WCEX SKU SELECT + WCEX AUTO DELIVERY
- *******************************************************************/
-
 /**
- * Undocumented function
+ * WCEX SKU SELECT + WCEX AUTO DELIVERY
+ * wcex_sku_select_filter_single_item_autodelivery
  *
  * @return void
  */
@@ -372,9 +370,9 @@ function welcart_simpleplus_single_item_autodelivery_sku_select() {
 			</div>
 
 			<div class="field-price">
-				<?php if ( usces_the_itemCprice( 'return' ) > 0 ) : ?>
-					<span class="field-cprice ss_cprice_regular"><?php usces_the_itemCpriceCr(); ?></span>
-				<?php endif; ?>
+			<?php if ( usces_the_itemCprice( 'return' ) > 0 ) : ?>
+				<span class="field-cprice ss_cprice_regular"><?php usces_the_itemCpriceCr(); ?></span>
+			<?php endif; ?>
 				<span class="sell_price ss_price_regular"><?php wcad_the_itemPriceCr(); ?></span><?php usces_guid_tax(); ?>
 				<?php wcex_sku_select_crform_the_itemRPriceCr_taxincluded(); ?>
 			</div>
@@ -404,7 +402,7 @@ function welcart_simpleplus_single_item_autodelivery_sku_select() {
 }
 
 /**
- * Welcart_simpleplus_paginate_links
+ * Paginate links
  *
  * @return void
  */
@@ -421,7 +419,7 @@ function welcart_simpleplus_paginate_links() {
 }
 
 /**
- * Welcart simpleplus footer nav menu
+ * Footer nav menu
  *
  * @param string $theme_location theme_location.
  * @param string $container_class container_class.
@@ -471,8 +469,9 @@ function welcart_simpleplus_main_class( $import = '' ) {
 function welcart_simpleplus_get_topics_posts() {
 	$post_per_page = get_theme_mod( 'topics_list_control_setting', 5 );
 	$sticky_posts  = get_option( 'sticky_posts' );
+	$topic_slug    = get_theme_mod( 'topics_list_slug_setting', 'topic' );
 	$args          = array(
-		'post_type'      => 'topic',
+		'post_type'      => $topic_slug,
 		'posts_per_page' => $post_per_page,
 		'post__not_in'   => $sticky_posts,
 	);
@@ -490,8 +489,9 @@ function welcart_simpleplus_get_topics_posts() {
 function welcart_simpleplus_get_topics_posts_sticky() {
 	$post_per_page = get_theme_mod( 'topics_list_control_setting', 5 );
 	$sticky_posts  = get_option( 'sticky_posts' );
+	$topic_slug    = get_theme_mod( 'topics_list_slug_setting', 'topic' );
 	$args          = array(
-		'post_type'      => 'topic',
+		'post_type'      => $topic_slug,
 		'posts_per_page' => $post_per_page,
 		'post__in'       => $sticky_posts,
 		'order'          => 'post__in',
@@ -513,9 +513,9 @@ function welcart_simpleplus_get_news_posts() {
 	} elseif ( $per_page < 1 ) {
 		$per_page = 0;
 	}
-
-	$args = array(
-		'post_type'      => 'news',
+	$news_slug = get_theme_mod( 'news_list_slug_setting', 'news' );
+	$args      = array(
+		'post_type'      => $news_slug,
 		'posts_per_page' => $per_page,
 		'post__not_in'   => get_option( 'sticky_posts' ),
 	);
@@ -530,10 +530,10 @@ function welcart_simpleplus_get_news_posts() {
  */
 function welcart_simpleplus_get_news_posts_sticky() {
 
-	$per_page = get_theme_mod( 'news_list_control_setting', 5 );
-
-	$args = array(
-		'post_type'      => 'news',
+	$per_page  = get_theme_mod( 'news_list_control_setting', 5 );
+	$news_slug = get_theme_mod( 'news_list_slug_setting', 'news' );
+	$args      = array(
+		'post_type'      => $news_slug,
 		'posts_per_page' => $per_page,
 		'post__in'       => get_option( 'sticky_posts' ),
 		'order'          => 'post__in',
@@ -549,8 +549,9 @@ function welcart_simpleplus_get_news_posts_sticky() {
  */
 function welcart_simpleplus_get_news_display_posts_sticky() {
 
-	$args = array(
-		'post_type'      => 'news',
+	$news_slug = get_theme_mod( 'news_list_slug_setting', 'news' );
+	$args      = array(
+		'post_type'      => $news_slug,
 		'posts_per_page' => 1,
 		'post__in'       => get_option( 'sticky_posts' ),
 		'order'          => 'post__in',
@@ -632,7 +633,7 @@ function welcart_simpleplus_get_new_items_link() {
  * @return string
  */
 function welcart_simpleplus_get_article_class( $id ) {
-	// 先頭表示（Sticky Post）への対応
+	// 先頭表示（Sticky Post）への対応.
 	$sticky_posts = get_option( 'sticky_posts' );
 	if ( in_array( $id, $sticky_posts, true ) ) {
 		if ( has_post_thumbnail( $id ) ) {
@@ -699,7 +700,6 @@ function welcart_simpleplus_get_text_shadow_class( $setting_name ) {
 }
 
 /**
- * Welcart simpleplus is sns
  * SNSがあるかどうか
  *
  * @return bool
@@ -717,9 +717,7 @@ function welcart_simpleplus_is_sns() {
 	return false;
 }
 
-
 /**
- * Undocumented function
  * SNS部分の表示
  *
  * @return void
@@ -763,7 +761,7 @@ function welcart_simpleplus_the_sns() {
 }
 
 /**
- * Undocumented function
+ * Header class
  *
  * @return void
  */
@@ -797,7 +795,7 @@ function welcart_simpleplus_get_term_img( $term_slug = null, $size = '' ) {
 }
 
 /**
- * Undocumented function
+ * The grid image tags
  *
  * @param object $post WP_Post.
  * @return void
@@ -810,7 +808,7 @@ function welcart_simpleplus_the_grid_image_tags( $post ) {
 	$target_slugs_itemreco = apply_filters( 'welcart_simpleplus_grid_tag_target_new', 'itemreco' );
 
 	do_action( 'welcart_simpleplus_the_grid_image_tags_before' );
-	// 新商品タグ
+	// 新商品タグ.
 	if ( $display_tags && in_array( $target_slugs_new, $term_slugs, true ) ) :
 		$new_text = apply_filters( 'welcart_simpleplus_grid_tag_new_text', 'NEW' );
 		?>
@@ -840,7 +838,6 @@ function welcart_simpleplus_the_grid_image_tags( $post ) {
 }
 
 /**
- * Welcart mode has campaign
  * 商品がキャンペーン期間中かどうかの判定
  *
  * @param int $post_id post_id.
@@ -966,7 +963,7 @@ function welcart_simpleplus_usces_get_item_image( $number = 0, $size = 'thumbnai
 		return;
 	}
 
-	$size_crop = get_theme_mod( 'welcart_simpleplus_images_allow_image_rect_setting' ) ? '' : '-nocrop';
+	$size_crop = get_theme_mod( 'image_settings_allow_image_rect_setting' ) ? '' : '-nocrop';
 	if ( is_string( $size ) ) {
 		$size = $size . $size_crop;
 	}
@@ -1058,7 +1055,7 @@ function welcart_simpleplus_sticky_thumbnail( $size = 'thumbnail', $post_id = nu
 		return;
 	}
 
-	$size_crop = get_theme_mod( 'welcart_simpleplus_images_allow_image_rect_setting' ) ? '' : '-nocrop';
+	$size_crop = get_theme_mod( 'image_settings_allow_image_rect_setting' ) ? '' : '-nocrop';
 	if ( is_string( $size ) ) {
 		$size = $size . $size_crop;
 	}
@@ -1079,7 +1076,7 @@ function welcart_simpleplus_sticky_thumbnail( $size = 'thumbnail', $post_id = nu
 }
 
 /**
- * Welcart simpleplus replace img tags
+ * Replace img tags
  *
  * @param string $html html.
  * @param string $code code.
@@ -1102,7 +1099,7 @@ function welcart_simpleplus_replace_img_tags( $html = '', $code = '', $post_id =
 }
 
 /**
- * Welcart simpleplus get header image
+ * Get header image
  *
  * @return void
  */
@@ -1133,7 +1130,7 @@ function welcart_simpleplus_header_image() {
 }
 
 /**
- * Undocumented function
+ * The notice
  *
  * @param string $position position.
  * @return void
@@ -1152,7 +1149,7 @@ function welcart_simpleplus_the_notice( $position = 'content-top' ) {
 }
 
 /**
- * Undocumented function
+ * The notice class
  *
  * @return void
  */
@@ -1167,14 +1164,14 @@ function welcart_simpleplus_the_notice_class() {
 }
 
 /**
- * Undocumented function
+ * Single item image carousel
  *
  * @return void
  */
 function welcart_simpleplus_single_item_image_carousel() {
 	global $post;
 
-	$image_rect       = get_theme_mod( 'image_settings_allow_image_rect_setting', false );
+	$image_rect       = get_theme_mod( 'image_settings_allow_image_rect_setting', true );
 	$image_rect_class = ( $image_rect ) ? 'carouesl-cover' : 'carouesl-contain';
 
 	$images = array();
@@ -1268,7 +1265,7 @@ function welcart_simpleplus_skuimg( $size = 'thumbnail' ) {
 }
 
 /**
- * Undocumented function
+ * SKU info
  *
  * @return string
  */
@@ -1351,7 +1348,7 @@ function welcart_simpleplus_num_review_text_anchor( $post_id = null ) {
 }
 
 /**
- * Undocumented function
+ * Get current link
  *
  * @return string
  */
@@ -1379,7 +1376,7 @@ if ( ! function_exists( 'wc_review' ) ) {
 }
 
 /**
- * Welcart simpleplus the fewstock 在庫僅少、在庫無しのタグ表示
+ * 在庫僅少、在庫無しのタグ表示
  *
  * @param int $post_id post_id.
  * @return void
@@ -1426,7 +1423,7 @@ function welcart_simpleplus_soldout_label( $post_id, $out = '' ) {
 }
 
 /**
- * Undocumented function
+ * The category filter dropdown
  *
  * @return void|string
  */
@@ -1458,10 +1455,15 @@ function welcart_simpleplus_the_category_filter_dropdown() {
 		<?php esc_html_e( 'narrow down', 'welcart_simpleplus' ); ?>
 		</button>
 		<ul class="dropdown-menu"  aria-labelledby="dropdownMenuButton1">
-			<?php foreach ( $categories as $key => $cat ) : ?>
-				<li class="">
+			<?php
+			foreach ( $categories as $key => $cat ) :
+				$category_img = welcart_simpleplus_get_term_img( $cat->slug, array( '44', '44' ) );
+				?>
+				<li>
 					<a class="dropdown-item" href="<?php echo esc_attr( get_category_link( $cat->term_id ) ); ?>">
-						<span class="d-inline-block me-2"><?php echo wp_kses_post( welcart_simpleplus_get_term_img( $cat->slug, array( '44', '44' ) ) ); ?></span>
+						<?php if ( ! empty( $category_img ) ) : ?>
+							<span class="d-inline-block me-2"><?php echo wp_kses_post( $category_img ); ?></span>
+						<?php endif; ?>
 						<span class="d-inline-block link-text"><?php echo esc_html( $cat->name ); ?></span>
 					</a>
 				</li>
@@ -1484,7 +1486,7 @@ function welcart_simpleplus_the_category_filter_dropdown() {
 			'xmlns'           => true,
 			'width'           => true,
 			'height'          => true,
-			'viewbox'         => true, // <= Must be lower case!
+			'viewbox'         => true, // <= Must be lower case!.
 		),
 		'g'     => array( 'fill' => true ),
 		'title' => array( 'title' => true ),
@@ -1500,7 +1502,7 @@ function welcart_simpleplus_the_category_filter_dropdown() {
 }
 
 /**
- * Welcart simpleplus get inquiry link url
+ * Get inquiry link url
  *
  * @return string
  */
@@ -1528,7 +1530,7 @@ function welcart_simpleplus_get_inquiry_link_url() {
 }
 
 /**
- * Welcart simpleplus components
+ * Mail components
  *
  * @return string
  */
@@ -1563,7 +1565,7 @@ if ( defined( 'WPCF7_VERSION' ) ) {
 }
 
 /**
- * Welcart simpleplus soldout
+ * Soldout
  *
  * @return void|string
  */

@@ -3,7 +3,8 @@
  * Theme customizer
  * テーマ独自のカスタマイザーに関連する部分のカスタマイズ
  *
- * @package welcart
+ * @package Welcart
+ * @subpackage Welcart_SimplePlus
  */
 
 /**
@@ -28,14 +29,14 @@ class Welcart_SimplePlus_Theme_Customizer {
 	);
 
 	/**
-	 * Undocumented variable
+	 * Preview url
 	 *
 	 * @var array
 	 */
 	public $customizer_preview_url = array();
 
 	/**
-	 * Undocumented variable
+	 * Colors
 	 *
 	 * @var array
 	 */
@@ -55,7 +56,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 		add_action( 'customize_controls_print_scripts', array( $this, 'customize_controls_print_scripts' ) );
 		add_action( 'customize_preview_init', array( $this, 'live_preview' ) );
 
-		// カスタマイザーのCSS呼び出し
+		// カスタマイザーのCSS呼び出し.
 		add_action( 'wp_head', array( $this, 'header_output' ) );
 		add_action( 'customize_controls_print_styles', array( $this, 'generate_css_text' ) );
 	}
@@ -282,7 +283,6 @@ class Welcart_SimplePlus_Theme_Customizer {
 		return compact( 'customizer_preview_url', 'wcsp_colors' );
 	}
 
-
 	/* Admin page _ Add style */
 	/**
 	 * Basic_admin_enqueue_scripts
@@ -293,7 +293,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 	public function customize_controls_print_scripts( $hook ) {
 		wp_enqueue_script( 'welcart_simpleplus_customizer_js', get_template_directory_uri() . '/js/customizer.js', array(), 1.0, true );
 		$preview_urls = $this->get_customizer_preview_url();
-		// URLの付け替え
+		// URLの付け替え.
 		$this->customizer_preview_url = array_map(
 			function( $arg ) use ( $preview_urls ) {
 				$arg['preview_url'] = $preview_urls[ $arg['preview_page'] ];
@@ -304,9 +304,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 		wp_localize_script( 'welcart_simpleplus_customizer_js', 'welcartSimpleplusCustomizerSettingArgs', $this->customizer_preview_url );
 
 		wp_enqueue_style( 'welcart_simpleplus_customizer-style', get_template_directory_uri() . '/css/customizer-style.min.css', array(), true );
-
 	}
-
 
 	/**
 	 * 即時反映のための JavaScript をエンキューします。
@@ -319,11 +317,11 @@ class Welcart_SimplePlus_Theme_Customizer {
 	 */
 	public function live_preview() {
 		wp_enqueue_script(
-			'theme-customizer-preview-js', // Give the script a unique ID
-			get_template_directory_uri() . '/js/theme-customizer_preview.js', // Define the path to the JS file
-			array( 'jquery', 'customize-preview' ), // Define dependencies
-			true, // Define a version (optional)
-			true // Specify whether to put in footer (leave this true)
+			'theme-customizer-preview-js', // Give the script a unique ID.
+			get_template_directory_uri() . '/js/theme-customizer_preview.js', // Define the path to the JS file.
+			array( 'jquery', 'customize-preview' ), // Define dependencies.
+			true, // Define a version (optional).
+			true // Specify whether to put in footer (leave this true).
 		);
 		$keys = array_keys( $this->wcsp_colors );
 		wp_localize_script(
@@ -353,14 +351,14 @@ class Welcart_SimplePlus_Theme_Customizer {
 	 */
 	public function customize_register( $wp_customize ) {
 
-		// カスタマイザーから不要なオプションを削除
+		// カスタマイザーから不要なオプションを削除.
 		$wp_customize->remove_control( 'display_header_text' );
 
-		// テーマオプションパネルのid
+		// テーマオプションパネルのid.
 		$panel_id = $this->theme_name . '_theme_options';
 
-		// Theme Options
-		// テーマオプションパネルの作成
+		// Theme Options.
+		// テーマオプションパネルの作成.
 		$wp_customize->add_panel(
 			$panel_id,
 			array(
@@ -392,10 +390,10 @@ class Welcart_SimplePlus_Theme_Customizer {
 
 		require_once dirname( __FILE__ ) . '/alpha-color-picker/alpha-color-picker.php';
 
-		// ヘッダーテキスト色は使用しないため削除
+		// ヘッダーテキスト色は使用しないため削除.
 		$wp_customize->remove_control( 'header_textcolor' );
 
-		// セクション作成
+		// セクション作成.
 		$color_args = $this->wcsp_colors;
 		foreach ( $color_args as $key => $arg ) {
 			$wp_customize->add_setting(
@@ -433,7 +431,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 	 */
 	public function menu_settings( $wp_customize, $theme_options_id ) {
 
-		// セクション作成
+		// セクション作成.
 		$section_id = 'welcart_simpleplus_header_logo_section';
 		$wp_customize->add_section(
 			$section_id,
@@ -445,7 +443,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 		);
 
 		$image_keys = array(
-			'menu-type'   => array( // ヘッダーの設定値
+			'menu-type'   => array( // ヘッダーの設定値.
 				'key'     => 'menu-type',
 				'display' => array(
 					'label'        => __( 'Header' ),
@@ -463,7 +461,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 					),
 				),
 			),
-			'menu-offset' => array( // ヘッダーのオフセット設定値
+			'menu-offset' => array( // ヘッダーのオフセット設定値.
 				'key'     => 'menu-offset',
 				'display' => array(
 					'label'        => __( 'Timing to be displayed', 'welcart_simpleplus' ),
@@ -505,7 +503,6 @@ class Welcart_SimplePlus_Theme_Customizer {
 			),
 		);
 		$this->register_customizer( $wp_customize, $image_keys, $section_id );
-
 	}
 
 	/**
@@ -517,7 +514,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 	 */
 	public function notice_settings( $wp_customize, $theme_options_id ) {
 
-		// セクション作成
+		// セクション作成.
 		$section_id = 'notice_section';
 		$wp_customize->add_section(
 			$section_id,
@@ -536,13 +533,14 @@ class Welcart_SimplePlus_Theme_Customizer {
 					'label'        => __( 'Notification area location', 'welcart_simpleplus' ),
 					'priority'     => 100,
 					'setting_args' => array(
-						'default' => 'under-main-image',
+						'default' => 'content-top',
 					),
 					'type'         => 'select',
 					'choices'      => array( // Optional.
 						'under-main-image' => __( 'Below the header image on the top page', 'welcart_simpleplus' ),
 						'over-header'      => __( 'On the header of all pages', 'welcart_simpleplus' ),
 						'content-top'      => __( 'Below the header of all pages', 'welcart_simpleplus' ),
+						'no-display'       => __( 'Do not display', 'welcart_simpleplus' ),
 					),
 				),
 			),
@@ -573,7 +571,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 		$register_args = array(
 			'welcart_simpleplus_images' => array(
 				'key'                => 'image_settings',
-				'allow_image_rect'   => array(// 画像を正方形で表示する チェックボックス
+				'allow_image_rect'   => array( // 画像を正方形で表示する チェックボックス.
 					'label'        => __( 'Crop the image into a square', 'welcart_simpleplus' ),
 					'type'         => 'checkbox',
 					'setting_args' => array(
@@ -581,7 +579,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 					),
 					'priority'     => 200,
 				),
-				'grid_image_gap'     => array(// 画像間隔の設定値
+				'grid_image_gap'     => array(// 画像間隔の設定値.
 					'setting_args' => array(
 						'default'           => '15',
 						'transport'         => 'postMessage',
@@ -597,7 +595,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 						'class' => 'form-range',
 					),
 				),
-				'grid_image_radius'  => array(// 角丸の設定値
+				'grid_image_radius'  => array( // 角丸の設定値.
 					'setting_args' => array(
 						'default'           => '15',
 						'transport'         => 'postMessage',
@@ -613,7 +611,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 						'class' => 'form-range',
 					),
 				),
-				'grid_overlay_image' => array( // テキストの表示
+				'grid_overlay_image' => array( // テキストの表示.
 					'label'        => __( 'Overlaying text on top of image', 'welcart_simpleplus' ),
 					'type'         => 'checkbox',
 					'setting_args' => array(
@@ -634,7 +632,6 @@ class Welcart_SimplePlus_Theme_Customizer {
 
 		$this->register_customizer( $wp_customize, $register_args, $section_id );
 	}
-
 
 	/**
 	 * Front Page Settings
@@ -657,10 +654,10 @@ class Welcart_SimplePlus_Theme_Customizer {
 	 */
 	public function front_page_settings( $wp_customize, $panel_id ) {
 
-		// フロント設定パネルの作成
-		$front_section_id = 'welcart_simpleplus_front_sectin';
+		// フロント設定パネルの作成.
+		$front_section_id = 'welcart_simpleplus_front_section';
 
-		// セクション作成
+		// セクション作成.
 		$wp_customize->add_section(
 			$front_section_id,
 			array(
@@ -673,11 +670,10 @@ class Welcart_SimplePlus_Theme_Customizer {
 		$this->top_image_settings( $wp_customize, $panel_id, $front_section_id );
 
 		$this->top_contents_settings( $wp_customize, $panel_id, $front_section_id );
-
 	}
 
 	/**
-	 *  トップイメージの設定部分
+	 * トップイメージの設定部分
 	 *
 	 * @param object $wp_customize WP_Customize_Manager.
 	 * @param string $panel_id panel_id.
@@ -758,13 +754,20 @@ class Welcart_SimplePlus_Theme_Customizer {
 					),
 					'type'         => 'checkbox',
 				),
-				'label'       => array( // 表示ラベル
+				'slug'        => array(
+					'setting_args' => array(
+						'default'           => 'topic',
+						'sanitize_callback' => array( $this, 'sanitize_slug' ),
+					),
+					'description'  => __( 'Enter the slug if you want to change the custom post type.', 'welcart_simpleplus' ),
+				),
+				'label'       => array( // 表示ラベル.
 					'setting_args' => array(
 						'default' => 'TOPICS',
 					),
 					'description'  => __( 'Please set a title.', 'welcart_simpleplus' ),
 				),
-				'control'     => array( // 表示件数の設定値
+				'control'     => array( // 表示件数の設定値.
 					'description'  => __( 'Please select the number to be displayed.', 'welcart_simpleplus' ),
 					'setting_args' => array(
 						'default'           => 5,
@@ -773,19 +776,19 @@ class Welcart_SimplePlus_Theme_Customizer {
 					'type'         => 'number',
 					'input_attrs'  => $number_default,
 				),
-				'gap'         => array( // 画像間隔の設定値
+				'gap'         => array( // 画像間隔の設定値.
 					'setting_args' => $gap_default,
 					'description'  => __( 'Please set the image spacing.', 'welcart_simpleplus' ),
 					'type'         => 'range',
 					'input_attrs'  => $number_range_default,
 				),
-				'round'       => array( // 角丸の設定値
+				'round'       => array( // 角丸の設定値.
 					'setting_args' => $raound_default,
 					'description'  => __( 'Please set the rounded corners of the image.', 'welcart_simpleplus' ),
 					'type'         => 'range',
 					'input_attrs'  => $number_range_default,
 				),
-				'overlay'     => array( // テキストの表示
+				'overlay'     => array( // テキストの表示.
 					'label'        => __( 'Overlaying text on top of image', 'welcart_simpleplus' ),
 					'type'         => 'checkbox',
 					'setting_args' => array(
@@ -810,13 +813,13 @@ class Welcart_SimplePlus_Theme_Customizer {
 					),
 					'type'         => 'checkbox',
 				),
-				'label'       => array( // 表示ラベル
+				'label'       => array( // 表示ラベル.
 					'setting_args' => array(
-						'default' => 'NEW ARIVAL',
+						'default' => 'NEW ARRIVAL',
 					),
 					'description'  => __( 'Please set a title.', 'welcart_simpleplus' ),
 				),
-				'category'    => array( // 表示カテゴリー
+				'category'    => array( // 表示カテゴリー.
 					'setting_args' => array(
 						'default' => 'item',
 					),
@@ -824,7 +827,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 					'description'  => __( 'Please select the category to display.', 'welcart_simpleplus' ),
 					'choices'      => $term_choices,
 				),
-				'control'     => array( // 表示件数の設定値
+				'control'     => array( // 表示件数の設定値.
 					'description'  => __( 'Please select the number to be displayed.', 'welcart_simpleplus' ),
 					'setting_args' => array(
 						'default'           => 10,
@@ -836,13 +839,13 @@ class Welcart_SimplePlus_Theme_Customizer {
 						array( 'max' => 20 ),
 					),
 				),
-				'gap'         => array( // 画像間隔の設定値
+				'gap'         => array( // 画像間隔の設定値.
 					'setting_args' => $gap_default,
 					'description'  => __( 'Please set the image spacing.', 'welcart_simpleplus' ),
 					'type'         => 'range',
 					'input_attrs'  => $number_range_default,
 				),
-				'round'       => array( // 角丸サイズの設定値
+				'round'       => array( // 角丸サイズの設定値.
 					'setting_args' => $raound_default,
 					'description'  => __( 'Please set the rounded corners of the image.', 'welcart_simpleplus' ),
 					'type'         => 'range',
@@ -873,13 +876,20 @@ class Welcart_SimplePlus_Theme_Customizer {
 					),
 					'type'         => 'checkbox',
 				),
-				'label'    => array( // 表示ラベル
+				'slug'     => array(
+					'setting_args' => array(
+						'default'           => 'news',
+						'sanitize_callback' => array( $this, 'sanitize_slug' ),
+					),
+					'description'  => __( 'Enter the slug if you want to change the custom post type.', 'welcart_simpleplus' ),
+				),
+				'label'    => array( // 表示ラベル.
 					'setting_args' => array(
 						'default' => 'NEWS',
 					),
 					'description'  => __( 'Please set a title.', 'welcart_simpleplus' ),
 				),
-				'control'  => array( // 表示件数の設定値
+				'control'  => array( // 表示件数の設定値.
 					'description'  => __( 'Please select the number to be displayed.', 'welcart_simpleplus' ),
 					'setting_args' => array(
 						'default'           => 5,
@@ -900,7 +910,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 	 * @return array
 	 */
 	public function get_term_choices() {
-		// カテゴリー選択用 $term_choices
+		// カテゴリー選択用 $term_choices.
 		$item_id      = get_option( 'usces_item_cat_parent_id' );
 		$item_cat     = get_category( $item_id );
 		$term_choices = array(
@@ -921,8 +931,8 @@ class Welcart_SimplePlus_Theme_Customizer {
 	}
 
 	/**
-	 * Undocumented function
-
+	 * Sidebar settings
+	 *
 	 * @param object $wp_customize WP_Customize_Manager.
 	 * @param string $panel_id panel_id.
 	 * @return void
@@ -943,7 +953,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 			'sidebar' => array(
 				'key'      => 'sidebar',
 				'priority' => 100,
-				'display'  => array( // 表示件数の設定値
+				'display'  => array( // 表示件数の設定値.
 					'label'        => __( 'Sidebar settings', 'welcart_simpleplus' ),
 					'type'         => 'radio',
 					'setting_args' => array(
@@ -954,7 +964,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 						'invisible' => __( 'Don\'t show sidebar', 'welcart_simpleplus' ),
 					),
 				),
-				'position' => array( // 表示件数の設定値
+				'position' => array( // 表示件数の設定値.
 					'label'        => __( 'Sidebar display location', 'welcart_simpleplus' ),
 					'type'         => 'radio',
 					'setting_args' => array(
@@ -970,9 +980,10 @@ class Welcart_SimplePlus_Theme_Customizer {
 
 		$this->register_customizer( $wp_customize, $front_keys, $section_id );
 	}
-	/**
-	 * Undocumented function
 
+	/**
+	 * Item page settings
+	 *
 	 * @param object $wp_customize WP_Customize_Manager.
 	 * @param string $panel_id panel_id.
 	 * @return void
@@ -993,26 +1004,26 @@ class Welcart_SimplePlus_Theme_Customizer {
 			'itempage' => array(
 				'key'          => 'itempage',
 				'priority'     => 100,
-				'display_tag'  => array( // 商品タグを表示する設定値
+				'display_tag'  => array( // 商品タグを表示する設定値.
 					'label'        => __( 'Show product tags', 'welcart_simpleplus' ),
 					'setting_args' => array(
 						'default' => false,
 					),
 					'type'         => 'checkbox',
 				),
-				'incart_text'  => array( // カートへ入れるテキストの設定値
+				'incart_text'  => array( // カートへ入れるテキストの設定値.
 					'label'        => __( 'Text to display on the button', 'welcart_simpleplus' ),
 					'setting_args' => array(
-						'default' => 'カートへ入れる',
+						'default' => __( 'Add to Shopping Cart', 'usces' ),
 					),
 				),
-				'soldout_text' => array( // 売り切れ時の表示設定値
+				'soldout_text' => array( // 売り切れ時の表示設定値.
 					'label'        => __( 'Display when sold out', 'welcart_simpleplus' ),
 					'setting_args' => array(
 						'default' => __( 'At present we cannot deal with this product.', 'welcart_simpleplus' ),
 					),
 				),
-				'contact_btn'  => array( // お問い合わせボタンの表示の設定値
+				'contact_btn'  => array( // お問い合わせボタンの表示の設定値.
 					'label'        => __( 'Display of inquiry button', 'welcart_simpleplus' ),
 					'setting_args' => array(
 						'default' => 'soldout',
@@ -1023,18 +1034,18 @@ class Welcart_SimplePlus_Theme_Customizer {
 						'soldout'  => __( 'Displayed only when sold out', 'welcart_simpleplus' ),
 					),
 				),
-				'contact_page' => array( // お問い合わせ先ページの設定値
+				'contact_page' => array( // お問い合わせ先ページの設定値.
 					'label'       => __( 'Inquiry Page', 'welcart_simpleplus' ),
 					'description' => __( 'Select which fixed page to transition to when the inquiry button is clicked.', 'welcart_simpleplus' ),
 					'type'        => 'dropdown-pages',
 				),
-				'contact_text' => array( // お問い合わせテキストの設定値
+				'contact_text' => array( // お問い合わせテキストの設定値.
 					'label'        => __( 'Text to display on the button', 'welcart_simpleplus' ),
 					'setting_args' => array(
 						'default' => __( 'Inquiries regarding this item', 'welcart_simpleplus' ),
 					),
 				),
-				'reviews'      => array( // レビューを表示する設定値
+				'reviews'      => array( // レビューを表示する設定値.
 					'label'        => __( 'Display reviews', 'welcart_simpleplus' ),
 					'setting_args' => array(
 						'default' => false,
@@ -1046,8 +1057,9 @@ class Welcart_SimplePlus_Theme_Customizer {
 
 		$this->register_customizer( $wp_customize, $keys, $section_id );
 	}
+
 	/**
-	 * Undocumented function
+	 * Cart page settings
 	 *
 	 * @param object $wp_customize WP_Customize_Manager.
 	 * @param string $panel_id panel_id.
@@ -1076,7 +1088,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 					),
 					'type'         => 'checkbox',
 				),
-				'incart_text'  => array( // カートへ入れるテキストの設定値
+				'incart_text'  => array( // カートへ入れるテキストの設定値.
 					'label'        => __( 'URL of the link destination', 'welcart_simpleplus' ),
 					'setting_args' => array(
 						'default' => '',
@@ -1087,8 +1099,9 @@ class Welcart_SimplePlus_Theme_Customizer {
 
 		$this->register_customizer( $wp_customize, $register_args, $section_id );
 	}
+
 	/**
-	 * Sns settings
+	 * SNS settings
 	 *
 	 * @param object $wp_customize WP_Customize_Manager.
 	 * @param string $panel_id panel_id.
@@ -1187,7 +1200,6 @@ class Welcart_SimplePlus_Theme_Customizer {
 		$this->register_customizer( $wp_customize, $register_args, $section_id );
 	}
 
-
 	/**
 	 * カスタマイザーをまとめて登録
 	 *
@@ -1208,7 +1220,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 					continue;
 				}
 
-				// ラベルの登録
+				// ラベルの登録.
 				$setting_id   = $id . '_' . $key . '_setting';
 				$setting_args = isset( $val['setting_args'] ) ? $val['setting_args'] : array();
 				$wp_customize->add_setting(
@@ -1218,11 +1230,11 @@ class Welcart_SimplePlus_Theme_Customizer {
 						$setting_args
 					)
 				);
-					unset( $val['setting_args'] );
+				unset( $val['setting_args'] );
 
-					// 表示優先度の設定 初期値100
-					$priority = isset( $args['priority'] ) ? $args['priority'] : 100;
-					$type     = isset( $val['type'] ) ? $val['type'] : '';
+				// 表示優先度の設定 初期値100.
+				$priority = isset( $args['priority'] ) ? $args['priority'] : 100;
+				$type     = isset( $val['type'] ) ? $val['type'] : '';
 				switch ( $type ) {
 					case 'image':
 						unset( $val['type'] );
@@ -1276,18 +1288,18 @@ class Welcart_SimplePlus_Theme_Customizer {
 	 */
 	public function get_customizer_preview_url() {
 
-		// フロントページURL
+		// フロントページURL.
 		$front_link = get_home_url();
 
-		// 固定ページ
+		// 固定ページ.
 		$page_link = get_page_link( 2 );
 
-		// 商品一覧ページURL
+		// 商品一覧ページURL.
 		$cat_name = get_category_by_slug( 'item' );
 		$cat_id   = $cat_name->cat_ID;
 		$cat_link = get_category_link( $cat_id );
 
-		// 商品詳細ページ（最新一件）
+		// 商品詳細ページ（最新一件）.
 		$lastItem_link = get_home_url();
 		$args          = array(
 			'cat'            => $cat_id,
@@ -1299,20 +1311,19 @@ class Welcart_SimplePlus_Theme_Customizer {
 		$item_posts    = get_posts( $args );
 		if ( ! empty( $item_posts ) ) {
 			wp_reset_postdata();
-			$itemPostID    = $item_posts[0]->ID;
-			$lastItem_link = get_permalink( $itemPostID );
+			$lastItem_link = get_permalink( $item_posts[0]->ID );
 		}
 
-		// カートページURL
+		// カートページURL.
 		$cart_link = usces_url( 'cart', 'return' );
 
-		// メンバーページURL
+		// メンバーページURL.
 		$member_link = usces_url( 'member', 'return' );
 
-		// 投稿一覧ページURL
+		// 投稿一覧ページURL.
 		$postList_link = get_category_link( 1 );
 
-		// 投稿詳細ページ（最新一件）URL
+		// 投稿詳細ページ（最新一件）URL.
 		$lastPost_link = get_category_link( 1 );
 		$args          = array(
 			'cat'            => -$cat_id,
@@ -1324,8 +1335,7 @@ class Welcart_SimplePlus_Theme_Customizer {
 		$new_posts     = get_posts( $args );
 		if ( ! empty( $new_posts ) ) {
 			wp_reset_postdata();
-			$newPostID     = $new_posts[0]->ID;
-			$lastPost_link = get_permalink( $newPostID );
+			$lastPost_link = get_permalink( $new_posts[0]->ID );
 		}
 
 		$url_list = array(
@@ -1342,20 +1352,20 @@ class Welcart_SimplePlus_Theme_Customizer {
 	}
 
 	/**
-	 *  Callback
+	 * Callback
 	 *
-	 *    @return bool
+	 * @return bool
 	 */
 	public function callback_is_front_page() {
 		return 'posts' === get_option( 'show_on_front' ) && ( is_home() || is_front_page() );
 	}
 
 	/**
-	 *  Sanitize image
+	 * Sanitize image
 	 *
-	 *  @param object $input input.
-	 *  @param object $setting setting.
-	 *  @return array
+	 * @param object $input input.
+	 * @param object $setting setting.
+	 * @return array
 	 */
 	public function sanitize_image( $input, $setting ) {
 		$mimes = array(
@@ -1372,10 +1382,10 @@ class Welcart_SimplePlus_Theme_Customizer {
 	}
 
 	/**
-	 *  Theme sanitize number range
+	 * Theme sanitize number range
 	 *
-	 *  @param int    $number number.
-	 *  @param object $setting setting.
+	 * @param int    $number number.
+	 * @param object $setting setting.
 	 */
 	public function sanitize_number_range( $number, $setting ) {
 		$number = absint( $number );
@@ -1384,6 +1394,21 @@ class Welcart_SimplePlus_Theme_Customizer {
 		$max    = ( isset( $atts['max'] ) ? $atts['max'] : $number );
 		$step   = ( isset( $atts['step'] ) ? $atts['step'] : 1 );
 		return ( $min <= $number && $number <= $max && is_int( $number / $step ) ? $number : $setting->default );
+	}
+
+	/**
+	 * Returns default value if not set
+	 *
+	 * @param string $slug slug.
+	 * @param array  $setting the setting object.
+	 * @return string
+	 */
+	public function sanitize_slug( $slug, $setting ) {
+		$slug = sanitize_key( $slug );
+		if ( empty( $slug ) || '' === trim( $slug ) ) {
+			$slug = $setting->default;
+		}
+		return $slug;
 	}
 
 	/**
@@ -1404,20 +1429,17 @@ class Welcart_SimplePlus_Theme_Customizer {
 		$common_gap_val   = $common_gap . 'px';
 		?>
 		<style type="text/css">
-
 			.topics .grid {
 				gap: calc( <?php echo esc_attr( $topics_gap_val ); ?>/1.6 );
 			}
 			.new-items .grid {
 				gap: calc( <?php echo esc_attr( $new_itemsgap_val ); ?>/1.6 );
 			}
-
 			:root{
-
 				--bs-gap : calc( <?php echo esc_attr( $common_gap_val ); ?>/1.6 );
-
 				<?php
-				$grid_image = get_theme_mod( 'image_settings_allow_image_rect_setting', false ) ? 'cover' : 'contain';
+				$image_rect = get_theme_mod( 'image_settings_allow_image_rect_setting', true );
+				$grid_image = $image_rect ? 'cover' : 'contain';
 				echo esc_attr( '--grid-image-object-fit:' . $grid_image . ';' );
 				self::generate_css_variable( 'grid-image-rounded-size', 'image_settings_grid_image_radius_setting', '', '%' );
 				foreach ( $color_key as $key ) {
@@ -1425,7 +1447,6 @@ class Welcart_SimplePlus_Theme_Customizer {
 				}
 				?>
 			}
-
 			<?php
 			/* top topics */
 			self::generate_css( '.topics .card-imag-top.grid-image', 'border-radius', 'topics_list_round_setting', '', '%' );
@@ -1553,7 +1574,6 @@ class Welcart_SimplePlus_Theme_Customizer {
 			#customize-control-itempage_incart_text::before { content: "<?php esc_html_e( 'Cart Button', 'welcart_simpleplus' ); ?>"; }
 			#customize-control-itempage_contact_btn::before { content: "<?php esc_html_e( 'Contact button', 'welcart_simpleplus' ); ?>"; }
 			#customize-control-itempage_reviews::before { content: "<?php esc_html_e( 'Review', 'welcart_simpleplus' ); ?>"; }
-
 			#customize-control-main-bg-color_control .description::before { content: "<?php esc_html_e( 'It will be reflected in the information list on the top page.', 'welcart_simpleplus' ); ?>"; }
 			#customize-control-btn-hover-bg-color_control .description::before { content: "<?php esc_html_e( 'This is the setting when the mouse is over the main button, sub button 1, sub button 2, and cart button.', 'welcart_simpleplus' ); ?>"; }
 		</style>

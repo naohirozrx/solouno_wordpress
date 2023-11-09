@@ -2,7 +2,8 @@
 /**
  * Review Customized
  *
- * @package welcart
+ * @package Welcart
+ * @subpackage Welcart_SimplePlus
  */
 
 /**
@@ -30,18 +31,19 @@ class Welcart_Simpleplus_Review_Customize {
 		return $vars;
 	}
 
-
 	/**
 	 * Login Inform Referer
 	 */
 	public function login_inform_referer() {
 		$login_ref = get_query_var( 'login_ref' );
 		if ( $login_ref ) :
-			wp_nonce_field( 'to_ref_page', 'after_login_redirect' );?>
+			wp_nonce_field( 'to_ref_page', 'after_login_redirect' );
+			?>
 			<input type="hidden" name="login_ref" value="<?php echo esc_attr( $login_ref ); ?>" />
 			<?php
 		endif;
 	}
+
 	/**
 	 * After Login Redirect
 	 */
@@ -96,4 +98,3 @@ class Welcart_Simpleplus_Review_Customize {
 		endswitch;
 	}
 }
-

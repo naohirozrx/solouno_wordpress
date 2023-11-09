@@ -267,6 +267,9 @@ msgstr "全ページのヘッダー上"
 msgid "Below the header of all pages"
 msgstr "全ページのヘッダー下"
 
+msgid "Do not display"
+msgstr "表示しない"
+
 msgid "List image settings"
 msgstr "一覧画像設定"
 
@@ -527,3 +530,6 @@ msgstr "画像の上にテキストを重ねる"
 
 msgid "Text shadow when text is overlaid on an image"
 msgstr "画像の上にテキストを重ねて表示している場合にテキストシャドウを付ける"
+
+msgid "Enter the slug if you want to change the custom post type."
+msgstr "カスタム投稿タイプを変更したい場合はスラッグを入力してください。"

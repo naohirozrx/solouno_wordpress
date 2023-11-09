@@ -30,7 +30,6 @@ class Welcart_Simpleplus_Term_Customize {
 		remove_filter( 'term_description', 'wp_kses_data' );
 
 		add_filter( 'category_edit_form_fields', array( $this, 'add_description' ) );
-
 	}
 
 	/**
@@ -115,7 +114,7 @@ class Welcart_Simpleplus_Term_Customize {
 		) {
 			wp_nonce_ays();
 		}
-		$post_keys = array( 'wcct-term-thumbnail' ); // 画像の数を増やす場合はこちらを設定する
+		$post_keys = array( 'wcct-term-thumbnail' ); // 画像の数を増やす場合はこちらを設定する.
 		foreach ( $post_keys as $key ) {
 			$post_url = $key . '-url';
 			$post_id  = $key . '-id';
@@ -178,6 +177,6 @@ class Welcart_Simpleplus_Term_Customize {
 				<span class="description"><?php esc_html_e( 'The description is not prominent by default; however, some themes may show it.' ); ?></span>
 			</td>
 		</tr>
-			<?php
+		<?php
 	}
 }
