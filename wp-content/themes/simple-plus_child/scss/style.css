@@ -1731,7 +1731,7 @@ footer {
         background-position-y: 50%;
         background-position-x: 95%;
         position: absolute;
-        bottom: 100px;
+        bottom: 170px;
         left: 50%;
         transform: translateX(-50%);
         text-align: center;
@@ -1740,6 +1740,8 @@ footer {
         #side-l .ordermade:hover {
           background-position-x: 96%; }
         #side-l .ordermade.disneybutton {
+          bottom: 100px; }
+        #side-l .ordermade.marty {
           bottom: 30px; }
       #side-l .sbmto {
         position: absolute;
