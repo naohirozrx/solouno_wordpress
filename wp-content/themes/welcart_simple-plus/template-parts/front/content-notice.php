@@ -5,6 +5,7 @@
  * @package Welcart
  * @subpackage Welcart_SimplePlus
  */
+/*
 
 $news_slug = get_theme_mod( 'news_list_slug_setting', 'news' );
 
@@ -40,3 +41,4 @@ if ( $welcart_simpleplus_sticky_news ) :
 	usces_reset_filter();
 endif;
 wp_reset_postdata();
+*/
