@@ -9,6 +9,7 @@
 if ( ! get_theme_mod( 'topics_list_display_setting', true ) ) {
 	return;
 }
+$topic_slug = get_theme_mod( 'topics_list_slug_setting', 'topic' );
 ?>
 
 <section class="topics">
@@ -26,7 +27,7 @@ if ( ! get_theme_mod( 'topics_list_display_setting', true ) ) {
 			$welcart_simpleplus_sticky_posts  = get_option( 'sticky_posts' );
 			$welcart_simpleplus_sticky_topics = false;
 			foreach ( $welcart_simpleplus_sticky_posts as $welcart_simpleplus_sticky_topic ) {
-				if ( 'topic' === get_post_type( $welcart_simpleplus_sticky_topic ) ) {
+				if ( get_post_type( $welcart_simpleplus_sticky_topic ) === $topic_slug ) {
 					$welcart_simpleplus_sticky_topics = true;
 					break;
 				}
@@ -52,7 +53,7 @@ if ( ! get_theme_mod( 'topics_list_display_setting', true ) ) {
 				?>
 			</div>
 			<div class="text-center read-more">
-				<a href="<?php echo esc_url( get_post_type_archive_link( 'topic' ) ); ?>" class="btn btn-outline-dark btn-readmore"><?php esc_html_e( 'View More', 'welcart_simpleplus' ); ?></a>
+				<a href="<?php echo esc_url( get_post_type_archive_link( $topic_slug ) ); ?>" class="btn btn-outline-dark btn-readmore"><?php esc_html_e( 'View More', 'welcart_simpleplus' ); ?></a>
 			</div>
 			<?php
 		else :

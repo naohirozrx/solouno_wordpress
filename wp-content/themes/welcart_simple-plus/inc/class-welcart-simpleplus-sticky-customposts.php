@@ -2,7 +2,8 @@
 /**
  * 先頭固定表示
  *
- * @package welcart
+ * @package Welcart
+ * @subpackage Welcart_SimplePlus
  */
 
 /**
@@ -57,7 +58,9 @@ class Welcart_Simpleplus_Sticky_CustomPosts {
 	 * @return array
 	 */
 	public function super_sticky_post_types() {
-		return (array) apply_filters( 'welcart_simpleplus_sticky_post_types', array( 'topic', 'post', 'news' ) );
+		$topic_slug = get_theme_mod( 'topics_list_slug_setting', 'topic' );
+		$news_slug  = get_theme_mod( 'news_list_slug_setting', 'news' );
+		return (array) apply_filters( 'welcart_simpleplus_sticky_post_types', array( 'post', $topic_slug, $news_slug ) );
 	}
 
 	/**
@@ -70,7 +73,7 @@ class Welcart_Simpleplus_Sticky_CustomPosts {
 		<input id="super-sticky" name="sticky" type="checkbox" value="sticky" <?php checked( is_sticky() ); ?> />
 		<label for="super-sticky" class="selectit">
 			<?php esc_attr_e( 'Fixed display at the top', 'welcart_simpleplus' ); ?>
-			</label>
+		</label>
 		<?php
 	}
 
@@ -84,7 +87,15 @@ class Welcart_Simpleplus_Sticky_CustomPosts {
 			return;
 		}
 
-		foreach ( $this->super_sticky_post_types() as $post_type ) {
+		$super_sticky_post_types = $this->super_sticky_post_types();
+		foreach ( $super_sticky_post_types as $post_type ) {
+			if ( 'post' === $post_type && isset( $_GET['post'] ) ) {
+				$post_id   = (int) $_GET['post'];
+				$mime_type = get_post_mime_type( $post_id );
+				if ( 'item' !== $mime_type ) {
+					continue;
+				}
+			}
 			add_meta_box( 'super_sticky_meta', __( 'Sticky' ), array( $this, 'super_sticky_meta' ), $post_type, 'side', 'high' );
 		}
 	}
@@ -93,7 +104,6 @@ class Welcart_Simpleplus_Sticky_CustomPosts {
 	 * Add Filter pre_get_posts.
 	 *
 	 * @param object $query WP_Query.
-	 *
 	 * @return void
 	 */
 	public function sticky_top_pre_get_posts( $query ) {
@@ -102,28 +112,30 @@ class Welcart_Simpleplus_Sticky_CustomPosts {
 		}
 
 		if ( is_category() ) {
-			if ( $query->get( 'cat' ) ) {
-				$cat_obj = get_category( $query->get( 'cat' ) );
-			} elseif ( $query->get( 'category_name' ) ) {
-				$cat_obj = get_category_by_slug( $query->get( 'category_name' ) );
-			}
-			$item_obj = get_category_by_slug( 'item' );
-			if ( empty( $cat_obj ) || empty( $item_obj ) ) {
-				return;
-			}
-			if ( $item_obj->term_id !== $cat_obj->term_id && false === cat_is_ancestor_of( $item_obj, $cat_obj ) ) { // 商品カテゴリ配下.
-				return;
-			}
+			// if ( $query->get( 'cat' ) ) {
+			// 	$cat_obj = get_category( $query->get( 'cat' ) );
+			// } elseif ( $query->get( 'category_name' ) ) {
+			// 	$cat_obj = get_category_by_slug( $query->get( 'category_name' ) );
+			// }
+			// $item_obj = get_category_by_slug( 'item' );
+			// if ( empty( $cat_obj ) || empty( $item_obj ) ) {
+			// 	return;
+			// }
+			// if ( $item_obj->term_id !== $cat_obj->term_id && false === cat_is_ancestor_of( $item_obj, $cat_obj ) ) { // 商品カテゴリ配下.
+			// 	return;
+			// }
 			$query->set( 'post__not_in', array() );
 			$query->set( 'simpleplus_sticky', 'on' );
 		}
 
-		if ( is_post_type_archive( 'topic' ) ) { // 特集配下.
+		$topic_slug = get_theme_mod( 'topics_list_slug_setting', 'topic' );
+		if ( is_post_type_archive( $topic_slug ) ) { // 特集配下.
 			$query->set( 'post__not_in', array() );
 			$query->set( 'simpleplus_sticky', 'on' );
 		}
 
-		if ( is_post_type_archive( 'news' ) ) { // 特集配下.
+		$news_slug = get_theme_mod( 'news_list_slug_setting', 'news' );
+		if ( is_post_type_archive( $news_slug ) ) { // お知らせ配下.
 			$query->set( 'post__not_in', array() );
 			$query->set( 'simpleplus_sticky', 'on' );
 		}
@@ -138,7 +150,6 @@ class Welcart_Simpleplus_Sticky_CustomPosts {
 			$query->set( 'post__not_in', array() );
 			$query->set( 'simpleplus_sticky', 'off' );
 		}
-
 	}
 
 	/**
@@ -163,6 +174,4 @@ class Welcart_Simpleplus_Sticky_CustomPosts {
 
 		return $orderby;
 	}
-
 }
-?>

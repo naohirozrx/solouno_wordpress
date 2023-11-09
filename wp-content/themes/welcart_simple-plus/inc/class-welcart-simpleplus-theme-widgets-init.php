@@ -1,15 +1,15 @@
 <?php
 /**
- * Welcart simple plus theme setup
+ * Welcart simple plus widgets setup
  *
  * @package Welcart
+ * @subpackage Welcart_SimplePlus
  */
 
 /**
  * Class
  */
 class Welcart_SimplePlus_Theme_Widgets_Init {
-
 
 	/**
 	 * Constructer
@@ -25,7 +25,7 @@ class Welcart_SimplePlus_Theme_Widgets_Init {
 	 * @return void
 	 */
 	public function setup() {
-		// デフォルトウィジェット設定
+		// デフォルトウィジェット設定.
 		$default_sidebar_args = array(
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
@@ -33,7 +33,7 @@ class Welcart_SimplePlus_Theme_Widgets_Init {
 			'after_title'   => '</h3>',
 		);
 
-		// トップページウィジェットエリア1
+		// トップページウィジェットエリア1.
 		$top_widget1 = array_merge(
 			$default_sidebar_args,
 			array(
@@ -44,7 +44,7 @@ class Welcart_SimplePlus_Theme_Widgets_Init {
 		);
 		register_sidebar( $top_widget1 );
 
-		// トップページウィジェットエリア2
+		// トップページウィジェットエリア2.
 		$top_widget2 = array_merge(
 			$default_sidebar_args,
 			array(
@@ -55,7 +55,7 @@ class Welcart_SimplePlus_Theme_Widgets_Init {
 		);
 		register_sidebar( $top_widget2 );
 
-		// トップページウィジェットエリア3
+		// トップページウィジェットエリア3.
 		$top_widget3 = array_merge(
 			$default_sidebar_args,
 			array(
@@ -66,7 +66,7 @@ class Welcart_SimplePlus_Theme_Widgets_Init {
 		);
 		register_sidebar( $top_widget3 );
 
-		// 共通ウィジェットエリア
+		// 共通ウィジェットエリア.
 		$general_widget = array_merge(
 			$default_sidebar_args,
 			array(
@@ -77,7 +77,7 @@ class Welcart_SimplePlus_Theme_Widgets_Init {
 		);
 		register_sidebar( $general_widget );
 
-		// 商品一覧・検索結果ページのサイドバー
+		// 商品一覧・検索結果ページのサイドバー.
 		$side_widget = array_merge(
 			$default_sidebar_args,
 			array(

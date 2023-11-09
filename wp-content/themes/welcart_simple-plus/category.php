@@ -7,11 +7,6 @@
  */
 
 get_header();
-
-$welcart_simpleplus_grid_class  = welcart_simpleplus_get_article_class( get_the_ID() );
-$welcart_simpleplus_grid_class .= ' ' . welcart_simpleplus_get_round_class( 'image_settings_grid_image_radius_setting' );
-$welcart_simpleplus_grid_class .= welcart_simpleplus_get_overlay_image_class( 'image_settings_grid_overlay_image_setting' );
-$welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'image_settings_grid_text_shadow_setting' );
 ?>
 
 	<section id="primary" class="site-content">
@@ -23,7 +18,6 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 
 				<div class="type-grid item-category">
 					<?php if ( have_posts() ) : ?> 
-						<!-- 商品の場合 テンプレート -->
 						<?php get_template_part( 'template-parts/category', 'item' ); ?>
 					<?php else : ?>
 						<p class="no-data"><?php esc_html_e( 'No posts found.', 'usces' ); ?></p>
@@ -36,10 +30,13 @@ $welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'ima
 					<div class="container">
 						<div class="grid">
 						<?php if ( have_posts() ) : ?>
-							<!-- 商品ではない場合場合 テンプレート -->
 							<?php
 							while ( have_posts() ) :
 								the_post();
+								$welcart_simpleplus_grid_class  = welcart_simpleplus_get_article_class( get_the_ID() );
+								$welcart_simpleplus_grid_class .= ' ' . welcart_simpleplus_get_round_class( 'image_settings_grid_image_radius_setting' );
+								$welcart_simpleplus_grid_class .= welcart_simpleplus_get_overlay_image_class( 'image_settings_grid_overlay_image_setting' );
+								$welcart_simpleplus_grid_class .= welcart_simpleplus_get_text_shadow_class( 'image_settings_grid_text_shadow_setting' );
 								?>
 								<article class="<?php echo esc_attr( $welcart_simpleplus_grid_class ); ?>">
 									<a href="<?php the_permalink(); ?>">

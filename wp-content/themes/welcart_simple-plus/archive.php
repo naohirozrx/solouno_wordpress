@@ -6,7 +6,16 @@
  * @subpackage Welcart_SimplePlus
  */
 
-get_header(); ?>
+get_header();
+
+$topic_slug = get_theme_mod( 'topics_list_slug_setting', 'topic' );
+$news_slug  = get_theme_mod( 'news_list_slug_setting', 'news' );
+if ( is_post_type_archive( $topic_slug ) ) :
+	get_template_part( 'template-parts/archive', 'topic' );
+elseif ( is_post_type_archive( $news_slug ) ) :
+	get_template_part( 'template-parts/archive', 'news' );
+else :
+	?>
 
 	<section id="primary" class="<?php welcart_simpleplus_main_class( 'site-content archive-post' ); ?>">
 		<main id="content" role="main">
@@ -54,4 +63,6 @@ get_header(); ?>
 		<?php get_sidebar(); ?>
 	</section><!-- #primary -->
 
-<?php get_footer(); ?>
+	<?php
+endif;
+get_footer();

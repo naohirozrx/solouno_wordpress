@@ -9,6 +9,7 @@
 if ( ! get_theme_mod( 'news_list_display_setting', true ) ) {
 	return;
 }
+$news_slug = get_theme_mod( 'news_list_slug_setting', 'news' );
 ?>
 
 <section class="news-front">
@@ -25,7 +26,7 @@ if ( ! get_theme_mod( 'news_list_display_setting', true ) ) {
 			$welcart_simpleplus_sticky_posts = get_option( 'sticky_posts' );
 			$welcart_simpleplus_sticky_news  = false;
 			foreach ( $welcart_simpleplus_sticky_posts as $welcart_simpleplus_sticky_post ) {
-				if ( 'news' === get_post_type( $welcart_simpleplus_sticky_post ) ) {
+				if ( get_post_type( $welcart_simpleplus_sticky_post ) === $news_slug ) {
 					$welcart_simpleplus_sticky_news = true;
 					break;
 				}
@@ -50,7 +51,7 @@ if ( ! get_theme_mod( 'news_list_display_setting', true ) ) {
 				?>
 			</ul>
 			<div class="text-center read-more">
-				<a href="<?php echo esc_url( get_post_type_archive_link( 'news' ) ); ?>" class="btn  btn-outline-dark btn-readmore"><?php esc_html_e( 'View More', 'welcart_simpleplus' ); ?></a>
+				<a href="<?php echo esc_url( get_post_type_archive_link( $news_slug ) ); ?>" class="btn  btn-outline-dark btn-readmore"><?php esc_html_e( 'View More', 'welcart_simpleplus' ); ?></a>
 			</div>
 			<?php
 		else :
