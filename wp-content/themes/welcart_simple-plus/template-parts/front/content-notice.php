@@ -5,7 +5,7 @@
  * @package Welcart
  * @subpackage Welcart_SimplePlus
  */
-
+/*
 $welcart_simpleplus_notice = welcart_simpleplus_get_news_display_posts_sticky();
 
 $welcart_simpleplus_sticky_posts = get_option( 'sticky_posts' );
@@ -38,3 +38,4 @@ if ( $welcart_simpleplus_sticky_news ) :
 	usces_reset_filter();
 endif;
 wp_reset_postdata();
+*/
