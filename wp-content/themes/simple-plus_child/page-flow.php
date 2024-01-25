@@ -428,7 +428,15 @@
 
   <section class="spec-area">
     <h2 id="spec"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />ORDER PRICE & SPEC<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
-    <h3>クラリーノ エフ 64,800円</h3>
+    
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1.svg" style="margin-bottom:27px;" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-2.svg" style="margin-bottom: 10px" />
+    <ul class="note">
+      <li>クラリーノタフロックNEO素材をお選びの場合は5,000円の追加料金がかかります。</li>
+      <li>再度デザインでアラベスク、クローバーをお選びの場合は3,000円、レースをお選びの場合は5,000円の追加料金がかかります。</li>
+      <li>価格はすべて税込みです。</li>
+    </ul>
+    <h3>クラリーノ エフ 69,800円</h3>
     <ul class="price-list">
       <li>
         <figure>
@@ -510,7 +518,7 @@
       </li>
     </ul>
 
-    <h3>クラリーノ タフロックNEO 69,800円</h3>
+    <h3>クラリーノ タフロックNEO 74,800円</h3>
     <ul class="price-list2">
       <li>
         <figure>

@@ -2790,6 +2790,14 @@ footer {
         background-color: #FDF6EB;
         padding: 10px;
         width: calc(100% - 124px); }
+    #flow-area .spec-area .note {
+      font-size: 12px;
+      margin-bottom: 64px; }
+      #flow-area .spec-area .note li {
+        text-indent: -1em;
+        padding-left: 1em; }
+        #flow-area .spec-area .note li:before {
+          content: '■'; }
   #flow-area .eishin {
     padding: 60px 27px;
     background-color: #FEF6EA; }

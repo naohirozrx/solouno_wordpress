@@ -406,6 +406,19 @@
       }
     }
 
+    .note {
+      font-size: 12px;
+      margin-bottom: 64px;
+
+      li {
+        text-indent: -1em;
+        padding-left: 1em;
+        &:before {
+          content: '■';
+        }
+      }
+    }
+
   }//.convenience-area
 
   .eishin {
