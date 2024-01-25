@@ -191,9 +191,94 @@
       background-position-x: 300px;
     }
   }
-  .marty-area {
+
+  .sports-area {
     padding: 60px 27px 160px 27px;
     background-color: #FEF6EA;
+    h2 {
+      @include h2title;
+      span {
+        &.info {
+          color: #AC7746;
+          font-size: .12rem;
+          font-weight: $font_w_b;
+          border: 1px solid #AC7746;
+          border-radius: 50px;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 10px;
+          padding: 0px 10px;
+        }//.info
+        &.ec {
+          color: #6F6356;
+          font-size: .12rem;
+          font-weight: $font_w_b;
+          border: 1px solid #6F6356;
+          border-radius: 50px;
+          display: inline-flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 10px;
+          padding: 0px 10px;
+        }//.ec
+      }//span
+    }//h2
+    .dot {
+      @include dot;
+    }//.dot
+    .sports-p1 {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: .12rem;
+      margin-bottom: 30px;
+    }//p
+
+    .om-link {
+      color: #fff;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 20px auto;
+      font-size: .14rem;
+      font-weight: $font_w_b;
+      background-color: #6F6356;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right-white.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px;
+      text-align: center;
+      line-height: 1.2;
+    }
+    .flow-link {
+      color: #AC7746;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 20px;
+      font-size: .14rem;
+      font-weight: $font_w_b;
+      border: 1px solid #AC7746;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px;
+    }
+  }
+
+  .marty-area {
+    padding: 60px 27px 160px 27px;
+
     h2 {
       @include h2title;
       span {
@@ -276,6 +361,8 @@
   }//.marty-area
   .totebag-area {
     padding: 60px 27px 160px 27px;
+    background-color: #FEF6EA;
+
     h2 {
       @include h2title;
       span {

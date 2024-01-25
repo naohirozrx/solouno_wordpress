@@ -98,6 +98,7 @@ Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o
         <li><a href="<?php echo home_url('/')?>disney">　ディズニーオーダーランドセル</a></li>
         <li><a href="<?php echo home_url('/')?>disney">　　ディズニーオーダーとは</a></li>
         <li><a href="https://disneysim.solouno-ordermade.com/" target="_blank">　　シミュレーター</a></li>
+        <li><a href="<?php echo home_url('/')?>sports">　スポーツブランドランドセル</a></li>
         <li><a href="<?php echo home_url('/')?>marty">　Marty オーダーメイドランドセルカバー</a></li>
         <li><a href="<?php echo home_url('/')?>marty">　　Martyとは</a></li>
         <li><a href="https://marty.solouno-ordermade.com/" target="_blank">　　シミュレーター</a></li>

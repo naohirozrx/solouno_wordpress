@@ -29,6 +29,16 @@
     <a href="https://disneysim.solouno-ordermade.com" class="om-link" target="_blank">ディズニーオーダーを選んでみよう<br />【シミュレーター】</a>
     <a href="<?php echo home_url('/')?>disney" class="flow-link">ディズニーオーダーメイドランドセル</a>
   </section>
+
+  <section class="sports-area" id="sports">
+    <h2><span>SPORTS BLAND</span>スポーツブランドランドセル<br /><span class="ec">EC取り扱い</span><span class="info">店舗取り扱い</span></h2>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports-p1.png" class="sports-p1" />
+    <p>現在スポーツブランドランドセルページは準備中です。<br />
+    ホームページへの商品情報掲載は〇月上旬、販売開始は〇月頃を予定しております。</p>
+    <a href="<?php echo home_url('/')?>disney" class="flow-link">スポーツブランドランドセル</a>
+  </section>
+
   <section class="marty-area" id="etc">
     <h2><span>MARTY</span>マーティ<br /><span class="ec">EC取り扱い</span><span class="info">店舗取り扱い</span></h2>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot" />

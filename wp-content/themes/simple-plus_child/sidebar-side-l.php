@@ -12,6 +12,7 @@
         <li><a href="<?php echo home_url('/')?>product">PRODUCT</a></li>
         <li><a href="<?php echo home_url('/')?>flow/">　オーダーメイドランドセル</a></li>
         <li><a href="<?php echo home_url('/')?>disney">　ディズニーオーダーランドセル</a></li>
+        <li><a href="<?php echo home_url('/')?>sports">　スポーツブランドランドセル</a></li>
         <li><a href="<?php echo home_url('/')?>marty">　Marty オーダーメイドランドセルカバー</a></li>
         <!--<li><a href="<?php echo home_url('/')?>category/item/">　ストア</a></li>-->
         <li><a href="<?php echo home_url('/')?>law">特定商取引法に基づく表記</a></li>

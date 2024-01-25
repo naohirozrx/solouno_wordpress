@@ -2220,9 +2220,87 @@ footer {
       background-repeat: no-repeat;
       background-position-y: 50%;
       background-position-x: 300px; }
-  #product-area .marty-area {
+  #product-area .sports-area {
     padding: 60px 27px 160px 27px;
     background-color: #FEF6EA; }
+    #product-area .sports-area h2 {
+      font-size: .2rem;
+      font-weight: 500;
+      margin-bottom: 20px; }
+      #product-area .sports-area h2 span {
+        display: block;
+        font-size: .12rem;
+        color: #BAA280; }
+      #product-area .sports-area h2 span.info {
+        color: #AC7746;
+        font-size: .12rem;
+        font-weight: 700;
+        border: 1px solid #AC7746;
+        border-radius: 50px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        padding: 0px 10px; }
+      #product-area .sports-area h2 span.ec {
+        color: #6F6356;
+        font-size: .12rem;
+        font-weight: 700;
+        border: 1px solid #6F6356;
+        border-radius: 50px;
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        padding: 0px 10px; }
+    #product-area .sports-area .dot {
+      width: 207px;
+      height: 19px;
+      margin-bottom: 40px; }
+    #product-area .sports-area .sports-p1 {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 30px; }
+    #product-area .sports-area p {
+      font-size: .12rem;
+      margin-bottom: 30px; }
+    #product-area .sports-area .om-link {
+      color: #fff;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 20px auto;
+      font-size: .14rem;
+      font-weight: 700;
+      background-color: #6F6356;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right-white.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px;
+      text-align: center;
+      line-height: 1.2; }
+    #product-area .sports-area .flow-link {
+      color: #AC7746;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 20px;
+      font-size: .14rem;
+      font-weight: 700;
+      border: 1px solid #AC7746;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px; }
+  #product-area .marty-area {
+    padding: 60px 27px 160px 27px; }
     #product-area .marty-area h2 {
       font-size: .2rem;
       font-weight: 500;
@@ -2300,7 +2378,8 @@ footer {
       background-position-y: 50%;
       background-position-x: 300px; }
   #product-area .totebag-area {
-    padding: 60px 27px 160px 27px; }
+    padding: 60px 27px 160px 27px;
+    background-color: #FEF6EA; }
     #product-area .totebag-area h2 {
       font-size: .2rem;
       font-weight: 500;
@@ -4856,6 +4935,70 @@ footer {
   .category-more-link:hover {
     color: #AC7746;
     background-position: center right 15px; }
+
+#sports-area {
+  width: 100%;
+  margin: auto; }
+  @media screen and (min-width: 781px) {
+    #sports-area {
+      max-width: 395px; } }
+  #sports-area .sports-top {
+    position: relative; }
+    #sports-area .sports-top > img {
+      width: 100%;
+      height: auto; }
+    #sports-area .sports-top div {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%); }
+      #sports-area .sports-top div h2 {
+        font-size: .18rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #fff; }
+      #sports-area .sports-top div img {
+        width: 87px;
+        height: auto; }
+  #sports-area .sports-contents {
+    padding: 60px 27px 60px 27px;
+    background-color: #FEF6EA; }
+    #sports-area .sports-contents h2 {
+      font-size: .2rem;
+      font-weight: 500;
+      margin-bottom: 20px; }
+      #sports-area .sports-contents h2 span {
+        display: block;
+        font-size: .12rem;
+        color: #BAA280; }
+    #sports-area .sports-contents .dot {
+      width: 207px;
+      height: 19px;
+      margin-bottom: 40px; }
+    #sports-area .sports-contents p {
+      font-size: .12rem;
+      margin-bottom: 30px; }
+    #sports-area .sports-contents > a {
+      color: #AC7746;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 2em;
+      font-size: .14rem;
+      line-height: 1.3;
+      font-weight: 700;
+      border: 1px solid #AC7746;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px;
+      transition: 0.3s; }
+      #sports-area .sports-contents > a:hover {
+        background-position-x: 305px; }
 
 .clearfix:after {
   content: "";

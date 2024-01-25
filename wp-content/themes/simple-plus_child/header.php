@@ -16,6 +16,7 @@
 		|| is_page('law')
 		|| is_page('privacy')
 		|| is_page('marty')
+		|| is_page('sports')
 	):
 		include_once('header_web.php');
 	else:
