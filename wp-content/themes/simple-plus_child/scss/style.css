@@ -3712,6 +3712,32 @@ footer {
       #disney-area .flow-top div img {
         width: 87px;
         height: auto; }
+  #disney-area .disney-info {
+    padding: 60px 27px; }
+    #disney-area .disney-info h2 {
+      width: 100%;
+      margin: 0 auto 10px auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      font-size: .2rem;
+      font-weight: 500; }
+      #disney-area .disney-info h2 img {
+        width: 39px;
+        height: auto; }
+    #disney-area .disney-info > div {
+      border: 2px solid #AC7746;
+      border-top: none;
+      padding: 0 12px 12px; }
+      #disney-area .disney-info > div h3 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 1.5em; }
+        #disney-area .disney-info > div h3:first-child {
+          margin: 0; }
+      #disney-area .disney-info > div p {
+        font-size: 16px; }
   #disney-area .disney-flow {
     width: 100%;
     padding: 60px 0;

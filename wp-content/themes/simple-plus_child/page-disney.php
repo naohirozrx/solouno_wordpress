@@ -22,7 +22,23 @@
 
 <div id="disney-area">
   <section class="flow-top">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/mickey-header.jpg" alt="ディズニーオーダーメイドランドセル（ミッキーマウス・ミニーマウス）70,000円" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/mickey-header-2024.jpg" alt="ディズニーオーダーメイドランドセル（ミッキーマウス・ミニーマウス）73,000円" />
+  </section>
+  <section class="disney-info">
+    <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />重要なお知らせ<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+    <div>
+      <h3>■店頭での展示予定</h3>
+      <p>・7キャラクターの展示2月1日～<br />
+      ・新しいキャラクターの展示3月上旬</p>
+
+      <h3>■Webでのご注文受付時期</h3>
+      <p>・2月中の販売開始を予定しています。</p>
+
+      <h3>■シュミレーター</h3>
+      <p>・7キャラクターでのシュミレーターは<br />
+        　2月1日～<br />
+      ・新しいキャラクターは3月上旬</p>
+    </div>
   </section>
   <section class="schoolbag-area">
     <nav>
