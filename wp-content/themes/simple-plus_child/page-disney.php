@@ -40,6 +40,7 @@
       ・新しいキャラクターは3月上旬</p>
     </div>
   </section>
+  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/disney-order2024-2.png" style="width:calc(100% - 54px); height: auto; margin: 0 27px 40px;" />
   <section class="schoolbag-area">
     <nav>
       <ul style="line-height: 1.3;">
