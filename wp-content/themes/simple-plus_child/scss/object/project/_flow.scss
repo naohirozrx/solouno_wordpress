@@ -519,6 +519,19 @@
   .schoolbag-area {
     padding: 60px 27px 20px;
     background-color: #FEF6EA;
+    
+    .note {
+      font-size: 12px;
+      margin-bottom: 64px;
+
+      li {
+        text-indent: -1em;
+        padding-left: 1em;
+        &:before {
+          content: '■';
+        }
+      }
+    }
   }
   .howtoorder {
     padding: 60px 27px 60px;

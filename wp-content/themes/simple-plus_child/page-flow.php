@@ -9,6 +9,13 @@
     </div>
   </section>
   <section class="schoolbag-area">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1.svg" style="margin-bottom:27px;" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-2.svg" style="margin-bottom: 10px" />
+    <ul class="note">
+      <li>クラリーノタフロックNEO素材をお選びの場合は5,000円の追加料金がかかります。</li>
+      <li>再度デザインでアラベスク、クローバーをお選びの場合は3,000円、レースをお選びの場合は5,000円の追加料金がかかります。</li>
+      <li>価格はすべて税込みです。</li>
+    </ul>
     <nav>
       <ul style="line-height: 1.3;">
         <li style="margin-bottom: 0.5em;">〇<a href="#step" style="text-decoration: underline;">オーダーの手順</a></li>

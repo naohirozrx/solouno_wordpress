@@ -2947,6 +2947,14 @@ footer {
   #flow-area .schoolbag-area {
     padding: 60px 27px 20px;
     background-color: #FEF6EA; }
+    #flow-area .schoolbag-area .note {
+      font-size: 12px;
+      margin-bottom: 64px; }
+      #flow-area .schoolbag-area .note li {
+        text-indent: -1em;
+        padding-left: 1em; }
+        #flow-area .schoolbag-area .note li:before {
+          content: '■'; }
   #flow-area .howtoorder {
     padding: 60px 27px 60px;
     background-color: #FEF6EA; }
