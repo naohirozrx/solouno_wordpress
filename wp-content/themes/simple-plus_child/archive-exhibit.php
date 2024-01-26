@@ -9,6 +9,7 @@
       <ul class="exhibit-list">
         <li>
           <h3>ミニランフェス</h3>
+          <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sample.jpg" /></figure>
           <p>SOLO UNO のオーダーメイドランドセルとシブヤランドセル・コクヨランドセルの各種ランドセルがまとめて見れる、背負える、写真が撮れる展示会『ミニ・ランフェス』を開催します。</p>
           <p>『ランフェス』こと『ランドセルわくわくフェスティバル』のミニver.となります。</p>
           <p>『ミニ・ランフェス』はご予約不要で、お時間制限なくゆっくりご覧いただけます。</p>
@@ -16,6 +17,7 @@
         </li>
         <li>
           <h3>ランドセルわくわくフェスティバル</h3>
+          <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sample.jpg" /></figure>
           <p>ランドセルメーカー、ブランドが集まる展示会『ランフェス』に参加します。</p>
           <p>オーダーメイドランドセルの組み合わせサンプルや選べるパーツのサンプルを展示します。背負い比べたり、写真を撮ったりと、組み合わせ選びをお楽しみいただけます。</p>
           <p>事前予約制となりますので、ランフェスHPからご予約の上、ご来場ください。</p>
@@ -35,6 +37,9 @@
         <dt>
         <?php echo get_field('addition') ? '<span>追加開催</span>' : ''; ?>
           <?php the_title();?>
+          <?php if (has_post_thumbnail()) : ?>
+          <?php the_post_thumbnail('full'); ?>
+          <?php endif ; ?>
         </dt>
         <dd>
           <div><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon/marker.svg" />開催エリア</span><div><?php echo get_field('area');?></div></div>

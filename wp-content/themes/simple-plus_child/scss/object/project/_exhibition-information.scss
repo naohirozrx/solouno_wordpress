@@ -35,6 +35,16 @@
       border-radius: 10px;
       padding: 24px;
 
+      figure {
+        border-radius: 10px;
+        margin: 1em 0;
+
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+
       h3 {
         font-size: 16px;
         font-weight: bold;
@@ -127,6 +137,13 @@
           font-size: .12rem;
           color: #AC7746;
           padding: 2px 12px;
+        }
+
+        img {
+          margin-top: 1em;
+          width: 100%;
+          height: auto;
+          border-radius: 10px;
         }
       }//dt
       dd {

@@ -3473,6 +3473,12 @@ footer {
       text-align: left;
       border-radius: 10px;
       padding: 24px; }
+      #exhibit-area .exhibit-list li figure {
+        border-radius: 10px;
+        margin: 1em 0; }
+        #exhibit-area .exhibit-list li figure img {
+          width: 100%;
+          height: auto; }
       #exhibit-area .exhibit-list li h3 {
         font-size: 16px;
         font-weight: bold; }
@@ -3543,6 +3549,11 @@ footer {
           font-size: .12rem;
           color: #AC7746;
           padding: 2px 12px; }
+        #exhibit-area .exhibit-area dl dt img {
+          margin-top: 1em;
+          width: 100%;
+          height: auto;
+          border-radius: 10px; }
       #exhibit-area .exhibit-area dl dd {
         display: flex;
         flex-direction: column;
