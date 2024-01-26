@@ -3515,7 +3515,10 @@ footer {
         font-size: .4rem;
         color: #fff;
         font-weight: bold;
-        transform: translate(-50%, -50%); }
+        transform: translate(-50%, -50%);
+        display: block;
+        width: 100%;
+        text-align: center; }
       #exhibit-area .exhibit-area dl.end:before {
         position: absolute;
         left: 0;
@@ -3533,7 +3536,10 @@ footer {
         font-size: .4rem;
         color: #fff;
         font-weight: bold;
-        transform: translate(-50%, -50%); }
+        transform: translate(-50%, -50%);
+        display: block;
+        width: 100%;
+        text-align: center; }
       #exhibit-area .exhibit-area dl dt {
         width: 100%;
         font-size: .16rem;
