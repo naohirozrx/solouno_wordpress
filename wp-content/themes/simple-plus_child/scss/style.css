@@ -3442,36 +3442,48 @@ footer {
     #exhibit-area {
       max-width: 395px; } }
   #exhibit-area .exhibit-top {
-    position: relative;
-    background-color: #3A1E15; }
+    background-color: #FEF6EA;
+    position: relative; }
     #exhibit-area .exhibit-top > img {
       width: 100%;
       height: auto;
       opacity: .65; }
     #exhibit-area .exhibit-top div {
       width: 100%;
-      text-align: center;
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%); }
+      text-align: center; }
       #exhibit-area .exhibit-top div h2 {
         font-size: .18rem;
         font-weight: 700;
-        margin-bottom: 15px;
-        color: #fff; }
-      #exhibit-area .exhibit-top div img {
-        width: 87px;
-        height: auto; }
+        margin-bottom: 15px; }
+  #exhibit-area .exhibit-list {
+    padding: 60px 27px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px; }
+    #exhibit-area .exhibit-list li {
+      background-color: #fff;
+      text-align: left;
+      border-radius: 10px;
+      padding: 24px; }
+      #exhibit-area .exhibit-list li h3 {
+        font-size: 16px;
+        font-weight: bold; }
+      #exhibit-area .exhibit-list li p {
+        font-size: 11px; }
   #exhibit-area .exhibit-area {
     background-color: #FEF6EA;
     padding: 60px 27px;
     display: flex;
     flex-direction: column;
     gap: 27px; }
+    #exhibit-area .exhibit-area h2 {
+      font-size: .18rem;
+      font-weight: 700; }
     #exhibit-area .exhibit-area dl {
       background-color: #fff;
-      padding: 27px;
-      position: relative; }
+      padding: 20px;
+      position: relative;
+      border-radius: 10px; }
       #exhibit-area .exhibit-area dl.cancel:before {
         position: absolute;
         left: 0;
@@ -3486,6 +3498,24 @@ footer {
         left: 50%;
         top: 50%;
         content: '開催中止';
+        font-size: .4rem;
+        color: #fff;
+        font-weight: bold;
+        transform: translate(-50%, -50%); }
+      #exhibit-area .exhibit-area dl.end:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        display: block;
+        background-color: rgba(0, 0, 0, 0.7); }
+      #exhibit-area .exhibit-area dl.end:after {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        content: '終了しました';
         font-size: .4rem;
         color: #fff;
         font-weight: bold;
@@ -3508,14 +3538,29 @@ footer {
       #exhibit-area .exhibit-area dl dd {
         display: flex;
         flex-direction: column;
-        gap: 24px; }
-        #exhibit-area .exhibit-area dl dd div {
+        gap: 12px; }
+        #exhibit-area .exhibit-area dl dd > div {
           line-height: 1;
-          display: flex; }
-          #exhibit-area .exhibit-area dl dd div img {
+          display: flex;
+          gap: 10px; }
+          #exhibit-area .exhibit-area dl dd > div > span {
+            background-color: #262626;
+            color: #fff;
+            font-size: 11px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            width: 96px;
+            padding: 4px;
+            gap: 5px;
+            border-radius: 4px; }
+          #exhibit-area .exhibit-area dl dd > div img {
             width: auto;
-            height: 17px;
-            margin-right: 10px; }
+            height: 17px; }
+          #exhibit-area .exhibit-area dl dd > div > div {
+            width: calc(100% - 90px);
+            display: flex;
+            align-items: center; }
         #exhibit-area .exhibit-area dl dd a {
           color: #AC7746;
           width: 216px;
@@ -3599,38 +3644,11 @@ footer {
           font-size: .12rem;
           color: #AC7746;
           padding: 2px 12px; }
-      #exhibit-area-single .exhibit-single-area > dl > dd {
+      #exhibit-area-single .exhibit-single-area > dl dd {
         display: flex;
         flex-direction: column;
-        gap: 30px; }
-        #exhibit-area-single .exhibit-single-area > dl > dd .info-area {
-          line-height: 1;
-          display: flex;
-          align-items: center; }
-          #exhibit-area-single .exhibit-single-area > dl > dd .info-area > img {
-            width: auto;
-            height: 17px;
-            margin-right: 10px; }
-          #exhibit-area-single .exhibit-single-area > dl > dd .info-area span {
-            font-size: .21rem; }
-        #exhibit-area-single .exhibit-single-area > dl > dd > dl {
-          display: flex; }
-          #exhibit-area-single .exhibit-single-area > dl > dd > dl dt {
-            width: 80px;
-            font-weight: bold; }
-          #exhibit-area-single .exhibit-single-area > dl > dd > dl dd {
-            width: calc(100% - 80px); }
-        #exhibit-area-single .exhibit-single-area > dl > dd p:empty {
-          display: none; }
-        #exhibit-area-single .exhibit-single-area > dl > dd p {
-          font-size: .12rem; }
-        #exhibit-area-single .exhibit-single-area > dl > dd hr {
-          margin: 0;
-          padding: 0;
-          border: 0;
-          width: 100%;
-          border-bottom: 1px solid #3A1E15; }
-        #exhibit-area-single .exhibit-single-area > dl > dd .venue-info {
+        gap: 12px; }
+        #exhibit-area-single .exhibit-single-area > dl dd .venue-info {
           display: flex;
           justify-content: center;
           align-items: center;
@@ -3638,14 +3656,63 @@ footer {
           line-height: 1;
           font-size: .16rem;
           font-weight: 500; }
-          #exhibit-area-single .exhibit-single-area > dl > dd .venue-info img {
+          #exhibit-area-single .exhibit-single-area > dl dd .venue-info img {
             height: 19px;
             width: auto;
             margin: 0; }
-        #exhibit-area-single .exhibit-single-area > dl > dd .spot {
+        #exhibit-area-single .exhibit-single-area > dl dd > div {
+          line-height: 1;
+          display: flex;
+          gap: 10px; }
+          #exhibit-area-single .exhibit-single-area > dl dd > div.info-access {
+            flex-direction: column; }
+          #exhibit-area-single .exhibit-single-area > dl dd > div > span {
+            background-color: #262626;
+            color: #fff;
+            font-size: 11px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            width: 96px;
+            padding: 4px;
+            gap: 5px;
+            border-radius: 4px; }
+          #exhibit-area-single .exhibit-single-area > dl dd > div img {
+            width: auto;
+            height: 17px; }
+          #exhibit-area-single .exhibit-single-area > dl dd > div > div {
+            width: calc(100% - 90px);
+            display: flex;
+            align-items: center; }
+        #exhibit-area-single .exhibit-single-area > dl dd a {
+          color: #AC7746;
+          width: 216px;
+          height: 40px;
+          margin: 0 auto;
+          font-size: .14rem;
+          font-weight: 700;
+          border: 1px solid #AC7746;
+          border-radius: 39px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url(../images/angle-right.svg);
+          background-repeat: no-repeat;
+          background-position: right 14px center; }
+        #exhibit-area-single .exhibit-single-area > dl dd p:empty {
+          display: none; }
+        #exhibit-area-single .exhibit-single-area > dl dd p {
+          font-size: .12rem; }
+        #exhibit-area-single .exhibit-single-area > dl dd hr {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          width: 100%;
+          border-bottom: 1px solid #3A1E15; }
+        #exhibit-area-single .exhibit-single-area > dl dd .spot {
           font-size: .14rem;
           font-weight: 500; }
-        #exhibit-area-single .exhibit-single-area > dl > dd a {
+        #exhibit-area-single .exhibit-single-area > dl dd a {
           color: #AC7746;
           width: 216px;
           height: 40px;

@@ -78,47 +78,14 @@
           padding: 2px 12px;
         }
       }//dt
-      > dd {
 
+      dd {
         display: flex;
         flex-direction: column;
-        gap: 30px;
-        .info-area {
-          line-height: 1;
-          display: flex;
-          align-items: center;
-          > img {
-            width: auto;
-            height: 17px;
-            margin-right: 10px;
-          }//img
+        gap: 12px;
 
-          span {
-            font-size: .21rem;
-          }
-        }//.info-area
 
-        > dl {
-          display: flex;
-          dt {
-            width: 80px;
-            font-weight: bold;
-          }
-          dd {
-            width: calc(100% - 80px);
-          }
-        }
-        p:empty{display: none;}
-        p {
-          font-size: .12rem;
-        }
-        hr {
-          margin: 0;
-          padding: 0;
-          border: 0;
-          width: 100%;
-          border-bottom: 1px solid #3A1E15;
-        }
+
         .venue-info {
           display: flex;
           justify-content: center;
@@ -133,6 +100,68 @@
             margin: 0;
           }//img
         }//.venue-info
+
+        > div {
+          line-height: 1;
+          display: flex;
+          gap: 10px;
+
+          &.info-access {
+            flex-direction: column;
+          }
+
+          > span {
+            background-color: #262626;
+            color: #fff;
+            font-size: 11px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            width: 96px;
+            padding: 4px;
+            gap: 5px;
+            border-radius: 4px;
+          }
+          img {
+            width: auto;
+            height: 17px;
+          }//img
+
+          > div {
+            width: calc(100% - 90px);
+            display: flex;
+            align-items: center;
+          }
+        }//div
+        a {
+          color: #AC7746;
+          width: 216px;
+          height: 40px;
+          margin: 0 auto;
+          font-size: .14rem;
+          font-weight: $font_w_b;
+          border: 1px solid #AC7746;
+          border-radius: 39px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url(../images/angle-right.svg);
+          background-repeat: no-repeat;
+          background-position: right 14px center;
+        }
+
+        p:empty{display: none;}
+        p {
+          font-size: .12rem;
+        }
+        hr {
+          margin: 0;
+          padding: 0;
+          border: 0;
+          width: 100%;
+          border-bottom: 1px solid #3A1E15;
+        }
+
         .spot {
           font-size: .14rem;
           font-weight: $font_w_m;
