@@ -195,7 +195,8 @@
           <h3>WEBページからシミュレーションをする</h3>
         </dd>
       </dl>-->
-      <dl>
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/disney-order2024.png" style="width:100%; height: auto; margin-bottom: 40px;" />
+      <!--<dl>
         <dt>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-2.jpg" />1. お申し込み
         </dt>
@@ -221,7 +222,7 @@
           ※お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</p>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/yotei3.svg" />
         </dd>
-      </dl>
+      </dl>-->
       <!--<dl>
         <dt>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-4.jpg" />お届け
