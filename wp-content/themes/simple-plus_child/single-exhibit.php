@@ -19,7 +19,14 @@
         <div class="venue-info"><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/dot-mini.svg" />開催情報<img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/dot-mini.svg" /></div>
         <div class="info-area"><span><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/icon/marker.svg" />開催エリア</span><div><?php echo get_field('area');?></div></div>
         <div class="info-area"><span><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/icon/calendar-lines.svg" />開催日</span><div><?php echo get_field('date');?></div></div>
-        <div><span><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/icon/apartment.svg" />会場</span><div><?php echo  nl2br(get_field('venue'));?></div></div>
+        <div>
+          <span><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/icon/apartment.svg" />会場</span>
+          <div>
+            <?php echo  nl2br(get_field('venue'));?>
+            <?php echo nl2br(get_field('venue_detail')) ? '<br />' : ''; ?>
+            <?php echo nl2br(get_field('venue_detail')) ? nl2br(get_field('venue_detail')) : ''; ?>
+          </div>
+        </div>
         <?php if(get_field('time') != ''):?>
           <div class="info-area"><span><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/icon/clock.svg" />時間</span><div><?php echo  nl2br(get_field('time'));?></div></div>
         <?php endif; ?>

@@ -7,25 +7,18 @@
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" />
 
       <ul class="exhibit-list">
-        <li>
-          <h3>ミニランフェス</h3>
-          <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sample.jpg" /></figure>
-          <p>SOLO UNO のオーダーメイドランドセルとシブヤランドセル・コクヨランドセルの各種ランドセルがまとめて見れる、背負える、写真が撮れる展示会『ミニ・ランフェス』を開催します。</p>
-          <p>『ランフェス』こと『ランドセルわくわくフェスティバル』のミニver.となります。</p>
-          <p>『ミニ・ランフェス』はご予約不要で、お時間制限なくゆっくりご覧いただけます。</p>
-          <p>ご家族皆さまでご来場ください。</p>
-        </li>
-        <li>
-          <h3>ランドセルわくわくフェスティバル</h3>
-          <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sample.jpg" /></figure>
-          <p>ランドセルメーカー、ブランドが集まる展示会『ランフェス』に参加します。</p>
-          <p>オーダーメイドランドセルの組み合わせサンプルや選べるパーツのサンプルを展示します。背負い比べたり、写真を撮ったりと、組み合わせ選びをお楽しみいただけます。</p>
-          <p>事前予約制となりますので、ランフェスHPからご予約の上、ご来場ください。</p>
-        </li>
-      </ul>
-
-
-
+      <?php
+        $slug = '展示会情報';
+        $page = get_page_by_path($slug);
+        ?>
+        <?php if(have_rows('展示会情報', $page->ID)): ?>
+          <?php while(have_rows('展示会情報', $page->ID)): the_row(); ?>
+            <li>
+              <h3><?php the_sub_field('タイトル'); ?></h3>
+              <figure><img src="<?php echo get_sub_field('画像')['url']; ?>" ></figure>
+              <p><?php the_sub_field('説明文'); ?></p>
+          <?php endwhile; ?>
+        <?php endif; ?>
     </div>
   </section>
   <section class="exhibit-area">
