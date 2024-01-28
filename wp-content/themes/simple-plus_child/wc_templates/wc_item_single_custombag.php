@@ -92,7 +92,6 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 <script>
 	$(function() {
-
 		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $maincolor; ?>"]').prop('selected', true);
 		$('.item-option > dd:nth-child(4) > select option[value="<?php echo $combicolor; ?>"]').prop('selected', true);
 		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $backcolor; ?>"]').prop('selected', true);
@@ -114,7 +113,7 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 			'z-index': '10'
 		});
 
-		$('.item-option > dt:nth-child(31)').html('Q02　SOLO UNOのランドセルを店舗/展示会などで試着しましたか？<br />（ご来店いただいた場合、いつ頃、どちらにお越しいただいたかお分かりでしたらご記載ください。）');
+		$('.item-option > dt:nth-child(29)').html('Q02　SOLO UNOのランドセルを店舗/展示会などで試着しましたか？<br />（ご来店いただいた場合、いつ頃、どちらにお越しいただいたかお分かりでしたらご記載ください。）');
 		$('.item-option > dt:nth-child(31)').html('Q03　ごきょうだいさまの誕生年、月を教えてください。<br />ランドセルカタログや世代に応じたアイテムのご紹介に使用させていただきます。<br />例：2020年３月　　2022年8月');
 		console.log($('.item-option > dd:nth-child(2) > select').selected)
 	});
