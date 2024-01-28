@@ -118,7 +118,7 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 		$('.item-option > dt:nth-child(31)').html('Q02　SOLO UNOのランドセルを店舗/展示会などで試着しましたか？<br />（ご来店いただいた場合、いつ頃、どちらにお越しいただいたかお分かりでしたらご記載ください。）');
 		$('.item-option > dt:nth-child(33)').html('Q03　ごきょうだいさまの誕生年、月を教えてください。<br />ランドセルカタログや世代に応じたアイテムのご紹介に使用させていただきます。<br />例：2020年３月　　2022年8月');
 
-		$('input[name="itemOption[375][custom001][%E3%81%94%E4%BD%BF%E7%94%A8%E8%80%85%E3%81%95%E3%81%BE%E3%81%AE%E7%94%9F%E5%B9%B4%E6%9C%88%E6%97%A5]"]').datepicker();
+		$('input[name="itemOption[375][custom001][%E3%81%94%E4%BD%BF%E7%94%A8%E8%80%85%E3%81%95%E3%81%BE%E3%81%AE%E7%94%9F%E5%B9%B4%E6%9C%88%E6%97%A5]"]').datepicker({ dateFormat: 'yy年mm月dd日'});
 	});
 </script>
 
