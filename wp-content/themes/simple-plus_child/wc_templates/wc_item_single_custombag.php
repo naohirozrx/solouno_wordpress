@@ -209,10 +209,7 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 							</div>
 
 							<div class="field-price">
-								<?php if( usces_the_itemCprice('return') != usces_the_itemPrice('return') ){
-									echo '<span>通常価格：'.usces_the_itemCpriceCr().'</span>';
-								} ?>
-								<?php usces_the_itemCpriceCr(); ?>
+								<span style="font-size: 16px; font-weight:bold; text-decoration:line-through;">¥69,800（税込）</span>
 								<?php usces_the_itemPriceCr(); ?><?php usces_guid_tax(); ?>
 								<?php usces_crform_the_itemPriceCr_taxincluded(); ?>
 							</div>
