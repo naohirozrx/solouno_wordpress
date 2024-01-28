@@ -107,11 +107,11 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 
 		$('.item-option > dt:nth-child(19)').before('<h3>▼６年間修理保証登録情報</h3>');
 		$('.item-option > dt:nth-child(28)').before('<h3>▼アンケートにご協力ください</h3>');
-		$('.item-option > dt').filter(function(index) {
-    return index >= 18 && index <= 29;
+		$('.item-option > dt, .item-option > dd').filter(function(index) {
+    	return index >= 18 && index <= 29;
 		}).css({
-				'position': 'relative',
-				'z-index': '10'
+			'position': 'relative',
+			'z-index': '10'
 		});
 
 		console.log($('.item-option > dd:nth-child(2) > select').selected)
