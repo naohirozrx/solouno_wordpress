@@ -106,7 +106,7 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 		$('.field-price').html("<?php echo $pricetext; ?>");
 
 		$('.item-option > dt:nth-child(19)').before('<h3>▼６年間修理保証登録情報</h3>');
-		$('.item-option > dt:nth-child(27)').before('<h3>▼アンケートにご協力ください</h3>');
+		$('.item-option > dt:nth-child(28)').before('<h3>▼アンケートにご協力ください</h3>');
 		$('.item-option > dt').filter(function(index) {
     return index >= 18 && index <= 29;
 		}).css({
