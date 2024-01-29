@@ -13,7 +13,7 @@
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-2.svg" style="margin-bottom: 10px" />
     <ul class="note">
       <li>クラリーノタフロックNEO素材をお選びの場合は5,000円の追加料金がかかります。</li>
-      <li>再度デザインでアラベスク、クローバーをお選びの場合は3,000円、レースをお選びの場合は5,000円の追加料金がかかります。</li>
+      <li>サイドでアラベスク、クローバーをお選びの場合は3,000円、レースをお選びの場合は5,000円の追加料金がかかります。</li>
       <li>価格はすべて税込みです。</li>
     </ul>
     <nav>
@@ -39,7 +39,7 @@
       <p>性別の枠にとらわれず、好きな色を選べるように。黒や赤などの定番色を中心に、落ち着いた色味のカラー展開。</p>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
       <span class="font16">クラリーノ エフ</span>
-      <span class="font14">64,800円</span>
+      <span class="font14">69,800円</span>
       <div class="maincolor">
         <dl>
           <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-1black.png" /></dt>
@@ -79,7 +79,7 @@
       </div>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
       <span class="font16">クラリーノ タフロックNEO</span>
-      <span class="font14">69,800円</span>
+      <span class="font14">74,800円</span>
       <div class="maincolor">
       <dl>
           <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-6tnblack.png" /></dt>
@@ -100,7 +100,7 @@
       <p>肌なじみが良く、優しく大人らしい印象を醸し出してくれるくすみカラー。優しい色味のカラー展開。</p>
       <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-line.svg" class="dot-line" />
       <span class="font16">クラリーノ エフ</span>
-      <span class="font14">64,800円</span>
+      <span class="font14">69,800円</span>
       <div class="maincolor bottom">
         <dl>
           <dt><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-9mistyrose.png" /></dt>
@@ -242,6 +242,11 @@
           <dd>シルバー</dd>
         </dl>
       </div>
+      <div style="display: flex; justify-content: end; margin-top: -80px;">
+      <p style="text-align: left;">※ブラックとネイビーは<br />
+      メインカラーと同じ素材となります。</p>
+      </div>
+
     </div>
 
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home-top_p3.jpg" />
@@ -440,7 +445,7 @@
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-2.svg" style="margin-bottom: 10px" />
     <ul class="note">
       <li>クラリーノタフロックNEO素材をお選びの場合は5,000円の追加料金がかかります。</li>
-      <li>再度デザインでアラベスク、クローバーをお選びの場合は3,000円、レースをお選びの場合は5,000円の追加料金がかかります。</li>
+      <li>サイドデザインでアラベスク、クローバーをお選びの場合は3,000円、レースをお選びの場合は5,000円の追加料金がかかります。</li>
       <li>価格はすべて税込みです。</li>
     </ul>
     <h3>クラリーノ エフ 69,800円</h3>
@@ -556,15 +561,19 @@
       </li>
     </ul>
 
-
-    <div class="present">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/solouno-logo.svg" />
-      <p>
-        <span>”時間割が書き込める”</span><br />
-        <span>オリジナルクリアファイル</span><br />
-        をプレゼント！
-      </p>
+    <h3>お申し込み特典</h3>
+    <div style="padding-bottom: 30px; margin-bottom: 30px; border-bottom: 1px dotted #000000;">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/present.png" style="width:100%; height: auto;"/>
     </div>
+
+    <h3>
+      <span style="font-size: 12px; background-color: #AC7746; color: #fff; font-weight:bold; border-radius: 100px; padding:4px 12px;">店舗・展示会申し込み限定！</span><br />
+      メンテナンス&クリーニング特典
+    </h3>
+    <div style="padding-bottom: 30px; margin-bottom: 30px; border-bottom: 1px dotted #000000;">
+      <img src="<?php echo get_stylesheet_directory_uri();?>/images/shoponly-present.png" style="width:100%; height: auto;"/>
+    </div>
+
 
     <h3>SPEC</h3>
 
@@ -762,33 +771,59 @@
         </dd>
       </dl>-->
       <dl>
-        <dt>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-2.jpg" />1. お申し込み
+        <dt style="line-height: 1.3;">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-2.jpg" />お申し込みと<br />お支払い方法
         </dt>
         <dd>
-          <h3>組み合わせが決まりましたらお申し込みください。<br />
-          ■ <a href="https://sim.solouno-ordermade.com/" target="_blank">WEBサイトのシミュレーションから</a><br />
-          ■ <a href="<?php echo home_url('/')?>showroom">店舗 </a>/ <a href="<?php echo home_url('/')?>exhibit">展示会</a> で</h3>
-          <p class="text2">※一部お申し込みを承れない展示会場がございます。<br />※お申し込み時にお支払いください。</p>
-          <h3 style="text-decoration: underline;">お申し込みから２週間は組み合わせの変更が可能です。</h3>
-          <div class="stop">
-            　2024年4月ご入学のお子さまに向けたオーダーメイドランドセルの承りは終了いたしました。<br />
-            <br />
-            　なお、2025年4月ご入学のお子さまに向けたオーダーメイドランドセルは2024年2月ごろ販売開始を予定しております。 デザイン、企画が変更になる可能性がありますが、シミュレーターはご利用可能です。
+          <h3>■販売店/展示会でお申し込み</h3>
+          <ul class="howtolist">
+            <li>・SOLO UNO店舗</li>
+            <li>・<span>姉妹店</span>シブヤ大阪ショールーム</li>
+            <li>・<span>姉妹店</span>シブヤランドセル名古屋店</li>
+            <li>・<a href="/exhibit/">各展示会場</a></li>
+          </ul>
+
+          <h3>■WEBサイトのシミュレーションからお申し込み</h3>
+          <a href="https://sim.solouno-ordermade.com/" target="_blank" class="simlink">シミュレーターを開く</a>
+
+          <div class="pay">
+            <h3>お支払い方法</h3>
+            <div>
+              <h4>店舗</h4>
+              <ul class="list" style="margin-bottom:20px">
+                <li>クレジットカード</li>
+                <li>現金</li>
+                <li>コード決済</li>
+              </ul>
+              <h4>展示会</h4>
+              <ul class="list">
+                <li>クレジットカード</li>
+                <li>銀行振込み</li>
+              </ul>
+              <ul class="note">
+                <li>一部、お申込みを承れない展示会場がございます。</li>
+                <li>展示会会場によっては、お支払い方法が異なる場合もございます。</li>
+                <li>お支払いはお申し込み時にお願いします。</li>
+              </ul>
+            </div>
           </div>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gentei_fix.svg" />
         </dd>
       </dl>
       <dl>
         <dt>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-4.jpg" />2. 製作/お届け
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-4.jpg" />製作/お届け
         </dt>
         <dd>
-          <h3>お申し込みから2週間（組み合わせ確定）後、部材準備、製作を開始。出来上がり次第順次お届けいたします。</h3>
-          <p class="text2">※製作都合上、お申し込み順でのお届けではありません。<br />
-          ※出来上がり時期を早めたり、ご指定いただくことは出来かねます。<br />
-          ※お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</p>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/yotei_fix.svg" />
+          <h3>■申し込みから２週間は<br />組み合わせの変更が可能です。</h3>
+          <p class="fixmail">WEBサイトの<a href="">メールフォーム</a>よりお手続きください。</p>
+          <h4 class="fixtext">お申し込みから２週間（組み合わせ確定）後、部材準備、製作を開始いたします。<br />
+          出来上がり次第発送いたします。</h4>
+          <ul class="fixnote">
+            <li>製作の都合上、お申し込み順でのお届けではありません。</li>
+            <li>出来上がり時期を早めたり、ご指定いただくことは出来かねます。</li>
+            <li>お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</li>
+          </ul>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/fix-limit.svg" class="limit" />
         </dd>
       </dl>
       <!--<dl>
