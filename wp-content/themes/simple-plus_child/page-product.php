@@ -36,7 +36,7 @@
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports-p1.png" class="sports-p1" />
     <p>現在スポーツブランドランドセルページは準備中です。<br />
     ホームページへの商品情報掲載は〇月上旬、販売開始は〇月頃を予定しております。</p>
-    <a href="<?php echo home_url('/')?>disney" class="flow-link">スポーツブランドランドセル</a>
+    <a href="<?php echo home_url('/')?>sports" class="flow-link">スポーツブランドランドセル</a>
   </section>
 
   <section class="marty-area" id="etc">
