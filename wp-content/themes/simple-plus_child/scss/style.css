@@ -2991,11 +2991,12 @@ footer {
           border-radius: 200px;
           position: absolute;
           left: 0;
-          top: -17px; }
+          top: -17px;
+          z-index: 1; }
       #flow-area .howtoorder div dl dd {
         background-color: #fff;
         margin-left: 48px;
-        padding: 35px;
+        padding: 16px;
         position: relative; }
         #flow-area .howtoorder div dl dd .stop {
           position: absolute;
@@ -3008,10 +3009,119 @@ footer {
           height: 700px;
           font-size: 18px; }
         #flow-area .howtoorder div dl dd h3 {
-          font-size: .12rem;
-          font-weight: 500;
+          font-size: .18rem;
+          line-height: 1.3;
+          font-weight: bold;
           color: #AC7746;
-          margin-bottom: 20px; }
+          margin-bottom: 1em;
+          text-indent: -1em;
+          padding-left: 1em; }
+        #flow-area .howtoorder div dl dd .simlink {
+          padding: 0 10px;
+          width: 426px;
+          max-width: 95%;
+          margin: auto;
+          color: #AC7746;
+          height: 50px;
+          font-size: .14rem;
+          font-weight: 700;
+          border: 1px solid #AC7746;
+          background-color: #fff;
+          border-radius: 39px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-image: url(../images/angle-right.svg);
+          background-repeat: no-repeat;
+          background-position-y: 50%;
+          background-position-x: 92%;
+          text-align: center;
+          line-height: 1.2;
+          transition: 0.3s; }
+          #flow-area .howtoorder div dl dd .simlink:hover {
+            background-position-x: 93%; }
+        #flow-area .howtoorder div dl dd .howtolist {
+          margin-bottom: 40px;
+          margin-left: 1em; }
+          #flow-area .howtoorder div dl dd .howtolist li {
+            font-weight: bold; }
+            #flow-area .howtoorder div dl dd .howtolist li span {
+              font-size: 11px;
+              background-color: #AC7746;
+              color: #fff;
+              padding: 2px 4px;
+              margin-right: 4px; }
+            #flow-area .howtoorder div dl dd .howtolist li a {
+              text-decoration: underline; }
+              #flow-area .howtoorder div dl dd .howtolist li a:hover {
+                color: #AC7746; }
+        #flow-area .howtoorder div dl dd .pay {
+          border: #AC7746 1px solid;
+          border-radius: 6px;
+          margin-top: 40px; }
+          #flow-area .howtoorder div dl dd .pay h3 {
+            background-color: #AC7746;
+            color: #fff;
+            border-radius: 5px 5px 0 0;
+            padding: .5em;
+            text-align: center;
+            margin: 0; }
+          #flow-area .howtoorder div dl dd .pay > div {
+            padding: 10px; }
+            #flow-area .howtoorder div dl dd .pay > div h4 {
+              font-weight: bold; }
+            #flow-area .howtoorder div dl dd .pay > div ul.list {
+              display: flex;
+              flex-wrap: wrap;
+              gap: 4px; }
+              #flow-area .howtoorder div dl dd .pay > div ul.list li {
+                font-size: 11px;
+                padding: 4px 12px;
+                border-radius: 20px;
+                background-color: rgba(172, 119, 70, 0.2);
+                color: #AC7746;
+                font-weight: bold; }
+            #flow-area .howtoorder div dl dd .pay > div ul.note {
+              display: flex;
+              flex-direction: column;
+              gap: 4px;
+              margin-top: 10px; }
+              #flow-area .howtoorder div dl dd .pay > div ul.note li {
+                font-size: 10px;
+                text-indent: -1em;
+                padding-left: 1em;
+                line-height: 1.3; }
+                #flow-area .howtoorder div dl dd .pay > div ul.note li:before {
+                  content: '※'; }
+        #flow-area .howtoorder div dl dd .fixmail {
+          color: #AC7746;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 1.4; }
+          #flow-area .howtoorder div dl dd .fixmail a {
+            text-decoration: underline; }
+            #flow-area .howtoorder div dl dd .fixmail a:hover {
+              color: #AC7746; }
+        #flow-area .howtoorder div dl dd h4.fixtext {
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 1.3; }
+        #flow-area .howtoorder div dl dd ul.fixnote {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+          margin-top: 10px; }
+          #flow-area .howtoorder div dl dd ul.fixnote li {
+            font-size: 10px;
+            text-indent: -1em;
+            padding-left: 1em;
+            line-height: 1.3; }
+            #flow-area .howtoorder div dl dd ul.fixnote li:before {
+              content: '※'; }
+        #flow-area .howtoorder div dl dd .limit {
+          width: 100%;
+          height: auto;
+          margin-top: 32px; }
         #flow-area .howtoorder div dl dd p {
           margin-bottom: 20px; }
           #flow-area .howtoorder div dl dd p.text1 {
@@ -3468,22 +3578,37 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 24px; }
-    #exhibit-area .exhibit-list li {
+    #exhibit-area .exhibit-list > li {
       background-color: #fff;
       text-align: left;
       border-radius: 10px;
       padding: 24px; }
-      #exhibit-area .exhibit-list li figure {
+      #exhibit-area .exhibit-list > li figure {
         border-radius: 10px;
+        overflow: hidden;
         margin: 1em 0; }
-        #exhibit-area .exhibit-list li figure img {
+        #exhibit-area .exhibit-list > li figure img {
           width: 100%;
           height: auto; }
-      #exhibit-area .exhibit-list li h3 {
+      #exhibit-area .exhibit-list > li h3 {
         font-size: 16px;
         font-weight: bold; }
-      #exhibit-area .exhibit-list li p {
+      #exhibit-area .exhibit-list > li p {
         font-size: 11px; }
+      #exhibit-area .exhibit-list > li > ul {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        margin-top: 10px; }
+        #exhibit-area .exhibit-list > li > ul > li {
+          background-color: rgba(172, 119, 70, 0.2);
+          color: #AC7746;
+          font-size: 12px;
+          font-weight: bold;
+          padding: 2px 4px;
+          border-radius: 3px; }
+          #exhibit-area .exhibit-list > li > ul > li:before {
+            content: '#'; }
   #exhibit-area .exhibit-area {
     background-color: #FEF6EA;
     padding: 60px 27px;
@@ -3506,14 +3631,15 @@ footer {
         height: 100%;
         content: '';
         display: block;
-        background-color: rgba(0, 0, 0, 0.7); }
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px; }
       #exhibit-area .exhibit-area dl.cancel:after {
         position: absolute;
         left: 50%;
         top: 50%;
         content: '開催中止';
         font-size: .4rem;
-        color: #fff;
+        color: #262626;
         font-weight: bold;
         transform: translate(-50%, -50%);
         display: block;
@@ -3527,14 +3653,15 @@ footer {
         height: 100%;
         content: '';
         display: block;
-        background-color: rgba(0, 0, 0, 0.7); }
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px; }
       #exhibit-area .exhibit-area dl.end:after {
         position: absolute;
         left: 50%;
         top: 50%;
         content: '終了しました';
         font-size: .4rem;
-        color: #fff;
+        color: #262626;
         font-weight: bold;
         transform: translate(-50%, -50%);
         display: block;
@@ -3546,15 +3673,16 @@ footer {
         font-weight: bold;
         margin-bottom: 2em; }
         #exhibit-area .exhibit-area dl dt > span {
-          display: flex;
-          width: 80px;
+          display: inline-flex;
           align-items: center;
           justify-content: center;
           border: #AC7746 1px solid;
+          background-color: #AC7746;
           border-radius: 100px;
-          font-size: .12rem;
-          color: #AC7746;
-          padding: 2px 12px; }
+          font-size: .11rem;
+          color: #FFF;
+          padding: 2px 12px;
+          margin-top: 8px; }
         #exhibit-area .exhibit-area dl dt img {
           margin-top: 1em;
           width: 100%;
@@ -3569,8 +3697,8 @@ footer {
           display: flex;
           gap: 10px; }
           #exhibit-area .exhibit-area dl dd > div > span {
-            background-color: #262626;
-            color: #fff;
+            background-color: rgba(172, 119, 70, 0.2);
+            color: #AC7746;
             font-size: 11px;
             font-weight: bold;
             display: flex;
@@ -3644,16 +3772,38 @@ footer {
         height: 100%;
         content: '';
         display: block;
-        background-color: rgba(0, 0, 0, 0.7); }
+        background-color: rgba(0, 0, 0, 0.2); }
       #exhibit-area-single .exhibit-single-area > dl.cancel:after {
         position: absolute;
         left: 50%;
         top: 50%;
         content: '開催中止';
         font-size: .4rem;
-        color: #fff;
+        color: #262626;
         font-weight: bold;
         transform: translate(-50%, -50%); }
+      #exhibit-area-single .exhibit-single-area > dl.end:before {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        content: '';
+        display: block;
+        background-color: rgba(0, 0, 0, 0.2);
+        border-radius: 10px; }
+      #exhibit-area-single .exhibit-single-area > dl.end:after {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        content: '終了しました';
+        font-size: .4rem;
+        color: #262626;
+        font-weight: bold;
+        transform: translate(-50%, -50%);
+        display: block;
+        width: 100%;
+        text-align: center; }
       #exhibit-area-single .exhibit-single-area > dl > dt {
         width: 100%;
         font-size: .16rem;
@@ -3669,6 +3819,11 @@ footer {
           font-size: .12rem;
           color: #AC7746;
           padding: 2px 12px; }
+        #exhibit-area-single .exhibit-single-area > dl > dt img {
+          margin-top: 1em;
+          width: 100%;
+          height: auto;
+          border-radius: 10px; }
       #exhibit-area-single .exhibit-single-area > dl dd {
         display: flex;
         flex-direction: column;
@@ -3691,9 +3846,12 @@ footer {
           gap: 10px; }
           #exhibit-area-single .exhibit-single-area > dl dd > div.info-access {
             flex-direction: column; }
+            #exhibit-area-single .exhibit-single-area > dl dd > div.info-access > div {
+              width: 100%;
+              line-height: 1.7; }
           #exhibit-area-single .exhibit-single-area > dl dd > div > span {
-            background-color: #262626;
-            color: #fff;
+            background-color: rgba(172, 119, 70, 0.2);
+            color: #AC7746;
             font-size: 11px;
             font-weight: bold;
             display: flex;

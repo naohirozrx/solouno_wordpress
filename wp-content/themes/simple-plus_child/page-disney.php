@@ -27,17 +27,19 @@
   <section class="disney-info">
     <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />重要なお知らせ<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <div>
-      <h3>■店頭での展示予定</h3>
-      <p>・7キャラクターの展示2月1日～<br />
-      ・新しいキャラクターの展示3月上旬</p>
+      <h3>■店舗での展示・ご注文受付</h3>
+      <p>・7キャラクター　2月1日～<br />
+        　（ミッキーマウス、ミニーマウス、アナと雪の女王、リトル・マーメイド、塔の上のラプンツェル、ディズニープリンセス、シンデレラ）<br />
+        ・新キャラクター［美女と野獣」3月上旬～
+      </p>
 
-      <h3>■Webでのご注文受付時期</h3>
-      <p>・2月中の販売開始を予定しています。</p>
+      <h3>■webでのご注文受付</h3>
+      <p>・7キャラクター　2月中旬から末予定<br />
+      ・新キャラクター  3月上旬予定</p>
 
-      <h3>■シュミレーター</h3>
-      <p>・7キャラクターでのシュミレーターは<br />
-        　2月1日～<br />
-      ・新しいキャラクターは3月上旬</p>
+      <h3>■2025モデルシミュレーター開始</h3>
+      <p>・7キャラクター　2月7日～<br />
+      ・新キャラクター 　3月上旬～</p>
     </div>
   </section>
   <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/disney-order2024-2.png" style="width:calc(100% - 54px); height: auto; margin: 0 27px 40px;" />
@@ -322,7 +324,6 @@
     <dl>
       <dt>付属品</dt>
       <dd>
-        ・時間割表<br />
         ・ネームカード<br />
         ・連絡袋<br />
         ・雨カバー<br />

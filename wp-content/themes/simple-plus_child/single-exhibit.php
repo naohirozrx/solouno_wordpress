@@ -13,6 +13,9 @@
       <dt>
         <?php echo get_field('addition') ? '<span>追加開催</span>' : ''; ?>
         <?php the_title(); ?>
+        <?php if (has_post_thumbnail()) : ?>
+          <?php the_post_thumbnail('full'); ?>
+        <?php endif ; ?>
       </dt>
       <dd>
         <?php the_content(); ?>

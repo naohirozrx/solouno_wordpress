@@ -90,9 +90,10 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 ?>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <script>
 	$(function() {
-
 		$('.item-option > dd:nth-child(2) > select option[value="<?php echo $maincolor; ?>"]').prop('selected', true);
 		$('.item-option > dd:nth-child(4) > select option[value="<?php echo $combicolor; ?>"]').prop('selected', true);
 		$('.item-option > dd:nth-child(6) > select option[value="<?php echo $backcolor; ?>"]').prop('selected', true);
@@ -105,16 +106,19 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 
 		$('.field-price').html("<?php echo $pricetext; ?>");
 
-		$('.item-option > dt:nth-child(19) > input').before('<h3>▼６年間修理保証登録情報</h3>');
-		$('.item-option > dt:nth-child(27) > input').before('<h3>▼アンケートにご協力ください</h3>');
-		$('.item-option > dt').filter(function(index) {
-    return index >= 18 && index <= 29;
+		$('.item-option > dt:nth-child(19)').before('<h3>▼６年間修理保証登録情報</h3>');
+		$('.item-option > dt:nth-child(28)').before('<h3>▼アンケートにご協力ください</h3>');
+		$('.item-option > dt, .item-option > dd').filter(function(index) {
+    	return index >= 18 && index <= 31;
 		}).css({
-				'position': 'relative',
-				'z-index': '10'
+			'position': 'relative',
+			'z-index': '10'
 		});
 
-		console.log($('.item-option > dd:nth-child(2) > select').selected)
+		$('.item-option > dt:nth-child(31)').html('Q02　SOLO UNOのランドセルを店舗/展示会などで試着しましたか？<br />（ご来店いただいた場合、いつ頃、どちらにお越しいただいたかお分かりでしたらご記載ください。）');
+		$('.item-option > dt:nth-child(33)').html('Q03　ごきょうだいさまの誕生年、月を教えてください。<br />ランドセルカタログや世代に応じたアイテムのご紹介に使用させていただきます。<br />例：2020年３月　　2022年8月');
+
+		$('input[name="itemOption[375][custom001][%E3%81%94%E4%BD%BF%E7%94%A8%E8%80%85%E3%81%95%E3%81%BE%E3%81%AE%E7%94%9F%E5%B9%B4%E6%9C%88%E6%97%A5]"]').datepicker({ dateFormat: 'yy年mm月dd日'});
 	});
 </script>
 

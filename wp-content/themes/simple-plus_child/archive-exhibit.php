@@ -17,6 +17,11 @@
               <h3><?php the_sub_field('タイトル'); ?></h3>
               <figure><img src="<?php echo get_sub_field('画像')['url']; ?>" ></figure>
               <p><?php the_sub_field('説明文'); ?></p>
+              <ul>
+                <?php while(have_rows('タグリスト', $page->ID)): the_row(); ?>
+                <li><?php the_sub_field('タグ'); ?></li>
+                <?php endwhile; ?>
+              </ul>
           <?php endwhile; ?>
         <?php endif; ?>
     </div>
@@ -32,7 +37,8 @@
           <?php the_title();?>
           <?php if (has_post_thumbnail()) : ?>
           <?php the_post_thumbnail('full'); ?>
-          <?php endif ; ?>
+        <?php endif ; ?>
+        <span><?php echo get_field('イベントの種類'); ?></span>
         </dt>
         <dd>
           <div><span><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon/marker.svg" />開催エリア</span><div><?php echo get_field('area');?></div></div>
