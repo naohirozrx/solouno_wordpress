@@ -3850,6 +3850,14 @@ footer {
               width: 100%;
               line-height: 1.7;
               display: block; }
+              #exhibit-area-single .exhibit-single-area > dl dd > div.info-access > div a {
+                width: auto;
+                border: none;
+                text-decoration: underline;
+                text-align: left;
+                display: inline;
+                word-break: break-word;
+                background: no-repeat; }
           #exhibit-area-single .exhibit-single-area > dl dd > div > span {
             background-color: rgba(172, 119, 70, 0.2);
             color: #AC7746;

@@ -148,6 +148,16 @@
               width: 100%;
               line-height: 1.7;
               display: block;
+
+              a {
+                width: auto;
+                border: none;
+                text-decoration: underline;
+                text-align: left;
+                display: inline;
+                word-break: break-word;
+                background: no-repeat;
+              }
             }
           }
 
