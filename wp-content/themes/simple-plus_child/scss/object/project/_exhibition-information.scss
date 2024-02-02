@@ -15,6 +15,7 @@
     div {
       width: 100%;
       text-align: center;
+      padding-top: 40px;
       h2 {
         font-size: .18rem;
         font-weight: $font_w_b;
@@ -85,6 +86,11 @@
     h2 {
       font-size: .18rem;
       font-weight: $font_w_b;
+      text-align: center;
+    }
+
+    > img {
+      margin: 0 auto;
     }
     dl {
       background-color: #fff;

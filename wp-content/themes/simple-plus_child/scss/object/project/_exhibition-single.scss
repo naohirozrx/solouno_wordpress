@@ -35,8 +35,9 @@
     padding: 60px 27px;
     > dl {
       background-color: #fff;
-      padding: 27px;
+      padding: 16px;
       position: relative;
+      border-radius: 10px;
       &.cancel {
         &:before {
           position: absolute;
@@ -129,6 +130,7 @@
           line-height: 1;
           font-size: .16rem;
           font-weight: $font_w_m;
+          margin: 40px auto 20px;
           img {
             height: 19px;
             width: auto;
@@ -179,7 +181,7 @@
           }//img
 
           > div {
-            width: calc(100% - 90px);
+            width: calc(100% - 106px);
             display: flex;
             align-items: center;
           }

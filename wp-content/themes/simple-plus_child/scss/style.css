@@ -3568,7 +3568,8 @@ footer {
       opacity: .65; }
     #exhibit-area .exhibit-top div {
       width: 100%;
-      text-align: center; }
+      text-align: center;
+      padding-top: 40px; }
       #exhibit-area .exhibit-top div h2 {
         font-size: .18rem;
         font-weight: 700;
@@ -3617,7 +3618,10 @@ footer {
     gap: 27px; }
     #exhibit-area .exhibit-area h2 {
       font-size: .18rem;
-      font-weight: 700; }
+      font-weight: 700;
+      text-align: center; }
+    #exhibit-area .exhibit-area > img {
+      margin: 0 auto; }
     #exhibit-area .exhibit-area dl {
       background-color: #fff;
       padding: 20px;
@@ -3762,8 +3766,9 @@ footer {
     padding: 60px 27px; }
     #exhibit-area-single .exhibit-single-area > dl {
       background-color: #fff;
-      padding: 27px;
-      position: relative; }
+      padding: 16px;
+      position: relative;
+      border-radius: 10px; }
       #exhibit-area-single .exhibit-single-area > dl.cancel:before {
         position: absolute;
         left: 0;
@@ -3835,7 +3840,8 @@ footer {
           gap: 21px;
           line-height: 1;
           font-size: .16rem;
-          font-weight: 500; }
+          font-weight: 500;
+          margin: 40px auto 20px; }
           #exhibit-area-single .exhibit-single-area > dl dd .venue-info img {
             height: 19px;
             width: auto;
@@ -3873,7 +3879,7 @@ footer {
             width: auto;
             height: 17px; }
           #exhibit-area-single .exhibit-single-area > dl dd > div > div {
-            width: calc(100% - 90px);
+            width: calc(100% - 106px);
             display: flex;
             align-items: center; }
         #exhibit-area-single .exhibit-single-area > dl dd a {
