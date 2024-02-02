@@ -3489,7 +3489,18 @@ footer {
       font-size: .2rem;
       font-weight: 700;
       color: #BAA280;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      #showroom-area .showroom-grandopen h2 span {
+        background-color: #AC7746;
+        color: #fff;
+        display: inline-block;
+        font-size: 12px;
+        padding: 6px 12px;
+        border-radius: 100px;
+        line-height: 1; }
     #showroom-area .showroom-grandopen p {
       font-size: .14rem;
       font-weight: 500;

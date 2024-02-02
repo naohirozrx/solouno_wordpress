@@ -35,6 +35,19 @@
       font-weight: $font_w_b;
       color: #BAA280;
       margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      span {
+        background-color: #AC7746;
+        color: #fff;
+        display: inline-block;
+        font-size: 12px;
+        padding: 6px 12px;
+        border-radius: 100px;
+        line-height: 1;
+      }
     }//h2
     p {
       font-size: .14rem;
