@@ -38,7 +38,7 @@
 
         <div class="info-access">
         <span><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/icon/access.svg" />アクセス</span>
-          <div><?php echo nl2br(get_field('access'));?></div>
+          <div><?php echo nl2br(get_field('access', false));?></div>
         </div>
         <?php if(get_field('reserve')): ?>
           <a href="<?php echo get_field('reserveurl');?>" target="_blank">ご予約はこちら</a>
