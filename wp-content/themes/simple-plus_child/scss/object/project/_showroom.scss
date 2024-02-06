@@ -4,6 +4,19 @@
   @media screen and (min-width: width(sp)) {
     max-width: 395px;
   }//@media
+
+  header {
+    text-align: center;
+    h2 {
+      font-size: .18rem;
+      font-weight: 700;
+      margin-bottom: 15px;
+    }
+
+    img {
+      margin-bottom: 10px;
+    }
+  }
   .showroom-top {
     position: relative;    > img {
       width: 100%;

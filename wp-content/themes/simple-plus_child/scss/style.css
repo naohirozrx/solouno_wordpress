@@ -3463,6 +3463,14 @@ footer {
   @media screen and (min-width: 781px) {
     #showroom-area {
       max-width: 395px; } }
+  #showroom-area header {
+    text-align: center; }
+    #showroom-area header h2 {
+      font-size: .18rem;
+      font-weight: 700;
+      margin-bottom: 15px; }
+    #showroom-area header img {
+      margin-bottom: 10px; }
   #showroom-area .showroom-top {
     position: relative; }
     #showroom-area .showroom-top > img {
@@ -3988,6 +3996,46 @@ footer {
       #disney-area .flow-top div img {
         width: 87px;
         height: auto; }
+    #disney-area .flow-top .bx-wrapper {
+      padding: 0; }
+    #disney-area .flow-top .bx-controls {
+      padding: 0;
+      height: 0; }
+    #disney-area .flow-top .bx-viewport {
+      padding: 0; }
+    #disney-area .flow-top #slider {
+      padding: 0; }
+    #disney-area .flow-top .disney-price {
+      margin-bottom: 40px; }
+      #disney-area .flow-top .disney-price h3 {
+        display: flex;
+        flex-direction: column; }
+        #disney-area .flow-top .disney-price h3 span:first-child {
+          font-size: 16px;
+          font-weight: bold; }
+        #disney-area .flow-top .disney-price h3 span:last-child {
+          font-size: 32px;
+          font-weight: bold; }
+    #disney-area .flow-top .bx-wrapper {
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+      border: none; }
+      #disney-area .flow-top .bx-wrapper img {
+        width: 100%; }
+    #disney-area .flow-top .bx-controls {
+      padding: 0; }
+    #disney-area .flow-top #bx-pager {
+      padding: 1px 0 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1px; }
+      #disney-area .flow-top #bx-pager a {
+        width: calc((100% - 3px) / 4);
+        display: block; }
+        #disney-area .flow-top #bx-pager a img {
+          width: 100%;
+          height: auto; }
   #disney-area .disney-info {
     padding: 60px 27px; }
     #disney-area .disney-info h2 {

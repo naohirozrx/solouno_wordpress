@@ -22,7 +22,38 @@
 
 <div id="disney-area">
   <section class="flow-top">
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/mickey-header-2024.jpg" alt="ディズニーオーダーメイドランドセル（ミッキーマウス・ミニーマウス）73,000円" />
+  <script>
+    $(document).ready(function(){
+      $('#slider').bxSlider({
+        pagerCustom: '#bx-pager'
+      });
+    });
+  </script>
+  <div id="slider">
+    <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-mickey.jpeg" alt="ミッキー" /></div>
+    <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-minnie.jpeg" alt="ミニー" /></div>
+    <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-rapun.jpeg" alt="ラプンツェル" /></div>
+    <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-mermade.jpg" alt="マーメイド" /></div>
+    <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-cinderera.jpeg" alt="シンデレラ" /></div>
+    <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-princess.jpg" alt="プリンセス" /></div>
+    <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-anayuki.jpeg" alt="アナと雪の女王" /></div>
+  </div>
+  <div class="disney-price">
+    <h3>
+      <span>ディズニーオーダーメイドランドセル</span>
+      <span>73,000円</span>
+    </h3>
+  </div>
+  <div id="bx-pager">
+    <a data-slide-index="0" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-mickey.jpeg" alt="ミッキー" /></a>
+    <a data-slide-index="1" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-minnie.jpeg" alt="ミニー" /></a>
+    <a data-slide-index="2" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-rapun.jpeg" alt="ラプンツェル" /></a>
+    <a data-slide-index="3" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-mermade.jpg" alt="マーメイド" /></a>
+    <a data-slide-index="4" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-cinderera.jpeg" alt="シンデレラ" /></a>
+    <a data-slide-index="5" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-princess.jpg" alt="プリンセス" /></a>
+    <a data-slide-index="6" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-anayuki.jpeg" alt="アナと雪の女王" /></a>
+  </div>
+
   </section>
   <section class="disney-info">
     <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />重要なお知らせ<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>

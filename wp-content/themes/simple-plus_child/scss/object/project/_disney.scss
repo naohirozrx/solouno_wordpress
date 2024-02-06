@@ -44,6 +44,69 @@
         height: auto;
       }
     }//div
+
+    .bx-wrapper {
+      padding: 0;
+    }
+
+    .bx-controls {
+      padding: 0;
+      height: 0;
+    }
+
+    .bx-viewport {
+      padding: 0;
+    }
+
+    #slider {
+      padding: 0;
+    }
+
+    .disney-price {
+      margin-bottom: 40px;
+      h3 {
+        display: flex;
+        flex-direction: column;
+        span:first-child {
+          font-size: 16px;
+          font-weight: bold;
+        }
+        span:last-child {
+          font-size: 32px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .bx-wrapper {
+      margin: 0;
+      padding: 0;
+      box-shadow: none;
+      border: none;
+
+      img {
+        width: 100%;
+      }
+    }
+    .bx-controls {
+      padding: 0;
+    }
+
+    #bx-pager {
+      padding: 1px 0 0 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1px;
+
+      a {
+        width: calc((100% - 3px) / 4);
+        display: block;
+        img {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
   }//.flow-top
 
   .disney-info {

@@ -23,20 +23,30 @@
     </div>
   </section>
 
+
+  <header>
+    <h2>SOLO UNO<br />オーダーメイドランドセル取扱店</h2>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot">
+    <p>オーダーメイドランドセルのサンプル、
+    <br />パーツサンプルを展示しています。</p>
+  </header>
+
   <section class="showroom-grandopen">
     <h2><span>SOLO UNO姉妹店</span>シブヤ大阪ショールーム</h2>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/shibuya-osaka-img.webp" />
     <div>
-
-      <span class="moyori">阪急淡路駅　西改札口より徒歩3分。<br />
-      淡路商店街、ドトールコーヒーのとなりのビル2階<br />
-      <br />
-      ※第1駐車場/1台分　第2駐車場/2台分</span>
       <span class="open-close">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/clock.svg" />4月～12月　土・日・祝のみ営業　 10:00～17:00
       </span>
       <address>〒533-0032<br />大阪府大阪市東淀川区淡路4-14-15　シブヤビル2F</address>
       <span class="tell"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tell.svg" />06-6326-0300</span>
+
+      <span class="moyori">阪急淡路駅　西改札口より徒歩3分。<br />
+      淡路商店街、ドトールコーヒーのとなりのビル2階<br />
+      <br />
+      ※第１駐車場（店舗ビル裏）/１台分<br />
+      　第２駐車場（淡路4-32-20）/２台分
+      </span>
       <a href="https://maps.app.goo.gl/6XpGHN4oHbjqaP4W8" target="_blank">Google Mapsを開く</a>
     </div>
   </section>
@@ -45,11 +55,6 @@
     <h2><span>SOLO UNO姉妹店</span>シブヤランドセル名古屋店</h2>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/shibuya-nagoya-img.jpg" />
     <div>
-
-      <span class="moyori">名古屋市営地下鉄桜通線・徳重駅より徒歩5分<br />
-      神沢駅より徒歩3分<br />
-      <br />
-      ※駐車場/19台分</span>
       <span class="open-close">
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/clock.svg" />
         <span>
@@ -59,6 +64,11 @@
       </span>
       <address>〒458-0003<br />愛知県名古屋市緑区黒沢台4-1511鳴海プラザ1F D-1</address>
       <span class="tell"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tell.svg" />052-879-3880</span>
+
+      <span class="moyori">名古屋市営地下鉄桜通線・徳重駅より徒歩5分<br />
+      神沢駅より徒歩3分<br />
+      <br />
+      ※駐車場/19台分</span>
       <a href="https://maps.app.goo.gl/S2neYdb211bC3pLKA" target="_blank">Google Mapsを開く</a>
     </div>
   </section>
