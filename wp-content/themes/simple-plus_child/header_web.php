@@ -72,7 +72,7 @@ Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o
   <link href="<?php echo get_stylesheet_directory_uri(); ?>/scss/style.css?<?php echo date('Ymd-Hi'); ?>" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
 </head>
-<body <?php body_class(); ?>>
+<body <?php body_class(); ?> id="top">
 
 <?php if(!is_page('simulator')):?>
 <header>
