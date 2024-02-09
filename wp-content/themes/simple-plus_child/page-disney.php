@@ -26,7 +26,7 @@
     $(document).ready(function(){
       $('#slider').bxSlider({
         pagerCustom: '#bx-pager',
-        auto: false,
+        auto: true,
 
       });
     });
