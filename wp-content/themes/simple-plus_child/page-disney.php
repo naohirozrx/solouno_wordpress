@@ -25,9 +25,9 @@
   <script>
     $(document).ready(function(){
       $('#slider').bxSlider({
-        pagerCustom: '#bx-pager'
+        pagerCustom: '#bx-pager',
         auto: false,
-        
+
       });
     });
   </script>
