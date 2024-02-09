@@ -79,16 +79,16 @@
   <section class="schoolbag-area">
     <nav>
       <ul style="line-height: 1.3;">
-        <li style="margin-bottom: 0.5em;">〇<a href="#simlink" style="text-decoration: underline;">シミュレーター</a></li>
-        <li style="margin-bottom: 0.5em;">〇<a href="#flow" style="text-decoration: underline;">選べるポイントStep1〜5</a></li>
-        <li style="margin-bottom: 0.5em;">〇<a href="#design" style="text-decoration: underline;">デザイン紹介</a></li>
+        <!-- <li style="margin-bottom: 0.5em;">〇<a href="#simlink" style="text-decoration: underline;">シミュレーター</a></li>
+       <li style="margin-bottom: 0.5em;">〇<a href="#flow" style="text-decoration: underline;">選べるポイントStep1〜5</a></li>
+        <li style="margin-bottom: 0.5em;">〇<a href="#design" style="text-decoration: underline;">デザイン紹介</a></li>-->
         <li style="margin-bottom: 0.5em;">〇<a href="#howtoorder" style="text-decoration: underline;">HOW TO ORDER</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#function" style="text-decoration: underline;">ディズニーランドセルの便利機能</a></li>
       </ul>
     </nav>
   </section>
 
-  <section class="disney-flow">
+  <section class="disney-flow" style="display:none;">
     <a href="https://disneysim.solouno-ordermade.com/" target="_blank" id="simlink" class="simlink">オーダーを選んでみよう！<br />【シミューレーター】</a>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/flow-img.jpg" id="flow" />
     <div>
@@ -195,7 +195,7 @@
     });
   </script>
 
-  <section class="spec-area">
+  <section class="spec-area" style="display:none;">
     <h2 id="design"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />デザイン紹介<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <div class="tab">
       <!-- タブを構成するブロック -->
