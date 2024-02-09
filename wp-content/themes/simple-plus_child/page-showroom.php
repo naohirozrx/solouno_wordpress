@@ -41,7 +41,7 @@
       <address>〒533-0032<br />大阪府大阪市東淀川区淡路4-14-15　シブヤビル2F</address>
       <span class="tell"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tell.svg" />06-6326-0300</span>
 
-      <span class="moyori">阪急淡路駅　西改札口より徒歩3分。<br />
+      <span class="moyori">【阪急淡路駅　西改札口より徒歩3分】<br />
       淡路商店街、ドトールコーヒーのとなりのビル2階<br />
       <br />
       ※第１駐車場（店舗ビル裏）/１台分<br />
@@ -65,7 +65,7 @@
       <address>〒458-0003<br />愛知県名古屋市緑区黒沢台4-1511鳴海プラザ1F D-1</address>
       <span class="tell"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/tell.svg" />052-879-3880</span>
 
-      <span class="moyori">名古屋市営地下鉄桜通線・徳重駅より徒歩5分<br />
+      <span class="moyori">【名古屋市営地下鉄桜通線・徳重駅より徒歩5分】<br />
       神沢駅より徒歩3分<br />
       <br />
       ※駐車場/19台分</span>
