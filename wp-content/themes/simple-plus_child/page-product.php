@@ -26,7 +26,7 @@
     <p>大好きなキャラクターと毎日一緒に。<br />ミッキーマウスとミニーマウスの選べるランドセルが新登場。</p>
     <p>ミッキーとミニーのディズニーランドセルは、色の組み合わせが選べるオーダーメイドのランドセルです。<br />
     店舗には、手に取り背負い心地や色味をお確かめいただけるサンプルをご用意しています。</p>
-    <a href="https://disneysim.solouno-ordermade.com" class="om-link" target="_blank">ディズニーオーダーを選んでみよう<br />【シミュレーター】</a>
+    <a href="https://sim.shibuya-randsel.com/" class="om-link" target="_blank">ディズニーオーダーを選んでみよう<br />【シミュレーター】</a>
     <a href="<?php echo home_url('/')?>disney" class="flow-link">ディズニーオーダーメイドランドセル</a>
   </section>
 
