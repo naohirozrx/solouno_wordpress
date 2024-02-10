@@ -50,7 +50,7 @@ $price_price = number_format($price_price);
 $pricetext = "¥$price_price<em class='tax'>（税込）</em>";
 
 if($maincolor == ''):
-	header('Location: https://disneysim.solouno-ordermade.com/');
+	header('Location: https://sim.shibuya-randsel.com/');
 	exit;
 endif;
 ?>
