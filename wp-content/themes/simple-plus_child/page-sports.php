@@ -18,9 +18,21 @@
           <p>シャープなカブセラインが特徴のNEWモデル<br />
           ブラックのベースにアクセントカラーのロゴが映える</p>
           <span class="price">79,200円</span>
-          <figure>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-advance-01.png" />
-          </figure>
+          <div class="slider-wrap">
+            <div id="slider6">
+              <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-a-img-01.png" alt="adidas" /></div>
+              <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-a-img-02.png" alt="adidas" /></div>
+              <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-a-img-03.png" alt="adidas" /></div>
+              <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-a-img-04.png" alt="adidas" /></div>
+            </div>
+
+            <div id="bx-pager6" class="slider-thumb">
+              <a data-slide-index="0" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-a-img-01.png" alt="adidas" /></a>
+              <a data-slide-index="1" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-a-img-02.png" alt="adidas" /></a>
+              <a data-slide-index="2" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-a-img-03.png" alt="adidas" /></a>
+              <a data-slide-index="3" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-a-img-04.png" alt="adidas" /></a>
+            </div>
+          </div>
           <h3>カラーバリエーション</h3>
 
           <ul class="color-vali">
@@ -29,11 +41,11 @@
               <span>①ブラック×ブラック</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-advance-color-2.svg" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-advance-color-3.svg" />
               <span>②ブラック×イエロー</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-advance-color-3.svg" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/adidas-advance-color-2.svg" />
               <span>③ブラック×レッド</span>
             </li>
             <li>
@@ -140,24 +152,24 @@
 
           <ul class="color-vali">
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-1.svg" />
-              <span>①マリンブルー×ブラック</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-01.svg" />
+              <span>①ブラック×ブルー</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-2.svg" />
-              <span>②カーマインレッド×ブラック</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-02.svg" />
+              <span>②ブラック×レッド</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-3.svg" />
-              <span>③アッシュブルー×ブラック</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-03.svg" />
+              <span>③ブラック×シルバー</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-4.svg" />
-              <span>④ブラック×パールメタルレッド</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-04.svg" />
+              <span>④シルバー×ブラック</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-5.svg" />
-              <span>⑤ブラック×パールメタルマリン</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-05.svg" />
+              <span>⑤ブルー×イエロー</span>
             </li>
           </ul>
           </ul>
@@ -261,24 +273,24 @@
 
           <ul class="color-vali">
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-01.svg" />
-              <span>①ブラック×ブルー</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-1.svg" />
+              <span>①マリンブルー×ブラック</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-02.svg" />
-              <span>②ブラック×レッド</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-2.svg" />
+              <span>②カーマインレッド×ブラック</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-03.svg" />
-              <span>③ブラック×シルバー</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-3.svg" />
+              <span>③アッシュブルー×ブラック</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-04.svg" />
-              <span>④シルバー×ブラック</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-4.svg" />
+              <span>④ブラック×パールメタルレッド</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-05.svg" />
-              <span>⑤ブルー×イエロー</span>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma1-color-5.svg" />
+              <span>⑤ブラック×パールメタルマリン</span>
             </li>
           </ul>
           </ul>
@@ -330,19 +342,19 @@
 
           <ul class="color-vali">
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-01.svg" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma2-color-1.svg" />
               <span>①ブラック×イエローグリーン</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-02.svg" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma2-color-2.svg" />
               <span>②ブラック×カーマインレッド</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-03.svg" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma2-color-3.svg" />
               <span>③ブラック×マリンブルー</span>
             </li>
             <li>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/nike-1601-color-04.svg" />
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/puma2-color-4.svg" />
               <span>④ブラック×ゴールド</span>
             </li>
           </ul>
@@ -389,6 +401,7 @@
         slider3.reloadSlider();
         slider4.reloadSlider();
         slider5.reloadSlider();
+        slider6.reloadSlider();
       });
 
       const slider = $('#slider').bxSlider({
@@ -413,6 +426,11 @@
 
       const slider5 = $('#slider5').bxSlider({
         pagerCustom: '#bx-pager5',
+        auto: true,
+      });
+
+      const slider6 = $('#slider6').bxSlider({
+        pagerCustom: '#bx-pager6',
         auto: true,
       });
     });
