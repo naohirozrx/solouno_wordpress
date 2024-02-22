@@ -538,9 +538,6 @@ header {
   .request-link p {
     font-size: .12rem;
     margin-bottom: 20px; }
-    @media screen and (min-width: 781px) {
-      .request-link p br {
-        display: none; } }
   .request-link > a {
     color: #AC7746;
     width: 335px;

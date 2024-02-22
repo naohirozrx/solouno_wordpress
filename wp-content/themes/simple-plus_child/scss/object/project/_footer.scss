@@ -14,11 +14,7 @@
   p {
     font-size: .12rem;
     margin-bottom: 20px;
-    br {
-      @media screen and (min-width: width(sp)) {
-        display: none;
-      }//@media
-    }
+
   }//p
   > a {
     color: #AC7746;

@@ -1,10 +1,12 @@
 <?php if(!is_page('simulator')):?>
 <section class="request-link">
   <h2><span>REQUEST</span>カタログ請求</h2>
-  <p>2024カタログのご請求は終了いたしました。</p>
-    
-  <p>2025年4月ご入学のお子さまに向けた2025カタログのご請求を承ります。</br >
-  2024年2月ごろの発送開始予定です。</p>
+  
+  <?php
+    $slug = 'request';
+    $page = get_page_by_path($slug);
+    ?>
+  <p><?php echo nl2br(get_field('カタログ請求フッターテキスト', $page->ID)); ?></p>
   <a href="/request">カタログ請求はこちら</a>
 </section>
 
