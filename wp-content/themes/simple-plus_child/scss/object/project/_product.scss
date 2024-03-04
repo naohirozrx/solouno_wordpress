@@ -28,8 +28,20 @@
     }//div
   }//.aboutus-top
   .ordermade-area {
-    padding: 60px 27px 160px 27px;
-    background-color: #FEF6EA;
+    padding: 60px 27px 100px 27px;
+    &:nth-child(2n) {
+      background-color: #FEF6EA;
+    }
+
+    .thumbnail {
+      border-radius: 10px;
+      margin-bottom: 30px;
+      width: 100%;
+      height: auto;
+    }
+    .text-contents {
+      margin-bottom: 30px;
+    }
     h2 {
       @include h2title;
       span {

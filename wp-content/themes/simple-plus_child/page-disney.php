@@ -39,6 +39,7 @@
     <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-cinderera.jpeg" alt="シンデレラ" /></div>
     <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-princess.jpg" alt="プリンセス" /></div>
     <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-anayuki.jpeg" alt="アナと雪の女王" /></div>
+    <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-beast.jpg" alt="美女と野獣" /></div>
   </div>
   <div class="disney-price">
     <h3>
@@ -54,10 +55,11 @@
     <a data-slide-index="4" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-cinderera.jpeg" alt="シンデレラ" /></a>
     <a data-slide-index="5" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-princess.jpg" alt="プリンセス" /></a>
     <a data-slide-index="6" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-anayuki.jpeg" alt="アナと雪の女王" /></a>
+    <a data-slide-index="7" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-beast.jpg" alt="美女と野獣" /></a>
   </div>
 
   </section>
-  <section class="disney-info">
+  <!--<section class="disney-info">
     <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />重要なお知らせ<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     <div>
       <h3>■店舗での展示・ご注文受付</h3>
@@ -73,14 +75,140 @@
       <p>・7キャラクター　2月7日～<br />
       ・新キャラクター 　3月上旬～</p>
     </div>
-  </section>
+  </section>-->
   <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/disney-order2024-2.png" style="width:calc(100% - 54px); height: auto; margin: 0 27px 40px;" />
+  
+  <script>
+    $(document).ready(function() {
+      $('ul.tabs li').click(function() {
+        var tab_id = $(this).attr('data-tab');
+
+        $('ul.tabs li').removeClass('current');
+        $('.tab-content').removeClass('current');
+
+        $(this).addClass('current');
+        $("#" + tab_id).addClass('current');
+      });
+    });
+  </script>
+  <div class="tab-menu">
+    <ul class="tabs">
+      <li class="tab-link current" data-tab="tab-1">ラインナップ</li>
+      <li class="tab-link" data-tab="tab-2">注文について</li>
+      <li class="tab-link" data-tab="tab-3">便利機能</li>
+      <li class="tab-link" data-tab="tab-4">品質・保証</li>
+      <li class="tab-link" data-tab="tab-5">スペック</li>
+    </ul>
+  </div>
+  <section style="background: #fff;">
+
+    <div id="tab-1" class="tab-content current">
+      <h2>ラインナップの内容</h2>
+      <script>
+        $(document).ready(function(){
+          var slider2 = $('#slider2').bxSlider({
+            pagerCustom: '#bx-pager2',
+            auto: false,
+            controls: false
+          });
+
+        });
+
+        $(document).ready(function() {
+          $('#slideRight').click(function() {
+            // 右にスクロール
+            $('.disney-design-thum').animate({
+              scrollLeft: '+=220%' // 画面の幅分スクロール
+            }, 300); // 800ミリ秒でアニメーション
+          });
+
+          $('#slideLeft').click(function() {
+            // 左にスクロール
+            $('.disney-design-thum').animate({
+              scrollLeft: '-=220%' // 画面の幅分スクロール
+            }, 300); // 800ミリ秒でアニメーション
+          });
+        });
+      </script>
+      <div class="disney-design-thum-wrapper">
+      <button id="slideLeft">←</button>
+      <button id="slideRight">→</button>
+      <div class="disney-design-thum">
+        <div id="bx-pager2" class="bx-pager2">
+          <a data-slide-index="0" href="">
+            <span>ミッキー</span>
+            <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-mickey.png" alt="ミッキー" /></figure>
+          </a>
+
+          <a data-slide-index="1" href="">
+            <span>ミニー</span>
+            <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-minnie.png" alt="ミニー" /></figure>
+          </a>
+
+          <a data-slide-index="2" href="">
+            <span>アナと雪の女王</span>
+            <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-rapun.png" alt="ラプンツェル" /></figure>
+          </a>
+
+          <a data-slide-index="3" href="">
+            <span>シンデレラ</span>
+            <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-mermade.png" alt="マーメイド" /></figure>
+          </a>
+      
+          <a data-slide-index="4" href="">
+            <span>塔の上の<br />ラプンツェル</span>
+            <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-cinderera.png" alt="シンデレラ" /></figure>
+          </a>
+        
+          <a data-slide-index="5" href="">
+            <span>リトルマーメイド</span>
+            <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-princess.png" alt="プリンセス" /></figure>
+          </a>
+
+          <a data-slide-index="6" href="">
+            <span>ディズニー<br />プリンセス</span>
+            <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-anayuki.png" alt="アナと雪の女王" /></figure>
+          </a>
+
+          <a data-slide-index="7" href="">
+            <span>美女と野獣</span>
+            <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-beast.png" alt="美女と野獣" /></figure>
+          </a>
+
+        </div>
+      </div>
+      </div>
+      <div class="chara">
+      <div id="slider2">
+        <div>
+          <?php for ($i = 1; $i <= 19; $i++): ?>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey<?php echo str_pad($i, 2, '0', STR_PAD_LEFT); ?>.jpeg" alt="ミッキー<?php echo $i; ?>">
+          <?php endfor; ?>
+        </div>
+        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-minnie.jpeg" alt="ミニー" /></div>
+        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-rapun.jpeg" alt="ラプンツェル" /></div>
+        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-mermade.jpg" alt="マーメイド" /></div>
+        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-cinderera.jpeg" alt="シンデレラ" /></div>
+        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-princess.jpg" alt="プリンセス" /></div>
+        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-anayuki.jpeg" alt="アナと雪の女王" /></div>
+        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-beast.jpg" alt="美女と野獣" /></div>
+      </div>
+      </div>
+    </div>
+    <div id="tab-2" class="tab-content">注文についての内容</div>
+    <div id="tab-3" class="tab-content">便利機能の内容</div>
+    <div id="tab-4" class="tab-content">品質・保証の内容</div>
+    <div id="tab-5" class="tab-content">スペックの内容</div>
+
+      </section>
+  
+  
   <section class="schoolbag-area">
     <nav>
       <ul style="line-height: 1.3;">
-        <!-- <li style="margin-bottom: 0.5em;">〇<a href="#simlink" style="text-decoration: underline;">シミュレーター</a></li>
+        <li style="margin-bottom: 0.5em;">〇<a href="#simlink" style="text-decoration: underline;">シミュレーター</a></li>
        <li style="margin-bottom: 0.5em;">〇<a href="#flow" style="text-decoration: underline;">選べるポイントStep1〜5</a></li>
-        <li style="margin-bottom: 0.5em;">〇<a href="#design" style="text-decoration: underline;">デザイン紹介</a></li>-->
+        <li style="margin-bottom: 0.5em;">〇<a href="#design" style="text-decoration: underline;">デザイン紹介</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#howtoorder" style="text-decoration: underline;">HOW TO ORDER</a></li>
         <li style="margin-bottom: 0.5em;">〇<a href="#function" style="text-decoration: underline;">ディズニーランドセルの便利機能</a></li>
       </ul>

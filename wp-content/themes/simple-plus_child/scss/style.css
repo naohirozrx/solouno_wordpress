@@ -2061,8 +2061,16 @@ footer {
         width: 87px;
         height: auto; }
   #product-area .ordermade-area {
-    padding: 60px 27px 160px 27px;
-    background-color: #FEF6EA; }
+    padding: 60px 27px 100px 27px; }
+    #product-area .ordermade-area:nth-child(2n) {
+      background-color: #FEF6EA; }
+    #product-area .ordermade-area .thumbnail {
+      border-radius: 10px;
+      margin-bottom: 30px;
+      width: 100%;
+      height: auto; }
+    #product-area .ordermade-area .text-contents {
+      margin-bottom: 30px; }
     #product-area .ordermade-area h2 {
       font-size: .2rem;
       font-weight: 500;
@@ -4033,6 +4041,116 @@ footer {
         #disney-area .flow-top #bx-pager a img {
           width: 100%;
           height: auto; }
+  #disney-area ul.tabs {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 10px; }
+  #disney-area ul.tabs li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+    background: #fff;
+    border-radius: 4px;
+    height: 60px;
+    border: 1px solid #9B9B9B; }
+    #disney-area ul.tabs li:nth-child(1), #disney-area ul.tabs li:nth-child(2) {
+      width: calc(50% - 5px); }
+    #disney-area ul.tabs li:nth-child(3), #disney-area ul.tabs li:nth-child(4), #disney-area ul.tabs li:nth-child(5) {
+      width: calc((100% - 20px) / 3); }
+  #disney-area ul.tabs li.current {
+    background: #6F6356;
+    color: #fff;
+    border: 1px solid #6F6356; }
+  #disney-area .tab-content {
+    display: none; }
+  #disney-area .tab-content.current {
+    display: block; }
+  #disney-area .disney-design-thum {
+    width: 100%;
+    overflow: scroll;
+    padding: 12px; }
+    #disney-area .disney-design-thum .bx-pager2 {
+      display: flex;
+      gap: 8px;
+      width: calc((110px * 8) + (8px * 7)); }
+      #disney-area .disney-design-thum .bx-pager2 a {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+        width: 110px;
+        padding: 4px; }
+        #disney-area .disney-design-thum .bx-pager2 a img {
+          width: 100%;
+          height: auto;
+          position: relative;
+          z-index: 3; }
+        #disney-area .disney-design-thum .bx-pager2 a span {
+          font-size: 11px;
+          font-weight: bold;
+          line-height: 1.3;
+          display: flex;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
+          height: 3em;
+          letter-spacing: 0;
+          text-align: center;
+          margin-bottom: 10px; }
+@keyframes spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+    #disney-area .disney-design-thum .active figure:after {
+      content: "";
+      position: absolute;
+      top: -8px;
+      /* ボーダーの太さに応じて調整 */
+      left: -8px;
+      /* ボーダーの太さに応じて調整 */
+      width: calc(100% + 16px);
+      /* ボーダーの太さの2倍を足す */
+      height: calc(100% + 16px);
+      /* ボーダーの太さの2倍を足す */
+      background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+      border-radius: 50%;
+      animation: spin 8s linear infinite;
+      z-index: 1; }
+    #disney-area .disney-design-thum .active figure {
+      position: relative;
+      display: inline-block;
+      border-radius: 50%;
+      /* 必要に応じて */ }
+    #disney-area .disney-design-thum .active figure:before {
+      content: '';
+      position: absolute;
+      top: -5px;
+      /* ボーダーの太さに応じて調整 */
+      left: -5px;
+      /* ボーダーの太さに応じて調整 */
+      width: calc(100% + 10px);
+      /* ボーダーの太さの2倍を足す */
+      height: calc(100% + 10px);
+      /* ボーダーの太さの2倍を足す */
+      background: #fff;
+      border-radius: 50%;
+      z-index: 2; }
+  #disney-area .chara .bx-wrapper {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    border: none; }
+    #disney-area .chara .bx-wrapper img {
+      width: 100%; }
+  #disney-area .chara #slider2 > div {
+    padding: 12px; }
   #disney-area .disney-info {
     padding: 60px 27px; }
     #disney-area .disney-info h2 {
