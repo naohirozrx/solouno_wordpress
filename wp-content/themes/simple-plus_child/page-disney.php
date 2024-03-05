@@ -94,7 +94,7 @@
   <div class="tab-menu">
     <ul class="tabs">
       <li class="tab-link current" data-tab="tab-1">ラインナップ</li>
-      <li class="tab-link" data-tab="tab-2">注文について</li>
+      <li class="tab-link" data-tab="tab-2">ご注文について</li>
       <li class="tab-link" data-tab="tab-3">便利機能</li>
       <li class="tab-link" data-tab="tab-4">品質・保証</li>
       <li class="tab-link" data-tab="tab-5">スペック</li>
@@ -103,7 +103,7 @@
   <section style="background: #fff;">
 
     <div id="tab-1" class="tab-content current">
-      <h2>ラインナップの内容</h2>
+      <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />ラインナップ<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
       <script>
         $(document).ready(function(){
           var slider2 = $('#slider2').bxSlider({
@@ -115,24 +115,34 @@
         });
 
         $(document).ready(function() {
+          function checkButtons() {
+            var scrollPosition = $('.disney-design-thum').scrollLeft();
+            var scrollWidth = $('.disney-design-thum')[0].scrollWidth - $('.disney-design-thum').width();
+            
+            $('#slideLeft').prop('disabled', scrollPosition <= 0);
+            $('#slideRight').prop('disabled', scrollPosition >= scrollWidth);
+          }
+
           $('#slideRight').click(function() {
-            // 右にスクロール
             $('.disney-design-thum').animate({
-              scrollLeft: '+=220%' // 画面の幅分スクロール
-            }, 300); // 800ミリ秒でアニメーション
+              scrollLeft: '+=220%'
+            }, 300, checkButtons);
           });
 
           $('#slideLeft').click(function() {
-            // 左にスクロール
             $('.disney-design-thum').animate({
-              scrollLeft: '-=220%' // 画面の幅分スクロール
-            }, 300); // 800ミリ秒でアニメーション
+              scrollLeft: '-=220%'
+            }, 300, checkButtons);
           });
+
+          checkButtons(); // 初期状態でボタンの状態をチェック
         });
       </script>
       <div class="disney-design-thum-wrapper">
-      <button id="slideLeft">←</button>
-      <button id="slideRight">→</button>
+        <div class="slideButtons">
+          <button id="slideLeft">←</button>
+          <button id="slideRight">→</button>
+        </div>
       <div class="disney-design-thum">
         <div id="bx-pager2" class="bx-pager2">
           <a data-slide-index="0" href="">
@@ -195,10 +205,173 @@
       </div>
       </div>
     </div>
-    <div id="tab-2" class="tab-content">注文についての内容</div>
-    <div id="tab-3" class="tab-content">便利機能の内容</div>
-    <div id="tab-4" class="tab-content">品質・保証の内容</div>
-    <div id="tab-5" class="tab-content">スペックの内容</div>
+    <div id="tab-2" class="tab-content">
+      <section class="howtoorder">
+        <h2 id="howtoorder"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />ご注文について<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+        <div>
+          <!--<dl>
+            <dt>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-1.jpg" />組み合わせを選ぶ
+            </dt>
+            <dd>
+              <h3>店舗、展示会にサンプルを見に行く</h3>
+              <p class="text1">クラリーノエフ  64,800円<br />
+              クラリーノタフロックNEO  69,800円</p>
+              <p class="text2">※サイドのデザインに一部追加料金のかかるものがございます。</p>
+              <h3>WEBページからシミュレーションをする</h3>
+            </dd>
+          </dl>-->
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/disney-order2024.png" style="width:100%; height: auto; margin-bottom: 40px;" />
+          <!--<dl>
+            <dt>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-2.jpg" />1. お申し込み
+            </dt>
+            <dd>
+              <h3>組み合わせが決まりましたらお申し込みください。<br />
+              ■ <a href="https://sim.solouno-ordermade.com/">WEBサイトのシミュレーションから</a><br />
+              ■ <a href="<?php echo home_url('/')?>showroom">店舗で</a></h3>
+              <p class="text2">※お申し込み時にお支払いください。</p>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/gentei3.svg" />
+              <p class="text2" style="margin-top: 20px;">
+                ※2024モデル最終受付です。
+              </p>
+            </dd>
+          </dl>
+          <dl>
+            <dt>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-4.jpg" />2. 製作/お届け
+            </dt>
+            <dd>
+              <h3>お申し込み後、部材準備、製作を開始。出来上がり次第順次お届けいたします。</h3>
+              <p class="text2">※製作都合上、お申し込み順でのお届けではありません。<br />
+              ※出来上がり時期を早めたり、ご指定いただくことは出来かねます。<br />
+              ※お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</p>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/yotei3.svg" />
+            </dd>
+          </dl>-->
+          <!--<dl>
+            <dt>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-4.jpg" />お届け
+            </dt>
+            <dd>
+              <h3>2024年1月中旬〜3月中旬ごろ出来上がり次第お届けいたします。</h3>
+              <h3>お申し込み後のキャンセル、返金は承れません。</h3>
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gentei.svg" />
+            </dd>
+          </dl>-->
+
+          <div class="present">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/solouno-logo.svg" />
+            <p>
+              <span>”時間割が書き込める”</span><br />
+              <span>オリジナルクリアファイル</span><br />
+              をプレゼント！
+            </p>
+          </div>
+          <a href="https://sim.shibuya-randsel.com/" target="_blank" class="">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>
+        </div>
+      </section>
+    </div>
+    <div id="tab-3" class="tab-content">
+      <section class="spec-area">
+        <h2 id="function"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />機能紹介<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+        <h3>大容量</h3>
+        <div style="margin-bottom: 20px;">大マチ12.5cm・中マチ最大4.5cm「デカポケ」横幅はA4フラットファイルサイズ対応の23.5cm</div>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function01.png" />
+        <h3 style="margin-top:60px;">ワンタッチオートロック</h3>
+        <div style="margin-bottom: 20px;">錠前は押すとかんたんに閉まります。</div>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function1-1.png" />
+        <h3 style="margin-top:60px;">反射材</h3>
+        <div style="margin-bottom: 20px;">前締めベルト・肩ベルト・かぶせ鋲に反射材を使用しています。<br />車などのライトに反射し、安全に通学。</div>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function1-2.png" />
+        <h3 style="margin-top:60px;">そのほか使いやすい機能</h3>
+        <div style="margin-bottom: 20px;">大マチ・右ベルトの「ナスカン」<br />左肩ベルト・前段ポケット内部の「Dカン」<br />「持ち手」</div>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function02.png" />
+        <h3 style="margin-top:60px;">生地</h3>
+        <div style="margin-bottom: 20px;">本体生地には軽量で丈夫な人工皮革、コードレ®︎を採用。</div>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function03.png" />
+      </section>
+    </div>
+    <div id="tab-4" class="tab-content">
+      <section class="spec-area">
+        <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />品質へのこだわり<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+        <div style="margin-bottom: 20px;">6年間使用するものだからこそ品質にもこだわります。当ランドセルは国内の工場で生産されています。</div>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function04.png" />
+        <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />保証<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+        <h4>6年間しっかりサポートいたします。</h4>
+        <p style="margin-bottom:40px;">御入学日より有効な修理対応保証で6年間のランドセル生活をしっかりサポート。<br />ランドセルの通常使用状態で保証期間内に不良箇所が生じた場合に修理を行います。<br /><span style="font-size: 12px;">※内容・箇所によっては有償となる場合がございます。</span></p>
+      </section>
+    </div>
+    <div id="tab-5" class="tab-content">
+      <section class="spec-area">
+      <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />スペック<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+        <dl>
+          <dt>型</dt>
+          <dd>学習院型</dd>
+        </dl>
+        <dl>
+          <dt>本体素材</dt>
+          <dd>コードレ</dd>
+        </dl>
+        <dl>
+          <dt>背中/ベルト裏</dt>
+          <dd>エアリー</dd>
+        </dl>
+
+        <dl>
+          <dt>内寸</dt>
+          <dd>ヨコ23.5×マチ幅12.5× 高さ32cm</dd>
+        </dl>
+        <dl>
+          <dt>重量</dt>
+          <dd>約1240g〜1260g<br />※生地、箔、背カンなど仕様によって異なります。</dd>
+        </dl>
+        <dl>
+          <dt>背カン</dt>
+          <dd>
+            ペガサスの翼<br />
+            又は<br />
+            ペガサスの翼α（折りたたみ背カン）<br />
+            ※ペガサスの翼の根本の金具は本体色に合わせた色、ペガサスの翼α（折りたたみ背カン）の根元の金具はシルバーになります。
+          </dd>
+        </dl>
+        <dl>
+          <dt>錠前</dt>
+          <dd>ワンタッチオートロック</dd>
+        </dl>
+        <dl>
+          <dt>持ち手</dt>
+          <dd>有り</dd>
+        </dl>
+        <dl>
+          <dt>ナスカン</dt>
+          <dd>大マチ左右／肩ベルト（右）</dd>
+        </dl>
+        <dl>
+          <dt>Dカン</dt>
+          <dd>肩ベルト（左）／ファスナーポケット内</dd>
+        </dl>
+        <dl>
+          <dt>反射材</dt>
+          <dd>前締めベルト、鋲、肩ベルトDカンパーツ</dd>
+        </dl>
+        <dl>
+          <dt>保証</dt>
+          <dd>6年修理保証</dd>
+        </dl>
+        <dl>
+          <dt>付属品</dt>
+          <dd>
+            ・ネームカード<br />
+            ・連絡袋<br />
+            ・雨カバー<br />
+            ・取り替え鋲（4個、内2個はランドセルに装着された状態でお送りいたします）
+          </dd>
+        </dl>
+
+
+      </section>
+    </div>
 
       </section>
   
@@ -343,164 +516,11 @@
     </div>
   </section>
 
-  <section class="howtoorder">
-  <h2 id="howtoorder"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />HOW TO ORDER<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
-    <div>
-      <!--<dl>
-        <dt>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-1.jpg" />組み合わせを選ぶ
-        </dt>
-        <dd>
-          <h3>店舗、展示会にサンプルを見に行く</h3>
-          <p class="text1">クラリーノエフ  64,800円<br />
-          クラリーノタフロックNEO  69,800円</p>
-          <p class="text2">※サイドのデザインに一部追加料金のかかるものがございます。</p>
-          <h3>WEBページからシミュレーションをする</h3>
-        </dd>
-      </dl>-->
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/disney-order2024.png" style="width:100%; height: auto; margin-bottom: 40px;" />
-      <!--<dl>
-        <dt>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-2.jpg" />1. お申し込み
-        </dt>
-        <dd>
-          <h3>組み合わせが決まりましたらお申し込みください。<br />
-          ■ <a href="https://sim.solouno-ordermade.com/">WEBサイトのシミュレーションから</a><br />
-          ■ <a href="<?php echo home_url('/')?>showroom">店舗で</a></h3>
-          <p class="text2">※お申し込み時にお支払いください。</p>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/gentei3.svg" />
-          <p class="text2" style="margin-top: 20px;">
-            ※2024モデル最終受付です。
-          </p>
-        </dd>
-      </dl>
-      <dl>
-        <dt>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-4.jpg" />2. 製作/お届け
-        </dt>
-        <dd>
-          <h3>お申し込み後、部材準備、製作を開始。出来上がり次第順次お届けいたします。</h3>
-          <p class="text2">※製作都合上、お申し込み順でのお届けではありません。<br />
-          ※出来上がり時期を早めたり、ご指定いただくことは出来かねます。<br />
-          ※お申し込み後のキャンセル、返金は承れません。ご了承の上お申し込みください。</p>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/yotei3.svg" />
-        </dd>
-      </dl>-->
-      <!--<dl>
-        <dt>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-4.jpg" />お届け
-        </dt>
-        <dd>
-          <h3>2024年1月中旬〜3月中旬ごろ出来上がり次第お届けいたします。</h3>
-          <h3>お申し込み後のキャンセル、返金は承れません。</h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/gentei.svg" />
-        </dd>
-      </dl>-->
-      <a href="https://sim.shibuya-randsel.com/" target="_blank" class="">オーダーメイドを選んでみよう！<br />【シミューレーター】</a>
-    </div>
-  </section>
 
 
 
-  <section class="spec-area">
-    <h2 id="function"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />機能紹介<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
-    <h3>大容量</h3>
-    <div style="margin-bottom: 20px;">大マチ12.5cm・中マチ最大4.5cm「デカポケ」横幅はA4フラットファイルサイズ対応の23.5cm</div>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function01.png" />
-    <h3 style="margin-top:60px;">ワンタッチオートロック</h3>
-    <div style="margin-bottom: 20px;">錠前は押すとかんたんに閉まります。</div>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function1-1.png" />
-    <h3 style="margin-top:60px;">反射材</h3>
-    <div style="margin-bottom: 20px;">前締めベルト・肩ベルト・かぶせ鋲に反射材を使用しています。<br />車などのライトに反射し、安全に通学。</div>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function1-2.png" />
-    <h3 style="margin-top:60px;">そのほか使いやすい機能</h3>
-    <div style="margin-bottom: 20px;">大マチ・右ベルトの「ナスカン」<br />左肩ベルト・前段ポケット内部の「Dカン」<br />「持ち手」</div>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function02.png" />
-    <h3 style="margin-top:60px;">生地</h3>
-    <div style="margin-bottom: 20px;">本体生地には軽量で丈夫な人工皮革、コードレ®︎を採用。</div>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function03.png" />
-    <h2 style="margin-top:60px; margin-bottom:20px;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />品質へのこだわり<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
-    <div style="margin-bottom: 20px;">6年間使用するものだからこそ品質にもこだわります。当ランドセルは国内の工場で生産されています。</div>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function04.png" />
-    <h2 style="margin-top:60px;margin-bottom:20px;"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />保証<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
-    <h4>6年間しっかりサポートいたします。</h4>
-    <p style="margin-bottom:40px;">御入学日より有効な修理対応保証で6年間のランドセル生活をしっかりサポート。<br />ランドセルの通常使用状態で保証期間内に不良箇所が生じた場合に修理を行います。<br /><span style="font-size: 12px;">※内容・箇所によっては有償となる場合がございます。</span></p>
-    <h3>SPEC</h3>
 
-    <dl>
-      <dt>型</dt>
-      <dd>学習院型</dd>
-    </dl>
-    <dl>
-      <dt>本体素材</dt>
-      <dd>コードレ</dd>
-    </dl>
-    <dl>
-      <dt>背中/ベルト裏</dt>
-      <dd>エアリー</dd>
-    </dl>
-
-    <dl>
-      <dt>内寸</dt>
-      <dd>ヨコ23.5×マチ幅12.5× 高さ32cm</dd>
-    </dl>
-    <dl>
-      <dt>重量</dt>
-      <dd>約1240g〜1260g<br />※生地、箔、背カンなど仕様によって異なります。</dd>
-    </dl>
-    <dl>
-      <dt>背カン</dt>
-      <dd>
-        ペガサスの翼<br />
-        又は<br />
-        ペガサスの翼α（折りたたみ背カン）<br />
-        ※ペガサスの翼の根本の金具は本体色に合わせた色、ペガサスの翼α（折りたたみ背カン）の根元の金具はシルバーになります。
-      </dd>
-    </dl>
-    <dl>
-      <dt>錠前</dt>
-      <dd>ワンタッチオートロック</dd>
-    </dl>
-    <dl>
-      <dt>持ち手</dt>
-      <dd>有り</dd>
-    </dl>
-    <dl>
-      <dt>ナスカン</dt>
-      <dd>大マチ左右／肩ベルト（右）</dd>
-    </dl>
-    <dl>
-      <dt>Dカン</dt>
-      <dd>肩ベルト（左）／ファスナーポケット内</dd>
-    </dl>
-    <dl>
-      <dt>反射材</dt>
-      <dd>前締めベルト、鋲、肩ベルトDカンパーツ</dd>
-    </dl>
-    <dl>
-      <dt>保証</dt>
-      <dd>6年修理保証</dd>
-    </dl>
-    <dl>
-      <dt>付属品</dt>
-      <dd>
-        ・ネームカード<br />
-        ・連絡袋<br />
-        ・雨カバー<br />
-        ・取り替え鋲（4個、内2個はランドセルに装着された状態でお送りいたします）
-      </dd>
-    </dl>
-
-
-    <div class="present">
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/solouno-logo.svg" />
-      <p>
-        <span>”時間割が書き込める”</span><br />
-        <span>オリジナルクリアファイル</span><br />
-        をプレゼント！
-      </p>
-    </div>
-  </section>
+  
 
     <span class="pagetop"><a href="#top"><svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
 <circle cx="21" cy="21" r="20.5" fill="white" stroke="#BAA280"/>

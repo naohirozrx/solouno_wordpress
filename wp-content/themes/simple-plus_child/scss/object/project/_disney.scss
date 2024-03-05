@@ -24,7 +24,7 @@
     div {
       width: 100%;
       text-align: center;
-      padding: 40px 0 0;
+      padding: 0;
       h2 {
         font-size: .18rem;
         font-weight: $font_w_b;
@@ -109,6 +109,10 @@
     }
   }//.flow-top
 
+  
+  #tab-1 {
+    padding: 60px 0;
+  }
 
   ul.tabs {
     list-style: none;
@@ -152,20 +156,80 @@
   .tab-content {
     display: none;
 
+    h2 {
+      width: 100%;
+      margin: 0 auto 60px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      font-size: .2rem;
+      font-weight: $font_w_m;
+      img {
+        width: 39px;
+        height: auto;
+      }//img
+    }//h2
+
   }
   
   .tab-content.current {
     display: block;
   }
 
+  .slideButtons {
+    padding: 0 12px;
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+
+    button {
+      all: unset;
+      border: 2px solid #6F6356;
+      font-weight: bold;
+      display: flex;
+      width: 42px;
+      height: 42px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: rgba($color: #6F6356, $alpha: 0.5);
+      }
+
+      &:active {
+        background-color: #6F6356;
+        color: #fff;
+      }
+
+      &:disabled {
+        opacity: 0.5;
+        cursor: default;
+
+        &:active {
+          background: none;
+          color: #6F6356;
+        }
+
+        &:hover {
+          background: none;
+        }
+      }
+    }
+  }
+
   .disney-design-thum {
     width: 100%;
-    overflow: scroll;
+    overflow-x: scroll;
     padding: 12px;
+    overflow-y: hidden;
     .bx-pager2 {
       display: flex;
       gap: 8px;
       width: calc((110px * 8) + (8px * 7));
+      height: 160px;
 
       a {
         display: flex;
@@ -214,6 +278,10 @@
       border-radius: 50%;
       animation: spin 8s linear infinite;
       z-index: 1;
+    }
+
+    .active span {
+      text-decoration: underline;
     }
     
     .active figure {
@@ -819,21 +887,8 @@
   }
   .howtoorder {
     padding: 60px 27px 60px;
-    background-color: #FEF6EA;
-    h2 {
-      width: 100%;
-      margin: 0 auto 60px auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 15px;
-      font-size: .2rem;
-      font-weight: $font_w_m;
-      img {
-        width: 39px;
-        height: auto;
-      }//img
-    }//h2
+    background-color: #fff;
+    
     div {
       dl {
         position: relative;

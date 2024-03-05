@@ -3988,7 +3988,7 @@ footer {
     #disney-area .flow-top div {
       width: 100%;
       text-align: center;
-      padding: 40px 0 0; }
+      padding: 0; }
       #disney-area .flow-top div h2 {
         font-size: .18rem;
         font-weight: 700;
@@ -4041,6 +4041,8 @@ footer {
         #disney-area .flow-top #bx-pager a img {
           width: 100%;
           height: auto; }
+  #disney-area #tab-1 {
+    padding: 60px 0; }
   #disney-area ul.tabs {
     list-style: none;
     padding: 0;
@@ -4069,16 +4071,59 @@ footer {
     border: 1px solid #6F6356; }
   #disney-area .tab-content {
     display: none; }
+    #disney-area .tab-content h2 {
+      width: 100%;
+      margin: 0 auto 60px auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      font-size: .2rem;
+      font-weight: 500; }
+      #disney-area .tab-content h2 img {
+        width: 39px;
+        height: auto; }
   #disney-area .tab-content.current {
     display: block; }
+  #disney-area .slideButtons {
+    padding: 0 12px;
+    display: flex;
+    justify-content: end;
+    gap: 12px; }
+    #disney-area .slideButtons button {
+      all: unset;
+      border: 2px solid #6F6356;
+      font-weight: bold;
+      display: flex;
+      width: 42px;
+      height: 42px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 100px;
+      cursor: pointer; }
+      #disney-area .slideButtons button:hover {
+        background-color: rgba(111, 99, 86, 0.5); }
+      #disney-area .slideButtons button:active {
+        background-color: #6F6356;
+        color: #fff; }
+      #disney-area .slideButtons button:disabled {
+        opacity: 0.5;
+        cursor: default; }
+        #disney-area .slideButtons button:disabled:active {
+          background: none;
+          color: #6F6356; }
+        #disney-area .slideButtons button:disabled:hover {
+          background: none; }
   #disney-area .disney-design-thum {
     width: 100%;
-    overflow: scroll;
-    padding: 12px; }
+    overflow-x: scroll;
+    padding: 12px;
+    overflow-y: hidden; }
     #disney-area .disney-design-thum .bx-pager2 {
       display: flex;
       gap: 8px;
-      width: calc((110px * 8) + (8px * 7)); }
+      width: calc((110px * 8) + (8px * 7));
+      height: 160px; }
       #disney-area .disney-design-thum .bx-pager2 a {
         display: flex;
         flex-direction: column;
@@ -4123,6 +4168,8 @@ footer {
       border-radius: 50%;
       animation: spin 8s linear infinite;
       z-index: 1; }
+    #disney-area .disney-design-thum .active span {
+      text-decoration: underline; }
     #disney-area .disney-design-thum .active figure {
       position: relative;
       display: inline-block;
@@ -4697,19 +4744,7 @@ footer {
     background-color: #FEF6EA; }
   #disney-area .howtoorder {
     padding: 60px 27px 60px;
-    background-color: #FEF6EA; }
-    #disney-area .howtoorder h2 {
-      width: 100%;
-      margin: 0 auto 60px auto;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      gap: 15px;
-      font-size: .2rem;
-      font-weight: 500; }
-      #disney-area .howtoorder h2 img {
-        width: 39px;
-        height: auto; }
+    background-color: #fff; }
     #disney-area .howtoorder div dl {
       position: relative;
       margin-bottom: 50px; }
