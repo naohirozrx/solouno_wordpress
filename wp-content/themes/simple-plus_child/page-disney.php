@@ -46,6 +46,8 @@
       <span>ディズニーオーダーメイドランドセル</span>
       <span>73,000円</span>
     </h3>
+    <p>カブセ柄・本体色・箔の色・背カンが選べて、<br />
+    お名入れができるランドセルです。</p>
   </div>
   <div id="bx-pager">
     <a data-slide-index="0" href=""><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-mickey.jpeg" alt="ミッキー" /></a>
@@ -95,7 +97,7 @@
     <ul class="tabs">
       <li class="tab-link current" data-tab="tab-1">ラインナップ</li>
       <li class="tab-link" data-tab="tab-2">ご注文について</li>
-      <li class="tab-link" data-tab="tab-3">便利機能</li>
+      <li class="tab-link" data-tab="tab-3">共通機能</li>
       <li class="tab-link" data-tab="tab-4">品質・保証</li>
       <li class="tab-link" data-tab="tab-5">スペック</li>
     </ul>
@@ -103,13 +105,14 @@
   <section style="background: #fff;">
 
     <div id="tab-1" class="tab-content current">
-      <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />ラインナップ<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+      <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />ラインナップ[全8種]<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
       <script>
         $(document).ready(function(){
           var slider2 = $('#slider2').bxSlider({
             pagerCustom: '#bx-pager2',
             auto: false,
-            controls: false
+            controls: false,
+            touchEnabled: false
           });
 
         });
@@ -156,27 +159,27 @@
           </a>
 
           <a data-slide-index="2" href="">
-            <span>アナと雪の女王</span>
+            <span>塔の上の<br />ラプンツェル</span>
             <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-rapun.png" alt="ラプンツェル" /></figure>
           </a>
 
           <a data-slide-index="3" href="">
-            <span>シンデレラ</span>
+            <span>リトルマーメイド</span>
             <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-mermade.png" alt="マーメイド" /></figure>
           </a>
       
           <a data-slide-index="4" href="">
-            <span>塔の上の<br />ラプンツェル</span>
+            <span>シンデレラ</span>
             <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-cinderera.png" alt="シンデレラ" /></figure>
           </a>
         
           <a data-slide-index="5" href="">
-            <span>リトルマーメイド</span>
+            <span>ディズニー<br />プリンセス</span>
             <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-princess.png" alt="プリンセス" /></figure>
           </a>
 
           <a data-slide-index="6" href="">
-            <span>ディズニー<br />プリンセス</span>
+            <span>アナと雪の女王</span>
             <figure><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/tab/slider-anayuki.png" alt="アナと雪の女王" /></figure>
           </a>
 
@@ -191,17 +194,370 @@
       <div class="chara">
       <div id="slider2">
         <div>
-          <?php for ($i = 1; $i <= 19; $i++): ?>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey<?php echo str_pad($i, 2, '0', STR_PAD_LEFT); ?>.jpeg" alt="ミッキー<?php echo $i; ?>">
-          <?php endfor; ?>
+          <h2>ミッキー</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey01.jpg" alt="ミッキー">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey02.jpg" alt="ミッキー">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey03.jpg" alt="ミッキー">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey04.jpg" alt="ミッキー">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey05.jpg" alt="ミッキー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            かぶせ柄
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey06.jpg" alt="ミッキー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色１
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜カブセ/前締めベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey07.jpg" alt="ミッキー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色２
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜大マチ/前ポケット/肩ベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey08.jpg" alt="ミッキー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            箔の色
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey09.jpg" alt="ミッキー">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey10.jpg" alt="ミッキー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            パーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>大マチにはミッキーマウス型のナスカン<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey11.jpg" alt="ミッキー">
         </div>
-        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-minnie.jpeg" alt="ミニー" /></div>
-        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-rapun.jpeg" alt="ラプンツェル" /></div>
-        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-mermade.jpg" alt="マーメイド" /></div>
-        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-cinderera.jpeg" alt="シンデレラ" /></div>
-        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-princess.jpg" alt="プリンセス" /></div>
-        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-anayuki.jpeg" alt="アナと雪の女王" /></div>
-        <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-beast.jpg" alt="美女と野獣" /></div>
+        <div>
+          <h2>ミニー</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie01.jpg" alt="ミニー">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie02.jpg" alt="ミニー">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie03.jpg" alt="ミニー">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie04.jpg" alt="ミニー">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie05.jpg" alt="ミニー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            かぶせ柄
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie06.jpg" alt="ミニー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色１
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜カブセ/前締めベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie07.jpg" alt="ミニー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色２
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜大マチ/前ポケット/肩ベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie08.jpg" alt="ミニー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            箔の色
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie09.jpg" alt="ミニー">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie10.jpg" alt="ミニー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            可愛ささっぷりのパーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie11.jpg" alt="ミニー">
+        </div>
+        <div>
+          <h2>塔の上のラプンツェル</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun01.jpg" alt="塔の上のラプンツェル">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun02.jpg" alt="塔の上のラプンツェル">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun03.jpg" alt="塔の上のラプンツェル">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun04.jpg" alt="塔の上のラプンツェル">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun05.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            かぶせ柄
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun06.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色１
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜カブセ/前締めベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun07.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色２
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜大マチ/前ポケット/肩ベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun08.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            箔の色
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun09.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            カブセ裏
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun10.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun11.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            可愛ささっぷりのパーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun12.jpg" alt="塔の上のラプンツェル">
+        </div>
+        <div>
+          <h2>リトルマーメイド</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid01.jpg" alt="リトルマーメイド">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid02.jpg" alt="リトルマーメイド">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid03.jpg" alt="リトルマーメイド">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid04.jpg" alt="リトルマーメイド">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid05.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            かぶせ柄
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid06.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色１
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜カブセ/前締めベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid07.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色２
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜大マチ/前ポケット/肩ベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid08.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            箔の色
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid09.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            カブセ裏
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid10.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid11.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            可愛ささっぷりのパーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid12.jpg" alt="リトルマーメイド">
+        </div>
+        <div>
+          <h2>シンデレラ</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella01.jpg" alt="シンデレラ">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella02.jpg" alt="シンデレラ">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella03.jpg" alt="シンデレラ">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella04.jpg" alt="シンデレラ">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella05.jpg" alt="シンデレラ">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            かぶせ柄
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella06.jpg" alt="シンデレラ">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色１
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜カブセ/前締めベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella07.jpg" alt="シンデレラ">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色２
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜大マチ/前ポケット/肩ベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella08.jpg" alt="シンデレラ">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            箔の色
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella09.jpg" alt="シンデレラ">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella10.jpg" alt="シンデレラ">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            可愛ささっぷりのパーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella11.jpg" alt="シンデレラ">
+        </div>
+        <div>
+          <h2>ディズニープリンセス</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess01.jpg" alt="ディズニープリンセス">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess02.jpg" alt="ディズニープリンセス">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess03.jpg" alt="ディズニープリンセス">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess04.jpg" alt="ディズニープリンセス">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess05.jpg" alt="ディズニープリンセス">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            かぶせ柄
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess06.jpg" alt="ディズニープリンセス">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色１
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜カブセ/前締めベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess07.jpg" alt="ディズニープリンセス">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色２
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜大マチ/前ポケット/肩ベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess08.jpg" alt="ディズニープリンセス">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            箔の色
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess09.jpg" alt="ディズニープリンセス">
+        </div>
+        <div>
+          <h2>アナと雪の女王</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki01.jpg" alt="アナと雪の女王">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki02.jpg" alt="アナと雪の女王">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki03.jpg" alt="アナと雪の女王">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki04.jpg" alt="アナと雪の女王">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki05.jpg" alt="アナと雪の女王">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            かぶせ柄
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki06.jpg" alt="アナと雪の女王">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色１
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜カブセ/前締めベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki07.jpg" alt="アナと雪の女王">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色２
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜大マチ/前ポケット/肩ベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki08.jpg" alt="アナと雪の女王">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            箔の色
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki09.jpg" alt="アナと雪の女王">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki10.jpg" alt="アナと雪の女王">
+        </div>
+        <div>
+          <h2>美女と野獣</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast01.jpg" alt="美女と野獣">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast02.jpg" alt="美女と野獣">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast03.jpg" alt="美女と野獣">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast04.jpg" alt="美女と野獣">
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast05.jpg" alt="美女と野獣">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            かぶせ柄
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast06.jpg" alt="美女と野獣">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色１
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜カブセ/前締めベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast07.jpg" alt="美女と野獣">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            生地色２
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>＜大マチ/前ポケット/肩ベルト＞</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast08.jpg" alt="美女と野獣">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            箔の色
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast09.jpg" alt="美女と野獣">
+        </div>
       </div>
       </div>
     </div>
@@ -274,7 +630,18 @@
     </div>
     <div id="tab-3" class="tab-content">
       <section class="spec-area">
-        <h2 id="function"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />機能紹介<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+        <h2 id="function"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />共通機能<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
+        <h3>背カン</h3>
+        <div style="margin-bottom: 20px;">
+          <h4>ペガサスの翼</h4>
+          ベーシックな従来の左右可動式背カン
+        </div>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan1.jpg" />
+        <div style="margin-bottom: 20px;">
+          <h4>ペガサスの翼α</h4>
+          左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！
+        </div>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
         <h3>大容量</h3>
         <div style="margin-bottom: 20px;">大マチ12.5cm・中マチ最大4.5cm「デカポケ」横幅はA4フラットファイルサイズ対応の23.5cm</div>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function01.png" />
@@ -283,10 +650,16 @@
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function1-1.png" />
         <h3 style="margin-top:60px;">反射材</h3>
         <div style="margin-bottom: 20px;">前締めベルト・肩ベルト・かぶせ鋲に反射材を使用しています。<br />車などのライトに反射し、安全に通学。</div>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function1-2.png" />
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function1-2.png" />
+          <figcaption>※デザインはキャラクターによって異なります。</figcaption>
+        </figure>
         <h3 style="margin-top:60px;">そのほか使いやすい機能</h3>
         <div style="margin-bottom: 20px;">大マチ・右ベルトの「ナスカン」<br />左肩ベルト・前段ポケット内部の「Dカン」<br />「持ち手」</div>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function02.png" />
+        <figure>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function02.png" />
+          <figcaption>※デザインはキャラクターによって異なります。</figcaption>
+        </figure>
         <h3 style="margin-top:60px;">生地</h3>
         <div style="margin-bottom: 20px;">本体生地には軽量で丈夫な人工皮革、コードレ®︎を採用。</div>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function03.png" />
@@ -373,108 +746,6 @@
       </section>
     </div>
 
-      </section>
-  
-  
-  <section class="schoolbag-area">
-    <nav>
-      <ul style="line-height: 1.3;">
-        <li style="margin-bottom: 0.5em;">〇<a href="#simlink" style="text-decoration: underline;">シミュレーター</a></li>
-       <li style="margin-bottom: 0.5em;">〇<a href="#flow" style="text-decoration: underline;">選べるポイントStep1〜5</a></li>
-        <li style="margin-bottom: 0.5em;">〇<a href="#design" style="text-decoration: underline;">デザイン紹介</a></li>
-        <li style="margin-bottom: 0.5em;">〇<a href="#howtoorder" style="text-decoration: underline;">HOW TO ORDER</a></li>
-        <li style="margin-bottom: 0.5em;">〇<a href="#function" style="text-decoration: underline;">ディズニーランドセルの便利機能</a></li>
-      </ul>
-    </nav>
-  </section>
-
-  <section class="disney-flow" style="display:none;">
-    <a href="https://sim.shibuya-randsel.com/" target="_blank" id="simlink" class="simlink">オーダーを選んでみよう！<br />【シミューレーター】</a>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/flow-img.jpg" id="flow" />
-    <div>
-      <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />オーダーの手順<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step1.svg" class="step1" />
-      <h3>キャラクターを選ぶ</h3>
-      <p class="chara-choise-txt">ミッキーまたはミニー</p>
-      <figure class="chara">
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step1-1.png" />
-        <span>or</span>
-        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step1-2.png" />
-      </figure>
-    </div>
-    <div>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step2.svg" class="step1" />
-      <h3>メインカラーを選ぶ</h3>
-      <h4>生地色1 - カブセ/前締めベルト</h4>
-      <ul class="colorList">
-        <?php foreach ($color as $k => $v): ?>
-          <li>
-            <figure>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/main<?php echo $v['id'];?>.png" />
-              <figcaption><?php echo $v['name'];?></figcaption>
-            </figure>
-          </li>
-        <?php endforeach; ?>
-      </ul>
-
-    </div>
-    <div>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step3.svg" class="step1" />
-      <h3>コンビカラーを選ぶ</h3>
-      <h4>生地色2 - 大マチ/前ポケット/肩ベルト</h4>
-      <ul class="colorList">
-        <?php foreach ($color as $k => $v): ?>
-          <li>
-            <figure>
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/combi<?php echo $v['id'];?>.png" />
-              <figcaption><?php echo $v['name'];?></figcaption>
-            </figure>
-          </li>
-        <?php endforeach; ?>
-      </ul>
-    </div>
-    <div>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step4.svg" class="step1" />
-      <h3>カブセ柄を選ぶ</h3>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step4.jpg" />
-    </div>
-    <div>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step5.svg" class="step1" />
-      <h3>箔のカラーを選ぶ</h3>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step5.jpg" />
-    </div>
-
-    <div>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step6.svg" class="step1" />
-      <h3>背カンを選ぶ</h3>
-      <h4>ペガサスの翼</h4>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step4-1.png" />
-      <span>ペーシックな従来の左右可動式背カン</span>
-      <h4>ペガサスの翼α</h4>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step4-2.png" />
-      <span>左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！</span>
-    </div>
-    <div>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_step7.svg" class="step1" />
-      <h3>名前を入れる</h3>
-      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/step7.jpg" />
-      <span>「Yベロ」裏側部分へお名前入れができます。</span>
-      <dl class="nameInsert">
-        <dt>詳しくはこちら</dt>
-        <dd>
-          <h3 id="ybero" style="margin-top:80px;">ランドセルに刻印・お名前入れ</h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function05.png" />
-          <h4>STEP1　文字色を選択</h4>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function06.png" />
-          <h4>STEP2　フォントを選択</h4>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function07.png" />
-          <h4>STEP2　お名前を入力</h4>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function08.png" />
-
-        </dd>
-      </dl>
-      <span></span>
-    </div>
   </section>
 
   <script>
@@ -517,7 +788,10 @@
   </section>
 
 
-
+  <div class="footerSticky">
+    <a href="https://sim.shibuya-randsel.com/" target="_blank" class="ordermade disneybutton">ディズニーオーダーを選んでみよう！<br>【シミュレーター】</a>
+    <a href="/category/item/disney/" class="buy">購入はこちら</a>
+  </div>
 
 
   
