@@ -17,6 +17,8 @@
 		|| is_page('privacy')
 		|| is_page('marty')
 		|| is_page('sports')
+		|| is_page('warranty')
+		
 	):
 		include_once('header_web.php');
 	else:
