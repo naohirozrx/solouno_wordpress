@@ -112,7 +112,19 @@
             pagerCustom: '#bx-pager2',
             auto: false,
             controls: false,
-            touchEnabled: false
+            touchEnabled: false,
+            onSliderLoad: function(currentIndex) {
+              // 初期ロード時に現在のスライドの高さを取得して設定
+              var initialHeight = $('#slider2 > div').eq(1).outerHeight();
+              $('#slider2').parent().css('height', initialHeight);
+            },
+            onSlideAfter: function($slideElement, oldIndex, newIndex) {
+              // 新しいスライドの高さを取得
+              var newHeight = $slideElement.outerHeight();
+              // スライダーのコンテナの高さを新しいスライドの高さに設定
+              $('#slider2').parent().css('height', newHeight);
+              console.log('切り替えた')
+            }
           });
 
         });
