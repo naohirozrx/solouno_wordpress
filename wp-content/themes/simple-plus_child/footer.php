@@ -18,6 +18,8 @@
 		|| is_page('marty')
 		|| is_page('sports')
 		|| is_page('warranty')
+		|| is_page('parts')
+		|| is_page('guide')
 	):
 		include_once('footer_web.php');
 	else:

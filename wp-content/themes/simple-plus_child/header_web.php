@@ -103,6 +103,9 @@ Date,s=t.createElement(n),o=t.getElementsByTagName(n)[0],s.async=1,s.src=fcSrc,o
         <li><a href="<?php echo home_url('/')?>marty">　　Martyとは</a></li>
         <li><a href="https://marty.solouno-ordermade.com/" target="_blank">　　シミュレーター</a></li>
         <li><a href="<?php echo home_url('/')?>category/item/">　オンラインストア</a></li>
+        <li><a href="<?php echo home_url('/')?>warranty">保証について</a></li>
+        <li><a href="<?php echo home_url('/')?>parts">素材・パーツの名称について</a></li>
+        <li><a href="<?php echo home_url('/')?>guide">ご利用案内</a></li>
         <li><a href="<?php echo home_url('/')?>law">特定商取引法に基づく表記</a></li>
         <li><a href="<?php echo home_url('/')?>privacy">プライバシーポリシー</a></li>
       </ul>
