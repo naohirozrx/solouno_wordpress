@@ -6210,6 +6210,334 @@ footer {
           background-color: #AC7746;
           color: #fff; }
 
+#commitment-area {
+  width: 100%;
+  margin: auto; }
+  @media screen and (min-width: 781px) {
+    #commitment-area {
+      max-width: 395px; } }
+  #commitment-area .commitment-top {
+    position: relative;
+    margin-bottom: 60px; }
+    #commitment-area .commitment-top > img {
+      width: 100%;
+      height: auto;
+      opacity: .5; }
+    #commitment-area .commitment-top div {
+      text-align: center;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%); }
+      #commitment-area .commitment-top div h2 {
+        font-size: .18rem;
+        font-weight: 700;
+        margin-bottom: 15px; }
+      #commitment-area .commitment-top div img {
+        width: 87px;
+        height: auto; }
+  #commitment-area .pagetop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10; }
+    @media screen and (min-width: 781px) {
+      #commitment-area .pagetop {
+        right: calc(50% - 180px); } }
+  #commitment-area .text-area {
+    padding: 0 27px;
+    margin-bottom: 100px;
+    text-align: center; }
+    #commitment-area .text-area h2 {
+      font-size: .2rem;
+      font-weight: 500;
+      margin-bottom: 20px;
+      text-align: center; }
+      #commitment-area .text-area h2 span {
+        display: block;
+        font-size: .12rem;
+        color: #BAA280; }
+    #commitment-area .text-area .dot {
+      width: 207px;
+      height: 19px;
+      margin-bottom: 40px;
+      margin: 0 auto 40px; }
+    #commitment-area .text-area h3 {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 1em;
+      text-align: left; }
+    #commitment-area .text-area h4 {
+      margin-top: 60px;
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 1em; }
+    #commitment-area .text-area .subtitle {
+      font-size: 18px;
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      line-height: 1;
+      justify-content: center; }
+      #commitment-area .text-area .subtitle img {
+        height: 16px;
+        width: auto; }
+    #commitment-area .text-area p {
+      font-size: .12rem;
+      margin-bottom: 30px;
+      text-align: left; }
+    #commitment-area .text-area img {
+      max-width: 100%;
+      height: auto; }
+    #commitment-area .text-area .three {
+      text-align: left;
+      display: flex;
+      gap: 4px;
+      flex-direction: column;
+      margin-bottom: 30px; }
+      #commitment-area .text-area .three li a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 16px;
+        line-height: 1.3;
+        border: #AC7746 1px solid;
+        height: 50px;
+        border-radius: 100px;
+        color: #AC7746;
+        padding: 0 4px; }
+        #commitment-area .text-area .three li a span:first-child {
+          font-size: 40px;
+          line-height: 0;
+          margin-top: -4px; }
+        #commitment-area .text-area .three li a span:last-child {
+          font-size: 14px;
+          font-weight: bold;
+          line-height: 1.3; }
+        #commitment-area .text-area .three li a:hover {
+          background-color: #AC7746;
+          color: #fff; }
+    #commitment-area .text-area .nintei {
+      padding: 20px 0;
+      text-align: left; }
+      #commitment-area .text-area .nintei img {
+        width: 120px;
+        float: left;
+        padding: 0 20px 20px 0; }
+      #commitment-area .text-area .nintei h4 {
+        margin-top: 0; }
+      #commitment-area .text-area .nintei h5 {
+        font-weight: bold;
+        line-height: 1.3; }
+      #commitment-area .text-area .nintei:after {
+        content: '';
+        clear: both; }
+    #commitment-area .text-area .shopOnly {
+      background-color: #FEF6EA;
+      padding: 10px;
+      border-radius: 10px;
+      margin-bottom: 30px; }
+      #commitment-area .text-area .shopOnly dl {
+        display: flex;
+        margin-bottom: 8px;
+        gap: 10px; }
+        #commitment-area .text-area .shopOnly dl dt {
+          background-color: rgba(172, 119, 70, 0.2);
+          color: #AC7746;
+          font-size: 11px;
+          font-weight: bold;
+          display: flex;
+          align-items: center;
+          width: 96px;
+          padding: 4px 8px;
+          gap: 5px;
+          border-radius: 4px; }
+        #commitment-area .text-area .shopOnly dl dd {
+          width: calc(100% - 120px);
+          display: flex;
+          align-items: center; }
+    #commitment-area .text-area .fix-offer > div {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      border-top: 1px dashed;
+      padding: 20px 0; }
+      #commitment-area .text-area .fix-offer > div:nth-child(3) {
+        border-bottom: 1px dashed; }
+      #commitment-area .text-area .fix-offer > div img {
+        width: 180px; }
+      #commitment-area .text-area .fix-offer > div p {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 1.3; }
+    #commitment-area .text-area .fix-offer > p {
+      margin-top: 20px;
+      background-color: rgba(172, 119, 70, 0.2);
+      color: #AC7746;
+      padding: 1em;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.3; }
+    #commitment-area .text-area .not-fix {
+      background-color: #FAD8CC;
+      padding: 1em;
+      border-radius: 10px; }
+      #commitment-area .text-area .not-fix h4 {
+        margin-top: 0; }
+      #commitment-area .text-area .not-fix .not-fix-offer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-bottom: 20px; }
+        #commitment-area .text-area .not-fix .not-fix-offer > div {
+          width: calc((100% - 20px) /2);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          background: #fff;
+          padding: 10px;
+          justify-content: center;
+          align-items: center;
+          border-radius: 10px; }
+          #commitment-area .text-area .not-fix .not-fix-offer > div p {
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 1.3;
+            text-align: center;
+            margin: 0 auto; }
+      #commitment-area .text-area .not-fix p:last-child {
+        margin-bottom: 0; }
+    #commitment-area .text-area .fix-support > div {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      border-top: 1px dashed;
+      padding: 20px 0; }
+      #commitment-area .text-area .fix-support > div:nth-child(3) {
+        border-bottom: 1px dashed; }
+      #commitment-area .text-area .fix-support > div img {
+        width: 100px; }
+      #commitment-area .text-area .fix-support > div h4 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 1em;
+        margin-top: 0;
+        text-align: left;
+        line-height: 1.3; }
+      #commitment-area .text-area .fix-support > div p {
+        font-size: 12px;
+        line-height: 1.7; }
+        #commitment-area .text-area .fix-support > div p:last-child {
+          margin-bottom: 0; }
+    #commitment-area .text-area .fix-support > p {
+      margin-top: 20px;
+      background-color: rgba(172, 119, 70, 0.2);
+      color: #AC7746;
+      padding: 1em;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.3; }
+    #commitment-area .text-area .fix-flow-img > div {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      align-items: center;
+      border-top: 1px dashed;
+      padding: 20px 0; }
+      #commitment-area .text-area .fix-flow-img > div:nth-child(5) {
+        border-bottom: 1px dashed; }
+      #commitment-area .text-area .fix-flow-img > div img {
+        width: 100px; }
+      #commitment-area .text-area .fix-flow-img > div > div {
+        width: calc(100% - 120px); }
+      #commitment-area .text-area .fix-flow-img > div h4 {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 1em;
+        margin-top: 0;
+        text-align: left;
+        line-height: 1.3; }
+        #commitment-area .text-area .fix-flow-img > div h4 span {
+          background-color: rgba(172, 119, 70, 0.2);
+          color: #AC7746;
+          display: inline-block;
+          line-height: 1;
+          font-size: 12px;
+          padding: 4px 10px;
+          border-radius: 10px;
+          width: 80px;
+          margin-bottom: 4px;
+          text-align: center; }
+      #commitment-area .text-area .fix-flow-img > div p {
+        font-size: 12px;
+        line-height: 1.7; }
+        #commitment-area .text-area .fix-flow-img > div p:last-child {
+          margin-bottom: 0; }
+    #commitment-area .text-area .fix-flow-img .notice {
+      background-color: #FAD8CC;
+      padding: 1em;
+      border-radius: 10px;
+      text-align: left;
+      width: 100%; }
+      #commitment-area .text-area .fix-flow-img .notice h5 {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 1em;
+        text-align: left;
+        list-style: 1.3; }
+      #commitment-area .text-area .fix-flow-img .notice ul {
+        font-size: 12px;
+        padding-left: 1em; }
+        #commitment-area .text-area .fix-flow-img .notice ul li {
+          list-style: disc; }
+    #commitment-area .text-area .fix-flow-img > p {
+      margin-top: 20px;
+      background-color: rgba(172, 119, 70, 0.2);
+      color: #AC7746;
+      padding: 1em;
+      border-radius: 4px;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 1.3; }
+  #commitment-area #kodawari {
+    display: flex;
+    align-items: flex-start;
+    text-align: left;
+    justify-content: space-between; }
+    #commitment-area #kodawari > ul {
+      width: 80px;
+      font-size: 13px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px; }
+      #commitment-area #kodawari > ul.sticky {
+        position: fixed;
+        top: 0; }
+      #commitment-area #kodawari > ul.active1 li:first-child {
+        font-weight: bold; }
+    #commitment-area #kodawari > div {
+      width: calc(100% - 100px); }
+      #commitment-area #kodawari > div.sticky {
+        margin-left: 100px; }
+      #commitment-area #kodawari > div h5 {
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 1em;
+        text-align: left;
+        line-height: 1.3; }
+      #commitment-area #kodawari > div img {
+        margin: 1em 0; }
+      #commitment-area #kodawari > div p {
+        margin: 0; }
+
 .clearfix:after {
   content: "";
   display: block;

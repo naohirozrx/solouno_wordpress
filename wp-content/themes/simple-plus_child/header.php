@@ -20,6 +20,7 @@
 		|| is_page('warranty')
 		|| is_page('parts')
 		|| is_page('guide')
+		|| is_page('commitment')
 		
 	):
 		include_once('header_web.php');
