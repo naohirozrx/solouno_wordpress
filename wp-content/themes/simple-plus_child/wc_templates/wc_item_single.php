@@ -11,6 +11,10 @@
 		include_once('wc_item_single_martyflower.php');
 	elseif(is_single('marty-animal')):
 		include_once('wc_item_single_martyanimal.php');
+	elseif(is_single('pb23')):
+		include_once('wc_item_single_puma.php');
+	elseif(is_single('pb21pe')):
+		include_once('wc_item_single_puma.php');
 	else:
 		include_once('wc_item_single_default.php');
 	endif;
