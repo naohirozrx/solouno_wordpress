@@ -156,4 +156,25 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
     });
 	});
 </script>
+<script>
+	$(function() {
+		$("dt").filter(function() {
+        return $(this).text() === 'ご使用者さまのお名前';
+    }).before('<h3>▼６年間修理保証登録情報</h3>');
+
+		$("dt").filter(function() {
+        return $(this).text() === 'Q01　ご購入の決め手は何ですか？　' || $(this).text() === 'Q01　ご購入の決め手は何ですか？';
+    }).before('<h3>▼アンケートにご協力ください</h3>');
+
+		$("dt").filter(function() {
+        // 既存のテキストを確認
+        return $(this).text().indexOf('Q02　ディズニーオーダーランドセルを店舗/展示会などで試着しましたか？') !== -1;
+    }).html('Q02　SOLO UNOのランドセルを店舗/展示会などで試着しましたか？<br />（ご来店いただいた場合、いつ頃、どちらにお越しいただいたかお分かりでしたらご記載ください。');
+
+		$("dt").filter(function() {
+        // 既存のテキストを確認
+        return $(this).text().indexOf('Q03　ごきょうだいさまの誕生年、月を教えてください。ランドセルカタログや世代に応じたアイテムのご紹介に使用させていただきます。例：2020年３月　　2022年8月') !== -1;
+    }).html('Q03　ごきょうだいさまの誕生年、月を教えてください。<br />ランドセルカタログや世代に応じたアイテムのご紹介に使用させていただきます。<br />例：2020年３月　　2022年8月');
+	});
+</script>
 <?php get_footer(); ?>
