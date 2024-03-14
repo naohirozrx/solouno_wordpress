@@ -78,7 +78,6 @@
       ・新キャラクター 　3月上旬～</p>
     </div>
   </section>-->
-  <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/disney-order2024-2.png" style="width:calc(100% - 54px); height: auto; margin: 0 27px 40px;" />
   
   <script>
     $(document).ready(function() {
