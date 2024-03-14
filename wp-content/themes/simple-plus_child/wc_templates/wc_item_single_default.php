@@ -10,7 +10,31 @@ get_header();
 
 $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ? $args['column'] : '';
 ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+<script>
+	$(function() {
+		$("dt").filter(function() {
+        return $(this).text() === 'ご使用者さまのお名前';
+    }).before('<h3>▼６年間修理保証登録情報</h3>');
+
+		$("dt").filter(function() {
+        return $(this).text() === 'Q01　ご購入の決め手は何ですか？　' || $(this).text() === 'Q01　ご購入の決め手は何ですか？';
+    }).before('<h3>▼アンケートにご協力ください</h3>');
+
+		$("dt").filter(function() {
+        // 既存のテキストを確認
+        return $(this).text().indexOf('Q02　ディズニーオーダーランドセルを店舗/展示会などで試着しましたか？') !== -1;
+    }).html('Q02　SOLO UNOのランドセルを店舗/展示会などで試着しましたか？<br />（ご来店いただいた場合、いつ頃、どちらにお越しいただいたかお分かりでしたらご記載ください。');
+
+		$("dt").filter(function() {
+        // 既存のテキストを確認
+        return $(this).text().indexOf('Q03　ごきょうだいさまの誕生年、月を教えてください。ランドセルカタログや世代に応じたアイテムのご紹介に使用させていただきます。例：2020年３月　　2022年8月') !== -1;
+    }).html('Q03　ごきょうだいさまの誕生年、月を教えてください。<br />ランドセルカタログや世代に応じたアイテムのご紹介に使用させていただきます。<br />例：2020年３月　　2022年8月');
+	});
+</script>
 <div id="primary" class="site-content site-content-grid <?php echo esc_attr( $welcart_simpleplus_primary_class ); ?>">
 	<main id="content" role="main">
 

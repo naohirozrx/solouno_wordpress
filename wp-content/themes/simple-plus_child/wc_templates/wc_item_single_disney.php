@@ -82,7 +82,6 @@ $welcart_simpleplus_primary_class = isset( $args ) && isset( $args['column'] ) ?
 
 		$('.field-price').html("<?php echo $pricetext; ?>");
 
-		console.log($('.item-option > dd:nth-child(2) > select').selected)
 	});
 </script>
 
