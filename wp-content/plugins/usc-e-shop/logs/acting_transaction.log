@@ -4075,3 +4075,94 @@
     [custom_delivery] => 
 )
 
+[2023-11-19 19:09:50]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => ars_s.s.xxx@icloud.com
+            [mailaddress2] => ars_s.s.xxx@icloud.com
+            [password1] => 
+            [password2] => 
+            [name1] => 原口
+            [name2] => 美雪
+            [name3] => ハラグチ
+            [name4] => ミユキ
+            [zipcode] => 841-0084
+            [address1] => 鳥栖市山浦町
+            [address2] => 2208
+            [address3] => 
+            [tel] => 090-6423-9623
+            [fax] => 
+            [country] => JP
+            [pref] => 佐賀県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 原口
+            [name2] => 美雪
+            [name3] => ハラグチ
+            [name4] => ミユキ
+            [zipcode] => 841-0084
+            [address1] => 鳥栖市山浦町
+            [address2] => 2208
+            [address3] => 
+            [tel] => 090-6423-9623
+            [fax] => 
+            [country] => JP
+            [pref] => 佐賀県
+            [delivery_flag] => 0
+            [mailaddress1] => ars_s.s.xxx@icloud.com
+            [mailaddress2] => ars_s.s.xxx@icloud.com
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 70000
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 指定しない
+            [total_full_price] => 70000
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 78
+            [total_price] => 70000
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 6559ded06fd2e
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
