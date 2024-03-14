@@ -3495,6 +3495,10 @@ footer {
       #showroom-area .showroom-top div img {
         width: 87px;
         height: auto; }
+  #showroom-area ul.showroom-list {
+    padding: 60px 27px; }
+    #showroom-area ul.showroom-list li a {
+      text-decoration: underline; }
   #showroom-area .showroom-grandopen {
     text-align: center;
     padding: 60px 0; }

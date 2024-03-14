@@ -40,6 +40,18 @@
       }
     }//div
   }//.showroom-top
+
+  ul.showroom-list {
+    padding: 60px 27px;
+
+    li {
+      a {
+        text-decoration: underline;
+      }
+
+    }
+  }
+
   .showroom-grandopen {
     text-align: center;
     padding: 60px 0;
