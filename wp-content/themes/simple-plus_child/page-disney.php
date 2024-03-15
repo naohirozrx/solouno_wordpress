@@ -129,7 +129,7 @@
         });
 
         $(document).ready(function() {
-          var $slider = $('.disney-design-thum');
+    var $slider = $('.disney-design-thum');
     var $slides = $('#bx-pager2 a');
     var slideWidth = 110; // 各スライドの幅
     var slideMargin = 8; // スライド間のマージン
@@ -268,6 +268,32 @@
             <span>大マチにはミッキーマウス型のナスカン<br />細部までこだわりのデザイン。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey11.jpg" alt="ミッキー">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            背カン
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <div style="margin-bottom: 20px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼</h4>
+            ベーシックな従来の左右可動式背カン
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan1.jpg" />
+          <div style="margin-bottom: 20px; margin-top: 40px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼α</h4>
+            左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            名入れ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
         </div>
         <div>
           <h2>ミニー</h2>
@@ -317,6 +343,32 @@
             <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie11.jpg" alt="ミニー">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            背カン
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <div style="margin-bottom: 20px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼</h4>
+            ベーシックな従来の左右可動式背カン
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan1.jpg" />
+          <div style="margin-bottom: 20px; margin-top: 40px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼α</h4>
+            左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            名入れ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
         </div>
         <div>
           <h2>塔の上のラプンツェル</h2>
@@ -371,6 +423,32 @@
             <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun12.jpg" alt="塔の上のラプンツェル">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            背カン
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <div style="margin-bottom: 20px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼</h4>
+            ベーシックな従来の左右可動式背カン
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan1.jpg" />
+          <div style="margin-bottom: 20px; margin-top: 40px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼α</h4>
+            左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            名入れ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
         </div>
         <div>
           <h2>リトルマーメイド</h2>
@@ -425,6 +503,32 @@
             <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid12.jpg" alt="リトルマーメイド">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            背カン
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <div style="margin-bottom: 20px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼</h4>
+            ベーシックな従来の左右可動式背カン
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan1.jpg" />
+          <div style="margin-bottom: 20px; margin-top: 40px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼α</h4>
+            左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            名入れ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
         </div>
         <div>
           <h2>シンデレラ</h2>
@@ -474,6 +578,32 @@
             <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella11.jpg" alt="シンデレラ">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            背カン
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <div style="margin-bottom: 20px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼</h4>
+            ベーシックな従来の左右可動式背カン
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan1.jpg" />
+          <div style="margin-bottom: 20px; margin-top: 40px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼α</h4>
+            左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            名入れ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
         </div>
         <div>
           <h2>ディズニープリンセス</h2>
@@ -508,6 +638,32 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess09.jpg" alt="ディズニープリンセス">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            背カン
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <div style="margin-bottom: 20px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼</h4>
+            ベーシックな従来の左右可動式背カン
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan1.jpg" />
+          <div style="margin-bottom: 20px; margin-top: 40px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼α</h4>
+            左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            名入れ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
         </div>
         <div>
           <h2>アナと雪の女王</h2>
@@ -550,6 +706,32 @@
             <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki10.jpg" alt="アナと雪の女王">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            背カン
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <div style="margin-bottom: 20px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼</h4>
+            ベーシックな従来の左右可動式背カン
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan1.jpg" />
+          <div style="margin-bottom: 20px; margin-top: 40px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼α</h4>
+            左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            名入れ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
         </div>
         <div>
           <h2>美女と野獣</h2>
@@ -584,6 +766,32 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast09.jpg" alt="美女と野獣">
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            背カン
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+          </h3>
+          <div style="margin-bottom: 20px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼</h4>
+            ベーシックな従来の左右可動式背カン
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan1.jpg" />
+          <div style="margin-bottom: 20px; margin-top: 40px;">
+            <h4 style="font-size: .14rem; font-weight: bold; text-align: center; margin: 0 auto 20px;">ペガサスの翼α</h4>
+            左右可動式の機能に加えて、ロッカーに入れる時などベルトを畳める便利な折りたたみ機能付き！
+          </div>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
+
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            名入れ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
         </div>
       </div>
       </div>
