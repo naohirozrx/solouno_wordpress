@@ -275,7 +275,15 @@
       left: -8px; /* ボーダーの太さに応じて調整 */
       width: calc(100% + 16px); /* ボーダーの太さの2倍を足す */
       height: calc(100% + 16px); /* ボーダーの太さの2倍を足す */
-      background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+      background: linear-gradient(45deg, 
+      #6F6356, /* 濃い茶色 */
+      #857C6F, /* 中間の茶色1 */
+      #BAA280, /* 明るい茶色 */
+      #C7B198, /* 中間の茶色2 */
+      #AC7746, /* オレンジがかった茶色 */
+      #B88A60, /* 中間の茶色3 */
+      #6F6356 
+      );
       border-radius: 50%;
       animation: spin 8s linear infinite;
       z-index: 1;

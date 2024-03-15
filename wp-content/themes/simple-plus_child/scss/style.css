@@ -4169,7 +4169,7 @@ footer {
       /* ボーダーの太さの2倍を足す */
       height: calc(100% + 16px);
       /* ボーダーの太さの2倍を足す */
-      background: linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet, red);
+      background: linear-gradient(45deg, #6F6356, #857C6F, #BAA280, #C7B198, #AC7746, #B88A60, #6F6356);
       border-radius: 50%;
       animation: spin 8s linear infinite;
       z-index: 1; }
