@@ -129,27 +129,43 @@
         });
 
         $(document).ready(function() {
-          function checkButtons() {
-            var scrollPosition = $('.disney-design-thum').scrollLeft();
-            var scrollWidth = $('.disney-design-thum')[0].scrollWidth - $('.disney-design-thum').width();
-            
-            $('#slideLeft').prop('disabled', scrollPosition <= 0);
-            $('#slideRight').prop('disabled', scrollPosition >= scrollWidth);
-          }
+          var $slider = $('.disney-design-thum');
+    var $slides = $('#bx-pager2 a');
+    var slideWidth = 110; // 各スライドの幅
+    var slideMargin = 8; // スライド間のマージン
 
-          $('#slideRight').click(function() {
-            $('.disney-design-thum').animate({
-              scrollLeft: '+=220%'
-            }, 300, checkButtons);
-          });
+    function centerSlide(index) {
+        var slideOffset = (slideWidth + slideMargin * 2) * index; // スライドの左端からのオフセット
+        var slideCenter = slideOffset - $slider.width() / 2 + slideWidth / 2; // スライダーの中央にスライドを配置
+        $slider.animate({
+            scrollLeft: slideCenter
+        }, 300);
+    }
 
-          $('#slideLeft').click(function() {
-            $('.disney-design-thum').animate({
-              scrollLeft: '-=220%'
-            }, 300, checkButtons);
-          });
+    $slides.click(function(e) {
+        e.preventDefault(); // デフォルトのアンカー動作を防ぐ
+        var index = $slides.index(this);
+        centerSlide(index);
+    });
 
-          checkButtons(); // 初期状態でボタンの状態をチェック
+    $('#slideRight').click(function() {
+        var currentIndex = $slides.index($slides.filter('.active'));
+        if (currentIndex < $slides.length - 1) {
+            currentIndex++;
+            $slides.removeClass('active').eq(currentIndex).addClass('active').click();
+        }
+    });
+
+    $('#slideLeft').click(function() {
+        var currentIndex = $slides.index($slides.filter('.active'));
+        if (currentIndex > 0) {
+            currentIndex--;
+            $slides.removeClass('active').eq(currentIndex).addClass('active').click();
+        }
+    });
+
+    // 初期状態で最初のアイテムをアクティブにする
+    $slides.eq(0).addClass('active').click();
         });
       </script>
       <div class="disney-design-thum-wrapper">
