@@ -241,7 +241,7 @@
 
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey05.jpg" alt="ミッキー">
 
-          <h2 style="margin-top:60px;">選べる7STEP</h2>
+          <h2 style="margin-top:60px;">選べる6STEP</h2>
           <h3>
             <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -327,7 +327,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie04.jpg" alt="ミニー">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie05.jpg" alt="ミニー">
 
-          <h2 style="margin-top:60px;">選べる7STEP</h2>  
+          <h2 style="margin-top:60px;">選べる6STEP</h2>  
           <h3>
             <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -445,7 +445,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun09.jpg" alt="塔の上のラプンツェル">
           <h3>
-
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             カブセ裏
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -453,7 +453,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun10.jpg" alt="塔の上のラプンツェル">
           
           <h3>
-            <span><span>STEP5</span></span>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -470,7 +470,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
           <h3>
-            <span><span>STEP6</span></span>
+            <span><span>STEP7</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -536,7 +536,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid09.jpg" alt="リトルマーメイド">
           <h3>
-
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             カブセ裏
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -544,7 +544,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid10.jpg" alt="リトルマーメイド">
           
           <h3>
-            <span><span>STEP5</span></span>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -561,7 +561,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
           <h3>
-            <span><span>STEP6</span></span>
+            <span><span>STEP7</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -593,7 +593,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella03.jpg" alt="シンデレラ">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella04.jpg" alt="シンデレラ">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella05.jpg" alt="シンデレラ">
-          <h2 style="margin-top:60px;">選べる7STEP</h2>  
+          <h2 style="margin-top:60px;">選べる6STEP</h2>  
           <h3>
             <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -676,7 +676,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess03.jpg" alt="ディズニープリンセス">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess04.jpg" alt="ディズニープリンセス">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess05.jpg" alt="ディズニープリンセス">
-          <h2 style="margin-top:60px;">選べる7STEP</h2>  
+          <h2 style="margin-top:60px;">選べる6STEP</h2>  
           <h3>
             <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -745,7 +745,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki03.jpg" alt="アナと雪の女王">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki04.jpg" alt="アナと雪の女王">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki05.jpg" alt="アナと雪の女王">
-          <h2 style="margin-top:60px;">選べる7STEP</h2>  
+          <h2 style="margin-top:60px;">選べる6STEP</h2>  
           <h3>
             <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -824,7 +824,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast03.jpg" alt="美女と野獣">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast04.jpg" alt="美女と野獣">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast05.jpg" alt="美女と野獣">
-          <h2 style="margin-top:60px;">選べる7STEP</h2>  
+          <h2 style="margin-top:60px;">選べる6STEP</h2>  
           <h3>
             <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
