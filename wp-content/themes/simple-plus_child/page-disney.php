@@ -225,15 +225,32 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey01.jpg" alt="ミッキー">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey02.jpg" alt="ミッキー">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey03.jpg" alt="ミッキー">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey04.jpg" alt="ミッキー">
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey05.jpg" alt="ミッキー">
           <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：キャメル　生地色2：ブラック　箔の色：ゴールド</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey04.jpg" alt="ミッキー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：ブラック　生地色2：ネイビー　箔の色：オーロラ</span>
+          </h3>
+
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey05.jpg" alt="ミッキー">
+
+          <h2 style="margin-top:60px;">選べる7STEP</h2>
+          <h3>
+            <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             かぶせ柄
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey06.jpg" alt="ミッキー">
           <h3>
+            <span><span>STEP2</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色１
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -241,6 +258,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey07.jpg" alt="ミッキー">
           <h3>
+            <span><span>STEP3</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色２
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -248,6 +266,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey08.jpg" alt="ミッキー">
           <h3>
+            <span><span>STEP4</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             箔の色
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -255,6 +274,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey09.jpg" alt="ミッキー">
 
           <h3>
+
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             取り替え鋲
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -270,6 +290,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey11.jpg" alt="ミッキー">
 
           <h3>
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -286,6 +307,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
           <h3>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -302,13 +324,17 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie03.jpg" alt="ミニー">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie04.jpg" alt="ミニー">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie05.jpg" alt="ミニー">
+
+          <h2 style="margin-top:60px;">選べる7STEP</h2>  
           <h3>
+            <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             かぶせ柄
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie06.jpg" alt="ミニー">
           <h3>
+            <span><span>STEP2</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色１
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -316,6 +342,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie07.jpg" alt="ミニー">
           <h3>
+            <span><span>STEP3</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色２
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -323,6 +350,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie08.jpg" alt="ミニー">
           <h3>
+            <span><span>STEP4</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             箔の色
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -330,6 +358,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie09.jpg" alt="ミニー">
 
           <h3>
+
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             取り替え鋲
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -345,6 +374,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie11.jpg" alt="ミニー">
 
           <h3>
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -360,7 +390,9 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
+
           <h3>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -372,18 +404,22 @@
         </div>
         <div>
           <h2>塔の上のラプンツェル</h2>
+          <p style="text-align: center; margin: -40px auto 40px;">※一部旧モデルの画像が含まれます。</p>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun01.jpg" alt="塔の上のラプンツェル">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun02.jpg" alt="塔の上のラプンツェル">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun03.jpg" alt="塔の上のラプンツェル">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun04.jpg" alt="塔の上のラプンツェル">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun05.jpg" alt="塔の上のラプンツェル">
+          <h2 style="margin-top:60px;">選べる7STEP</h2>
           <h3>
+            <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             かぶせ柄
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun06.jpg" alt="塔の上のラプンツェル">
           <h3>
+            <span><span>STEP2</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色１
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -391,6 +427,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun07.jpg" alt="塔の上のラプンツェル">
           <h3>
+            <span><span>STEP3</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色２
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -398,18 +435,21 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun08.jpg" alt="塔の上のラプンツェル">
           <h3>
+            <span><span>STEP4</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             箔の色
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun09.jpg" alt="塔の上のラプンツェル">
           <h3>
+
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             カブセ裏
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun10.jpg" alt="塔の上のラプンツェル">
           <h3>
+
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             取り替え鋲
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -425,6 +465,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun12.jpg" alt="塔の上のラプンツェル">
 
           <h3>
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -440,7 +481,9 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
+
           <h3>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -452,18 +495,22 @@
         </div>
         <div>
           <h2>リトルマーメイド</h2>
+          <p style="text-align: center; margin: -40px auto 40px;">※一部旧モデルの画像が含まれます。</p>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid01.jpg" alt="リトルマーメイド">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid02.jpg" alt="リトルマーメイド">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid03.jpg" alt="リトルマーメイド">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid04.jpg" alt="リトルマーメイド">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid05.jpg" alt="リトルマーメイド">
+          <h2 style="margin-top:60px;">選べる7STEP</h2>
           <h3>
+            <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             かぶせ柄
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid06.jpg" alt="リトルマーメイド">
           <h3>
+            <span><span>STEP2</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色１
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -471,6 +518,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid07.jpg" alt="リトルマーメイド">
           <h3>
+            <span><span>STEP3</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色２
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -478,18 +526,21 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid08.jpg" alt="リトルマーメイド">
           <h3>
+            <span><span>STEP4</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             箔の色
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid09.jpg" alt="リトルマーメイド">
           <h3>
+
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             カブセ裏
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid10.jpg" alt="リトルマーメイド">
           <h3>
+
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             取り替え鋲
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -505,6 +556,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid12.jpg" alt="リトルマーメイド">
 
           <h3>
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -520,7 +572,9 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
+
           <h3>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -537,13 +591,16 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella03.jpg" alt="シンデレラ">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella04.jpg" alt="シンデレラ">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella05.jpg" alt="シンデレラ">
+          <h2 style="margin-top:60px;">選べる7STEP</h2>  
           <h3>
+            <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             かぶせ柄
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella06.jpg" alt="シンデレラ">
           <h3>
+            <span><span>STEP2</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色１
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -551,6 +608,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella07.jpg" alt="シンデレラ">
           <h3>
+            <span><span>STEP3</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色２
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -558,6 +616,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella08.jpg" alt="シンデレラ">
           <h3>
+            <span><span>STEP4</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             箔の色
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -565,6 +624,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella09.jpg" alt="シンデレラ">
 
           <h3>
+
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             取り替え鋲
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -580,6 +640,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella11.jpg" alt="シンデレラ">
 
           <h3>
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -595,7 +656,9 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
+
           <h3>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -612,13 +675,16 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess03.jpg" alt="ディズニープリンセス">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess04.jpg" alt="ディズニープリンセス">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess05.jpg" alt="ディズニープリンセス">
+          <h2 style="margin-top:60px;">選べる7STEP</h2>  
           <h3>
+            <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             かぶせ柄
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess06.jpg" alt="ディズニープリンセス">
           <h3>
+            <span><span>STEP2</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色１
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -626,6 +692,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess07.jpg" alt="ディズニープリンセス">
           <h3>
+            <span><span>STEP3</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色２
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -633,6 +700,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess08.jpg" alt="ディズニープリンセス">
           <h3>
+            <span><span>STEP4</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             箔の色
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -640,6 +708,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess09.jpg" alt="ディズニープリンセス">
 
           <h3>
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -655,7 +724,9 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
+
           <h3>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -672,13 +743,16 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki03.jpg" alt="アナと雪の女王">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki04.jpg" alt="アナと雪の女王">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki05.jpg" alt="アナと雪の女王">
+          <h2 style="margin-top:60px;">選べる7STEP</h2>  
           <h3>
+            <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             かぶせ柄
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki06.jpg" alt="アナと雪の女王">
           <h3>
+            <span><span>STEP2</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色１
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -686,6 +760,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki07.jpg" alt="アナと雪の女王">
           <h3>
+            <span><span>STEP3</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色２
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -693,6 +768,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki08.jpg" alt="アナと雪の女王">
           <h3>
+            <span><span>STEP4</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             箔の色
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -700,6 +776,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki09.jpg" alt="アナと雪の女王">
 
           <h3>
+
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             取り替え鋲
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -708,6 +785,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki10.jpg" alt="アナと雪の女王">
 
           <h3>
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -723,7 +801,9 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
+
           <h3>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -740,13 +820,16 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast03.jpg" alt="美女と野獣">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast04.jpg" alt="美女と野獣">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast05.jpg" alt="美女と野獣">
+          <h2 style="margin-top:60px;">選べる7STEP</h2>  
           <h3>
+            <span><span>STEP1</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             かぶせ柄
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast06.jpg" alt="美女と野獣">
           <h3>
+            <span><span>STEP2</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色１
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -754,6 +837,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast07.jpg" alt="美女と野獣">
           <h3>
+            <span><span>STEP3</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             生地色２
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -761,6 +845,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast08.jpg" alt="美女と野獣">
           <h3>
+            <span><span>STEP4</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             箔の色
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -768,6 +853,7 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast09.jpg" alt="美女と野獣">
 
           <h3>
+            <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -783,7 +869,9 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
+
           <h3>
+            <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
