@@ -31,6 +31,8 @@
 
   <section class="showroom-grandopen" id="takashimaya">
     <h2>百貨店期間限定展示決定！</h2>
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takashimaya.png" />
+
     <div>
       <span>
         新宿タカシマヤランドセル売り場にてSOLO UNOのオーダーメイドランドセル期間限定で展示します。<br />
