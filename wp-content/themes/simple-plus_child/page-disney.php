@@ -273,21 +273,7 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey09.jpg" alt="ミッキー">
 
-          <h3>
 
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            取り替え鋲
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey10.jpg" alt="ミッキー">
-          <h3>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            パーツ
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>大マチにはミッキーマウス型のナスカン<br />細部までこだわりのデザイン。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey11.jpg" alt="ミッキー">
 
           <h3>
             <span><span>STEP5</span></span>
@@ -311,11 +297,27 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+            <span>「Yベロ」裏側部分へお名前入れができます。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
+
+          <h2 style="margin-top: 60px">デザイン</h2>
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey10.jpg" alt="ミッキー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            パーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>大マチにはミッキーマウス型のナスカン<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mickey/mickey11.jpg" alt="ミッキー">
         </div>
         <div>
           <h2>ミニー</h2>
@@ -358,22 +360,6 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie09.jpg" alt="ミニー">
 
           <h3>
-
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            取り替え鋲
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie10.jpg" alt="ミニー">
-          <h3>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            可愛ささっぷりのパーツ
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie11.jpg" alt="ミニー">
-
-          <h3>
             <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
@@ -396,12 +382,29 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+            <span>「Yベロ」裏側部分へお名前入れができます。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
+
+          <h2 style="margin-top: 60px">デザイン</h2>
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie10.jpg" alt="ミニー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            可愛さたっぷりのパーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie11.jpg" alt="ミニー">
         </div>
+
         <div>
           <h2>塔の上のラプンツェル</h2>
           <p style="text-align: center; margin: -40px auto 40px;">※一部旧モデルの画像が含まれます。</p>
@@ -448,22 +451,7 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun10.jpg" alt="塔の上のラプンツェル">
-          <h3>
-
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            取り替え鋲
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun11.jpg" alt="塔の上のラプンツェル">
-          <h3>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            可愛ささっぷりのパーツ
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun12.jpg" alt="塔の上のラプンツェル">
-
+          
           <h3>
             <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -481,17 +469,32 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
-
           <h3>
             <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+            <span>「Y」裏側部分へお名前入れができます。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
+
+          <h2 style="margin-top: 60px;">デザイン</h2>
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun11.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            可愛さたっぷりのパーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun12.jpg" alt="塔の上のラプンツェル">
         </div>
         <div>
           <h2>リトルマーメイド</h2>
@@ -539,22 +542,7 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid10.jpg" alt="リトルマーメイド">
-          <h3>
-
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            取り替え鋲
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid11.jpg" alt="リトルマーメイド">
-          <h3>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            可愛ささっぷりのパーツ
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid12.jpg" alt="リトルマーメイド">
-
+          
           <h3>
             <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
@@ -572,17 +560,31 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
-
           <h3>
             <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+            <span>「Yベロ」裏側部分へお名前入れができます。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
+          <h2 style="margin-top: 60px;">デザイン</h2>
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid11.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            可愛さたっぷりのパーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid12.jpg" alt="リトルマーメイド">
         </div>
         <div>
           <h2>シンデレラ</h2>
@@ -624,22 +626,6 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella09.jpg" alt="シンデレラ">
 
           <h3>
-
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            取り替え鋲
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella10.jpg" alt="シンデレラ">
-          <h3>
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            可愛ささっぷりのパーツ
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella11.jpg" alt="シンデレラ">
-
-          <h3>
             <span><span>STEP5</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             背カン
@@ -656,18 +642,33 @@
           </div>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/sekan2.jpg" />
 
-
           <h3>
             <span><span>STEP6</span></span>
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+            <span>「Yベロ」裏側部分へお名前入れができます。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
+          <h2 style="margin-top: 60px;">デザイン</h2>
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella10.jpg" alt="シンデレラ">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            可愛さたっぷりのパーツ
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>ハートモチーフのパーツがさりげなくおしゃれ。<br />細部までこだわりのデザイン。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella11.jpg" alt="シンデレラ">
         </div>
+
         <div>
           <h2>ディズニープリンセス</h2>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess01.jpg" alt="ディズニープリンセス">
@@ -730,11 +731,12 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+            <span>「Yベロ」裏側部分へお名前入れができます。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
+          
         </div>
         <div>
           <h2>アナと雪の女王</h2>
@@ -775,14 +777,6 @@
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki09.jpg" alt="アナと雪の女王">
 
-          <h3>
-
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            取り替え鋲
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
-          </h3>
-          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki10.jpg" alt="アナと雪の女王">
 
           <h3>
             <span><span>STEP5</span></span>
@@ -807,11 +801,21 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+            <span>「Yベロ」裏側部分へお名前入れができます。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s2.jpg" />
+
+          <h2 style="margin-top: 60px;">デザイン</h2>
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            取り替え鋲
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>かぶせの鋲は気分によって気軽にお家で取り替え可能な仕様。</span>
+          </h3>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki10.jpg" alt="アナと雪の女王">
+
         </div>
         <div>
           <h2>美女と野獣</h2>
@@ -875,7 +879,7 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>「Yベロベロ」裏側部分へお名前入れができます。</span>
+            <span>「Yベロ」裏側部分へお名前入れができます。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
@@ -995,7 +999,10 @@
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/function04.png" />
         <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />保証<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
         <h4>6年間しっかりサポートいたします。</h4>
-        <p style="margin-bottom:40px;">御入学日より有効な修理対応保証で6年間のランドセル生活をしっかりサポート。<br />ランドセルの通常使用状態で保証期間内に不良箇所が生じた場合に修理を行います。<br /><span style="font-size: 12px;">※内容・箇所によっては有償となる場合がございます。</span></p>
+        <p style="margin-bottom:40px;">ディズニーオーダーランドセルにはご入学からご卒業までの6年間の修理保証サービスがございます。万が一、不具合が発生した場合はご連絡ください。 国内工場の職人の手により迅速にお直しいたします。糸ほつれや金具の破損などの通常利用時の不具合は無償にてお直しいたします。キズやらくがき、 使用による擦れなど故障ではないお直しは、 有償にて承らせていただきます。</p>
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/icon-star.jpg" style="width:50px; height:auto; display:block; margin: 0 auto 40px auto;" />
+        <h4>修理期間中の代替ランドセル</h4>
+        <p>お直し中にご使用いただく代替えランドセルのご用意がございます。無料でお貸出しいたしますが、お戻しいただく際の片道送料のみご負担をお願いいたします。</p>
       </section>
     </div>
     <div id="tab-5" class="tab-content">
