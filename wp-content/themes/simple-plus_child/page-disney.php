@@ -324,7 +324,19 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie01.jpg" alt="ミニー">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie02.jpg" alt="ミニー">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie03.jpg" alt="ミニー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：ビビッドピンク　生地色2：カーマイン　箔の色：シルバー</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie04.jpg" alt="ミニー">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：ミントグリーン　生地色2：ホワイト　箔の色：ブルー</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/minnie/minnie05.jpg" alt="ミニー">
 
           <h2 style="margin-top:60px;">選べる6STEP</h2>  
@@ -411,7 +423,19 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun01.jpg" alt="塔の上のラプンツェル">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun02.jpg" alt="塔の上のラプンツェル">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun03.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：パールパープル　生地色2：パープル　箔の色：シルバー</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun04.jpg" alt="塔の上のラプンツェル">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：ビビッドピンク　生地色2：ベビーピンク　箔の色：シルバー</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/rapun/rapun05.jpg" alt="塔の上のラプンツェル">
           <h2 style="margin-top:60px;">選べる7STEP</h2>
           <h3>
@@ -502,7 +526,19 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid01.jpg" alt="リトルマーメイド">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid02.jpg" alt="リトルマーメイド">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid03.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：パールサックス　生地色2：ミントグリーン　箔の色：ブルー</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid04.jpg" alt="リトルマーメイド">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：ベビーピンク　生地色2：パープル　箔の色：箔押し</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/mermaid/mermaid05.jpg" alt="リトルマーメイド">
           <h2 style="margin-top:60px;">選べる7STEP</h2>
           <h3>
@@ -591,7 +627,19 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella01.jpg" alt="シンデレラ">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella02.jpg" alt="シンデレラ">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella03.jpg" alt="シンデレラ">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：ホワイト　生地色2：ベージュ　箔の色：シルバー</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella04.jpg" alt="シンデレラ">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：パープル　生地色2：ミントグリーン　箔の色：箔押し</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/cinderella/cinderella05.jpg" alt="シンデレラ">
           <h2 style="margin-top:60px;">選べる6STEP</h2>  
           <h3>
@@ -674,7 +722,19 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess01.jpg" alt="ディズニープリンセス">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess02.jpg" alt="ディズニープリンセス">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess03.jpg" alt="ディズニープリンセス">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：ベビーピンク　生地色2：スカイ　箔の色：シルバー</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess04.jpg" alt="ディズニープリンセス">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：キャメル　生地色2：カーマイン　箔の色：箔押し</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/princess/princess05.jpg" alt="ディズニープリンセス">
           <h2 style="margin-top:60px;">選べる6STEP</h2>  
           <h3>
@@ -743,7 +803,19 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki01.jpg" alt="アナと雪の女王">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki02.jpg" alt="アナと雪の女王">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki03.jpg" alt="アナと雪の女王">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：パールサックス　生地色2：スカイ　箔の色：ブルー</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki04.jpg" alt="アナと雪の女王">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：パープル　生地色2：ミントグリーン　箔の色：シルバー</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/anayuki/anayuki05.jpg" alt="アナと雪の女王">
           <h2 style="margin-top:60px;">選べる6STEP</h2>  
           <h3>
@@ -822,7 +894,19 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast01.jpg" alt="美女と野獣">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast02.jpg" alt="美女と野獣">
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast03.jpg" alt="美女と野獣">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：キャメル　生地色2：キャメル　箔の色：ゴールド</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast04.jpg" alt="美女と野獣">
+          <h3>
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            組み合わせ例
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+            <span>生地色1：ホワイト　生地色2：パープル　箔の色：オーロラ</span>
+          </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/character/beast/beast05.jpg" alt="美女と野獣">
           <h2 style="margin-top:60px;">選べる6STEP</h2>  
           <h3>
