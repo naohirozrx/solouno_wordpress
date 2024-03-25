@@ -498,7 +498,7 @@
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
             名入れ
             <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
-            <span>「Y」裏側部分へお名前入れができます。</span>
+            <span>「Yベロ」裏側部分へお名前入れができます。</span>
           </h3>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s0.jpg" />
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/disney/naire-s1.jpg" />
