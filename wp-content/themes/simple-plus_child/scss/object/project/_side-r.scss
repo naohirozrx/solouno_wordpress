@@ -25,6 +25,7 @@
         align-items: center;
         gap: 15px;
         padding-left: 10px;
+        margin-top: 40px;
       }
       h1 {
         width: 100%;
@@ -85,4 +86,32 @@
       }
     }
   }//@media
+
+  .ordermade {
+    padding: 0 10px;
+    width: 426px;
+    max-width: 95%;
+    margin: 0 auto 10px;
+    color: #AC7746;
+    height: 62px;
+    font-size: .14rem;
+    font-weight: $font_w_b;
+    border: 1px solid #AC7746;
+    background-color: #fff;
+    border-radius: 39px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/angle-right.svg);
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    background-position-x: 95%;
+    text-align: center;
+    line-height: 1.2;
+    transition: 0.3s;
+
+    &:hover {
+      background-position-x: 96%;
+    }
+  }//.ordermade
 }
