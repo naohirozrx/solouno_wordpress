@@ -26,7 +26,7 @@
     <div class="order-links">
     <a href="https://sim.solouno-ordermade.com" target="_blank" class="ordermade">オーダーメイドを選んでみよう！<br>【シミュレーター】</a>
     <a href="https://sim.shibuya-randsel.com/" target="_blank" class="ordermade disneybutton">ディズニーオーダーを選んでみよう！<br>【シミュレーター】</a>
-    <a href="https://marty.solouno-ordermade.com" target="_blank" class="ordermade marty">オーダーメイドランドセルカバーを選んでみよう！<br>【シミュレーター】</a>
+    <a href="https://marty.solouno-ordermade.com" target="_blank" class="ordermade marty">オーダーメイドランドセルカバーを<br>選んでみよう！【シミュレーター】</a>
     </div>
 
     <h4><span>STEP2</span>購入手続きへ進みましょう</h4>

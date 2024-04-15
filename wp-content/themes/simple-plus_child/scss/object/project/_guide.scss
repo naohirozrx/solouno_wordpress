@@ -172,4 +172,38 @@
 
 
   }//.text-area
+
+  .order-links {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+    a {
+      padding: 0 10px;
+      width: 100%;
+      max-width: 100%;
+      margin: auto;
+      color: #AC7746;
+      height: 62px;
+      font-size: .13rem;
+      font-weight: 700;
+      border: 1px solid #AC7746;
+      background-color: #fff;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 95%;
+      text-align: center;
+      line-height: 1.2;
+      transition: 0.3s;
+
+      &:hover {
+        background-position-x: 97%;
+      }
+    }
+  }
 }
