@@ -638,21 +638,157 @@ footer {
     position: relative;
     display: block;
     margin-bottom: 185px; }
-    #home-area .top h1 img {
-      width: 100%;
-      height: auto; }
+    #home-area .top h1 {
+      filter: blur(20px);
+      transition: 1s;
+      transition-delay: 0.2s; }
+      #home-area .top h1 img {
+        width: 100%;
+        height: auto; }
+      #home-area .top h1.isInview {
+        filter: blur(0); }
     #home-area .top p {
       font-size: .2rem;
       font-weight: 700;
       position: absolute;
       bottom: -18px;
       right: 0; }
+      #home-area .top p span {
+        opacity: 0;
+        transition: 0.5s;
+        transform: translate(10px, 0); }
+        #home-area .top p span:nth-child(1) {
+          transition-delay: 1s; }
+        #home-area .top p span:nth-child(2) {
+          transition-delay: 1.2s; }
+        #home-area .top p span:nth-child(3) {
+          transition-delay: 1.4s; }
+        #home-area .top p span:nth-child(4) {
+          transition-delay: 1.6s; }
+        #home-area .top p span:nth-child(5) {
+          transition-delay: 1.8s; }
+        #home-area .top p span:nth-child(6) {
+          transition-delay: 2s; }
+        #home-area .top p span:nth-child(7) {
+          transition-delay: 2.2s; }
+        #home-area .top p span:nth-child(8) {
+          transition-delay: 2.4s; }
+        #home-area .top p span:nth-child(9) {
+          transition-delay: 2.6s; }
+        #home-area .top p span:nth-child(10) {
+          transition-delay: 2.8s; }
+        #home-area .top p span:nth-child(11) {
+          transition-delay: 3s; }
+        #home-area .top p span:nth-child(12) {
+          transition-delay: 3.2s; }
+        #home-area .top p span:nth-child(13) {
+          transition-delay: 3.4s; }
+        #home-area .top p span:nth-child(14) {
+          transition-delay: 3.6s; }
+        #home-area .top p span:nth-child(15) {
+          transition-delay: 3.8s; }
+        #home-area .top p span:nth-child(16) {
+          transition-delay: 4s; }
+        #home-area .top p span:nth-child(17) {
+          transition-delay: 4.2s; }
+        #home-area .top p span:nth-child(18) {
+          transition-delay: 4.4s; }
+        #home-area .top p span:nth-child(19) {
+          transition-delay: 4.6s; }
+        #home-area .top p span:nth-child(20) {
+          transition-delay: 4.8s; }
+        #home-area .top p span.isInview {
+          opacity: 1;
+          transform: translate(0, 0); }
     #home-area .top .scroll {
       width: auto;
       height: 127px;
       position: absolute;
       left: 27px;
       bottom: -107px; }
+  #home-area #aboutus-enjoy {
+    padding: 0 0 64px;
+    position: relative; }
+    #home-area #aboutus-enjoy h2 {
+      font-size: .2rem;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 1em;
+      transition: 1s;
+      transform: translate(0, 10px);
+      opacity: 0; }
+      #home-area #aboutus-enjoy h2.isInview {
+        transform: translate(0, 0);
+        opacity: 1; }
+    #home-area #aboutus-enjoy p {
+      line-height: 3;
+      text-align: center;
+      font-size: 14px;
+      padding: 0 24px;
+      transition: 1s;
+      transform: translate(0, 10px);
+      opacity: 0; }
+      #home-area #aboutus-enjoy p.isInview {
+        transform: translate(0, 0);
+        opacity: 1; }
+    #home-area #aboutus-enjoy img {
+      position: absolute;
+      z-index: -1; }
+      #home-area #aboutus-enjoy img.bg1 {
+        top: 100px;
+        z-index: -1;
+        width: 180px;
+        left: 140px;
+        transition: 1s;
+        opacity: 0; }
+        #home-area #aboutus-enjoy img.bg1.isInview {
+          opacity: 1; }
+      #home-area #aboutus-enjoy img.bg2 {
+        top: 220px;
+        z-index: -2;
+        width: 220px;
+        left: 20px;
+        opacity: 0;
+        transition: 1s;
+        transition-delay: 0.5s; }
+        #home-area #aboutus-enjoy img.bg2.isInview {
+          opacity: 1; }
+      #home-area #aboutus-enjoy img.bg3 {
+        top: 500px;
+        z-index: -2;
+        width: 200px;
+        left: 0px;
+        opacity: 0;
+        transition: 1s;
+        transition-delay: 0.5s; }
+        #home-area #aboutus-enjoy img.bg3.isInview {
+          opacity: 1; }
+    #home-area #aboutus-enjoy > a {
+      color: #AC7746;
+      background-color: #fff;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 20px;
+      font-size: .14rem;
+      text-align: center;
+      line-height: 1.2;
+      font-weight: 700;
+      border: 1px solid #AC7746;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px;
+      transition: 1s;
+      opacity: 0;
+      margin-top: 48px; }
+      #home-area #aboutus-enjoy > a:hover {
+        background-position-x: 305px; }
+      #home-area #aboutus-enjoy > a.isInview {
+        opacity: 1; }
   #home-area .news {
     padding: 0 27px;
     margin-bottom: 160px; }
@@ -1827,84 +1963,330 @@ footer {
   @media screen and (min-width: 781px) {
     #aboutus-area {
       max-width: 395px; } }
-  #aboutus-area .aboutus-top {
-    position: relative;
-    margin-bottom: 60px; }
-    #aboutus-area .aboutus-top > img {
-      width: 100%;
-      height: auto;
-      opacity: .5; }
-    #aboutus-area .aboutus-top div {
+  #aboutus-area #aboutus-header h2 {
+    font-size: .2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1em;
+    transition: 1s;
+    transform: translate(0, 10px);
+    opacity: 0; }
+    #aboutus-area #aboutus-header h2.isInview {
+      transform: translate(0, 0);
+      opacity: 1; }
+  #aboutus-area #aboutus-header img {
+    width: 100%;
+    height: auto;
+    transition: 1.7s;
+    filter: blur(10px); }
+    #aboutus-area #aboutus-header img.isInview {
+      filter: blur(0); }
+  #aboutus-area #aboutus-enjoy {
+    padding: 64px 0 64px;
+    position: relative; }
+    #aboutus-area #aboutus-enjoy h2 {
+      font-size: .2rem;
+      font-weight: 500;
       text-align: center;
+      margin-bottom: 1em;
+      transition: 1s;
+      transform: translate(0, 10px);
+      opacity: 0; }
+      #aboutus-area #aboutus-enjoy h2.isInview {
+        transform: translate(0, 0);
+        opacity: 1; }
+    #aboutus-area #aboutus-enjoy p {
+      line-height: 3;
+      text-align: center;
+      font-size: 14px;
+      padding: 0 24px;
+      transition: 1s;
+      transform: translate(0, 10px);
+      opacity: 0; }
+      #aboutus-area #aboutus-enjoy p.isInview {
+        transform: translate(0, 0);
+        opacity: 1; }
+    #aboutus-area #aboutus-enjoy img {
       position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%); }
-      #aboutus-area .aboutus-top div h2 {
-        font-size: .18rem;
-        font-weight: 700;
-        margin-bottom: 15px; }
-      #aboutus-area .aboutus-top div img {
-        width: 87px;
-        height: auto; }
-  #aboutus-area .text-area {
-    padding: 0 27px;
-    margin-bottom: 100px; }
-    #aboutus-area .text-area h2 {
+      z-index: -1; }
+      #aboutus-area #aboutus-enjoy img.bg1 {
+        top: 100px;
+        z-index: -1;
+        width: 180px;
+        left: 140px;
+        transition: 1s;
+        opacity: 0; }
+        #aboutus-area #aboutus-enjoy img.bg1.isInview {
+          opacity: 1; }
+      #aboutus-area #aboutus-enjoy img.bg2 {
+        top: 220px;
+        z-index: -2;
+        width: 220px;
+        left: 20px;
+        opacity: 0;
+        transition: 1s;
+        transition-delay: 0.5s; }
+        #aboutus-area #aboutus-enjoy img.bg2.isInview {
+          opacity: 1; }
+      #aboutus-area #aboutus-enjoy img.bg3 {
+        top: 500px;
+        z-index: -2;
+        width: 200px;
+        left: 0px;
+        opacity: 0;
+        transition: 1s;
+        transition-delay: 0.5s; }
+        #aboutus-area #aboutus-enjoy img.bg3.isInview {
+          opacity: 1; }
+  #aboutus-area #aboutus-solouno {
+    padding: 0 0 64px 0;
+    position: relative;
+    overflow: hidden; }
+    #aboutus-area #aboutus-solouno h2 {
       font-size: .2rem;
       font-weight: 500;
-      margin-bottom: 20px; }
-      #aboutus-area .text-area h2 span {
-        display: block;
-        font-size: .12rem;
-        color: #BAA280; }
-    #aboutus-area .text-area .dot {
-      width: 207px;
-      height: 19px;
-      margin-bottom: 40px; }
-    #aboutus-area .text-area p {
-      font-size: .12rem;
-      margin-bottom: 30px; }
-  #aboutus-area .photo {
-    margin-bottom: 65px; }
-    #aboutus-area .photo div {
+      text-align: center;
+      margin-bottom: 1em;
+      transition: 1s;
+      transform: translate(0, 10px);
+      opacity: 0; }
+      #aboutus-area #aboutus-solouno h2.isInview {
+        transform: translate(0, 0);
+        opacity: 1; }
+    #aboutus-area #aboutus-solouno p {
+      line-height: 3;
+      text-align: left;
+      font-size: 14px;
+      padding: 0 24px;
+      transition: 1s;
+      transform: translate(0, 10px);
+      opacity: 0; }
+      #aboutus-area #aboutus-solouno p.isInview {
+        transform: translate(0, 0);
+        opacity: 1; }
+    #aboutus-area #aboutus-solouno img.bg1 {
+      position: absolute;
+      z-index: -1;
+      top: 100px;
+      z-index: -1;
+      width: 140px;
+      left: 20px;
+      transition: 1s;
+      opacity: 0; }
+      #aboutus-area #aboutus-solouno img.bg1.isInview {
+        opacity: 1; }
+    #aboutus-area #aboutus-solouno img.bg2 {
+      position: absolute;
+      z-index: -1;
+      top: 260px;
+      z-index: -2;
+      width: 220px;
+      right: 20px;
+      opacity: 0;
+      transition: 1s;
+      transition-delay: 0.5s; }
+      #aboutus-area #aboutus-solouno img.bg2.isInview {
+        opacity: 1; }
+    #aboutus-area #aboutus-solouno img.bg3 {
+      position: absolute;
+      z-index: -1;
+      top: 700px;
+      z-index: -2;
+      width: 120%;
+      left: 0px;
+      opacity: 0;
+      transition: 1s;
+      transition-delay: 0.5s; }
+      #aboutus-area #aboutus-solouno img.bg3.isInview {
+        opacity: 1; }
+    #aboutus-area #aboutus-solouno img.img1 {
+      width: 100%;
+      margin: 48px 0;
+      opacity: 0;
+      transition: 1s;
+      transition-delay: 0.5s; }
+      #aboutus-area #aboutus-solouno img.img1.isInview {
+        opacity: 1; }
+  #aboutus-area #aboutus-fullorder {
+    padding: 0 0 64px;
+    position: relative;
+    overflow: hidden; }
+    #aboutus-area #aboutus-fullorder h2 {
+      font-size: .2rem;
+      font-weight: 500;
+      text-align: center;
+      margin-bottom: 1em;
+      transition: 1s;
+      transform: translate(0, 10px);
+      opacity: 0; }
+      #aboutus-area #aboutus-fullorder h2.isInview {
+        transform: translate(0, 0);
+        opacity: 1; }
+    #aboutus-area #aboutus-fullorder > p {
+      line-height: 3;
+      text-align: left;
+      font-size: 14px;
+      padding: 0 24px;
+      transition: 1s;
+      transform: translate(0, 10px);
+      opacity: 0; }
+      #aboutus-area #aboutus-fullorder > p.isInview {
+        transform: translate(0, 0);
+        opacity: 1; }
+    #aboutus-area #aboutus-fullorder img.bg1 {
+      position: absolute;
+      z-index: -1;
+      top: 100px;
+      z-index: -1;
+      width: 140px;
+      left: 20px;
+      transition: 1s;
+      opacity: 0; }
+      #aboutus-area #aboutus-fullorder img.bg1.isInview {
+        opacity: 1; }
+    #aboutus-area #aboutus-fullorder img.bg2 {
+      position: absolute;
+      z-index: -1;
+      top: 260px;
+      z-index: -2;
+      width: 220px;
+      right: 20px;
+      opacity: 0;
+      transition: 1s;
+      transition-delay: 0.5s; }
+      #aboutus-area #aboutus-fullorder img.bg2.isInview {
+        opacity: 1; }
+    #aboutus-area #aboutus-fullorder img.bg3 {
+      position: absolute;
+      z-index: -1;
+      top: 700px;
+      z-index: -2;
+      width: 120%;
+      left: 0px;
+      opacity: 0;
+      transition: 1s;
+      transition-delay: 0.5s; }
+      #aboutus-area #aboutus-fullorder img.bg3.isInview {
+        opacity: 1; }
+    #aboutus-area #aboutus-fullorder > figure {
       display: flex;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin-top: 48px; }
+      #aboutus-area #aboutus-fullorder > figure img {
+        width: 280px;
+        height: auto;
+        transition: 1s;
+        opacity: 0; }
+        #aboutus-area #aboutus-fullorder > figure img.isInview {
+          opacity: 1; }
+      #aboutus-area #aboutus-fullorder > figure figcaption {
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+        font-size: 18px;
+        font-weight: bold;
+        width: calc(100% - 280px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 1s;
+        transform: translate(0, 10px);
+        opacity: 0;
+        transition-delay: 0.7s; }
+        #aboutus-area #aboutus-fullorder > figure figcaption.isInview {
+          transform: translate(0, 0);
+          opacity: 1; }
+    #aboutus-area #aboutus-fullorder > div {
+      margin-top: 48px;
+      display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
-      margin-bottom: 140px; }
-      #aboutus-area .photo div img {
-        width: 45%;
-        height: auto; }
-        @media screen and (min-width: 781px) {
-          #aboutus-area .photo div img {
-            width: 176px; } }
-        #aboutus-area .photo div img.p3 {
-          margin-top: 35px; }
-        #aboutus-area .photo div img.p4 {
-          margin-bottom: 35px; }
-    #aboutus-area .photo > img {
-      width: 70%;
-      height: auto; }
-      @media screen and (min-width: 781px) {
-        #aboutus-area .photo > img {
-          width: 267px; } }
-  #aboutus-area .about-area {
-    padding: 0 27px;
-    margin-bottom: 140px; }
-    #aboutus-area .about-area h2 {
-      font-size: .2rem;
-      font-weight: 500;
-      margin-bottom: 20px; }
-      #aboutus-area .about-area h2 span {
-        display: block;
-        font-size: .12rem;
-        color: #BAA280; }
-    #aboutus-area .about-area .dot {
-      width: 207px;
-      height: 19px;
-      margin-bottom: 40px; }
-    #aboutus-area .about-area p {
-      font-size: .12rem;
-      margin-bottom: 30px; }
+      gap: 1px;
+      position: relative; }
+      #aboutus-area #aboutus-fullorder > div .img1, #aboutus-area #aboutus-fullorder > div .img2, #aboutus-area #aboutus-fullorder > div .img3, #aboutus-area #aboutus-fullorder > div .img4, #aboutus-area #aboutus-fullorder > div .img5, #aboutus-area #aboutus-fullorder > div .img6 {
+        width: calc((100% - 2px) / 3);
+        opacity: 0;
+        transition: 1s; }
+        #aboutus-area #aboutus-fullorder > div .img1.isInview, #aboutus-area #aboutus-fullorder > div .img2.isInview, #aboutus-area #aboutus-fullorder > div .img3.isInview, #aboutus-area #aboutus-fullorder > div .img4.isInview, #aboutus-area #aboutus-fullorder > div .img5.isInview, #aboutus-area #aboutus-fullorder > div .img6.isInview {
+          transform: translate(0, 0);
+          opacity: 1; }
+      #aboutus-area #aboutus-fullorder > div .img1 {
+        transition-delay: 0.2s; }
+      #aboutus-area #aboutus-fullorder > div .img2 {
+        transition-delay: 0.4s; }
+      #aboutus-area #aboutus-fullorder > div .img3 {
+        transition-delay: 0.6s; }
+      #aboutus-area #aboutus-fullorder > div .img4 {
+        transition-delay: 0.8s; }
+      #aboutus-area #aboutus-fullorder > div .img5 {
+        transition-delay: 1s; }
+      #aboutus-area #aboutus-fullorder > div .img6 {
+        transition-delay: 1.2s; }
+      #aboutus-area #aboutus-fullorder > div .img7 {
+        width: 100%;
+        opacity: 0;
+        transition: 1s;
+        transition-delay: 1.6s; }
+        #aboutus-area #aboutus-fullorder > div .img7.isInview {
+          transform: translate(0, 0);
+          opacity: 1; }
+      #aboutus-area #aboutus-fullorder > div .img8 {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        opacity: 0;
+        transition: 1s;
+        transition-delay: 2s; }
+        #aboutus-area #aboutus-fullorder > div .img8.isInview {
+          opacity: 0.9; }
+      #aboutus-area #aboutus-fullorder > div .text {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        text-align: center;
+        opacity: 0;
+        transition: 1s;
+        transition-delay: 2.6s; }
+        #aboutus-area #aboutus-fullorder > div .text.isInview {
+          opacity: 1; }
+        #aboutus-area #aboutus-fullorder > div .text h3 {
+          color: #fff;
+          font-size: 18px;
+          font-weight: bold;
+          text-shadow: 1px 1px 0 black; }
+        #aboutus-area #aboutus-fullorder > div .text p {
+          color: #fff;
+          font-size: 13px;
+          text-shadow: 1px 1px 0 black; }
+  #aboutus-area #aboutus-links {
+    padding: 64px 0 44px;
+    position: relative;
+    background-color: #FEF6EA; }
+    #aboutus-area #aboutus-links a {
+      color: #AC7746;
+      background-color: #fff;
+      width: 335px;
+      height: 50px;
+      margin: 0 auto 20px;
+      font-size: .14rem;
+      text-align: center;
+      line-height: 1.2;
+      font-weight: 700;
+      border: 1px solid #AC7746;
+      border-radius: 39px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: url(../images/angle-right.svg);
+      background-repeat: no-repeat;
+      background-position-y: 50%;
+      background-position-x: 300px;
+      transition: 0.3s; }
+      #aboutus-area #aboutus-links a:hover {
+        background-position-x: 305px; }
 
 #archive-area {
   width: 100%;

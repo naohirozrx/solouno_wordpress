@@ -14,7 +14,7 @@
         <li>
           <span class="toggleLmene open">SOLO UNOについて</span>
           <ul class="sub-menu">
-            <li><a href="<?php echo home_url('/')?>#aboutus-area">SOLO UNOについて</a></li>
+            <li><a href="<?php echo home_url('/')?>aboutus">SOLO UNOについて</a></li>
             <li><a href="<?php echo home_url('/')?>guide">ご利用案内</a></li>
             <li><a href="<?php echo home_url('/')?>commitment">こだわり</a></li>
             <li><a href="<?php echo home_url('/')?>parts">素材・パーツの名称について</a></li>
