@@ -1,5 +1,11 @@
 <?php get_header(); ?>
-
+<script>
+  $(function() {
+    $('#order-side-menu').on('click', function() {
+      $(this).toggleClass('open');
+    });
+  });
+</script>
 <div id="flow-area">
   <section class="flow-top">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/home-top_p6.jpg" />
@@ -27,6 +33,29 @@
       </ul>
     </nav>
   </section>
+
+  <nav id="order-side-menu">
+    <h3 class="menuToggle">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow/arrow-right.svg" class="arrow" />
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow/sidemenu-icon.svg" />
+    </h3>
+    <div class="side-menu-inner">
+      <ul>
+        <li><a href="#step"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow/arrow-right-black.svg" class="arrow" />オーダーの手順</a></li>
+        <li><a href="#spec"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow/arrow-right-black.svg" class="arrow" />PRICE＆SPEC</a></li>
+        <li><a href="#gallery"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow/arrow-right-black.svg" class="arrow" />GALLERY</a></li>
+        <li><a href="#howtoorder"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow/arrow-right-black.svg" class="arrow" />HOW TO ORDER</a></li>
+        <li><a href="#function"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow/arrow-right-black.svg" class="arrow" />SOLO UNOの便利機能</a></li>
+        <li><a href="#change"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow/arrow-right-black.svg" class="arrow" />組み合わせご変更受付方法のご案内</a></li>
+      </ul>
+      <a target="_blank" href="https://sim.solouno-ordermade.com/">
+      <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_icon1.png" />
+        <span>
+        ランドセルデザインを<br />シミュレーションして<br />早速購入！
+        </span>
+      </a>
+    </div>
+  </nav>
 
   <section class="order-flow">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/order-flow_p1.jpg" />
@@ -606,7 +635,7 @@
   </section>
 
   <section class="eishin">
-    <h2 id="gallery"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
+    <h2><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
       <span>SOLO UNO<br />
       ✖️<br />
       ランドセルメーカー<br />
