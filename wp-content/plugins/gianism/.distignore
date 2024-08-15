@@ -1,0 +1,16 @@
+.browserlistrc
+.git
+.gitignore
+.github
+tests
+bin
+node_modules
+package.json
+package-lock.json
+phpdoc.xml
+phpunit.xml.dist
+phpcs.ruleset.xml
+composer.lock
+README.md
+readme.txt.bak
+wp-gianism.php.bak
