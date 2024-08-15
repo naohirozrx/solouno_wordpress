@@ -60,8 +60,8 @@
         <p>ランドセル専用の人工皮革で、軽くて柔らかいのが特徴のクラリーノ・エフを使用。<br />
         表面の撥水加工で雨にも強く、濡れても乾いた布でサッとふくだけとお手入れしやすい点も選ばれるポイントです。</p>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kodawari/kodawari02.jpg" />
-        <h4>クラリーノ・タフロックNEO</h4>
-        <h5>更に丈夫で傷にも強い</h5>
+        <h4 style="margin-top:40px;">クラリーノ・タフロックNEO</h4>
+        <h5 style="margin-bottom:0;">更に丈夫で傷にも強い</h5>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kodawari/kodawari03.jpg" />
         <p>厚い高密度ウレタン層の最表面に特殊処理を施すことで、クラリーノが持つ丈夫さと防水性を更に高めた材質です。<br />
         また、表面は滑らかで柔らかく、光沢を抑えたマットで落ち着いた印象となります。</p>
