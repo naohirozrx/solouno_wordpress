@@ -17,6 +17,10 @@
 		|| is_page('privacy')
 		|| is_page('marty')
 		|| is_page('sports')
+		|| is_page('warranty')
+		|| is_page('parts')
+		|| is_page('guide')
+		|| is_page('commitment')
 	):
 		include_once('footer_web.php');
 	else:

@@ -1,62 +1,40 @@
 <?php get_header();?>
-
+<script>
+  $(window).on('load', function() {
+    const fadeInUpAll = document.querySelectorAll('.inview');
+    intersectAction(fadeInUpAll, function (element, isIntersecting) {
+      if(isIntersecting){
+        element.classList.add('isInview');
+      }
+    })
+  });
+</script>
 <div id="home-area">
   <section class="top">
-    <h1><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/home-top_p1.jpg" /></h1>
-    <p>キミだけの、たった一つの。</p>
+    <h1 class="inview"><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/home-top_p1.jpg" /></h1>
+    <p><span class="inview">キ</span><span class="inview">ミ</span><span class="inview">だ</span><span class="inview">け</span><span class="inview">の</span><span class="inview">、</span><span class="inview">た</span><span class="inview">っ</span><span class="inview">た</span><span class="inview">一</span><span class="inview">つ</span><span class="inview">の</span><span class="inview">。</span></p>
     <img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/scroll.svg" class="scroll" />
   </section>
 
-  <div id="aboutus-area">
-    <script>
-      $(function() {
-        $('.accordion .more').on('click', function() {
-          $('.accordion').toggleClass('show');
-        });
-
-        $('.accordion2 .more').on('click', function() {
-          $('.accordion2').toggleClass('show');
-        });
-      });
-    </script>
-    <div class="accordion">
-      <div>
-        <section class="text-area">
-          <h2><span>CONCEPT</span>ランドセルに、オーダーメイドという選択を。</h2>
-          <img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot" />
-          <p>『想像力』が必要なオーダーメイドには、好みが明確になっている大人向けのアイテムが多く存在します。</p>
-          <p>しかし、私たちは子どもにも”オーダーメイドを選ぶ体験”をしてほしいと思っています。</p>
-          <p>イメージする力を伸ばすと想像力や社会性が豊かになります。</p>
-          <p>リモコンを携帯に見立てたり、テーブルの下を秘密基地にしたりと、<br />遊びの中で社会性やコミュニケーション能力を高めていきます。</p>
-          <p>『イメージしたものが形になるオーダーメイドに触れることは、子供の成長を見守るものになる』<br />と私たちは考えます。</p>
-          <p>ぼくだけ、わたしだけのたった一つの組み合わせを想像してください。<br />そこにはたくさんの笑顔が生まれます。</p>
-        </section>
-        <button class="more"><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/slide-toggle-arrow.svg" /></button>
-      </div>
-    </div>
-    <section class="photo">
-      <div>
-        <img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/home-top_p3.jpg" class="p3"/>
-        <img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/home-top_p4.jpg" class="p4"/>
-      </div>
-      <img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/home-top_p5.jpg" />
-    </section>
-
-    <div class="accordion2">
-      <div>
-        <section class="about-area">
-          <h2><span>ABOUT US</span>こだわりを、カタチに。</h2>
-          <img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/dot.svg" class="dot" />
-          <p>せっかく買うなら『気に入ったもの』を、<br />とことん『こだわったもの』をじっくり選んで、大切に長く愛用してほしい。</p>
-          <p>そんな思いで、オーダーメイドのセレクトショップ<br />SOLO UNOはスタートしました。</p>
-          <p>SOLO UNOとは[たったひとつの]というイタリア語。</p>
-          <p>オーダーメイドでSOLO UNOなお気に入りをつくってください。</p>
-          <p>それは、たくさんの想い出のそばに、いつまでも...<br />6年間の相棒もSOLO UNO[たったひとつの]宝物になりますように。</p>
-        </section>
-        <button class="more"><img src="<?php echo  get_stylesheet_directory_uri(); ?>/images/slide-toggle-arrow.svg" /></button>
-      </div>
-    </div>
-  </div>
+  <section id="aboutus-enjoy">
+    <h2 class="inview">選ぶことの楽しさ</h2>
+    <p class="inview">お名前が入ることの特別感を</p>
+    <p class="inview">よりスペシャルなものに</p>
+    <p class="inview">「キミだけのたったひとつ」の</p>
+    <img class="bg1 inview" src="<?php echo get_stylesheet_directory_uri(); ?>/images/about/maru-midium.svg" />
+    <img class="bg2 inview" src="<?php echo get_stylesheet_directory_uri(); ?>/images/about/maru-large.svg" />
+    <p class="inview">ランドセルを手にとってもらいたい</p>
+    <p class="inview">お子さまの</p>
+    <p class="inview">「可愛い！欲しい！のわくわく感」と</p>
+    <p class="inview">大人の求める「丈夫さや機能性」を</p>
+    <p class="inview">併せ持つランドセルを</p>
+    <p class="inview">ソロウーノは目指しています</p>
+    <p class="inview">ぜひ、</p>
+    <p class="inview">”選んで楽しい、使いごこちのよいランドセル”</p>
+    <p class="inview">を体感してください</p>
+    <img class="bg3 inview" src="<?php echo get_stylesheet_directory_uri(); ?>/images/about/maru-small.svg" />
+    <a href="/about" class="inview">SOLO UNOについて</a>
+  </section>
 
   <section class="product">
     <h2><span>PRODUCT</span>SOLO UNOのプロダクト</h2>
