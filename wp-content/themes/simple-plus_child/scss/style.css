@@ -2185,8 +2185,8 @@ footer {
         writing-mode: vertical-rl;
         font-size: 18px;
         font-weight: bold;
-        width: calc(100% - 280px);
-        display: flex;
+        width: calc(100% - 300px);
+        margin-right: 20px;
         align-items: center;
         justify-content: center;
         transition: 1s;
@@ -2196,6 +2196,12 @@ footer {
         #aboutus-area #aboutus-fullorder > figure figcaption.isInview {
           transform: translate(0, 0);
           opacity: 1; }
+        #aboutus-area #aboutus-fullorder > figure figcaption span {
+          display: inline-block; }
+          #aboutus-area #aboutus-fullorder > figure figcaption span:nth-child(2) {
+            transform: rotate(-90deg) translate(0px, 10px); }
+          #aboutus-area #aboutus-fullorder > figure figcaption span:last-child {
+            transform: rotate(-90deg) translate(0px, -5px); }
     #aboutus-area #aboutus-fullorder > div {
       margin-top: 48px;
       display: flex;
@@ -2253,14 +2259,10 @@ footer {
         #aboutus-area #aboutus-fullorder > div .text.isInview {
           opacity: 1; }
         #aboutus-area #aboutus-fullorder > div .text h3 {
-          color: #fff;
           font-size: 18px;
-          font-weight: bold;
-          text-shadow: 1px 1px 0 black; }
+          font-weight: bold; }
         #aboutus-area #aboutus-fullorder > div .text p {
-          color: #fff;
-          font-size: 13px;
-          text-shadow: 1px 1px 0 black; }
+          font-size: 13px; }
   #aboutus-area #aboutus-links {
     padding: 64px 0 44px;
     position: relative;
@@ -3560,6 +3562,13 @@ footer {
           margin-bottom: 1em;
           text-indent: -1em;
           padding-left: 1em; }
+          #flow-area .howtoorder div dl dd h3 span {
+            font-size: .12rem; }
+        #flow-area .howtoorder div dl dd .notice {
+          font-size: .12rem;
+          line-height: 1.4; }
+          #flow-area .howtoorder div dl dd .notice a {
+            text-decoration: underline; }
         #flow-area .howtoorder div dl dd .simlink {
           padding: 0 10px;
           width: 426px;
@@ -3865,6 +3874,14 @@ footer {
     #flow-area .change-combi p {
       font-size: .14rem;
       margin-bottom: 10px; }
+      #flow-area .change-combi p em {
+        font-size: .12rem;
+        font-weight: bold; }
+      #flow-area .change-combi p.notice {
+        line-height: 1.4;
+        font-size: .12rem; }
+      #flow-area .change-combi p a {
+        text-decoration: underline; }
     #flow-area .change-combi dl {
       margin: 40px auto;
       font-size: .14rem; }
@@ -6247,6 +6264,8 @@ footer {
         display: block;
         font-size: .12rem;
         color: #BAA280; }
+      #warranty-area .text-area h2 strong {
+        font-size: .16rem; }
     #warranty-area .text-area .dot {
       width: 207px;
       height: 19px;
@@ -6345,7 +6364,8 @@ footer {
         #warranty-area .text-area .shopOnly dl dd {
           width: calc(100% - 120px);
           display: flex;
-          align-items: center; }
+          align-items: center;
+          text-align: left; }
     #warranty-area .text-area .fix-offer > div {
       display: flex;
       gap: 20px;

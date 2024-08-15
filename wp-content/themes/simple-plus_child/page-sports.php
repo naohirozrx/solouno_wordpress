@@ -2,10 +2,6 @@
 
 <div id="sports-area">
   <section class="sports-top">
-    <p style="padding: 1em; margin: 1em; border: 2px solid #AC7746; font-weight: 500;">WEBサイトでの販売開始は3月下旬頃を予定しています。<br />
-    <br />
-    店舗では一部アイテムを展示開始し、3下旬には全6アイテムが揃う予定です。<br />
-    <a style="text-decoration:underline;" href="https://solouno-ordermade.com/news/2025%e3%83%a2%e3%83%87%e3%83%ab-%e5%b1%95%e7%a4%ba%e3%83%bb%e8%b2%a9%e5%a3%b2%e3%82%b9%e3%82%b1%e3%82%b8%e3%83%a5%e3%83%bc%e3%83%ab/">展示状況はこちら</a>でご確認ください。</p>
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/sports/sports-title.png" alt="スポーツブランドランドセル" />
   </section>
   <section class="sports-contents">

@@ -53,8 +53,8 @@
           <span style="display:block; line-height:1.3;">素材</span>
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />
         </h3>
-        <h4>クラリーノ・エフ</h4>
-        <h5>優美な外観、 軽くてしなやか<br />
+        <h4 style="margin-top:40px;">クラリーノ・エフ</h4>
+        <h5 style="margin-bottom:0;">優美な外観、 軽くてしなやか<br />
         豊富なカラーからお気に入りを</h5>
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kodawari/kodawari01.jpg" />
         <p>ランドセル専用の人工皮革で、軽くて柔らかいのが特徴のクラリーノ・エフを使用。<br />
@@ -180,7 +180,7 @@
         <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/kodawari/kodawari18.jpg" />
         <p>防犯ブザーはイザという時に使うもの。
         とっさに手が出やすい所に取り付けられる様、左右両側にフック（Dカン）が付いています。
-        肩ベルトには持ち手と同様にライト等に反射するリフレクターを装備しているので、暗い夜道でも前や横からの光にもしっかり反射してお子さまを交通事故から守ります。</p>
+        肩ベルトには持ち手と同様にライト等に反射するリフレクターを装備しているので、前や横からの車やバイクのライトにしっかり反射してドライバーに知らせます。<br />冬の夕方や街頭の少ない道など、薄暗いところでの交通事故防止に役立ちます。</p>
       </section>
 
       <section id="nasukan">

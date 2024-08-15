@@ -17,7 +17,7 @@
   <section class="schoolbag-area">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1-end.svg" style="margin-bottom:27px;" />
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1-2.svg" style="margin-bottom:27px;" />
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-2.svg" style="margin-bottom: 10px" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-2-end.svg" style="margin-bottom: 10px" />
     <ul class="note">
       <li>クラリーノタフロックNEO素材をお選びの場合は5,000円の追加料金がかかります。</li>
       <li>サイドデザインでアラベスク、クローバーをお選びの場合は3,000円、レースをお選びの場合は5,000円の追加料金がかかります。</li>
@@ -471,8 +471,10 @@
   <section class="spec-area">
     <h2 id="spec"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />ORDER PRICE & SPEC<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
     
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1.svg" style="margin-bottom:27px;" />
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-2.svg" style="margin-bottom: 10px" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1-end.svg" style="margin-bottom:27px;" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1-2.svg" style="margin-bottom:27px;" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-2-end.svg" style="margin-bottom: 10px" />
+
     <ul class="note">
       <li>クラリーノタフロックNEO素材をお選びの場合は5,000円の追加料金がかかります。</li>
       <li>サイドデザインでアラベスク、クローバーをお選びの場合は3,000円、レースをお選びの場合は5,000円の追加料金がかかります。</li>
@@ -844,7 +846,9 @@
           <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/flow-4.jpg" />製作/お届け
         </dt>
         <dd>
-          <h3>■申し込みから２週間は<br />組み合わせの変更が可能です。</h3>
+          <h3>■申し込みから2週間<span>※1</span>は<br />組み合わせの変更が可能です。</h3>
+          <p class="notice">※1 お申し込みブロックによっては、変更締切日が設定されている場合があり、2週間に満たない場合があります。<br />
+          詳しくは<a href="#spec">こちら</a>をご確認ください</p>
           <p class="fixmail">WEBサイトの<a href="">メールフォーム</a>よりお手続きください。</p>
           <h4 class="fixtext">お申し込みから２週間（組み合わせ確定）後、部材準備、製作を開始いたします。<br />
           出来上がり次第発送いたします。</h4>
@@ -898,7 +902,9 @@
 
   <section class="change-combi">
     <h2 id="change"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" />組み合わせご変更<br />受付方法のご案内<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/dot-mini2.svg" /></h2>
-    <p>お申し込みから２週間はオーダーメイドランドセルの組み合わせのご変更が可能です。</p>
+    <p>お申し込みから2週間<em>※1</em>はオーダーメイドランドセルの組み合わせのご変更が可能です。</p>
+    <p class="notice">※1 お申し込みブロックによっては、変更締切日が設定されている場合があり、2週間に満たない場合があります。<br />
+詳しくは<a href="#spec">こちら</a>をご確認ください。</p>
     <p>下記手順にてお手続きをお願いいたします</p>
     <dl>
       <dt>●お申し込み時の受付メールをお持ちの方</dt>

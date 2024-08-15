@@ -296,8 +296,8 @@
         writing-mode: vertical-rl;
         font-size: 18px;
         font-weight: bold;
-        width: calc(100% - 280px);
-        display: flex;
+        width: calc(100% - 300px);
+        margin-right: 20px;
         align-items: center;
         justify-content: center;
         transition: 1s;
@@ -307,6 +307,18 @@
         &.isInview {
           transform: translate(0, 0);
           opacity: 1;
+        }
+
+        span {
+          display: inline-block;
+
+          &:nth-child(2) {
+            transform: rotate(-90deg) translate(0px, 10px);
+          }
+
+          &:last-child {
+            transform: rotate(-90deg) translate(0px, -5px);
+          }
         }
       }
     }
@@ -388,17 +400,17 @@
         }
 
         h3 {
-          color: #fff;
+          //color: #fff;
           font-size: 18px;
           font-weight: bold;
-          text-shadow: 1px 1px 0 rgba($color: #000000, $alpha: 1.0);
+          //text-shadow: 1px 1px 0 rgba($color: #000000, $alpha: 1.0);
 
         }
 
         p {
-          color: #fff;
+          //color: #fff;
           font-size: 13px;
-          text-shadow: 1px 1px 0 rgba($color: #000000, $alpha: 1.0);
+          //text-shadow: 1px 1px 0 rgba($color: #000000, $alpha: 1.0);
         }
       }
 

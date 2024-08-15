@@ -54,7 +54,7 @@
     <h2 class="inview">ランドセルに、<br />
     フルオーダーメイドという選択を</h2>
     <p class="inview">『想像力』 が必要なオーダーメイドには、好みが明確になっている大人向けのアイテムが多く存在します。</p>
-    <p class="inview">しかし、私たちは子どもにも“オーダーメイドを選ぶ体験”をしてほしいと思っています。 UNO」を立ち上げました。</p>
+    <p class="inview">しかし、私たちは子どもにも“オーダーメイドを選ぶ体験”をしてほしいと思っています。</p>
     <p class="inview">　</p>
     <p class="inview">イメージする力を伸ばすと想像力や社会性が豊かになります。子どもはリモコンを携帯に見立てたり、テーブルの下を秘密基地にしたりと、遊びの中で社会性やコミュニケーション能力を高めていきます。 『イメージしたものが形になるオーダーメイドに触れることは、子どもの成長を見守るものになる』と私たちは考えます。</p>
     <img class="bg1 inview" src="<?php echo get_stylesheet_directory_uri(); ?>/images/about/maru-midium2.svg" />
@@ -65,7 +65,7 @@
 
     <figure>
       <img class="img2 inview" src="<?php echo get_stylesheet_directory_uri(); ?>/images/about/about-img02.jpg" />
-      <figcaption class="inview">こだわって選ぶ<br />“たったひとつの、じぶんだけの。”</figcaption>
+      <figcaption class="inview">こだわって選ぶ<br /><span>”</span>たったひとつの、じぶんだけの。<span>“</span></figcaption>
     </figure>
 
     <div>

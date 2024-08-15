@@ -717,7 +717,20 @@
             margin-bottom: 1em;
             text-indent: -1em;
             padding-left: 1em;
+
+            span {
+              font-size: .12rem;
+            }
           }//h3
+
+          .notice {
+            font-size: .12rem;
+            line-height: 1.4;
+
+            a {
+              text-decoration: underline;
+            }
+          }
 
           .simlink {
             padding: 0 10px;
@@ -1115,6 +1128,20 @@
     p {
       font-size: .14rem;
       margin-bottom: 10px;
+
+      em {
+        font-size: .12rem;
+        font-weight: bold;
+      }
+
+      &.notice {
+        line-height: 1.4;
+        font-size: .12rem;
+      }
+
+      a {
+        text-decoration: underline;
+      }
     }
     dl {
       margin: 40px auto;
