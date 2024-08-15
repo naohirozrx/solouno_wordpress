@@ -6,5 +6,7 @@ package.json
 /src/
 webpack.config.js
 gulpfile.js
+.DS_Store
+
 
 wp-config.php
