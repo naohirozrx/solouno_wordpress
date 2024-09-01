@@ -17,6 +17,7 @@
   <section class="schoolbag-area">
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1-end.svg" style="margin-bottom:27px;" />
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1-2.svg" style="margin-bottom:27px;" />
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-1-3.svg" style="margin-bottom:27px;" />
     <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/price2024-2-end.svg" style="margin-bottom: 10px" />
     <ul class="note">
       <li>クラリーノタフロックNEO素材をお選びの場合は5,000円の追加料金がかかります。</li>
