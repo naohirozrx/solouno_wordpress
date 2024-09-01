@@ -4166,3 +4166,610 @@
     [custom_delivery] => 
 )
 
+[2024-08-16 01:41:04]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => hyottokodokkoi30@gmail.com
+            [mailaddress2] => hyottokodokkoi30@gmail.com
+            [password1] => 
+            [password2] => 
+            [name1] => 池田
+            [name2] => 寿信
+            [name3] => イケダ
+            [name4] => トシノブ
+            [zipcode] => 470-0115
+            [address1] => 日進市折戸町中屋敷
+            [address2] => 64-5
+            [address3] => 
+            [tel] => 090-7038-3499
+            [fax] => 
+            [country] => JP
+            [pref] => 愛知県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 池田
+            [name2] => 寿信
+            [name3] => イケダ
+            [name4] => トシノブ
+            [zipcode] => 470-0115
+            [address1] => 日進市折戸町中屋敷
+            [address2] => 64-5
+            [address3] => 
+            [tel] => 090-7038-3499
+            [fax] => 
+            [country] => JP
+            [pref] => 愛知県
+            [delivery_flag] => 0
+            [mailaddress1] => hyottokodokkoi30@gmail.com
+            [mailaddress2] => hyottokodokkoi30@gmail.com
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 64800
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 19時頃～21時頃
+            [total_full_price] => 64800
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 151
+            [total_price] => 64800
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66be2f949cfd5
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-08-16 01:45:47]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => 
+            [mailaddress2] => 
+            [password1] => 
+            [password2] => 
+            [name1] => 
+            [name2] => 
+            [name3] => 
+            [name4] => 
+            [zipcode] => 
+            [address1] => 
+            [address2] => 
+            [address3] => 
+            [tel] => 
+            [fax] => 
+            [country] => 
+            [pref] => 
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 
+            [name2] => 
+            [name3] => 
+            [name4] => 
+            [zipcode] => 
+            [address1] => 
+            [address2] => 
+            [address3] => 
+            [tel] => 
+            [fax] => 
+            [country] => 
+            [pref] => 
+            [delivery_flag] => 0
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 
+            [total_items_price] => 
+            [discount] => 
+            [shipping_charge] => 
+            [cod_fee] => 
+            [payment_name] => 
+            [delivery_method] => 
+            [delivery_date] => 
+            [delivery_time] => 
+            [total_full_price] => 
+            [note] => 
+            [tax] => 
+            [delidue_date] => 
+        )
+
+    [reserve] => 
+    [condition] => 
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-08-22 23:13:35]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => sunnyday.dog.814@gmail.com
+            [mailaddress2] => sunnyday.dog.814@gmail.com
+            [password1] => 
+            [password2] => 
+            [name1] => 入子
+            [name2] => まゆみ
+            [name3] => イリコ
+            [name4] => マユミ
+            [zipcode] => 184-0004
+            [address1] => 小金井市本町
+            [address2] => 6-2-10-2313
+            [address3] => プラウドタワー武蔵小金井クロス
+            [tel] => 090-8746-9644
+            [fax] => 
+            [country] => JP
+            [pref] => 東京都
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 入子
+            [name2] => まゆみ
+            [name3] => イリコ
+            [name4] => マユミ
+            [zipcode] => 184-0004
+            [address1] => 小金井市本町
+            [address2] => 6-2-10-2313
+            [address3] => プラウドタワー武蔵小金井クロス
+            [tel] => 090-8746-9644
+            [fax] => 
+            [country] => JP
+            [pref] => 東京都
+            [delivery_flag] => 0
+            [mailaddress1] => sunnyday.dog.814@gmail.com
+            [mailaddress2] => sunnyday.dog.814@gmail.com
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 73000
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 午前中
+            [total_full_price] => 73000
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 153
+            [total_price] => 73000
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66c74724a1c11
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-08-24 18:27:13]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => uj2084fm@gmail.com
+            [mailaddress2] => uj2084fm@gmail.com
+            [password1] => 
+            [password2] => 
+            [name1] => 加藤
+            [name2] => 舞
+            [name3] => カトウ
+            [name4] => ミツ
+            [zipcode] => 242-0003
+            [address1] => 大和市林間
+            [address2] => 2丁目18-16
+            [address3] => 
+            [tel] => 080-5511-1469
+            [fax] => 
+            [country] => JP
+            [pref] => 神奈川県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 加藤
+            [name2] => 舞
+            [name3] => カトウ
+            [name4] => ミツ
+            [zipcode] => 242-0003
+            [address1] => 大和市林間
+            [address2] => 2丁目18-16
+            [address3] => 
+            [tel] => 080-5511-1469
+            [fax] => 
+            [country] => JP
+            [pref] => 神奈川県
+            [delivery_flag] => 0
+            [mailaddress1] => uj2084fm@gmail.com
+            [mailaddress2] => uj2084fm@gmail.com
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 73000
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 指定しない
+            [total_full_price] => 73000
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 154
+            [total_price] => 73000
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66c9a754eaac2
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-08-25 20:17:07]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => blackcat_detective2130@i.softbank.jp
+            [mailaddress2] => blackcat_detective2130@i.softbank.jp
+            [password1] => 
+            [password2] => 
+            [name1] => 力丸
+            [name2] => 麻美
+            [name3] => リキマル
+            [name4] => アサミ
+            [zipcode] => 963-8846
+            [address1] => 郡山市久留米
+            [address2] => 2丁目６－１
+            [address3] => High Rise橋本２ Ｂ－２０２
+            [tel] => 09068503419
+            [fax] => 
+            [country] => JP
+            [pref] => 福島県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 力丸
+            [name2] => 麻美
+            [name3] => リキマル
+            [name4] => アサミ
+            [zipcode] => 963-8846
+            [address1] => 郡山市久留米
+            [address2] => 2丁目６－１
+            [address3] => High Rise橋本２ Ｂ－２０２
+            [tel] => 09068503419
+            [fax] => 
+            [country] => JP
+            [pref] => 福島県
+            [delivery_flag] => 0
+            [mailaddress1] => blackcat_detective2130@i.softbank.jp
+            [mailaddress2] => blackcat_detective2130@i.softbank.jp
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 73000
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 指定しない
+            [total_full_price] => 73000
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 155
+            [total_price] => 73000
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66cb122b0c584
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-08-26 17:52:41]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => karatelife04022@gmail.com
+            [mailaddress2] => karatelife04022@gmail.com
+            [password1] => 
+            [password2] => 
+            [name1] => 茂木
+            [name2] => 良樹
+            [name3] => モギ
+            [name4] => ヨシキ
+            [zipcode] => 292-0009
+            [address1] => 木更津市金田東
+            [address2] => 1-46-12
+            [address3] => 
+            [tel] => 08012115619
+            [fax] => 
+            [country] => JP
+            [pref] => 千葉県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 山口
+            [name2] => りおと
+            [name3] => ヤマグチ
+            [name4] => リオト
+            [zipcode] => 2110041
+            [address1] => 川崎市中原区下小田中
+            [address2] => 3-8-1
+            [address3] => メゾンセフィラ102
+            [tel] => 08012115619
+            [fax] => 
+            [country] => JP
+            [pref] => 神奈川県
+            [delivery_flag] => 1
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 88000
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 18時頃～20時頃
+            [total_full_price] => 88000
+            [note] => 刺繍希望
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 156
+            [total_price] => 88000
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66cc424f502ce
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-08-31 09:42:18]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => asa.ji2@icloud.com
+            [mailaddress2] => asa.ji2@icloud.com
+            [password1] => 
+            [password2] => 
+            [name1] => 大貫
+            [name2] => 麻美
+            [name3] => オオヌキ
+            [name4] => アサミ
+            [zipcode] => 321-0118
+            [address1] => 宇都宮市インターパーク
+            [address2] => 3-11-2 ライズ・プラミネントC201
+            [address3] => 
+            [tel] => 080-5913-4056
+            [fax] => 
+            [country] => JP
+            [pref] => 栃木県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 大貫
+            [name2] => 麻美
+            [name3] => オオヌキ
+            [name4] => アサミ
+            [zipcode] => 321-0118
+            [address1] => 宇都宮市インターパーク
+            [address2] => 3-11-2 ライズ・プラミネントC201
+            [address3] => 
+            [tel] => 080-5913-4056
+            [fax] => 
+            [country] => JP
+            [pref] => 栃木県
+            [delivery_flag] => 0
+            [mailaddress1] => asa.ji2@icloud.com
+            [mailaddress2] => asa.ji2@icloud.com
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 73000
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 16時頃～18時頃
+            [total_full_price] => 73000
+            [note] => 『ワイ・スター　株式会社』名義で領収書を発行して下さい
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 158
+            [total_price] => 73000
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66d2667e81a2b
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
