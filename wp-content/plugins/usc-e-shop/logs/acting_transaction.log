@@ -4773,3 +4773,521 @@
     [custom_delivery] => 
 )
 
+[2024-09-02 21:12:38]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => bebycocos2@ezweb.ne.jp
+            [mailaddress2] => bebycocos2@ezweb.ne.jp
+            [password1] => 
+            [password2] => 
+            [name1] => 堤　
+            [name2] => 麻耶
+            [name3] => ツツミ
+            [name4] => マヤ
+            [zipcode] => 834-0067
+            [address1] => 八女市龍ケ原
+            [address2] => 290-4
+            [address3] => 
+            [tel] => 090-3986-1915
+            [fax] => 
+            [country] => JP
+            [pref] => 福岡県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 堤　
+            [name2] => 麻耶
+            [name3] => ツツミ
+            [name4] => マヤ
+            [zipcode] => 834-0067
+            [address1] => 八女市龍ケ原
+            [address2] => 290-4
+            [address3] => 
+            [tel] => 090-3986-1915
+            [fax] => 
+            [country] => JP
+            [pref] => 福岡県
+            [delivery_flag] => 0
+            [mailaddress1] => bebycocos2@ezweb.ne.jp
+            [mailaddress2] => bebycocos2@ezweb.ne.jp
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 73000
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 18時頃～20時頃
+            [total_full_price] => 73000
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 159
+            [total_price] => 73000
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66d5ab52a4911
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-09-03 07:48:59]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => 62syk52@gmail.com
+            [mailaddress2] => 62syk52@gmail.com
+            [password1] => 
+            [password2] => 
+            [name1] => 村上
+            [name2] => 清香
+            [name3] => ムラカミ
+            [name4] => サヤカ
+            [zipcode] => 894-0009
+            [address1] => 奄美市名瀬大熊町
+            [address2] => 12-2
+            [address3] => 
+            [tel] => 080-8374-0664
+            [fax] => 
+            [country] => JP
+            [pref] => 鹿児島県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 村上
+            [name2] => 清香
+            [name3] => ムラカミ
+            [name4] => サヤカ
+            [zipcode] => 894-0009
+            [address1] => 奄美市名瀬大熊町
+            [address2] => 12-2
+            [address3] => 
+            [tel] => 080-8374-0664
+            [fax] => 
+            [country] => JP
+            [pref] => 鹿児島県
+            [delivery_flag] => 0
+            [mailaddress1] => 62syk52@gmail.com
+            [mailaddress2] => 62syk52@gmail.com
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 73000
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 指定しない
+            [total_full_price] => 73000
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 160
+            [total_price] => 73000
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66d63fa62bed8
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-09-06 19:08:34]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => mmm.874ski@icloud.com
+            [mailaddress2] => mmm.874ski@icloud.com
+            [password1] => 
+            [password2] => 
+            [name1] => 髙橋
+            [name2] => 舞
+            [name3] => タカハシ
+            [name4] => マイ
+            [zipcode] => 116-0003
+            [address1] => 荒川区南千住
+            [address2] => 7-20-1
+            [address3] => クレヴィア南千住912
+            [tel] => 090-2755-2699
+            [fax] => 
+            [country] => JP
+            [pref] => 東京都
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 髙橋
+            [name2] => 舞
+            [name3] => タカハシ
+            [name4] => マイ
+            [zipcode] => 116-0003
+            [address1] => 荒川区南千住
+            [address2] => 7-20-1
+            [address3] => クレヴィア南千住912
+            [tel] => 090-2755-2699
+            [fax] => 
+            [country] => JP
+            [pref] => 東京都
+            [delivery_flag] => 0
+            [mailaddress1] => mmm.874ski@icloud.com
+            [mailaddress2] => mmm.874ski@icloud.com
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 69800
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 指定しない
+            [total_full_price] => 69800
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 161
+            [total_price] => 69800
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66dad49231d5a
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-09-06 19:39:00]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => 
+            [mailaddress2] => 
+            [password1] => 
+            [password2] => 
+            [name1] => 
+            [name2] => 
+            [name3] => 
+            [name4] => 
+            [zipcode] => 
+            [address1] => 
+            [address2] => 
+            [address3] => 
+            [tel] => 
+            [fax] => 
+            [country] => 
+            [pref] => 
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 
+            [name2] => 
+            [name3] => 
+            [name4] => 
+            [zipcode] => 
+            [address1] => 
+            [address2] => 
+            [address3] => 
+            [tel] => 
+            [fax] => 
+            [country] => 
+            [pref] => 
+            [delivery_flag] => 0
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 
+            [total_items_price] => 
+            [discount] => 
+            [shipping_charge] => 
+            [cod_fee] => 
+            [payment_name] => 
+            [delivery_method] => 
+            [delivery_date] => 
+            [delivery_time] => 
+            [total_full_price] => 
+            [note] => 
+            [tax] => 
+            [delidue_date] => 
+        )
+
+    [reserve] => 
+    [condition] => 
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-09-08 07:26:17]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => hito12_1120@hotmail.com
+            [mailaddress2] => hito12_1120@hotmail.com
+            [password1] => 
+            [password2] => 
+            [name1] => 船木
+            [name2] => 瞳
+            [name3] => フナキ
+            [name4] => ヒトミ
+            [zipcode] => 336-0903
+            [address1] => さいたま市緑区山崎
+            [address2] => 1-1-11-4
+            [address3] => 
+            [tel] => 080-3477-8452
+            [fax] => 
+            [country] => JP
+            [pref] => 埼玉県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 船木
+            [name2] => 瞳
+            [name3] => フナキ
+            [name4] => ヒトミ
+            [zipcode] => 336-0903
+            [address1] => さいたま市緑区山崎
+            [address2] => 1-1-11-4
+            [address3] => 
+            [tel] => 080-3477-8452
+            [fax] => 
+            [country] => JP
+            [pref] => 埼玉県
+            [delivery_flag] => 0
+            [mailaddress1] => hito12_1120@hotmail.com
+            [mailaddress2] => hito12_1120@hotmail.com
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 67800
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 指定しない
+            [total_full_price] => 67800
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 162
+            [total_price] => 67800
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66dcd2daa8188
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
+[2024-09-08 15:37:56]	paygent_card entry data : Array
+(
+    [customer] => Array
+        (
+            [mailaddress1] => mkt.0621@gmail.com
+            [mailaddress2] => mkt.0621@gmail.com
+            [password1] => 
+            [password2] => 
+            [name1] => 吉浦
+            [name2] => 諒
+            [name3] => ヨシウラ
+            [name4] => マコト
+            [zipcode] => 366-0054
+            [address1] => 深谷市緑ケ丘
+            [address2] => 25-37
+            [address3] => 
+            [tel] => 080-6793-4349
+            [fax] => 
+            [country] => JP
+            [pref] => 埼玉県
+        )
+
+    [delivery] => Array
+        (
+            [name1] => 吉浦
+            [name2] => 諒
+            [name3] => ヨシウラ
+            [name4] => マコト
+            [zipcode] => 366-0054
+            [address1] => 深谷市緑ケ丘
+            [address2] => 25-37
+            [address3] => 
+            [tel] => 080-6793-4349
+            [fax] => 
+            [country] => JP
+            [pref] => 埼玉県
+            [delivery_flag] => 0
+            [mailaddress1] => mkt.0621@gmail.com
+            [mailaddress2] => mkt.0621@gmail.com
+        )
+
+    [order] => Array
+        (
+            [usedpoint] => 0
+            [total_items_price] => 64800
+            [discount] => 0
+            [shipping_charge] => 0
+            [cod_fee] => 0
+            [payment_name] => クレジットカード
+            [delivery_method] => 0
+            [delivery_date] => 指定できません
+            [delivery_time] => 指定しない
+            [total_full_price] => 64800
+            [note] => 
+            [tax] => 0
+            [delidue_date] => 
+            [cus_id] => 
+            [ID] => 163
+            [total_price] => 64800
+            [getpoint] => 0
+        )
+
+    [reserve] => Array
+        (
+            [pre_order_id] => 66dd4635626ac
+        )
+
+    [condition] => Array
+        (
+            [display_mode] => Usualsale
+            [campaign_privilege] => 
+            [campaign_category] => 9
+            [privilege_point] => 0
+            [privilege_discount] => 0
+            [tax_display] => activate
+            [tax_mode] => include
+            [tax_target] => all
+            [tax_rate] => 10
+            [tax_method] => cutting
+            [applicable_taxrate] => standard
+            [tax_rate_reduced] => 0
+            [membersystem_state] => deactivate
+            [membersystem_point] => deactivate
+            [point_coverage] => 0
+        )
+
+    [custom_order] => 
+    [custom_customer] => 
+    [custom_delivery] => 
+)
+
