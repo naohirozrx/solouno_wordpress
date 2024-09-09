@@ -9,7 +9,7 @@ $innernaame = '';
 $sidename = '';
 $nametype = '';
 $nametext = '';
-$price_price = 64800;
+$price_price = 69800;
 
 if(isset($_POST['maincolor'])):
 	$maincolor = htmlspecialchars($_POST['maincolor'], ENT_QUOTES, "UTF-8");

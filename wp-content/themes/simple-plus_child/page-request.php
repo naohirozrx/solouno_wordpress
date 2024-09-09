@@ -14,7 +14,7 @@
     <section id="request-page">
       <h2 id="request" style="margin-top: 0;">カタログ請求フォーム</h2>
       <p><?php echo nl2br(get_field('カタログ請求上部テキスト')); ?></p>
-    <?php the_content();?>
+    <?php //the_content();?>
   <section>
 </div>
 
