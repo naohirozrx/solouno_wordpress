@@ -41,6 +41,7 @@
     <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-anayuki.jpeg" alt="アナと雪の女王" /></div>
     <div><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/slider-beast.jpg" alt="美女と野獣" /></div>
   </div>
+  <p>2024年度の受付は終了しました。</p>
   <div class="disney-price">
     <h3>
       <span>ディズニーオーダーメイドランドセル</span>
