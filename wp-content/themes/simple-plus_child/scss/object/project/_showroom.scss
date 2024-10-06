@@ -74,11 +74,19 @@
         line-height: 1;
       }
     }//h2
+
+    h3 {
+      font-size: 16px;
+      font-weight: bold;
+    }
     p {
-      font-size: .14rem;
+      /*font-size: .14rem;
       font-weight: $font_w_m;
       color: #BAA280;
-      margin-bottom: 20px;
+      margin-bottom: 20px;*/
+      text-align: left;
+      padding: 0 20px;
+      margin-bottom: 1em;
     }//p
     > img {
       width: 100%;
