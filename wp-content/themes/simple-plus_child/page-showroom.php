@@ -10,7 +10,6 @@
   </section>
   <ul class="showroom-list">
     <li>〇<a href="#showroom">SOLO UNO SHOWROOM</a></li>
-    <li>〇<a href="#takashimaya">期間限定特別展示新宿タカシマヤ</a></li>
     <li>〇<a href="#osaka">取扱店　シブヤ大阪ショールーム</a></li>
     <li>〇<a href="#nagoya">取扱店　シブヤランドセル名古屋店</a></li>
   </ul>
@@ -28,28 +27,6 @@
       <a href="https://goo.gl/maps/eoRcmGMziU8eKetU8" target="_blank">Google Mapsを開く</a>
     </div>
   </section>
-
-  <section class="showroom-grandopen" id="takashimaya">
-    <h2>百貨店期間限定展示決定！</h2>
-    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/takashimaya.png" />
-
-    <div>
-      <span>
-        新宿タカシマヤランドセル売り場にてSOLO UNOのオーダーメイドランドセル期間限定で展示します。<br />
-        組み合わせサンプルを背負って背負い心地を試したり、パーツサンプルで色味やデザインを確認できます。
-      </span><br />
-      <br />
-      <span>
-        展示期間：2024/5/8（水）〜7/15（月）※予定<br />
-        会場：新宿タカシマヤ　9階　特設会場<br />
-        受注日：上記期間中の土・日・祝日11時〜17時<br />
-        ※平日も展示してますのでご覧いただけます。
-      </span>
-      <br /><br />
-      <a href="https://maps.app.goo.gl/i3L1EsW4apMT2XJ9A" target="_blank">Google Mapsを開く</a>
-    </div>
-  </section>
-
 
   <header>
     <h2>SOLO UNO<br />オーダーメイドランドセル取扱店</h2>
