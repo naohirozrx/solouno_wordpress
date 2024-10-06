@@ -8,6 +8,7 @@
     </div>
   </section>
   <section class="online-area">
+    <p style="text-align: center; padding: 24px 0; font-size: 18px; font-weight: bold; color: #dd0000;">マーティーの販売は終了しました。</p>
     <h2>『Marty 』とは・・</h2>
     <p>20周年を迎えた『Marty 』は本革と国内生産にこだわった“お客様の笑顔に寄り添う”モノづくりを目指す神戸、芦屋のレザーショップです。</p>
 
